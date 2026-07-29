@@ -1,0 +1,12680 @@
+{
+ "levels": [
+  "A1",
+  "A2",
+  "B1",
+  "B2"
+ ],
+ "categories": [
+  {
+   "id": 1,
+   "level": "A1",
+   "title": "A1 · Numbers & quantities",
+   "file": "a1-01-numbers.md",
+   "items": [
+    {
+     "id": "1-0",
+     "it": "zero",
+     "es": [
+      "cero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-1",
+     "it": "uno",
+     "es": [
+      "uno",
+      "un"
+     ],
+     "note": "*un* before a masculine noun"
+    },
+    {
+     "id": "1-2",
+     "it": "due",
+     "es": [
+      "dos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-3",
+     "it": "tre",
+     "es": [
+      "tres"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-4",
+     "it": "quattro",
+     "es": [
+      "cuatro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-5",
+     "it": "cinque",
+     "es": [
+      "cinco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-6",
+     "it": "sei",
+     "es": [
+      "seis"
+     ],
+     "note": "also = \"you are\" (essere)"
+    },
+    {
+     "id": "1-7",
+     "it": "sette",
+     "es": [
+      "siete"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-8",
+     "it": "otto",
+     "es": [
+      "ocho"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-9",
+     "it": "nove",
+     "es": [
+      "nueve"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-10",
+     "it": "dieci",
+     "es": [
+      "diez"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-11",
+     "it": "undici",
+     "es": [
+      "once"
+     ],
+     "note": "false friend: *once* looks like \"onze/11\" — it IS 11"
+    },
+    {
+     "id": "1-12",
+     "it": "dodici",
+     "es": [
+      "doce"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-13",
+     "it": "tredici",
+     "es": [
+      "trece"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-14",
+     "it": "quattordici",
+     "es": [
+      "catorce"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-15",
+     "it": "quindici",
+     "es": [
+      "quince"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-16",
+     "it": "sedici",
+     "es": [
+      "dieciséis"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-17",
+     "it": "diciassette",
+     "es": [
+      "diecisiete"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-18",
+     "it": "diciotto",
+     "es": [
+      "dieciocho"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-19",
+     "it": "diciannove",
+     "es": [
+      "diecinueve"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-20",
+     "it": "venti",
+     "es": [
+      "veinte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-21",
+     "it": "trenta",
+     "es": [
+      "treinta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-22",
+     "it": "quaranta",
+     "es": [
+      "cuarenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-23",
+     "it": "cinquanta",
+     "es": [
+      "cincuenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-24",
+     "it": "sessanta",
+     "es": [
+      "sesenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-25",
+     "it": "settanta",
+     "es": [
+      "setenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-26",
+     "it": "ottanta",
+     "es": [
+      "ochenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-27",
+     "it": "novanta",
+     "es": [
+      "noventa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "1-28",
+     "it": "cento",
+     "es": [
+      "cien",
+      "ciento"
+     ],
+     "note": "*cien* before a noun, *ciento* in compounds (ciento uno)"
+    },
+    {
+     "id": "1-29",
+     "it": "mille",
+     "es": [
+      "mil"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "level": "A1",
+   "title": "A1 · Colors",
+   "file": "a1-02-colors.md",
+   "items": [
+    {
+     "id": "2-0",
+     "it": "rosso",
+     "es": [
+      "rojo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-1",
+     "it": "blu",
+     "es": [
+      "azul"
+     ],
+     "note": "standard / dark blue"
+    },
+    {
+     "id": "2-2",
+     "it": "azzurro",
+     "es": [
+      "celeste",
+      "azul claro"
+     ],
+     "note": "light / sky blue"
+    },
+    {
+     "id": "2-3",
+     "it": "verde",
+     "es": [
+      "verde"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-4",
+     "it": "giallo",
+     "es": [
+      "amarillo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-5",
+     "it": "arancione",
+     "es": [
+      "naranja"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-6",
+     "it": "rosa",
+     "es": [
+      "rosa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-7",
+     "it": "viola",
+     "es": [
+      "morado",
+      "violeta",
+      "lila"
+     ],
+     "note": "Spain prefers *morado*"
+    },
+    {
+     "id": "2-8",
+     "it": "marrone",
+     "es": [
+      "marrón",
+      "castaño"
+     ],
+     "note": "*castaño* for hair/eyes"
+    },
+    {
+     "id": "2-9",
+     "it": "nero",
+     "es": [
+      "negro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-10",
+     "it": "bianco",
+     "es": [
+      "blanco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-11",
+     "it": "grigio",
+     "es": [
+      "gris"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-12",
+     "it": "beige",
+     "es": [
+      "beige"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-13",
+     "it": "oro",
+     "es": [
+      "dorado",
+      "oro"
+     ],
+     "note": "color = *dorado*, metal = *oro*"
+    },
+    {
+     "id": "2-14",
+     "it": "dorato",
+     "es": [
+      "dorado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-15",
+     "it": "argento",
+     "es": [
+      "plateado",
+      "plata"
+     ],
+     "note": "color = *plateado*, metal = *plata*"
+    },
+    {
+     "id": "2-16",
+     "it": "turchese",
+     "es": [
+      "turquesa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-17",
+     "it": "fucsia",
+     "es": [
+      "fucsia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-18",
+     "it": "bordeaux",
+     "es": [
+      "burdeos",
+      "granate"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-19",
+     "it": "ocra",
+     "es": [
+      "ocre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-20",
+     "it": "indaco",
+     "es": [
+      "índigo",
+      "añil"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-21",
+     "it": "lilla",
+     "es": [
+      "lila"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-22",
+     "it": "avorio",
+     "es": [
+      "marfil"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-23",
+     "it": "corallo",
+     "es": [
+      "coral"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-24",
+     "it": "senape",
+     "es": [
+      "mostaza"
+     ],
+     "note": "mustard color"
+    },
+    {
+     "id": "2-25",
+     "it": "verde chiaro",
+     "es": [
+      "verde claro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-26",
+     "it": "verde scuro",
+     "es": [
+      "verde oscuro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-27",
+     "it": "blu scuro",
+     "es": [
+      "azul oscuro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "2-28",
+     "it": "chiaro",
+     "es": [
+      "claro"
+     ],
+     "note": "light (shade)"
+    },
+    {
+     "id": "2-29",
+     "it": "scuro",
+     "es": [
+      "oscuro"
+     ],
+     "note": "dark (shade)"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "level": "A1",
+   "title": "A1 · Greetings & courtesy",
+   "file": "a1-03-greetings.md",
+   "items": [
+    {
+     "id": "3-0",
+     "it": "ciao",
+     "es": [
+      "hola",
+      "adiós"
+     ],
+     "note": "informal: both \"hi\" and \"bye\""
+    },
+    {
+     "id": "3-1",
+     "it": "salve",
+     "es": [
+      "hola",
+      "buenas"
+     ],
+     "note": "neutral/semi-formal"
+    },
+    {
+     "id": "3-2",
+     "it": "buongiorno",
+     "es": [
+      "buenos días"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-3",
+     "it": "buonasera",
+     "es": [
+      "buenas tardes",
+      "buenas noches"
+     ],
+     "note": "evening greeting"
+    },
+    {
+     "id": "3-4",
+     "it": "buonanotte",
+     "es": [
+      "buenas noches"
+     ],
+     "note": "said when leaving / going to bed"
+    },
+    {
+     "id": "3-5",
+     "it": "arrivederci",
+     "es": [
+      "adiós",
+      "hasta luego"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-6",
+     "it": "a presto",
+     "es": [
+      "hasta pronto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-7",
+     "it": "a domani",
+     "es": [
+      "hasta mañana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-8",
+     "it": "per favore",
+     "es": [
+      "por favor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-9",
+     "it": "per piacere",
+     "es": [
+      "por favor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-10",
+     "it": "grazie",
+     "es": [
+      "gracias"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-11",
+     "it": "grazie mille",
+     "es": [
+      "muchas gracias",
+      "mil gracias"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-12",
+     "it": "prego",
+     "es": [
+      "de nada"
+     ],
+     "note": "reply to \"grazie\""
+    },
+    {
+     "id": "3-13",
+     "it": "di niente",
+     "es": [
+      "de nada"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-14",
+     "it": "scusa",
+     "es": [
+      "perdón",
+      "disculpa"
+     ],
+     "note": "informal"
+    },
+    {
+     "id": "3-15",
+     "it": "scusi",
+     "es": [
+      "perdón",
+      "disculpe"
+     ],
+     "note": "formal"
+    },
+    {
+     "id": "3-16",
+     "it": "mi dispiace",
+     "es": [
+      "lo siento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-17",
+     "it": "permesso",
+     "es": [
+      "con permiso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-18",
+     "it": "piacere",
+     "es": [
+      "encantado",
+      "mucho gusto"
+     ],
+     "note": "on being introduced"
+    },
+    {
+     "id": "3-19",
+     "it": "come stai?",
+     "es": [
+      "¿cómo estás?"
+     ],
+     "note": "informal"
+    },
+    {
+     "id": "3-20",
+     "it": "come sta?",
+     "es": [
+      "¿cómo está?"
+     ],
+     "note": "formal"
+    },
+    {
+     "id": "3-21",
+     "it": "come va?",
+     "es": [
+      "¿qué tal?",
+      "¿cómo va?"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-22",
+     "it": "bene",
+     "es": [
+      "bien"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-23",
+     "it": "molto bene",
+     "es": [
+      "muy bien"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-24",
+     "it": "così così",
+     "es": [
+      "regular",
+      "así así"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-25",
+     "it": "benvenuto",
+     "es": [
+      "bienvenido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-26",
+     "it": "buona giornata",
+     "es": [
+      "buen día",
+      "que tengas un buen día"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-27",
+     "it": "buon appetito",
+     "es": [
+      "buen provecho",
+      "que aproveche"
+     ],
+     "note": "expression"
+    },
+    {
+     "id": "3-28",
+     "it": "sì",
+     "es": [
+      "sí"
+     ],
+     "note": ""
+    },
+    {
+     "id": "3-29",
+     "it": "no",
+     "es": [
+      "no"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "level": "A1",
+   "title": "A1 · Days, months, seasons & time",
+   "file": "a1-04-days-time.md",
+   "items": [
+    {
+     "id": "4-0",
+     "it": "lunedì",
+     "es": [
+      "lunes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-1",
+     "it": "martedì",
+     "es": [
+      "martes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-2",
+     "it": "mercoledì",
+     "es": [
+      "miércoles"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-3",
+     "it": "giovedì",
+     "es": [
+      "jueves"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-4",
+     "it": "venerdì",
+     "es": [
+      "viernes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-5",
+     "it": "sabato",
+     "es": [
+      "sábado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-6",
+     "it": "domenica",
+     "es": [
+      "domingo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-7",
+     "it": "gennaio",
+     "es": [
+      "enero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-8",
+     "it": "febbraio",
+     "es": [
+      "febrero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-9",
+     "it": "marzo",
+     "es": [
+      "marzo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-10",
+     "it": "aprile",
+     "es": [
+      "abril"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-11",
+     "it": "maggio",
+     "es": [
+      "mayo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-12",
+     "it": "giugno",
+     "es": [
+      "junio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-13",
+     "it": "luglio",
+     "es": [
+      "julio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-14",
+     "it": "agosto",
+     "es": [
+      "agosto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-15",
+     "it": "settembre",
+     "es": [
+      "septiembre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-16",
+     "it": "ottobre",
+     "es": [
+      "octubre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-17",
+     "it": "novembre",
+     "es": [
+      "noviembre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-18",
+     "it": "dicembre",
+     "es": [
+      "diciembre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-19",
+     "it": "primavera",
+     "es": [
+      "primavera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-20",
+     "it": "estate",
+     "es": [
+      "verano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-21",
+     "it": "autunno",
+     "es": [
+      "otoño"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-22",
+     "it": "inverno",
+     "es": [
+      "invierno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-23",
+     "it": "oggi",
+     "es": [
+      "hoy"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-24",
+     "it": "domani",
+     "es": [
+      "mañana"
+     ],
+     "note": "*mañana* = tomorrow AND morning"
+    },
+    {
+     "id": "4-25",
+     "it": "ieri",
+     "es": [
+      "ayer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-26",
+     "it": "giorno",
+     "es": [
+      "día"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-27",
+     "it": "settimana",
+     "es": [
+      "semana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-28",
+     "it": "mese",
+     "es": [
+      "mes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "4-29",
+     "it": "anno",
+     "es": [
+      "año"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "level": "A1",
+   "title": "A1 · Family & people",
+   "file": "a1-05-family.md",
+   "items": [
+    {
+     "id": "5-0",
+     "it": "famiglia",
+     "es": [
+      "familia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-1",
+     "it": "madre",
+     "es": [
+      "madre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-2",
+     "it": "padre",
+     "es": [
+      "padre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-3",
+     "it": "mamma",
+     "es": [
+      "mamá"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-4",
+     "it": "papà",
+     "es": [
+      "papá"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-5",
+     "it": "figlio",
+     "es": [
+      "hijo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-6",
+     "it": "figlia",
+     "es": [
+      "hija"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-7",
+     "it": "fratello",
+     "es": [
+      "hermano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-8",
+     "it": "sorella",
+     "es": [
+      "hermana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-9",
+     "it": "nonno",
+     "es": [
+      "abuelo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-10",
+     "it": "nonna",
+     "es": [
+      "abuela"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-11",
+     "it": "nipote",
+     "es": [
+      "nieto",
+      "nieta",
+      "sobrino",
+      "sobrina"
+     ],
+     "note": "grandchild OR nephew/niece"
+    },
+    {
+     "id": "5-12",
+     "it": "zio",
+     "es": [
+      "tío"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-13",
+     "it": "zia",
+     "es": [
+      "tía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-14",
+     "it": "cugino",
+     "es": [
+      "primo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-15",
+     "it": "cugina",
+     "es": [
+      "prima"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-16",
+     "it": "marito",
+     "es": [
+      "marido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-17",
+     "it": "moglie",
+     "es": [
+      "mujer",
+      "esposa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-18",
+     "it": "genitori",
+     "es": [
+      "padres"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-19",
+     "it": "coppia",
+     "es": [
+      "pareja"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-20",
+     "it": "bambino",
+     "es": [
+      "niño"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-21",
+     "it": "bambina",
+     "es": [
+      "niña"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-22",
+     "it": "ragazzo",
+     "es": [
+      "chico",
+      "novio"
+     ],
+     "note": "boy / boyfriend"
+    },
+    {
+     "id": "5-23",
+     "it": "ragazza",
+     "es": [
+      "chica",
+      "novia"
+     ],
+     "note": "girl / girlfriend"
+    },
+    {
+     "id": "5-24",
+     "it": "uomo",
+     "es": [
+      "hombre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-25",
+     "it": "donna",
+     "es": [
+      "mujer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-26",
+     "it": "persona",
+     "es": [
+      "persona"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-27",
+     "it": "amico",
+     "es": [
+      "amigo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-28",
+     "it": "amica",
+     "es": [
+      "amiga"
+     ],
+     "note": ""
+    },
+    {
+     "id": "5-29",
+     "it": "gente",
+     "es": [
+      "gente"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "level": "A1",
+   "title": "A1 · Body parts",
+   "file": "a1-06-body.md",
+   "items": [
+    {
+     "id": "6-0",
+     "it": "testa",
+     "es": [
+      "cabeza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-1",
+     "it": "capelli",
+     "es": [
+      "pelo",
+      "cabello"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-2",
+     "it": "viso",
+     "es": [
+      "cara",
+      "rostro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-3",
+     "it": "faccia",
+     "es": [
+      "cara"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-4",
+     "it": "occhio",
+     "es": [
+      "ojo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-5",
+     "it": "naso",
+     "es": [
+      "nariz"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-6",
+     "it": "bocca",
+     "es": [
+      "boca"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-7",
+     "it": "orecchio",
+     "es": [
+      "oreja",
+      "oído"
+     ],
+     "note": "*oreja* outer, *oído* inner/hearing"
+    },
+    {
+     "id": "6-8",
+     "it": "dente",
+     "es": [
+      "diente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-9",
+     "it": "lingua",
+     "es": [
+      "lengua"
+     ],
+     "note": "also = language"
+    },
+    {
+     "id": "6-10",
+     "it": "guancia",
+     "es": [
+      "mejilla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-11",
+     "it": "collo",
+     "es": [
+      "cuello"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-12",
+     "it": "spalla",
+     "es": [
+      "hombro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-13",
+     "it": "braccio",
+     "es": [
+      "brazo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-14",
+     "it": "gomito",
+     "es": [
+      "codo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-15",
+     "it": "mano",
+     "es": [
+      "mano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-16",
+     "it": "polso",
+     "es": [
+      "muñeca"
+     ],
+     "note": "wrist — NOT *pulso* (pulse)"
+    },
+    {
+     "id": "6-17",
+     "it": "dito",
+     "es": [
+      "dedo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-18",
+     "it": "unghia",
+     "es": [
+      "uña"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-19",
+     "it": "petto",
+     "es": [
+      "pecho"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-20",
+     "it": "schiena",
+     "es": [
+      "espalda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-21",
+     "it": "pancia",
+     "es": [
+      "barriga",
+      "tripa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-22",
+     "it": "cuore",
+     "es": [
+      "corazón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-23",
+     "it": "sangue",
+     "es": [
+      "sangre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-24",
+     "it": "pelle",
+     "es": [
+      "piel"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-25",
+     "it": "gamba",
+     "es": [
+      "pierna"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-26",
+     "it": "ginocchio",
+     "es": [
+      "rodilla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-27",
+     "it": "caviglia",
+     "es": [
+      "tobillo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-28",
+     "it": "piede",
+     "es": [
+      "pie"
+     ],
+     "note": ""
+    },
+    {
+     "id": "6-29",
+     "it": "labbra",
+     "es": [
+      "labios"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "level": "A1",
+   "title": "A1 · Food & drink (basics)",
+   "file": "a1-07-food-basics.md",
+   "items": [
+    {
+     "id": "7-0",
+     "it": "acqua",
+     "es": [
+      "agua"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-1",
+     "it": "pane",
+     "es": [
+      "pan"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-2",
+     "it": "latte",
+     "es": [
+      "leche"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-3",
+     "it": "vino",
+     "es": [
+      "vino"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-4",
+     "it": "birra",
+     "es": [
+      "cerveza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-5",
+     "it": "caffè",
+     "es": [
+      "café"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-6",
+     "it": "tè",
+     "es": [
+      "té"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-7",
+     "it": "succo",
+     "es": [
+      "zumo"
+     ],
+     "note": "Spain uses *zumo* (not *jugo*)"
+    },
+    {
+     "id": "7-8",
+     "it": "formaggio",
+     "es": [
+      "queso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-9",
+     "it": "burro",
+     "es": [
+      "mantequilla"
+     ],
+     "note": "false friend: butter, NOT donkey"
+    },
+    {
+     "id": "7-10",
+     "it": "uovo",
+     "es": [
+      "huevo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-11",
+     "it": "carne",
+     "es": [
+      "carne"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-12",
+     "it": "pesce",
+     "es": [
+      "pescado",
+      "pez"
+     ],
+     "note": "*pescado* (food) vs *pez* (live fish)"
+    },
+    {
+     "id": "7-13",
+     "it": "pollo",
+     "es": [
+      "pollo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-14",
+     "it": "riso",
+     "es": [
+      "arroz"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-15",
+     "it": "pasta",
+     "es": [
+      "pasta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-16",
+     "it": "zucchero",
+     "es": [
+      "azúcar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-17",
+     "it": "sale",
+     "es": [
+      "sal"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-18",
+     "it": "olio",
+     "es": [
+      "aceite"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-19",
+     "it": "pepe",
+     "es": [
+      "pimienta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-20",
+     "it": "frutta",
+     "es": [
+      "fruta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-21",
+     "it": "verdura",
+     "es": [
+      "verdura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-22",
+     "it": "mela",
+     "es": [
+      "manzana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-23",
+     "it": "pomodoro",
+     "es": [
+      "tomate"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-24",
+     "it": "patata",
+     "es": [
+      "patata"
+     ],
+     "note": "Spain uses *patata* (not *papa*)"
+    },
+    {
+     "id": "7-25",
+     "it": "insalata",
+     "es": [
+      "ensalada"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-26",
+     "it": "zuppa",
+     "es": [
+      "sopa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-27",
+     "it": "dolce",
+     "es": [
+      "postre",
+      "dulce"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-28",
+     "it": "gelato",
+     "es": [
+      "helado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "7-29",
+     "it": "cioccolato",
+     "es": [
+      "chocolate"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "level": "A1",
+   "title": "A1 · Animals",
+   "file": "a1-08-animals.md",
+   "items": [
+    {
+     "id": "8-0",
+     "it": "cane",
+     "es": [
+      "perro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-1",
+     "it": "gatto",
+     "es": [
+      "gato"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-2",
+     "it": "cavallo",
+     "es": [
+      "caballo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-3",
+     "it": "mucca",
+     "es": [
+      "vaca"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-4",
+     "it": "maiale",
+     "es": [
+      "cerdo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-5",
+     "it": "pecora",
+     "es": [
+      "oveja"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-6",
+     "it": "capra",
+     "es": [
+      "cabra"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-7",
+     "it": "gallina",
+     "es": [
+      "gallina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-8",
+     "it": "coniglio",
+     "es": [
+      "conejo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-9",
+     "it": "topo",
+     "es": [
+      "ratón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-10",
+     "it": "uccello",
+     "es": [
+      "pájaro",
+      "ave"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-11",
+     "it": "asino",
+     "es": [
+      "burro"
+     ],
+     "note": "donkey — note: IT *burro* = butter"
+    },
+    {
+     "id": "8-12",
+     "it": "leone",
+     "es": [
+      "león"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-13",
+     "it": "tigre",
+     "es": [
+      "tigre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-14",
+     "it": "orso",
+     "es": [
+      "oso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-15",
+     "it": "lupo",
+     "es": [
+      "lobo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-16",
+     "it": "volpe",
+     "es": [
+      "zorro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-17",
+     "it": "elefante",
+     "es": [
+      "elefante"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-18",
+     "it": "scimmia",
+     "es": [
+      "mono"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-19",
+     "it": "serpente",
+     "es": [
+      "serpiente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-20",
+     "it": "ape",
+     "es": [
+      "abeja"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-21",
+     "it": "farfalla",
+     "es": [
+      "mariposa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-22",
+     "it": "ragno",
+     "es": [
+      "araña"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-23",
+     "it": "mosca",
+     "es": [
+      "mosca"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-24",
+     "it": "zanzara",
+     "es": [
+      "mosquito"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-25",
+     "it": "formica",
+     "es": [
+      "hormiga"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-26",
+     "it": "rana",
+     "es": [
+      "rana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-27",
+     "it": "tartaruga",
+     "es": [
+      "tortuga"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-28",
+     "it": "delfino",
+     "es": [
+      "delfín"
+     ],
+     "note": ""
+    },
+    {
+     "id": "8-29",
+     "it": "squalo",
+     "es": [
+      "tiburón"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "level": "A1",
+   "title": "A1 · House & rooms",
+   "file": "a1-09-house.md",
+   "items": [
+    {
+     "id": "9-0",
+     "it": "casa",
+     "es": [
+      "casa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-1",
+     "it": "stanza",
+     "es": [
+      "habitación",
+      "cuarto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-2",
+     "it": "camera",
+     "es": [
+      "habitación",
+      "dormitorio"
+     ],
+     "note": "bedroom — NOT *cámara* (camera)"
+    },
+    {
+     "id": "9-3",
+     "it": "cucina",
+     "es": [
+      "cocina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-4",
+     "it": "bagno",
+     "es": [
+      "baño"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-5",
+     "it": "salotto",
+     "es": [
+      "salón",
+      "sala"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-6",
+     "it": "soggiorno",
+     "es": [
+      "salón",
+      "sala de estar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-7",
+     "it": "corridoio",
+     "es": [
+      "pasillo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-8",
+     "it": "scala",
+     "es": [
+      "escalera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-9",
+     "it": "porta",
+     "es": [
+      "puerta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-10",
+     "it": "finestra",
+     "es": [
+      "ventana"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-11",
+     "it": "pavimento",
+     "es": [
+      "suelo"
+     ],
+     "note": "floor"
+    },
+    {
+     "id": "9-12",
+     "it": "soffitto",
+     "es": [
+      "techo"
+     ],
+     "note": "ceiling"
+    },
+    {
+     "id": "9-13",
+     "it": "parete",
+     "es": [
+      "pared"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-14",
+     "it": "tetto",
+     "es": [
+      "tejado",
+      "techo"
+     ],
+     "note": "roof"
+    },
+    {
+     "id": "9-15",
+     "it": "letto",
+     "es": [
+      "cama"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-16",
+     "it": "tavolo",
+     "es": [
+      "mesa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-17",
+     "it": "sedia",
+     "es": [
+      "silla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-18",
+     "it": "divano",
+     "es": [
+      "sofá"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-19",
+     "it": "poltrona",
+     "es": [
+      "sillón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-20",
+     "it": "armadio",
+     "es": [
+      "armario"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-21",
+     "it": "specchio",
+     "es": [
+      "espejo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-22",
+     "it": "lampada",
+     "es": [
+      "lámpara"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-23",
+     "it": "cassetto",
+     "es": [
+      "cajón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-24",
+     "it": "scaffale",
+     "es": [
+      "estantería",
+      "estante"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-25",
+     "it": "frigorifero",
+     "es": [
+      "nevera",
+      "frigorífico"
+     ],
+     "note": "Spain: *nevera*"
+    },
+    {
+     "id": "9-26",
+     "it": "forno",
+     "es": [
+      "horno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-27",
+     "it": "chiave",
+     "es": [
+      "llave"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-28",
+     "it": "giardino",
+     "es": [
+      "jardín"
+     ],
+     "note": ""
+    },
+    {
+     "id": "9-29",
+     "it": "muro",
+     "es": [
+      "muro",
+      "pared"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "level": "A1",
+   "title": "A1 · Clothing",
+   "file": "a1-10-clothing.md",
+   "items": [
+    {
+     "id": "10-0",
+     "it": "vestito",
+     "es": [
+      "vestido",
+      "traje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-1",
+     "it": "abito",
+     "es": [
+      "traje",
+      "vestido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-2",
+     "it": "maglietta",
+     "es": [
+      "camiseta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-3",
+     "it": "maglione",
+     "es": [
+      "jersey"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-4",
+     "it": "camicia",
+     "es": [
+      "camisa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-5",
+     "it": "pantaloni",
+     "es": [
+      "pantalones"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-6",
+     "it": "jeans",
+     "es": [
+      "vaqueros",
+      "jeans"
+     ],
+     "note": "Spain: *vaqueros*"
+    },
+    {
+     "id": "10-7",
+     "it": "gonna",
+     "es": [
+      "falda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-8",
+     "it": "giacca",
+     "es": [
+      "chaqueta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-9",
+     "it": "cappotto",
+     "es": [
+      "abrigo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-10",
+     "it": "giubbotto",
+     "es": [
+      "cazadora",
+      "chaqueta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-11",
+     "it": "scarpe",
+     "es": [
+      "zapatos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-12",
+     "it": "stivali",
+     "es": [
+      "botas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-13",
+     "it": "calze",
+     "es": [
+      "medias",
+      "calcetines"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-14",
+     "it": "calzini",
+     "es": [
+      "calcetines"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-15",
+     "it": "cappello",
+     "es": [
+      "sombrero",
+      "gorro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-16",
+     "it": "guanti",
+     "es": [
+      "guantes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-17",
+     "it": "sciarpa",
+     "es": [
+      "bufanda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-18",
+     "it": "cintura",
+     "es": [
+      "cinturón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-19",
+     "it": "cravatta",
+     "es": [
+      "corbata"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-20",
+     "it": "occhiali",
+     "es": [
+      "gafas"
+     ],
+     "note": "Spain: *gafas*"
+    },
+    {
+     "id": "10-21",
+     "it": "borsa",
+     "es": [
+      "bolso",
+      "bolsa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-22",
+     "it": "zaino",
+     "es": [
+      "mochila"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-23",
+     "it": "costume",
+     "es": [
+      "bañador"
+     ],
+     "note": "swimsuit (costume da bagno)"
+    },
+    {
+     "id": "10-24",
+     "it": "pigiama",
+     "es": [
+      "pijama"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-25",
+     "it": "mutande",
+     "es": [
+      "calzoncillos",
+      "bragas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-26",
+     "it": "reggiseno",
+     "es": [
+      "sujetador"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-27",
+     "it": "tuta",
+     "es": [
+      "chándal"
+     ],
+     "note": "Spain: *chándal*"
+    },
+    {
+     "id": "10-28",
+     "it": "felpa",
+     "es": [
+      "sudadera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "10-29",
+     "it": "sandali",
+     "es": [
+      "sandalias"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "level": "A1",
+   "title": "A1 · Weather & nature (basics)",
+   "file": "a1-11-weather-nature.md",
+   "items": [
+    {
+     "id": "11-0",
+     "it": "tempo",
+     "es": [
+      "tiempo",
+      "clima"
+     ],
+     "note": "weather — also = time"
+    },
+    {
+     "id": "11-1",
+     "it": "sole",
+     "es": [
+      "sol"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-2",
+     "it": "pioggia",
+     "es": [
+      "lluvia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-3",
+     "it": "neve",
+     "es": [
+      "nieve"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-4",
+     "it": "vento",
+     "es": [
+      "viento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-5",
+     "it": "nuvola",
+     "es": [
+      "nube"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-6",
+     "it": "cielo",
+     "es": [
+      "cielo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-7",
+     "it": "caldo",
+     "es": [
+      "calor"
+     ],
+     "note": "heat / hot"
+    },
+    {
+     "id": "11-8",
+     "it": "freddo",
+     "es": [
+      "frío"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-9",
+     "it": "nebbia",
+     "es": [
+      "niebla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-10",
+     "it": "temporale",
+     "es": [
+      "tormenta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-11",
+     "it": "tuono",
+     "es": [
+      "trueno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-12",
+     "it": "fulmine",
+     "es": [
+      "rayo",
+      "relámpago"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-13",
+     "it": "arcobaleno",
+     "es": [
+      "arco iris"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-14",
+     "it": "ghiaccio",
+     "es": [
+      "hielo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-15",
+     "it": "mare",
+     "es": [
+      "mar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-16",
+     "it": "montagna",
+     "es": [
+      "montaña"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-17",
+     "it": "fiume",
+     "es": [
+      "río"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-18",
+     "it": "lago",
+     "es": [
+      "lago"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-19",
+     "it": "albero",
+     "es": [
+      "árbol"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-20",
+     "it": "fiore",
+     "es": [
+      "flor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-21",
+     "it": "erba",
+     "es": [
+      "hierba",
+      "césped"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-22",
+     "it": "foglia",
+     "es": [
+      "hoja"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-23",
+     "it": "terra",
+     "es": [
+      "tierra"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-24",
+     "it": "pietra",
+     "es": [
+      "piedra"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-25",
+     "it": "sabbia",
+     "es": [
+      "arena"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-26",
+     "it": "bosco",
+     "es": [
+      "bosque"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-27",
+     "it": "spiaggia",
+     "es": [
+      "playa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-28",
+     "it": "luna",
+     "es": [
+      "luna"
+     ],
+     "note": ""
+    },
+    {
+     "id": "11-29",
+     "it": "stella",
+     "es": [
+      "estrella"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "level": "A1",
+   "title": "A1 · Common verbs",
+   "file": "a1-12-common-verbs.md",
+   "items": [
+    {
+     "id": "12-0",
+     "it": "essere",
+     "es": [
+      "ser",
+      "estar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-1",
+     "it": "avere",
+     "es": [
+      "tener",
+      "haber"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-2",
+     "it": "fare",
+     "es": [
+      "hacer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-3",
+     "it": "dire",
+     "es": [
+      "decir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-4",
+     "it": "andare",
+     "es": [
+      "ir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-5",
+     "it": "venire",
+     "es": [
+      "venir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-6",
+     "it": "dare",
+     "es": [
+      "dar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-7",
+     "it": "sapere",
+     "es": [
+      "saber"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-8",
+     "it": "potere",
+     "es": [
+      "poder"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-9",
+     "it": "volere",
+     "es": [
+      "querer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-10",
+     "it": "dovere",
+     "es": [
+      "deber",
+      "tener que"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-11",
+     "it": "stare",
+     "es": [
+      "estar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-12",
+     "it": "vedere",
+     "es": [
+      "ver"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-13",
+     "it": "sentire",
+     "es": [
+      "oír",
+      "sentir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-14",
+     "it": "parlare",
+     "es": [
+      "hablar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-15",
+     "it": "mangiare",
+     "es": [
+      "comer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-16",
+     "it": "bere",
+     "es": [
+      "beber"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-17",
+     "it": "dormire",
+     "es": [
+      "dormir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-18",
+     "it": "vivere",
+     "es": [
+      "vivir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-19",
+     "it": "morire",
+     "es": [
+      "morir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-20",
+     "it": "prendere",
+     "es": [
+      "coger",
+      "tomar"
+     ],
+     "note": "Spain: *coger*"
+    },
+    {
+     "id": "12-21",
+     "it": "mettere",
+     "es": [
+      "poner"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-22",
+     "it": "trovare",
+     "es": [
+      "encontrar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-23",
+     "it": "pensare",
+     "es": [
+      "pensar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-24",
+     "it": "credere",
+     "es": [
+      "creer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-25",
+     "it": "capire",
+     "es": [
+      "entender",
+      "comprender"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-26",
+     "it": "leggere",
+     "es": [
+      "leer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-27",
+     "it": "scrivere",
+     "es": [
+      "escribir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-28",
+     "it": "lavorare",
+     "es": [
+      "trabajar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "12-29",
+     "it": "giocare",
+     "es": [
+      "jugar"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "level": "A1",
+   "title": "A1 · Question words & connectors",
+   "file": "a1-13-question-words.md",
+   "items": [
+    {
+     "id": "13-0",
+     "it": "chi",
+     "es": [
+      "quién"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-1",
+     "it": "che",
+     "es": [
+      "qué",
+      "que"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-2",
+     "it": "cosa",
+     "es": [
+      "qué"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-3",
+     "it": "come",
+     "es": [
+      "cómo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-4",
+     "it": "dove",
+     "es": [
+      "dónde"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-5",
+     "it": "quando",
+     "es": [
+      "cuándo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-6",
+     "it": "perché",
+     "es": [
+      "por qué",
+      "porque"
+     ],
+     "note": "why AND because"
+    },
+    {
+     "id": "13-7",
+     "it": "quanto",
+     "es": [
+      "cuánto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-8",
+     "it": "quale",
+     "es": [
+      "cuál"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-9",
+     "it": "quali",
+     "es": [
+      "cuáles"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-10",
+     "it": "e",
+     "es": [
+      "y"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-11",
+     "it": "o",
+     "es": [
+      "o"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-12",
+     "it": "ma",
+     "es": [
+      "pero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-13",
+     "it": "però",
+     "es": [
+      "pero",
+      "sin embargo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-14",
+     "it": "anche",
+     "es": [
+      "también"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-15",
+     "it": "con",
+     "es": [
+      "con"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-16",
+     "it": "senza",
+     "es": [
+      "sin"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-17",
+     "it": "per",
+     "es": [
+      "para",
+      "por"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-18",
+     "it": "di",
+     "es": [
+      "de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-19",
+     "it": "a",
+     "es": [
+      "a"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-20",
+     "it": "da",
+     "es": [
+      "de",
+      "desde"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-21",
+     "it": "in",
+     "es": [
+      "en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-22",
+     "it": "su",
+     "es": [
+      "sobre",
+      "en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-23",
+     "it": "tra",
+     "es": [
+      "entre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-24",
+     "it": "fra",
+     "es": [
+      "entre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-25",
+     "it": "se",
+     "es": [
+      "si"
+     ],
+     "note": "if (not *sé*)"
+    },
+    {
+     "id": "13-26",
+     "it": "poi",
+     "es": [
+      "luego",
+      "después"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-27",
+     "it": "allora",
+     "es": [
+      "entonces"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-28",
+     "it": "quindi",
+     "es": [
+      "así que",
+      "entonces"
+     ],
+     "note": ""
+    },
+    {
+     "id": "13-29",
+     "it": "mentre",
+     "es": [
+      "mientras"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "level": "A2",
+   "title": "A2 · Food (expanded)",
+   "file": "a2-14-food-expanded.md",
+   "items": [
+    {
+     "id": "14-0",
+     "it": "banana",
+     "es": [
+      "plátano"
+     ],
+     "note": "Spain: *plátano*"
+    },
+    {
+     "id": "14-1",
+     "it": "arancia",
+     "es": [
+      "naranja"
+     ],
+     "note": "fruit"
+    },
+    {
+     "id": "14-2",
+     "it": "limone",
+     "es": [
+      "limón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-3",
+     "it": "fragola",
+     "es": [
+      "fresa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-4",
+     "it": "uva",
+     "es": [
+      "uva"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-5",
+     "it": "pera",
+     "es": [
+      "pera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-6",
+     "it": "pesca",
+     "es": [
+      "melocotón"
+     ],
+     "note": "Spain: *melocotón*; also = fishing"
+    },
+    {
+     "id": "14-7",
+     "it": "ciliegia",
+     "es": [
+      "cereza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-8",
+     "it": "anguria",
+     "es": [
+      "sandía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-9",
+     "it": "cipolla",
+     "es": [
+      "cebolla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-10",
+     "it": "aglio",
+     "es": [
+      "ajo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-11",
+     "it": "carota",
+     "es": [
+      "zanahoria"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-12",
+     "it": "funghi",
+     "es": [
+      "setas",
+      "champiñones"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-13",
+     "it": "fagioli",
+     "es": [
+      "judías",
+      "alubias"
+     ],
+     "note": "Spain: *judías*"
+    },
+    {
+     "id": "14-14",
+     "it": "piselli",
+     "es": [
+      "guisantes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-15",
+     "it": "spinaci",
+     "es": [
+      "espinacas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-16",
+     "it": "prosciutto",
+     "es": [
+      "jamón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-17",
+     "it": "salame",
+     "es": [
+      "salchichón",
+      "salame"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-18",
+     "it": "salsiccia",
+     "es": [
+      "salchicha"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-19",
+     "it": "tonno",
+     "es": [
+      "atún"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-20",
+     "it": "gambero",
+     "es": [
+      "gamba",
+      "langostino"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-21",
+     "it": "farina",
+     "es": [
+      "harina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-22",
+     "it": "miele",
+     "es": [
+      "miel"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-23",
+     "it": "marmellata",
+     "es": [
+      "mermelada"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-24",
+     "it": "panino",
+     "es": [
+      "bocadillo"
+     ],
+     "note": "Spain: *bocadillo*"
+    },
+    {
+     "id": "14-25",
+     "it": "pranzo",
+     "es": [
+      "almuerzo",
+      "comida"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-26",
+     "it": "cena",
+     "es": [
+      "cena"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-27",
+     "it": "colazione",
+     "es": [
+      "desayuno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-28",
+     "it": "merenda",
+     "es": [
+      "merienda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "14-29",
+     "it": "yogurt",
+     "es": [
+      "yogur"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "level": "A2",
+   "title": "A2 · Emotions & feelings",
+   "file": "a2-15-emotions.md",
+   "items": [
+    {
+     "id": "15-0",
+     "it": "felice",
+     "es": [
+      "feliz",
+      "contento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-1",
+     "it": "contento",
+     "es": [
+      "contento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-2",
+     "it": "triste",
+     "es": [
+      "triste"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-3",
+     "it": "arrabbiato",
+     "es": [
+      "enfadado",
+      "enojado"
+     ],
+     "note": "Spain: *enfadado*"
+    },
+    {
+     "id": "15-4",
+     "it": "stanco",
+     "es": [
+      "cansado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-5",
+     "it": "annoiato",
+     "es": [
+      "aburrido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-6",
+     "it": "spaventato",
+     "es": [
+      "asustado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-7",
+     "it": "sorpreso",
+     "es": [
+      "sorprendido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-8",
+     "it": "preoccupato",
+     "es": [
+      "preocupado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-9",
+     "it": "nervoso",
+     "es": [
+      "nervioso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-10",
+     "it": "calmo",
+     "es": [
+      "tranquilo",
+      "calmado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-11",
+     "it": "tranquillo",
+     "es": [
+      "tranquilo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-12",
+     "it": "gioia",
+     "es": [
+      "alegría"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-13",
+     "it": "felicità",
+     "es": [
+      "felicidad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-14",
+     "it": "tristezza",
+     "es": [
+      "tristeza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-15",
+     "it": "rabbia",
+     "es": [
+      "ira",
+      "rabia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-16",
+     "it": "paura",
+     "es": [
+      "miedo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-17",
+     "it": "amore",
+     "es": [
+      "amor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-18",
+     "it": "odio",
+     "es": [
+      "odio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-19",
+     "it": "speranza",
+     "es": [
+      "esperanza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-20",
+     "it": "gelosia",
+     "es": [
+      "celos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-21",
+     "it": "invidia",
+     "es": [
+      "envidia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-22",
+     "it": "vergogna",
+     "es": [
+      "vergüenza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-23",
+     "it": "orgoglio",
+     "es": [
+      "orgullo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-24",
+     "it": "sorriso",
+     "es": [
+      "sonrisa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-25",
+     "it": "pianto",
+     "es": [
+      "llanto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-26",
+     "it": "piangere",
+     "es": [
+      "llorar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-27",
+     "it": "ridere",
+     "es": [
+      "reír"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-28",
+     "it": "amare",
+     "es": [
+      "amar",
+      "querer"
+     ],
+     "note": ""
+    },
+    {
+     "id": "15-29",
+     "it": "odiare",
+     "es": [
+      "odiar"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "level": "A2",
+   "title": "A2 · Describing people (adjectives)",
+   "file": "a2-16-describing-people.md",
+   "items": [
+    {
+     "id": "16-0",
+     "it": "alto",
+     "es": [
+      "alto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-1",
+     "it": "basso",
+     "es": [
+      "bajo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-2",
+     "it": "grande",
+     "es": [
+      "grande"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-3",
+     "it": "piccolo",
+     "es": [
+      "pequeño"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-4",
+     "it": "giovane",
+     "es": [
+      "joven"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-5",
+     "it": "vecchio",
+     "es": [
+      "viejo",
+      "mayor"
+     ],
+     "note": "of people: *mayor*"
+    },
+    {
+     "id": "16-6",
+     "it": "bello",
+     "es": [
+      "guapo",
+      "bonito",
+      "hermoso"
+     ],
+     "note": "of people: *guapo*"
+    },
+    {
+     "id": "16-7",
+     "it": "brutto",
+     "es": [
+      "feo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-8",
+     "it": "magro",
+     "es": [
+      "delgado",
+      "flaco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-9",
+     "it": "grasso",
+     "es": [
+      "gordo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-10",
+     "it": "forte",
+     "es": [
+      "fuerte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-11",
+     "it": "debole",
+     "es": [
+      "débil"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-12",
+     "it": "gentile",
+     "es": [
+      "amable"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-13",
+     "it": "simpatico",
+     "es": [
+      "simpático"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-14",
+     "it": "antipatico",
+     "es": [
+      "antipático"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-15",
+     "it": "intelligente",
+     "es": [
+      "inteligente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-16",
+     "it": "stupido",
+     "es": [
+      "tonto",
+      "estúpido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-17",
+     "it": "timido",
+     "es": [
+      "tímido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-18",
+     "it": "allegro",
+     "es": [
+      "alegre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-19",
+     "it": "serio",
+     "es": [
+      "serio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-20",
+     "it": "buono",
+     "es": [
+      "bueno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-21",
+     "it": "cattivo",
+     "es": [
+      "malo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-22",
+     "it": "bravo",
+     "es": [
+      "bueno",
+      "hábil"
+     ],
+     "note": "false friend: NOT *valiente*"
+    },
+    {
+     "id": "16-23",
+     "it": "ricco",
+     "es": [
+      "rico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-24",
+     "it": "povero",
+     "es": [
+      "pobre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-25",
+     "it": "biondo",
+     "es": [
+      "rubio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-26",
+     "it": "bruno",
+     "es": [
+      "moreno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-27",
+     "it": "calvo",
+     "es": [
+      "calvo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "16-28",
+     "it": "carino",
+     "es": [
+      "majo",
+      "mono"
+     ],
+     "note": "Spain: *majo*"
+    },
+    {
+     "id": "16-29",
+     "it": "educato",
+     "es": [
+      "educado"
+     ],
+     "note": "polite (false friend: not \"educated\")"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "level": "A2",
+   "title": "A2 · The city & places",
+   "file": "a2-17-city-places.md",
+   "items": [
+    {
+     "id": "17-0",
+     "it": "città",
+     "es": [
+      "ciudad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-1",
+     "it": "paese",
+     "es": [
+      "pueblo",
+      "país"
+     ],
+     "note": "town OR country"
+    },
+    {
+     "id": "17-2",
+     "it": "strada",
+     "es": [
+      "calle",
+      "carretera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-3",
+     "it": "via",
+     "es": [
+      "calle"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-4",
+     "it": "piazza",
+     "es": [
+      "plaza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-5",
+     "it": "negozio",
+     "es": [
+      "tienda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-6",
+     "it": "mercato",
+     "es": [
+      "mercado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-7",
+     "it": "supermercato",
+     "es": [
+      "supermercado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-8",
+     "it": "banca",
+     "es": [
+      "banco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-9",
+     "it": "ospedale",
+     "es": [
+      "hospital"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-10",
+     "it": "farmacia",
+     "es": [
+      "farmacia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-11",
+     "it": "chiesa",
+     "es": [
+      "iglesia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-12",
+     "it": "museo",
+     "es": [
+      "museo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-13",
+     "it": "ristorante",
+     "es": [
+      "restaurante"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-14",
+     "it": "bar",
+     "es": [
+      "bar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-15",
+     "it": "albergo",
+     "es": [
+      "hotel"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-16",
+     "it": "stazione",
+     "es": [
+      "estación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-17",
+     "it": "aeroporto",
+     "es": [
+      "aeropuerto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-18",
+     "it": "ufficio",
+     "es": [
+      "oficina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-19",
+     "it": "biblioteca",
+     "es": [
+      "biblioteca"
+     ],
+     "note": "library (false friend: not \"bookshop\")"
+    },
+    {
+     "id": "17-20",
+     "it": "parco",
+     "es": [
+      "parque"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-21",
+     "it": "teatro",
+     "es": [
+      "teatro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-22",
+     "it": "cinema",
+     "es": [
+      "cine"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-23",
+     "it": "ponte",
+     "es": [
+      "puente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-24",
+     "it": "edificio",
+     "es": [
+      "edificio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-25",
+     "it": "quartiere",
+     "es": [
+      "barrio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-26",
+     "it": "centro",
+     "es": [
+      "centro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-27",
+     "it": "angolo",
+     "es": [
+      "esquina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-28",
+     "it": "semaforo",
+     "es": [
+      "semáforo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "17-29",
+     "it": "marciapiede",
+     "es": [
+      "acera"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "level": "A2",
+   "title": "A2 · Transport & travel",
+   "file": "a2-18-transport-travel.md",
+   "items": [
+    {
+     "id": "18-0",
+     "it": "macchina",
+     "es": [
+      "coche"
+     ],
+     "note": "Spain: *coche*"
+    },
+    {
+     "id": "18-1",
+     "it": "auto",
+     "es": [
+      "coche"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-2",
+     "it": "treno",
+     "es": [
+      "tren"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-3",
+     "it": "autobus",
+     "es": [
+      "autobús"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-4",
+     "it": "metro",
+     "es": [
+      "metro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-5",
+     "it": "bicicletta",
+     "es": [
+      "bicicleta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-6",
+     "it": "moto",
+     "es": [
+      "moto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-7",
+     "it": "aereo",
+     "es": [
+      "avión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-8",
+     "it": "nave",
+     "es": [
+      "barco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-9",
+     "it": "barca",
+     "es": [
+      "barca",
+      "barco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-10",
+     "it": "taxi",
+     "es": [
+      "taxi"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-11",
+     "it": "camion",
+     "es": [
+      "camión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-12",
+     "it": "biglietto",
+     "es": [
+      "billete",
+      "boleto"
+     ],
+     "note": "Spain: *billete*"
+    },
+    {
+     "id": "18-13",
+     "it": "valigia",
+     "es": [
+      "maleta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-14",
+     "it": "viaggio",
+     "es": [
+      "viaje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-15",
+     "it": "viaggiare",
+     "es": [
+      "viajar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-16",
+     "it": "partenza",
+     "es": [
+      "salida"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-17",
+     "it": "arrivo",
+     "es": [
+      "llegada"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-18",
+     "it": "volo",
+     "es": [
+      "vuelo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-19",
+     "it": "patente",
+     "es": [
+      "carné de conducir",
+      "permiso de conducir"
+     ],
+     "note": "driving licence"
+    },
+    {
+     "id": "18-20",
+     "it": "benzina",
+     "es": [
+      "gasolina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-21",
+     "it": "ruota",
+     "es": [
+      "rueda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-22",
+     "it": "motore",
+     "es": [
+      "motor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-23",
+     "it": "guidare",
+     "es": [
+      "conducir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-24",
+     "it": "volare",
+     "es": [
+      "volar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-25",
+     "it": "fermata",
+     "es": [
+      "parada"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-26",
+     "it": "binario",
+     "es": [
+      "vía",
+      "andén"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-27",
+     "it": "porto",
+     "es": [
+      "puerto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-28",
+     "it": "passeggero",
+     "es": [
+      "pasajero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "18-29",
+     "it": "bagaglio",
+     "es": [
+      "equipaje"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "level": "A2",
+   "title": "A2 · School & education",
+   "file": "a2-19-school.md",
+   "items": [
+    {
+     "id": "19-0",
+     "it": "scuola",
+     "es": [
+      "escuela"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-1",
+     "it": "università",
+     "es": [
+      "universidad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-2",
+     "it": "classe",
+     "es": [
+      "clase"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-3",
+     "it": "aula",
+     "es": [
+      "aula"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-4",
+     "it": "lezione",
+     "es": [
+      "clase",
+      "lección"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-5",
+     "it": "studente",
+     "es": [
+      "estudiante",
+      "alumno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-6",
+     "it": "studentessa",
+     "es": [
+      "estudiante",
+      "alumna"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-7",
+     "it": "professore",
+     "es": [
+      "profesor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-8",
+     "it": "maestro",
+     "es": [
+      "maestro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-9",
+     "it": "insegnante",
+     "es": [
+      "profesor",
+      "maestro"
+     ],
+     "note": "teacher"
+    },
+    {
+     "id": "19-10",
+     "it": "compagno",
+     "es": [
+      "compañero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-11",
+     "it": "libro",
+     "es": [
+      "libro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-12",
+     "it": "quaderno",
+     "es": [
+      "cuaderno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-13",
+     "it": "penna",
+     "es": [
+      "bolígrafo",
+      "boli"
+     ],
+     "note": "Spain: *boli*"
+    },
+    {
+     "id": "19-14",
+     "it": "matita",
+     "es": [
+      "lápiz"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-15",
+     "it": "gomma",
+     "es": [
+      "goma"
+     ],
+     "note": "eraser / rubber"
+    },
+    {
+     "id": "19-16",
+     "it": "banco",
+     "es": [
+      "pupitre"
+     ],
+     "note": "school desk"
+    },
+    {
+     "id": "19-17",
+     "it": "lavagna",
+     "es": [
+      "pizarra"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-18",
+     "it": "foglio",
+     "es": [
+      "hoja",
+      "folio"
+     ],
+     "note": "sheet of paper"
+    },
+    {
+     "id": "19-19",
+     "it": "pagina",
+     "es": [
+      "página"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-20",
+     "it": "esame",
+     "es": [
+      "examen"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-21",
+     "it": "voto",
+     "es": [
+      "nota"
+     ],
+     "note": "grade (false friend: not \"vote\")"
+    },
+    {
+     "id": "19-22",
+     "it": "compito",
+     "es": [
+      "deberes",
+      "tarea"
+     ],
+     "note": "Spain: *deberes*"
+    },
+    {
+     "id": "19-23",
+     "it": "studiare",
+     "es": [
+      "estudiar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-24",
+     "it": "imparare",
+     "es": [
+      "aprender"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-25",
+     "it": "insegnare",
+     "es": [
+      "enseñar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-26",
+     "it": "domanda",
+     "es": [
+      "pregunta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-27",
+     "it": "risposta",
+     "es": [
+      "respuesta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-28",
+     "it": "errore",
+     "es": [
+      "error",
+      "fallo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "19-29",
+     "it": "dizionario",
+     "es": [
+      "diccionario"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "level": "A2",
+   "title": "A2 · Work & professions",
+   "file": "a2-20-work-professions.md",
+   "items": [
+    {
+     "id": "20-0",
+     "it": "lavoro",
+     "es": [
+      "trabajo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-1",
+     "it": "professione",
+     "es": [
+      "profesión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-2",
+     "it": "mestiere",
+     "es": [
+      "oficio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-3",
+     "it": "medico",
+     "es": [
+      "médico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-4",
+     "it": "dottore",
+     "es": [
+      "doctor",
+      "médico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-5",
+     "it": "infermiere",
+     "es": [
+      "enfermero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-6",
+     "it": "avvocato",
+     "es": [
+      "abogado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-7",
+     "it": "ingegnere",
+     "es": [
+      "ingeniero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-8",
+     "it": "architetto",
+     "es": [
+      "arquitecto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-9",
+     "it": "cuoco",
+     "es": [
+      "cocinero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-10",
+     "it": "cameriere",
+     "es": [
+      "camarero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-11",
+     "it": "commesso",
+     "es": [
+      "dependiente"
+     ],
+     "note": "shop assistant"
+    },
+    {
+     "id": "20-12",
+     "it": "operaio",
+     "es": [
+      "obrero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-13",
+     "it": "contadino",
+     "es": [
+      "agricultor",
+      "campesino"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-14",
+     "it": "impiegato",
+     "es": [
+      "empleado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-15",
+     "it": "poliziotto",
+     "es": [
+      "policía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-16",
+     "it": "pompiere",
+     "es": [
+      "bombero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-17",
+     "it": "soldato",
+     "es": [
+      "soldado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-18",
+     "it": "pilota",
+     "es": [
+      "piloto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-19",
+     "it": "giornalista",
+     "es": [
+      "periodista"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-20",
+     "it": "scrittore",
+     "es": [
+      "escritor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-21",
+     "it": "pittore",
+     "es": [
+      "pintor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-22",
+     "it": "attore",
+     "es": [
+      "actor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-23",
+     "it": "cantante",
+     "es": [
+      "cantante"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-24",
+     "it": "idraulico",
+     "es": [
+      "fontanero"
+     ],
+     "note": "Spain: *fontanero*"
+    },
+    {
+     "id": "20-25",
+     "it": "elettricista",
+     "es": [
+      "electricista"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-26",
+     "it": "falegname",
+     "es": [
+      "carpintero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-27",
+     "it": "meccanico",
+     "es": [
+      "mecánico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-28",
+     "it": "parrucchiere",
+     "es": [
+      "peluquero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "20-29",
+     "it": "capo",
+     "es": [
+      "jefe"
+     ],
+     "note": "boss"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "level": "A2",
+   "title": "A2 · Shopping & money",
+   "file": "a2-21-shopping-money.md",
+   "items": [
+    {
+     "id": "21-0",
+     "it": "soldi",
+     "es": [
+      "dinero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-1",
+     "it": "denaro",
+     "es": [
+      "dinero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-2",
+     "it": "moneta",
+     "es": [
+      "moneda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-3",
+     "it": "prezzo",
+     "es": [
+      "precio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-4",
+     "it": "sconto",
+     "es": [
+      "descuento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-5",
+     "it": "saldi",
+     "es": [
+      "rebajas"
+     ],
+     "note": "Spain: *rebajas*"
+    },
+    {
+     "id": "21-6",
+     "it": "offerta",
+     "es": [
+      "oferta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-7",
+     "it": "cassa",
+     "es": [
+      "caja"
+     ],
+     "note": "till / checkout"
+    },
+    {
+     "id": "21-8",
+     "it": "scontrino",
+     "es": [
+      "ticket",
+      "recibo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-9",
+     "it": "ricevuta",
+     "es": [
+      "recibo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-10",
+     "it": "carta di credito",
+     "es": [
+      "tarjeta de crédito"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-11",
+     "it": "contanti",
+     "es": [
+      "efectivo"
+     ],
+     "note": "cash"
+    },
+    {
+     "id": "21-12",
+     "it": "resto",
+     "es": [
+      "cambio",
+      "vuelta"
+     ],
+     "note": "change (money back)"
+    },
+    {
+     "id": "21-13",
+     "it": "portafoglio",
+     "es": [
+      "cartera",
+      "monedero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-14",
+     "it": "comprare",
+     "es": [
+      "comprar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-15",
+     "it": "vendere",
+     "es": [
+      "vender"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-16",
+     "it": "pagare",
+     "es": [
+      "pagar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-17",
+     "it": "costare",
+     "es": [
+      "costar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-18",
+     "it": "spendere",
+     "es": [
+      "gastar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-19",
+     "it": "regalo",
+     "es": [
+      "regalo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-20",
+     "it": "cliente",
+     "es": [
+      "cliente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-21",
+     "it": "vetrina",
+     "es": [
+      "escaparate"
+     ],
+     "note": "Spain: *escaparate*"
+    },
+    {
+     "id": "21-22",
+     "it": "prodotto",
+     "es": [
+      "producto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-23",
+     "it": "marca",
+     "es": [
+      "marca"
+     ],
+     "note": "brand"
+    },
+    {
+     "id": "21-24",
+     "it": "taglia",
+     "es": [
+      "talla"
+     ],
+     "note": "clothing size"
+    },
+    {
+     "id": "21-25",
+     "it": "gratis",
+     "es": [
+      "gratis"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-26",
+     "it": "caro",
+     "es": [
+      "caro"
+     ],
+     "note": "expensive"
+    },
+    {
+     "id": "21-27",
+     "it": "economico",
+     "es": [
+      "barato",
+      "económico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-28",
+     "it": "euro",
+     "es": [
+      "euro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "21-29",
+     "it": "banconota",
+     "es": [
+      "billete"
+     ],
+     "note": "banknote"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "level": "A2",
+   "title": "A2 · Health & the doctor",
+   "file": "a2-22-health-doctor.md",
+   "items": [
+    {
+     "id": "22-0",
+     "it": "salute",
+     "es": [
+      "salud"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-1",
+     "it": "malattia",
+     "es": [
+      "enfermedad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-2",
+     "it": "malato",
+     "es": [
+      "enfermo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-3",
+     "it": "dolore",
+     "es": [
+      "dolor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-4",
+     "it": "febbre",
+     "es": [
+      "fiebre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-5",
+     "it": "tosse",
+     "es": [
+      "tos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-6",
+     "it": "raffreddore",
+     "es": [
+      "resfriado",
+      "catarro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-7",
+     "it": "influenza",
+     "es": [
+      "gripe"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-8",
+     "it": "mal di testa",
+     "es": [
+      "dolor de cabeza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-9",
+     "it": "mal di gola",
+     "es": [
+      "dolor de garganta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-10",
+     "it": "ferita",
+     "es": [
+      "herida"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-11",
+     "it": "medicina",
+     "es": [
+      "medicina",
+      "medicamento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-12",
+     "it": "pillola",
+     "es": [
+      "pastilla",
+      "píldora"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-13",
+     "it": "pastiglia",
+     "es": [
+      "pastilla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-14",
+     "it": "sciroppo",
+     "es": [
+      "jarabe"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-15",
+     "it": "cerotto",
+     "es": [
+      "tirita",
+      "curita"
+     ],
+     "note": "Spain: *tirita*"
+    },
+    {
+     "id": "22-16",
+     "it": "benda",
+     "es": [
+      "venda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-17",
+     "it": "iniezione",
+     "es": [
+      "inyección"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-18",
+     "it": "ricetta",
+     "es": [
+      "receta"
+     ],
+     "note": "prescription (also recipe)"
+    },
+    {
+     "id": "22-19",
+     "it": "cura",
+     "es": [
+      "cura",
+      "tratamiento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-20",
+     "it": "guarire",
+     "es": [
+      "curar",
+      "sanar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-21",
+     "it": "ammalarsi",
+     "es": [
+      "enfermar",
+      "ponerse enfermo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-22",
+     "it": "starnutire",
+     "es": [
+      "estornudar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-23",
+     "it": "vomitare",
+     "es": [
+      "vomitar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-24",
+     "it": "respirare",
+     "es": [
+      "respirar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-25",
+     "it": "riposo",
+     "es": [
+      "descanso",
+      "reposo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-26",
+     "it": "allergia",
+     "es": [
+      "alergia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-27",
+     "it": "dieta",
+     "es": [
+      "dieta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-28",
+     "it": "sano",
+     "es": [
+      "sano",
+      "saludable"
+     ],
+     "note": ""
+    },
+    {
+     "id": "22-29",
+     "it": "paziente",
+     "es": [
+      "paciente"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "level": "A2",
+   "title": "A2 · Time expressions & adverbs",
+   "file": "a2-23-time-expressions.md",
+   "items": [
+    {
+     "id": "23-0",
+     "it": "adesso",
+     "es": [
+      "ahora"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-1",
+     "it": "ora",
+     "es": [
+      "ahora"
+     ],
+     "note": "now (also = hour)"
+    },
+    {
+     "id": "23-2",
+     "it": "subito",
+     "es": [
+      "enseguida",
+      "inmediatamente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-3",
+     "it": "presto",
+     "es": [
+      "pronto",
+      "temprano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-4",
+     "it": "tardi",
+     "es": [
+      "tarde"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-5",
+     "it": "sempre",
+     "es": [
+      "siempre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-6",
+     "it": "mai",
+     "es": [
+      "nunca",
+      "jamás"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-7",
+     "it": "spesso",
+     "es": [
+      "a menudo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-8",
+     "it": "a volte",
+     "es": [
+      "a veces"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-9",
+     "it": "di solito",
+     "es": [
+      "normalmente",
+      "generalmente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-10",
+     "it": "raramente",
+     "es": [
+      "rara vez",
+      "raramente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-11",
+     "it": "ancora",
+     "es": [
+      "todavía",
+      "aún"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-12",
+     "it": "già",
+     "es": [
+      "ya"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-13",
+     "it": "appena",
+     "es": [
+      "apenas",
+      "recién"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-14",
+     "it": "prima",
+     "es": [
+      "antes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-15",
+     "it": "dopo",
+     "es": [
+      "después"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-16",
+     "it": "di nuovo",
+     "es": [
+      "de nuevo",
+      "otra vez"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-17",
+     "it": "improvvisamente",
+     "es": [
+      "de repente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-18",
+     "it": "recentemente",
+     "es": [
+      "recientemente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-19",
+     "it": "attualmente",
+     "es": [
+      "actualmente"
+     ],
+     "note": "currently (false friend: not \"actually\")"
+    },
+    {
+     "id": "23-20",
+     "it": "mattina",
+     "es": [
+      "mañana"
+     ],
+     "note": "morning (vs *domani* = tomorrow)"
+    },
+    {
+     "id": "23-21",
+     "it": "pomeriggio",
+     "es": [
+      "tarde"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-22",
+     "it": "sera",
+     "es": [
+      "tarde",
+      "noche"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-23",
+     "it": "notte",
+     "es": [
+      "noche"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-24",
+     "it": "mezzogiorno",
+     "es": [
+      "mediodía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-25",
+     "it": "mezzanotte",
+     "es": [
+      "medianoche"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-26",
+     "it": "minuto",
+     "es": [
+      "minuto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-27",
+     "it": "secondo",
+     "es": [
+      "segundo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-28",
+     "it": "momento",
+     "es": [
+      "momento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "23-29",
+     "it": "istante",
+     "es": [
+      "instante"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "level": "A2",
+   "title": "A2 · Common expressions (basic idioms)",
+   "file": "a2-24-common-expressions.md",
+   "items": [
+    {
+     "id": "24-0",
+     "it": "non lo so",
+     "es": [
+      "no lo sé"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-1",
+     "it": "non capisco",
+     "es": [
+      "no entiendo",
+      "no comprendo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-2",
+     "it": "puoi ripetere?",
+     "es": [
+      "¿puedes repetir?"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-3",
+     "it": "come si dice?",
+     "es": [
+      "¿cómo se dice?"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-4",
+     "it": "che cosa significa?",
+     "es": [
+      "¿qué significa?"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-5",
+     "it": "non importa",
+     "es": [
+      "no importa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-6",
+     "it": "va bene",
+     "es": [
+      "vale",
+      "de acuerdo"
+     ],
+     "note": "Spain: *vale*"
+    },
+    {
+     "id": "24-7",
+     "it": "d'accordo",
+     "es": [
+      "de acuerdo",
+      "vale"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-8",
+     "it": "certo",
+     "es": [
+      "claro",
+      "por supuesto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-9",
+     "it": "forse",
+     "es": [
+      "quizás",
+      "tal vez"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-10",
+     "it": "magari",
+     "es": [
+      "ojalá"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-11",
+     "it": "purtroppo",
+     "es": [
+      "por desgracia",
+      "desafortunadamente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-12",
+     "it": "per fortuna",
+     "es": [
+      "por suerte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-13",
+     "it": "secondo me",
+     "es": [
+      "en mi opinión",
+      "para mí"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-14",
+     "it": "a proposito",
+     "es": [
+      "por cierto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-15",
+     "it": "più o meno",
+     "es": [
+      "más o menos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-16",
+     "it": "ho fame",
+     "es": [
+      "tengo hambre"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-17",
+     "it": "ho sete",
+     "es": [
+      "tengo sed"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-18",
+     "it": "ho sonno",
+     "es": [
+      "tengo sueño"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-19",
+     "it": "che peccato",
+     "es": [
+      "qué pena",
+      "qué lástima"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-20",
+     "it": "in bocca al lupo",
+     "es": [
+      "buena suerte"
+     ],
+     "note": "idiom, lit. \"in the wolf's mouth\""
+    },
+    {
+     "id": "24-21",
+     "it": "non vedo l'ora",
+     "es": [
+      "estoy deseando",
+      "tengo muchas ganas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-22",
+     "it": "meno male",
+     "es": [
+      "menos mal"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-23",
+     "it": "dai!",
+     "es": [
+      "¡venga!",
+      "¡vamos!"
+     ],
+     "note": "Spain: *venga*"
+    },
+    {
+     "id": "24-24",
+     "it": "è vero",
+     "es": [
+      "es verdad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-25",
+     "it": "hai ragione",
+     "es": [
+      "tienes razón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-26",
+     "it": "tutto bene?",
+     "es": [
+      "¿todo bien?"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-27",
+     "it": "a poco a poco",
+     "es": [
+      "poco a poco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-28",
+     "it": "allo stesso tempo",
+     "es": [
+      "al mismo tiempo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "24-29",
+     "it": "che noia",
+     "es": [
+      "qué aburrimiento"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "level": "B1",
+   "title": "B1 · Technology & internet",
+   "file": "b1-25-technology.md",
+   "items": [
+    {
+     "id": "25-0",
+     "it": "computer",
+     "es": [
+      "ordenador"
+     ],
+     "note": "Spain: *ordenador*"
+    },
+    {
+     "id": "25-1",
+     "it": "portatile",
+     "es": [
+      "portátil"
+     ],
+     "note": "laptop"
+    },
+    {
+     "id": "25-2",
+     "it": "schermo",
+     "es": [
+      "pantalla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-3",
+     "it": "tastiera",
+     "es": [
+      "teclado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-4",
+     "it": "mouse",
+     "es": [
+      "ratón"
+     ],
+     "note": "computer mouse"
+    },
+    {
+     "id": "25-5",
+     "it": "stampante",
+     "es": [
+      "impresora"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-6",
+     "it": "file",
+     "es": [
+      "archivo",
+      "fichero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-7",
+     "it": "cartella",
+     "es": [
+      "carpeta"
+     ],
+     "note": "folder"
+    },
+    {
+     "id": "25-8",
+     "it": "telefono",
+     "es": [
+      "teléfono"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-9",
+     "it": "cellulare",
+     "es": [
+      "móvil"
+     ],
+     "note": "Spain: *móvil*"
+    },
+    {
+     "id": "25-10",
+     "it": "smartphone",
+     "es": [
+      "móvil",
+      "smartphone"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-11",
+     "it": "rete",
+     "es": [
+      "red"
+     ],
+     "note": "network"
+    },
+    {
+     "id": "25-12",
+     "it": "internet",
+     "es": [
+      "internet"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-13",
+     "it": "sito",
+     "es": [
+      "sitio",
+      "web"
+     ],
+     "note": "website"
+    },
+    {
+     "id": "25-14",
+     "it": "posta elettronica",
+     "es": [
+      "correo electrónico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-15",
+     "it": "password",
+     "es": [
+      "contraseña"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-16",
+     "it": "messaggio",
+     "es": [
+      "mensaje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-17",
+     "it": "applicazione",
+     "es": [
+      "aplicación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-18",
+     "it": "programma",
+     "es": [
+      "programa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-19",
+     "it": "allegato",
+     "es": [
+      "adjunto"
+     ],
+     "note": "attachment"
+    },
+    {
+     "id": "25-20",
+     "it": "scaricare",
+     "es": [
+      "descargar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-21",
+     "it": "caricare",
+     "es": [
+      "subir",
+      "cargar"
+     ],
+     "note": "upload"
+    },
+    {
+     "id": "25-22",
+     "it": "navigare",
+     "es": [
+      "navegar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-23",
+     "it": "cliccare",
+     "es": [
+      "hacer clic",
+      "pinchar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-24",
+     "it": "salvare",
+     "es": [
+      "guardar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-25",
+     "it": "cancellare",
+     "es": [
+      "borrar",
+      "eliminar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-26",
+     "it": "stampare",
+     "es": [
+      "imprimir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-27",
+     "it": "accendere",
+     "es": [
+      "encender"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-28",
+     "it": "spegnere",
+     "es": [
+      "apagar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "25-29",
+     "it": "collegare",
+     "es": [
+      "conectar"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "level": "B1",
+   "title": "B1 · Nature & environment (expanded)",
+   "file": "b1-26-nature-environment.md",
+   "items": [
+    {
+     "id": "26-0",
+     "it": "natura",
+     "es": [
+      "naturaleza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-1",
+     "it": "ambiente",
+     "es": [
+      "medio ambiente",
+      "ambiente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-2",
+     "it": "inquinamento",
+     "es": [
+      "contaminación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-3",
+     "it": "clima",
+     "es": [
+      "clima"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-4",
+     "it": "riciclaggio",
+     "es": [
+      "reciclaje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-5",
+     "it": "rifiuti",
+     "es": [
+      "basura",
+      "residuos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-6",
+     "it": "energia",
+     "es": [
+      "energía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-7",
+     "it": "foresta",
+     "es": [
+      "bosque",
+      "selva"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-8",
+     "it": "deserto",
+     "es": [
+      "desierto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-9",
+     "it": "collina",
+     "es": [
+      "colina"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-10",
+     "it": "valle",
+     "es": [
+      "valle"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-11",
+     "it": "prato",
+     "es": [
+      "prado",
+      "pradera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-12",
+     "it": "campo",
+     "es": [
+      "campo"
+     ],
+     "note": "field"
+    },
+    {
+     "id": "26-13",
+     "it": "isola",
+     "es": [
+      "isla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-14",
+     "it": "oceano",
+     "es": [
+      "océano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-15",
+     "it": "onda",
+     "es": [
+      "ola"
+     ],
+     "note": "wave"
+    },
+    {
+     "id": "26-16",
+     "it": "costa",
+     "es": [
+      "costa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-17",
+     "it": "scogliera",
+     "es": [
+      "acantilado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-18",
+     "it": "vulcano",
+     "es": [
+      "volcán"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-19",
+     "it": "terremoto",
+     "es": [
+      "terremoto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-20",
+     "it": "alluvione",
+     "es": [
+      "inundación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-21",
+     "it": "siccità",
+     "es": [
+      "sequía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-22",
+     "it": "pianta",
+     "es": [
+      "planta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-23",
+     "it": "radice",
+     "es": [
+      "raíz"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-24",
+     "it": "ramo",
+     "es": [
+      "rama"
+     ],
+     "note": "branch"
+    },
+    {
+     "id": "26-25",
+     "it": "seme",
+     "es": [
+      "semilla"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-26",
+     "it": "cespuglio",
+     "es": [
+      "arbusto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-27",
+     "it": "paesaggio",
+     "es": [
+      "paisaje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-28",
+     "it": "specie",
+     "es": [
+      "especie"
+     ],
+     "note": ""
+    },
+    {
+     "id": "26-29",
+     "it": "insetto",
+     "es": [
+      "insecto"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "level": "B1",
+   "title": "B1 · Media & entertainment",
+   "file": "b1-27-media-entertainment.md",
+   "items": [
+    {
+     "id": "27-0",
+     "it": "televisione",
+     "es": [
+      "televisión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-1",
+     "it": "televisore",
+     "es": [
+      "televisor",
+      "tele"
+     ],
+     "note": "the TV set"
+    },
+    {
+     "id": "27-2",
+     "it": "radio",
+     "es": [
+      "radio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-3",
+     "it": "giornale",
+     "es": [
+      "periódico"
+     ],
+     "note": "newspaper"
+    },
+    {
+     "id": "27-4",
+     "it": "rivista",
+     "es": [
+      "revista"
+     ],
+     "note": "magazine"
+    },
+    {
+     "id": "27-5",
+     "it": "notizia",
+     "es": [
+      "noticia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-6",
+     "it": "pubblicità",
+     "es": [
+      "publicidad",
+      "anuncio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-7",
+     "it": "film",
+     "es": [
+      "película"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-8",
+     "it": "serie",
+     "es": [
+      "serie"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-9",
+     "it": "cartone animato",
+     "es": [
+      "dibujos animados"
+     ],
+     "note": "cartoon"
+    },
+    {
+     "id": "27-10",
+     "it": "canzone",
+     "es": [
+      "canción"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-11",
+     "it": "musica",
+     "es": [
+      "música"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-12",
+     "it": "concerto",
+     "es": [
+      "concierto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-13",
+     "it": "canale",
+     "es": [
+      "canal"
+     ],
+     "note": "channel"
+    },
+    {
+     "id": "27-14",
+     "it": "spettacolo",
+     "es": [
+      "espectáculo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-15",
+     "it": "regista",
+     "es": [
+      "director"
+     ],
+     "note": "film director"
+    },
+    {
+     "id": "27-16",
+     "it": "gruppo",
+     "es": [
+      "grupo",
+      "banda"
+     ],
+     "note": "band"
+    },
+    {
+     "id": "27-17",
+     "it": "disco",
+     "es": [
+      "disco"
+     ],
+     "note": "record/album"
+    },
+    {
+     "id": "27-18",
+     "it": "palcoscenico",
+     "es": [
+      "escenario"
+     ],
+     "note": "stage"
+    },
+    {
+     "id": "27-19",
+     "it": "videogioco",
+     "es": [
+      "videojuego"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-20",
+     "it": "fumetto",
+     "es": [
+      "cómic",
+      "tebeo"
+     ],
+     "note": "Spain: *tebeo*"
+    },
+    {
+     "id": "27-21",
+     "it": "romanzo",
+     "es": [
+      "novela"
+     ],
+     "note": "novel"
+    },
+    {
+     "id": "27-22",
+     "it": "racconto",
+     "es": [
+      "cuento",
+      "relato"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-23",
+     "it": "poesia",
+     "es": [
+      "poesía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-24",
+     "it": "autore",
+     "es": [
+      "autor"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-25",
+     "it": "personaggio",
+     "es": [
+      "personaje"
+     ],
+     "note": "character"
+    },
+    {
+     "id": "27-26",
+     "it": "trama",
+     "es": [
+      "argumento",
+      "trama"
+     ],
+     "note": "plot"
+    },
+    {
+     "id": "27-27",
+     "it": "festa",
+     "es": [
+      "fiesta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-28",
+     "it": "ballare",
+     "es": [
+      "bailar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "27-29",
+     "it": "cantare",
+     "es": [
+      "cantar"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "level": "B1",
+   "title": "B1 · Society & politics",
+   "file": "b1-28-society-politics.md",
+   "items": [
+    {
+     "id": "28-0",
+     "it": "società",
+     "es": [
+      "sociedad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-1",
+     "it": "governo",
+     "es": [
+      "gobierno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-2",
+     "it": "stato",
+     "es": [
+      "estado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-3",
+     "it": "nazione",
+     "es": [
+      "nación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-4",
+     "it": "politica",
+     "es": [
+      "política"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-5",
+     "it": "presidente",
+     "es": [
+      "presidente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-6",
+     "it": "ministro",
+     "es": [
+      "ministro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-7",
+     "it": "sindaco",
+     "es": [
+      "alcalde"
+     ],
+     "note": "mayor"
+    },
+    {
+     "id": "28-8",
+     "it": "elezioni",
+     "es": [
+      "elecciones"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-9",
+     "it": "votare",
+     "es": [
+      "votar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-10",
+     "it": "partito",
+     "es": [
+      "partido"
+     ],
+     "note": "political party"
+    },
+    {
+     "id": "28-11",
+     "it": "legge",
+     "es": [
+      "ley"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-12",
+     "it": "diritto",
+     "es": [
+      "derecho"
+     ],
+     "note": "right / law"
+    },
+    {
+     "id": "28-13",
+     "it": "libertà",
+     "es": [
+      "libertad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-14",
+     "it": "uguaglianza",
+     "es": [
+      "igualdad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-15",
+     "it": "giustizia",
+     "es": [
+      "justicia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-16",
+     "it": "pace",
+     "es": [
+      "paz"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-17",
+     "it": "guerra",
+     "es": [
+      "guerra"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-18",
+     "it": "popolo",
+     "es": [
+      "pueblo"
+     ],
+     "note": "the people"
+    },
+    {
+     "id": "28-19",
+     "it": "cittadino",
+     "es": [
+      "ciudadano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-20",
+     "it": "tasse",
+     "es": [
+      "impuestos"
+     ],
+     "note": "taxes"
+    },
+    {
+     "id": "28-21",
+     "it": "economia",
+     "es": [
+      "economía"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-22",
+     "it": "crisi",
+     "es": [
+      "crisis"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-23",
+     "it": "manifestazione",
+     "es": [
+      "manifestación"
+     ],
+     "note": "protest/demo"
+    },
+    {
+     "id": "28-24",
+     "it": "sciopero",
+     "es": [
+      "huelga"
+     ],
+     "note": "strike"
+    },
+    {
+     "id": "28-25",
+     "it": "confine",
+     "es": [
+      "frontera"
+     ],
+     "note": "border"
+    },
+    {
+     "id": "28-26",
+     "it": "bandiera",
+     "es": [
+      "bandera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-27",
+     "it": "parlamento",
+     "es": [
+      "parlamento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-28",
+     "it": "democrazia",
+     "es": [
+      "democracia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "28-29",
+     "it": "disoccupazione",
+     "es": [
+      "desempleo",
+      "paro"
+     ],
+     "note": "Spain: *paro*"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "level": "B1",
+   "title": "B1 · Sports & hobbies",
+   "file": "b1-29-sports-hobbies.md",
+   "items": [
+    {
+     "id": "29-0",
+     "it": "sport",
+     "es": [
+      "deporte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-1",
+     "it": "squadra",
+     "es": [
+      "equipo"
+     ],
+     "note": "team"
+    },
+    {
+     "id": "29-2",
+     "it": "partita",
+     "es": [
+      "partido"
+     ],
+     "note": "match"
+    },
+    {
+     "id": "29-3",
+     "it": "giocatore",
+     "es": [
+      "jugador"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-4",
+     "it": "allenatore",
+     "es": [
+      "entrenador"
+     ],
+     "note": "coach"
+    },
+    {
+     "id": "29-5",
+     "it": "allenamento",
+     "es": [
+      "entrenamiento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-6",
+     "it": "palestra",
+     "es": [
+      "gimnasio"
+     ],
+     "note": "gym"
+    },
+    {
+     "id": "29-7",
+     "it": "calcio",
+     "es": [
+      "fútbol"
+     ],
+     "note": "also = kick / calcium"
+    },
+    {
+     "id": "29-8",
+     "it": "pallacanestro",
+     "es": [
+      "baloncesto"
+     ],
+     "note": "basketball"
+    },
+    {
+     "id": "29-9",
+     "it": "tennis",
+     "es": [
+      "tenis"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-10",
+     "it": "nuoto",
+     "es": [
+      "natación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-11",
+     "it": "ciclismo",
+     "es": [
+      "ciclismo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-12",
+     "it": "palla",
+     "es": [
+      "pelota",
+      "balón"
+     ],
+     "note": "ball"
+    },
+    {
+     "id": "29-13",
+     "it": "gol",
+     "es": [
+      "gol"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-14",
+     "it": "punto",
+     "es": [
+      "punto"
+     ],
+     "note": "point"
+    },
+    {
+     "id": "29-15",
+     "it": "vittoria",
+     "es": [
+      "victoria"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-16",
+     "it": "sconfitta",
+     "es": [
+      "derrota"
+     ],
+     "note": "defeat"
+    },
+    {
+     "id": "29-17",
+     "it": "pareggio",
+     "es": [
+      "empate"
+     ],
+     "note": "draw/tie"
+    },
+    {
+     "id": "29-18",
+     "it": "campionato",
+     "es": [
+      "campeonato"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-19",
+     "it": "gara",
+     "es": [
+      "competición",
+      "carrera"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-20",
+     "it": "arbitro",
+     "es": [
+      "árbitro"
+     ],
+     "note": "referee"
+    },
+    {
+     "id": "29-21",
+     "it": "tifoso",
+     "es": [
+      "aficionado",
+      "hincha"
+     ],
+     "note": "fan"
+    },
+    {
+     "id": "29-22",
+     "it": "hobby",
+     "es": [
+      "afición",
+      "hobby"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-23",
+     "it": "passatempo",
+     "es": [
+      "pasatiempo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-24",
+     "it": "scacchi",
+     "es": [
+      "ajedrez"
+     ],
+     "note": "chess"
+    },
+    {
+     "id": "29-25",
+     "it": "ballo",
+     "es": [
+      "baile"
+     ],
+     "note": "dance"
+    },
+    {
+     "id": "29-26",
+     "it": "correre",
+     "es": [
+      "correr"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-27",
+     "it": "nuotare",
+     "es": [
+      "nadar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-28",
+     "it": "vincere",
+     "es": [
+      "ganar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "29-29",
+     "it": "perdere",
+     "es": [
+      "perder"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "level": "B1",
+   "title": "B1 · Abstract feelings & opinions",
+   "file": "b1-30-abstract-feelings.md",
+   "items": [
+    {
+     "id": "30-0",
+     "it": "pensiero",
+     "es": [
+      "pensamiento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-1",
+     "it": "idea",
+     "es": [
+      "idea"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-2",
+     "it": "opinione",
+     "es": [
+      "opinión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-3",
+     "it": "ragione",
+     "es": [
+      "razón"
+     ],
+     "note": "reason"
+    },
+    {
+     "id": "30-4",
+     "it": "motivo",
+     "es": [
+      "motivo",
+      "razón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-5",
+     "it": "scopo",
+     "es": [
+      "propósito",
+      "objetivo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-6",
+     "it": "obiettivo",
+     "es": [
+      "objetivo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-7",
+     "it": "sogno",
+     "es": [
+      "sueño"
+     ],
+     "note": "dream (vs *sonno* = sleep)"
+    },
+    {
+     "id": "30-8",
+     "it": "ricordo",
+     "es": [
+      "recuerdo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-9",
+     "it": "memoria",
+     "es": [
+      "memoria"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-10",
+     "it": "mente",
+     "es": [
+      "mente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-11",
+     "it": "coscienza",
+     "es": [
+      "conciencia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-12",
+     "it": "dubbio",
+     "es": [
+      "duda"
+     ],
+     "note": "doubt"
+    },
+    {
+     "id": "30-13",
+     "it": "certezza",
+     "es": [
+      "certeza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-14",
+     "it": "verità",
+     "es": [
+      "verdad"
+     ],
+     "note": "truth"
+    },
+    {
+     "id": "30-15",
+     "it": "bugia",
+     "es": [
+      "mentira"
+     ],
+     "note": "lie"
+    },
+    {
+     "id": "30-16",
+     "it": "fiducia",
+     "es": [
+      "confianza"
+     ],
+     "note": "trust"
+    },
+    {
+     "id": "30-17",
+     "it": "rispetto",
+     "es": [
+      "respeto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-18",
+     "it": "sentimento",
+     "es": [
+      "sentimiento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-19",
+     "it": "emozione",
+     "es": [
+      "emoción"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-20",
+     "it": "desiderio",
+     "es": [
+      "deseo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-21",
+     "it": "bisogno",
+     "es": [
+      "necesidad"
+     ],
+     "note": "need"
+    },
+    {
+     "id": "30-22",
+     "it": "volontà",
+     "es": [
+      "voluntad"
+     ],
+     "note": "will"
+    },
+    {
+     "id": "30-23",
+     "it": "coraggio",
+     "es": [
+      "valor",
+      "coraje"
+     ],
+     "note": "courage"
+    },
+    {
+     "id": "30-24",
+     "it": "pazienza",
+     "es": [
+      "paciencia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-25",
+     "it": "curiosità",
+     "es": [
+      "curiosidad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-26",
+     "it": "saggezza",
+     "es": [
+      "sabiduría"
+     ],
+     "note": "wisdom"
+    },
+    {
+     "id": "30-27",
+     "it": "umore",
+     "es": [
+      "humor",
+      "estado de ánimo"
+     ],
+     "note": "mood (NOT \"funny\")"
+    },
+    {
+     "id": "30-28",
+     "it": "carattere",
+     "es": [
+      "carácter"
+     ],
+     "note": ""
+    },
+    {
+     "id": "30-29",
+     "it": "abitudine",
+     "es": [
+      "costumbre",
+      "hábito"
+     ],
+     "note": "habit"
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "level": "B1",
+   "title": "B1 · Idioms & fixed expressions",
+   "file": "b1-31-idioms.md",
+   "items": [
+    {
+     "id": "31-0",
+     "it": "costare un occhio della testa",
+     "es": [
+      "costar un ojo de la cara"
+     ],
+     "note": "to cost a fortune"
+    },
+    {
+     "id": "31-1",
+     "it": "essere al verde",
+     "es": [
+      "estar sin blanca",
+      "estar pelado"
+     ],
+     "note": "to be broke"
+    },
+    {
+     "id": "31-2",
+     "it": "prendere due piccioni con una fava",
+     "es": [
+      "matar dos pájaros de un tiro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-3",
+     "it": "toccare ferro",
+     "es": [
+      "tocar madera"
+     ],
+     "note": "touch wood"
+    },
+    {
+     "id": "31-4",
+     "it": "avere la testa tra le nuvole",
+     "es": [
+      "estar en las nubes"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-5",
+     "it": "meglio tardi che mai",
+     "es": [
+      "más vale tarde que nunca"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-6",
+     "it": "l'unione fa la forza",
+     "es": [
+      "la unión hace la fuerza"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-7",
+     "it": "piove sul bagnato",
+     "es": [
+      "llueve sobre mojado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-8",
+     "it": "acqua in bocca",
+     "es": [
+      "punto en boca"
+     ],
+     "note": "keep it secret"
+    },
+    {
+     "id": "31-9",
+     "it": "rompere il ghiaccio",
+     "es": [
+      "romper el hielo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-10",
+     "it": "essere in gamba",
+     "es": [
+      "ser un crack",
+      "ser muy capaz"
+     ],
+     "note": "to be sharp/able"
+    },
+    {
+     "id": "31-11",
+     "it": "alzare il gomito",
+     "es": [
+      "empinar el codo"
+     ],
+     "note": "to drink too much"
+    },
+    {
+     "id": "31-12",
+     "it": "costi quel che costi",
+     "es": [
+      "cueste lo que cueste"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-13",
+     "it": "di punto in bianco",
+     "es": [
+      "de buenas a primeras"
+     ],
+     "note": "out of the blue"
+    },
+    {
+     "id": "31-14",
+     "it": "fare orecchie da mercante",
+     "es": [
+      "hacerse el sordo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-15",
+     "it": "non avere peli sulla lingua",
+     "es": [
+      "no tener pelos en la lengua"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-16",
+     "it": "prendere in giro",
+     "es": [
+      "tomar el pelo"
+     ],
+     "note": "to tease/kid"
+    },
+    {
+     "id": "31-17",
+     "it": "in un batter d'occhio",
+     "es": [
+      "en un abrir y cerrar de ojos"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-18",
+     "it": "vale la pena",
+     "es": [
+      "merece la pena",
+      "vale la pena"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-19",
+     "it": "chi dorme non piglia pesci",
+     "es": [
+      "a quien madruga Dios le ayuda"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-20",
+     "it": "ogni morte di papa",
+     "es": [
+      "de higos a brevas"
+     ],
+     "note": "once in a blue moon"
+    },
+    {
+     "id": "31-21",
+     "it": "fare il ponte",
+     "es": [
+      "hacer puente"
+     ],
+     "note": "long weekend"
+    },
+    {
+     "id": "31-22",
+     "it": "avere un diavolo per capello",
+     "es": [
+      "estar de un humor de perros"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-23",
+     "it": "tirare a campare",
+     "es": [
+      "ir tirando"
+     ],
+     "note": "to get by"
+    },
+    {
+     "id": "31-24",
+     "it": "a occhio e croce",
+     "es": [
+      "a ojo de buen cubero"
+     ],
+     "note": "roughly"
+    },
+    {
+     "id": "31-25",
+     "it": "man mano",
+     "es": [
+      "poco a poco",
+      "gradualmente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-26",
+     "it": "passo dopo passo",
+     "es": [
+      "paso a paso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-27",
+     "it": "a buon mercato",
+     "es": [
+      "barato",
+      "tirado de precio"
+     ],
+     "note": "cheap"
+    },
+    {
+     "id": "31-28",
+     "it": "tale e quale",
+     "es": [
+      "igualito",
+      "idéntico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "31-29",
+     "it": "di tanto in tanto",
+     "es": [
+      "de vez en cuando"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "level": "B1",
+   "title": "B1 · Verb + preposition constructions",
+   "file": "b1-32-verb-preposition.md",
+   "items": [
+    {
+     "id": "32-0",
+     "it": "pensare a",
+     "es": [
+      "pensar en"
+     ],
+     "note": "prep changes: a → en"
+    },
+    {
+     "id": "32-1",
+     "it": "credere in",
+     "es": [
+      "creer en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-2",
+     "it": "riuscire a",
+     "es": [
+      "conseguir",
+      "lograr"
+     ],
+     "note": "to manage to"
+    },
+    {
+     "id": "32-3",
+     "it": "provare a",
+     "es": [
+      "intentar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-4",
+     "it": "cercare di",
+     "es": [
+      "intentar",
+      "tratar de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-5",
+     "it": "smettere di",
+     "es": [
+      "dejar de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-6",
+     "it": "finire di",
+     "es": [
+      "terminar de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-7",
+     "it": "cominciare a",
+     "es": [
+      "empezar a",
+      "comenzar a"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-8",
+     "it": "continuare a",
+     "es": [
+      "seguir",
+      "continuar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-9",
+     "it": "decidere di",
+     "es": [
+      "decidir"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-10",
+     "it": "dimenticare di",
+     "es": [
+      "olvidarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-11",
+     "it": "ricordarsi di",
+     "es": [
+      "acordarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-12",
+     "it": "accorgersi di",
+     "es": [
+      "darse cuenta de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-13",
+     "it": "fidarsi di",
+     "es": [
+      "fiarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-14",
+     "it": "innamorarsi di",
+     "es": [
+      "enamorarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-15",
+     "it": "occuparsi di",
+     "es": [
+      "ocuparse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-16",
+     "it": "preoccuparsi di",
+     "es": [
+      "preocuparse por"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-17",
+     "it": "dipendere da",
+     "es": [
+      "depender de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-18",
+     "it": "abituarsi a",
+     "es": [
+      "acostumbrarse a"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-19",
+     "it": "partecipare a",
+     "es": [
+      "participar en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-20",
+     "it": "assistere a",
+     "es": [
+      "asistir a"
+     ],
+     "note": "to attend (false friend: not \"assist\")"
+    },
+    {
+     "id": "32-21",
+     "it": "rinunciare a",
+     "es": [
+      "renunciar a"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-22",
+     "it": "consistere in",
+     "es": [
+      "consistir en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-23",
+     "it": "trasformarsi in",
+     "es": [
+      "transformarse en"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-24",
+     "it": "contare su",
+     "es": [
+      "contar con"
+     ],
+     "note": "prep changes: su → con"
+    },
+    {
+     "id": "32-25",
+     "it": "lamentarsi di",
+     "es": [
+      "quejarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-26",
+     "it": "pentirsi di",
+     "es": [
+      "arrepentirse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-27",
+     "it": "vergognarsi di",
+     "es": [
+      "avergonzarse de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-28",
+     "it": "avere bisogno di",
+     "es": [
+      "necesitar",
+      "tener necesidad de"
+     ],
+     "note": ""
+    },
+    {
+     "id": "32-29",
+     "it": "avere voglia di",
+     "es": [
+      "tener ganas de"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "level": "B2",
+   "title": "B2 · Advanced adjectives (qualities of things)",
+   "file": "b2-33-advanced-adjectives.md",
+   "items": [
+    {
+     "id": "33-0",
+     "it": "pesante",
+     "es": [
+      "pesado"
+     ],
+     "note": "heavy"
+    },
+    {
+     "id": "33-1",
+     "it": "leggero",
+     "es": [
+      "ligero",
+      "liviano"
+     ],
+     "note": "light (weight)"
+    },
+    {
+     "id": "33-2",
+     "it": "duro",
+     "es": [
+      "duro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-3",
+     "it": "morbido",
+     "es": [
+      "blando",
+      "suave"
+     ],
+     "note": "soft (false friend: not \"morbid\")"
+    },
+    {
+     "id": "33-4",
+     "it": "liscio",
+     "es": [
+      "liso"
+     ],
+     "note": "smooth"
+    },
+    {
+     "id": "33-5",
+     "it": "ruvido",
+     "es": [
+      "áspero",
+      "rugoso"
+     ],
+     "note": "rough"
+    },
+    {
+     "id": "33-6",
+     "it": "largo",
+     "es": [
+      "ancho"
+     ],
+     "note": "wide (false friend: not \"long\")"
+    },
+    {
+     "id": "33-7",
+     "it": "stretto",
+     "es": [
+      "estrecho"
+     ],
+     "note": "narrow/tight"
+    },
+    {
+     "id": "33-8",
+     "it": "profondo",
+     "es": [
+      "profundo"
+     ],
+     "note": "deep"
+    },
+    {
+     "id": "33-9",
+     "it": "lungo",
+     "es": [
+      "largo"
+     ],
+     "note": "long"
+    },
+    {
+     "id": "33-10",
+     "it": "corto",
+     "es": [
+      "corto"
+     ],
+     "note": "short"
+    },
+    {
+     "id": "33-11",
+     "it": "vuoto",
+     "es": [
+      "vacío"
+     ],
+     "note": "empty"
+    },
+    {
+     "id": "33-12",
+     "it": "pieno",
+     "es": [
+      "lleno"
+     ],
+     "note": "full"
+    },
+    {
+     "id": "33-13",
+     "it": "bagnato",
+     "es": [
+      "mojado"
+     ],
+     "note": "wet"
+    },
+    {
+     "id": "33-14",
+     "it": "asciutto",
+     "es": [
+      "seco"
+     ],
+     "note": "dry"
+    },
+    {
+     "id": "33-15",
+     "it": "umido",
+     "es": [
+      "húmedo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-16",
+     "it": "appuntito",
+     "es": [
+      "puntiagudo"
+     ],
+     "note": "pointed"
+    },
+    {
+     "id": "33-17",
+     "it": "rotondo",
+     "es": [
+      "redondo"
+     ],
+     "note": "round"
+    },
+    {
+     "id": "33-18",
+     "it": "quadrato",
+     "es": [
+      "cuadrado"
+     ],
+     "note": "square"
+    },
+    {
+     "id": "33-19",
+     "it": "piatto",
+     "es": [
+      "plano",
+      "llano"
+     ],
+     "note": "flat (also = plate)"
+    },
+    {
+     "id": "33-20",
+     "it": "ripido",
+     "es": [
+      "empinado"
+     ],
+     "note": "steep"
+    },
+    {
+     "id": "33-21",
+     "it": "rigido",
+     "es": [
+      "rígido",
+      "duro"
+     ],
+     "note": "stiff"
+    },
+    {
+     "id": "33-22",
+     "it": "elastico",
+     "es": [
+      "elástico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-23",
+     "it": "fragile",
+     "es": [
+      "frágil"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-24",
+     "it": "resistente",
+     "es": [
+      "resistente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-25",
+     "it": "trasparente",
+     "es": [
+      "transparente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-26",
+     "it": "opaco",
+     "es": [
+      "opaco"
+     ],
+     "note": ""
+    },
+    {
+     "id": "33-27",
+     "it": "lucido",
+     "es": [
+      "brillante",
+      "lustroso"
+     ],
+     "note": "shiny"
+    },
+    {
+     "id": "33-28",
+     "it": "sporco",
+     "es": [
+      "sucio"
+     ],
+     "note": "dirty"
+    },
+    {
+     "id": "33-29",
+     "it": "pulito",
+     "es": [
+      "limpio"
+     ],
+     "note": "clean"
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "level": "B2",
+   "title": "B2 · Business & the workplace",
+   "file": "b2-34-business-workplace.md",
+   "items": [
+    {
+     "id": "34-0",
+     "it": "azienda",
+     "es": [
+      "empresa"
+     ],
+     "note": "company"
+    },
+    {
+     "id": "34-1",
+     "it": "ditta",
+     "es": [
+      "empresa",
+      "firma"
+     ],
+     "note": "firm"
+    },
+    {
+     "id": "34-2",
+     "it": "impresa",
+     "es": [
+      "empresa"
+     ],
+     "note": "enterprise"
+    },
+    {
+     "id": "34-3",
+     "it": "riunione",
+     "es": [
+      "reunión"
+     ],
+     "note": "meeting"
+    },
+    {
+     "id": "34-4",
+     "it": "contratto",
+     "es": [
+      "contrato"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-5",
+     "it": "progetto",
+     "es": [
+      "proyecto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-6",
+     "it": "scadenza",
+     "es": [
+      "plazo",
+      "fecha límite"
+     ],
+     "note": "deadline"
+    },
+    {
+     "id": "34-7",
+     "it": "guadagno",
+     "es": [
+      "ganancia"
+     ],
+     "note": "earnings"
+    },
+    {
+     "id": "34-8",
+     "it": "stipendio",
+     "es": [
+      "sueldo",
+      "salario"
+     ],
+     "note": "salary"
+    },
+    {
+     "id": "34-9",
+     "it": "assunzione",
+     "es": [
+      "contratación"
+     ],
+     "note": "hiring"
+    },
+    {
+     "id": "34-10",
+     "it": "licenziamento",
+     "es": [
+      "despido"
+     ],
+     "note": "dismissal"
+    },
+    {
+     "id": "34-11",
+     "it": "colloquio",
+     "es": [
+      "entrevista"
+     ],
+     "note": "job interview"
+    },
+    {
+     "id": "34-12",
+     "it": "curriculum",
+     "es": [
+      "currículum"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-13",
+     "it": "dipendente",
+     "es": [
+      "empleado"
+     ],
+     "note": "employee"
+    },
+    {
+     "id": "34-14",
+     "it": "socio",
+     "es": [
+      "socio"
+     ],
+     "note": "partner"
+    },
+    {
+     "id": "34-15",
+     "it": "dirigente",
+     "es": [
+      "directivo",
+      "ejecutivo"
+     ],
+     "note": "manager"
+    },
+    {
+     "id": "34-16",
+     "it": "concorrenza",
+     "es": [
+      "competencia"
+     ],
+     "note": "competition"
+    },
+    {
+     "id": "34-17",
+     "it": "fornitore",
+     "es": [
+      "proveedor"
+     ],
+     "note": "supplier"
+    },
+    {
+     "id": "34-18",
+     "it": "fattura",
+     "es": [
+      "factura"
+     ],
+     "note": "invoice"
+    },
+    {
+     "id": "34-19",
+     "it": "bilancio",
+     "es": [
+      "balance",
+      "presupuesto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-20",
+     "it": "investimento",
+     "es": [
+      "inversión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-21",
+     "it": "profitto",
+     "es": [
+      "beneficio",
+      "ganancia"
+     ],
+     "note": "profit"
+    },
+    {
+     "id": "34-22",
+     "it": "perdita",
+     "es": [
+      "pérdida"
+     ],
+     "note": "loss"
+    },
+    {
+     "id": "34-23",
+     "it": "successo",
+     "es": [
+      "éxito"
+     ],
+     "note": "success (false friend: not \"event\")"
+    },
+    {
+     "id": "34-24",
+     "it": "fallimento",
+     "es": [
+      "quiebra",
+      "fracaso"
+     ],
+     "note": "bankruptcy/failure"
+    },
+    {
+     "id": "34-25",
+     "it": "collega",
+     "es": [
+      "colega",
+      "compañero"
+     ],
+     "note": "colleague"
+    },
+    {
+     "id": "34-26",
+     "it": "carriera",
+     "es": [
+      "carrera"
+     ],
+     "note": "career"
+    },
+    {
+     "id": "34-27",
+     "it": "promozione",
+     "es": [
+      "ascenso",
+      "promoción"
+     ],
+     "note": ""
+    },
+    {
+     "id": "34-28",
+     "it": "affari",
+     "es": [
+      "negocios"
+     ],
+     "note": "business"
+    },
+    {
+     "id": "34-29",
+     "it": "capitale",
+     "es": [
+      "capital"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "level": "B2",
+   "title": "B2 · Law & justice",
+   "file": "b2-35-law-justice.md",
+   "items": [
+    {
+     "id": "35-0",
+     "it": "tribunale",
+     "es": [
+      "tribunal",
+      "juzgado"
+     ],
+     "note": "court"
+    },
+    {
+     "id": "35-1",
+     "it": "giudice",
+     "es": [
+      "juez"
+     ],
+     "note": "judge"
+    },
+    {
+     "id": "35-2",
+     "it": "processo",
+     "es": [
+      "proceso",
+      "juicio"
+     ],
+     "note": "trial"
+    },
+    {
+     "id": "35-3",
+     "it": "reato",
+     "es": [
+      "delito"
+     ],
+     "note": "offence"
+    },
+    {
+     "id": "35-4",
+     "it": "crimine",
+     "es": [
+      "crimen",
+      "delito"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-5",
+     "it": "colpa",
+     "es": [
+      "culpa"
+     ],
+     "note": "fault/guilt"
+    },
+    {
+     "id": "35-6",
+     "it": "colpevole",
+     "es": [
+      "culpable"
+     ],
+     "note": "guilty"
+    },
+    {
+     "id": "35-7",
+     "it": "innocente",
+     "es": [
+      "inocente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-8",
+     "it": "testimone",
+     "es": [
+      "testigo"
+     ],
+     "note": "witness"
+    },
+    {
+     "id": "35-9",
+     "it": "prova",
+     "es": [
+      "prueba"
+     ],
+     "note": "proof/evidence"
+    },
+    {
+     "id": "35-10",
+     "it": "accusa",
+     "es": [
+      "acusación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-11",
+     "it": "difesa",
+     "es": [
+      "defensa"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-12",
+     "it": "sentenza",
+     "es": [
+      "sentencia"
+     ],
+     "note": "verdict"
+    },
+    {
+     "id": "35-13",
+     "it": "condanna",
+     "es": [
+      "condena"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-14",
+     "it": "pena",
+     "es": [
+      "castigo",
+      "pena"
+     ],
+     "note": "punishment (also = pity)"
+    },
+    {
+     "id": "35-15",
+     "it": "prigione",
+     "es": [
+      "cárcel",
+      "prisión"
+     ],
+     "note": "prison"
+    },
+    {
+     "id": "35-16",
+     "it": "carcere",
+     "es": [
+      "cárcel"
+     ],
+     "note": "jail"
+    },
+    {
+     "id": "35-17",
+     "it": "multa",
+     "es": [
+      "multa"
+     ],
+     "note": "fine"
+    },
+    {
+     "id": "35-18",
+     "it": "furto",
+     "es": [
+      "robo"
+     ],
+     "note": "theft"
+    },
+    {
+     "id": "35-19",
+     "it": "ladro",
+     "es": [
+      "ladrón"
+     ],
+     "note": "thief"
+    },
+    {
+     "id": "35-20",
+     "it": "truffa",
+     "es": [
+      "estafa"
+     ],
+     "note": "scam"
+    },
+    {
+     "id": "35-21",
+     "it": "vittima",
+     "es": [
+      "víctima"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-22",
+     "it": "sospetto",
+     "es": [
+      "sospechoso",
+      "sospecha"
+     ],
+     "note": "suspect"
+    },
+    {
+     "id": "35-23",
+     "it": "indagine",
+     "es": [
+      "investigación"
+     ],
+     "note": "inquiry"
+    },
+    {
+     "id": "35-24",
+     "it": "polizia",
+     "es": [
+      "policía"
+     ],
+     "note": "the police"
+    },
+    {
+     "id": "35-25",
+     "it": "denuncia",
+     "es": [
+      "denuncia"
+     ],
+     "note": "report/complaint"
+    },
+    {
+     "id": "35-26",
+     "it": "legale",
+     "es": [
+      "legal"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-27",
+     "it": "illegale",
+     "es": [
+      "ilegal"
+     ],
+     "note": ""
+    },
+    {
+     "id": "35-28",
+     "it": "giurare",
+     "es": [
+      "jurar"
+     ],
+     "note": "to swear"
+    },
+    {
+     "id": "35-29",
+     "it": "arresto",
+     "es": [
+      "arresto",
+      "detención"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "level": "B2",
+   "title": "B2 · Science & research",
+   "file": "b2-36-science-research.md",
+   "items": [
+    {
+     "id": "36-0",
+     "it": "scienza",
+     "es": [
+      "ciencia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-1",
+     "it": "scienziato",
+     "es": [
+      "científico"
+     ],
+     "note": "scientist"
+    },
+    {
+     "id": "36-2",
+     "it": "ricerca",
+     "es": [
+      "investigación"
+     ],
+     "note": "research"
+    },
+    {
+     "id": "36-3",
+     "it": "esperimento",
+     "es": [
+      "experimento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-4",
+     "it": "teoria",
+     "es": [
+      "teoría"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-5",
+     "it": "scoperta",
+     "es": [
+      "descubrimiento"
+     ],
+     "note": "discovery"
+    },
+    {
+     "id": "36-6",
+     "it": "invenzione",
+     "es": [
+      "invención",
+      "invento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-7",
+     "it": "risultato",
+     "es": [
+      "resultado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-8",
+     "it": "misura",
+     "es": [
+      "medida"
+     ],
+     "note": "measurement"
+    },
+    {
+     "id": "36-9",
+     "it": "calcolo",
+     "es": [
+      "cálculo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-10",
+     "it": "formula",
+     "es": [
+      "fórmula"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-11",
+     "it": "dato",
+     "es": [
+      "dato"
+     ],
+     "note": "datum/data point"
+    },
+    {
+     "id": "36-12",
+     "it": "laboratorio",
+     "es": [
+      "laboratorio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-13",
+     "it": "microscopio",
+     "es": [
+      "microscopio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-14",
+     "it": "cellula",
+     "es": [
+      "célula"
+     ],
+     "note": "cell (vs *cellulare* = mobile)"
+    },
+    {
+     "id": "36-15",
+     "it": "atomo",
+     "es": [
+      "átomo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-16",
+     "it": "molecola",
+     "es": [
+      "molécula"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-17",
+     "it": "gene",
+     "es": [
+      "gen"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-18",
+     "it": "materia",
+     "es": [
+      "materia"
+     ],
+     "note": "matter"
+    },
+    {
+     "id": "36-19",
+     "it": "sostanza",
+     "es": [
+      "sustancia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-20",
+     "it": "elemento",
+     "es": [
+      "elemento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-21",
+     "it": "massa",
+     "es": [
+      "masa"
+     ],
+     "note": "mass"
+    },
+    {
+     "id": "36-22",
+     "it": "velocità",
+     "es": [
+      "velocidad"
+     ],
+     "note": "speed"
+    },
+    {
+     "id": "36-23",
+     "it": "forza",
+     "es": [
+      "fuerza"
+     ],
+     "note": "force"
+    },
+    {
+     "id": "36-24",
+     "it": "gravità",
+     "es": [
+      "gravedad"
+     ],
+     "note": "gravity"
+    },
+    {
+     "id": "36-25",
+     "it": "temperatura",
+     "es": [
+      "temperatura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-26",
+     "it": "pressione",
+     "es": [
+      "presión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-27",
+     "it": "ipotesi",
+     "es": [
+      "hipótesis"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-28",
+     "it": "metodo",
+     "es": [
+      "método"
+     ],
+     "note": ""
+    },
+    {
+     "id": "36-29",
+     "it": "osservazione",
+     "es": [
+      "observación"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "level": "B2",
+   "title": "B2 · Cooking & the kitchen",
+   "file": "b2-37-cooking-kitchen.md",
+   "items": [
+    {
+     "id": "37-0",
+     "it": "cucchiaio",
+     "es": [
+      "cuchara"
+     ],
+     "note": "spoon"
+    },
+    {
+     "id": "37-1",
+     "it": "forchetta",
+     "es": [
+      "tenedor"
+     ],
+     "note": "fork"
+    },
+    {
+     "id": "37-2",
+     "it": "coltello",
+     "es": [
+      "cuchillo"
+     ],
+     "note": "knife"
+    },
+    {
+     "id": "37-3",
+     "it": "bicchiere",
+     "es": [
+      "vaso"
+     ],
+     "note": "glass"
+    },
+    {
+     "id": "37-4",
+     "it": "tazza",
+     "es": [
+      "taza"
+     ],
+     "note": "cup"
+    },
+    {
+     "id": "37-5",
+     "it": "pentola",
+     "es": [
+      "olla",
+      "cazuela"
+     ],
+     "note": "pot"
+    },
+    {
+     "id": "37-6",
+     "it": "padella",
+     "es": [
+      "sartén"
+     ],
+     "note": "frying pan"
+    },
+    {
+     "id": "37-7",
+     "it": "mestolo",
+     "es": [
+      "cucharón",
+      "cazo"
+     ],
+     "note": "ladle"
+    },
+    {
+     "id": "37-8",
+     "it": "tegame",
+     "es": [
+      "cazuela",
+      "sartén"
+     ],
+     "note": "pan"
+    },
+    {
+     "id": "37-9",
+     "it": "coperchio",
+     "es": [
+      "tapa"
+     ],
+     "note": "lid"
+    },
+    {
+     "id": "37-10",
+     "it": "tagliere",
+     "es": [
+      "tabla de cortar"
+     ],
+     "note": "cutting board"
+    },
+    {
+     "id": "37-11",
+     "it": "grattugia",
+     "es": [
+      "rallador"
+     ],
+     "note": "grater"
+    },
+    {
+     "id": "37-12",
+     "it": "frullatore",
+     "es": [
+      "batidora"
+     ],
+     "note": "blender"
+    },
+    {
+     "id": "37-13",
+     "it": "fornello",
+     "es": [
+      "fogón",
+      "hornillo"
+     ],
+     "note": "stove burner"
+    },
+    {
+     "id": "37-14",
+     "it": "ingrediente",
+     "es": [
+      "ingrediente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "37-15",
+     "it": "impasto",
+     "es": [
+      "masa"
+     ],
+     "note": "dough"
+    },
+    {
+     "id": "37-16",
+     "it": "cuocere",
+     "es": [
+      "cocinar",
+      "cocer"
+     ],
+     "note": "to cook"
+    },
+    {
+     "id": "37-17",
+     "it": "cucinare",
+     "es": [
+      "cocinar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "37-18",
+     "it": "bollire",
+     "es": [
+      "hervir"
+     ],
+     "note": "to boil"
+    },
+    {
+     "id": "37-19",
+     "it": "friggere",
+     "es": [
+      "freír"
+     ],
+     "note": "to fry"
+    },
+    {
+     "id": "37-20",
+     "it": "arrostire",
+     "es": [
+      "asar"
+     ],
+     "note": "to roast"
+    },
+    {
+     "id": "37-21",
+     "it": "grigliare",
+     "es": [
+      "asar a la parrilla"
+     ],
+     "note": "to grill"
+    },
+    {
+     "id": "37-22",
+     "it": "mescolare",
+     "es": [
+      "mezclar",
+      "remover"
+     ],
+     "note": "to mix/stir"
+    },
+    {
+     "id": "37-23",
+     "it": "tagliare",
+     "es": [
+      "cortar"
+     ],
+     "note": "to cut"
+    },
+    {
+     "id": "37-24",
+     "it": "tritare",
+     "es": [
+      "picar"
+     ],
+     "note": "to chop/mince"
+    },
+    {
+     "id": "37-25",
+     "it": "sbucciare",
+     "es": [
+      "pelar"
+     ],
+     "note": "to peel"
+    },
+    {
+     "id": "37-26",
+     "it": "versare",
+     "es": [
+      "verter",
+      "echar"
+     ],
+     "note": "to pour"
+    },
+    {
+     "id": "37-27",
+     "it": "assaggiare",
+     "es": [
+      "probar"
+     ],
+     "note": "to taste"
+    },
+    {
+     "id": "37-28",
+     "it": "condire",
+     "es": [
+      "aliñar",
+      "condimentar"
+     ],
+     "note": "to season/dress"
+    },
+    {
+     "id": "37-29",
+     "it": "congelare",
+     "es": [
+      "congelar"
+     ],
+     "note": "to freeze"
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "level": "B2",
+   "title": "B2 · Economy & finance",
+   "file": "b2-38-economy-finance.md",
+   "items": [
+    {
+     "id": "38-0",
+     "it": "prestito",
+     "es": [
+      "préstamo"
+     ],
+     "note": "loan"
+    },
+    {
+     "id": "38-1",
+     "it": "debito",
+     "es": [
+      "deuda"
+     ],
+     "note": "debt"
+    },
+    {
+     "id": "38-2",
+     "it": "credito",
+     "es": [
+      "crédito"
+     ],
+     "note": ""
+    },
+    {
+     "id": "38-3",
+     "it": "risparmio",
+     "es": [
+      "ahorro"
+     ],
+     "note": "savings"
+    },
+    {
+     "id": "38-4",
+     "it": "interesse",
+     "es": [
+      "interés"
+     ],
+     "note": ""
+    },
+    {
+     "id": "38-5",
+     "it": "conto",
+     "es": [
+      "cuenta"
+     ],
+     "note": "account"
+    },
+    {
+     "id": "38-6",
+     "it": "mutuo",
+     "es": [
+      "hipoteca"
+     ],
+     "note": "mortgage"
+    },
+    {
+     "id": "38-7",
+     "it": "assicurazione",
+     "es": [
+      "seguro"
+     ],
+     "note": "insurance"
+    },
+    {
+     "id": "38-8",
+     "it": "azione",
+     "es": [
+      "acción"
+     ],
+     "note": "share (also = action)"
+    },
+    {
+     "id": "38-9",
+     "it": "titolo",
+     "es": [
+      "título",
+      "valor"
+     ],
+     "note": "security/bond"
+    },
+    {
+     "id": "38-10",
+     "it": "valuta",
+     "es": [
+      "divisa",
+      "moneda"
+     ],
+     "note": "currency"
+    },
+    {
+     "id": "38-11",
+     "it": "cambio",
+     "es": [
+      "cambio"
+     ],
+     "note": "exchange rate"
+    },
+    {
+     "id": "38-12",
+     "it": "inflazione",
+     "es": [
+      "inflación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "38-13",
+     "it": "ricchezza",
+     "es": [
+      "riqueza"
+     ],
+     "note": "wealth"
+    },
+    {
+     "id": "38-14",
+     "it": "povertà",
+     "es": [
+      "pobreza"
+     ],
+     "note": "poverty"
+    },
+    {
+     "id": "38-15",
+     "it": "reddito",
+     "es": [
+      "renta",
+      "ingresos"
+     ],
+     "note": "income"
+    },
+    {
+     "id": "38-16",
+     "it": "spesa",
+     "es": [
+      "gasto"
+     ],
+     "note": "expense"
+    },
+    {
+     "id": "38-17",
+     "it": "costo",
+     "es": [
+      "coste",
+      "costo"
+     ],
+     "note": "cost"
+    },
+    {
+     "id": "38-18",
+     "it": "tassa",
+     "es": [
+      "impuesto"
+     ],
+     "note": "tax"
+    },
+    {
+     "id": "38-19",
+     "it": "pagamento",
+     "es": [
+      "pago"
+     ],
+     "note": "payment"
+    },
+    {
+     "id": "38-20",
+     "it": "bolletta",
+     "es": [
+      "factura",
+      "recibo"
+     ],
+     "note": "utility bill"
+    },
+    {
+     "id": "38-21",
+     "it": "finanza",
+     "es": [
+      "finanzas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "38-22",
+     "it": "sportello",
+     "es": [
+      "ventanilla",
+      "cajero"
+     ],
+     "note": "bank counter"
+    },
+    {
+     "id": "38-23",
+     "it": "bancomat",
+     "es": [
+      "cajero automático"
+     ],
+     "note": "ATM"
+    },
+    {
+     "id": "38-24",
+     "it": "bonifico",
+     "es": [
+      "transferencia"
+     ],
+     "note": "bank transfer"
+    },
+    {
+     "id": "38-25",
+     "it": "tasso",
+     "es": [
+      "tasa",
+      "tipo"
+     ],
+     "note": "rate (also = badger)"
+    },
+    {
+     "id": "38-26",
+     "it": "guadagnare",
+     "es": [
+      "ganar"
+     ],
+     "note": "to earn"
+    },
+    {
+     "id": "38-27",
+     "it": "risparmiare",
+     "es": [
+      "ahorrar"
+     ],
+     "note": "to save"
+    },
+    {
+     "id": "38-28",
+     "it": "investire",
+     "es": [
+      "invertir"
+     ],
+     "note": "to invest"
+    },
+    {
+     "id": "38-29",
+     "it": "prestare",
+     "es": [
+      "prestar"
+     ],
+     "note": "to lend"
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "level": "B2",
+   "title": "B2 · Art & culture",
+   "file": "b2-39-art-culture.md",
+   "items": [
+    {
+     "id": "39-0",
+     "it": "arte",
+     "es": [
+      "arte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-1",
+     "it": "artista",
+     "es": [
+      "artista"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-2",
+     "it": "quadro",
+     "es": [
+      "cuadro"
+     ],
+     "note": "painting"
+    },
+    {
+     "id": "39-3",
+     "it": "pittura",
+     "es": [
+      "pintura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-4",
+     "it": "scultura",
+     "es": [
+      "escultura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-5",
+     "it": "statua",
+     "es": [
+      "estatua"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-6",
+     "it": "mostra",
+     "es": [
+      "exposición"
+     ],
+     "note": "exhibition"
+    },
+    {
+     "id": "39-7",
+     "it": "opera",
+     "es": [
+      "obra"
+     ],
+     "note": "work"
+    },
+    {
+     "id": "39-8",
+     "it": "capolavoro",
+     "es": [
+      "obra maestra"
+     ],
+     "note": "masterpiece"
+    },
+    {
+     "id": "39-9",
+     "it": "cornice",
+     "es": [
+      "marco"
+     ],
+     "note": "frame"
+    },
+    {
+     "id": "39-10",
+     "it": "pennello",
+     "es": [
+      "pincel"
+     ],
+     "note": "brush"
+    },
+    {
+     "id": "39-11",
+     "it": "tela",
+     "es": [
+      "lienzo",
+      "tela"
+     ],
+     "note": "canvas"
+    },
+    {
+     "id": "39-12",
+     "it": "colore",
+     "es": [
+      "color"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-13",
+     "it": "disegnare",
+     "es": [
+      "dibujar"
+     ],
+     "note": "to draw"
+    },
+    {
+     "id": "39-14",
+     "it": "dipingere",
+     "es": [
+      "pintar"
+     ],
+     "note": "to paint"
+    },
+    {
+     "id": "39-15",
+     "it": "architettura",
+     "es": [
+      "arquitectura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-16",
+     "it": "stile",
+     "es": [
+      "estilo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-17",
+     "it": "epoca",
+     "es": [
+      "época"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-18",
+     "it": "secolo",
+     "es": [
+      "siglo"
+     ],
+     "note": "century"
+    },
+    {
+     "id": "39-19",
+     "it": "antico",
+     "es": [
+      "antiguo"
+     ],
+     "note": "ancient"
+    },
+    {
+     "id": "39-20",
+     "it": "moderno",
+     "es": [
+      "moderno"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-21",
+     "it": "tradizione",
+     "es": [
+      "tradición"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-22",
+     "it": "cultura",
+     "es": [
+      "cultura"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-23",
+     "it": "patrimonio",
+     "es": [
+      "patrimonio"
+     ],
+     "note": "heritage"
+    },
+    {
+     "id": "39-24",
+     "it": "monumento",
+     "es": [
+      "monumento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-25",
+     "it": "scultore",
+     "es": [
+      "escultor"
+     ],
+     "note": "sculptor"
+    },
+    {
+     "id": "39-26",
+     "it": "pubblico",
+     "es": [
+      "público"
+     ],
+     "note": "audience"
+    },
+    {
+     "id": "39-27",
+     "it": "galleria",
+     "es": [
+      "galería"
+     ],
+     "note": ""
+    },
+    {
+     "id": "39-28",
+     "it": "affresco",
+     "es": [
+      "fresco"
+     ],
+     "note": "fresco"
+    },
+    {
+     "id": "39-29",
+     "it": "restauro",
+     "es": [
+      "restauración"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "level": "B2",
+   "title": "B2 · Communication & language",
+   "file": "b2-40-communication-language.md",
+   "items": [
+    {
+     "id": "40-0",
+     "it": "linguaggio",
+     "es": [
+      "lenguaje"
+     ],
+     "note": ""
+    },
+    {
+     "id": "40-1",
+     "it": "parola",
+     "es": [
+      "palabra"
+     ],
+     "note": "word"
+    },
+    {
+     "id": "40-2",
+     "it": "frase",
+     "es": [
+      "frase"
+     ],
+     "note": "sentence"
+    },
+    {
+     "id": "40-3",
+     "it": "discorso",
+     "es": [
+      "discurso"
+     ],
+     "note": "speech"
+    },
+    {
+     "id": "40-4",
+     "it": "conversazione",
+     "es": [
+      "conversación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "40-5",
+     "it": "dialogo",
+     "es": [
+      "diálogo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "40-6",
+     "it": "chiacchierata",
+     "es": [
+      "charla"
+     ],
+     "note": "chat"
+    },
+    {
+     "id": "40-7",
+     "it": "significato",
+     "es": [
+      "significado"
+     ],
+     "note": "meaning"
+    },
+    {
+     "id": "40-8",
+     "it": "senso",
+     "es": [
+      "sentido"
+     ],
+     "note": "sense"
+    },
+    {
+     "id": "40-9",
+     "it": "raccontare",
+     "es": [
+      "contar",
+      "narrar"
+     ],
+     "note": "to tell"
+    },
+    {
+     "id": "40-10",
+     "it": "spiegare",
+     "es": [
+      "explicar"
+     ],
+     "note": "to explain"
+    },
+    {
+     "id": "40-11",
+     "it": "chiedere",
+     "es": [
+      "preguntar",
+      "pedir"
+     ],
+     "note": "to ask"
+    },
+    {
+     "id": "40-12",
+     "it": "rispondere",
+     "es": [
+      "responder",
+      "contestar"
+     ],
+     "note": "to answer"
+    },
+    {
+     "id": "40-13",
+     "it": "ripetere",
+     "es": [
+      "repetir"
+     ],
+     "note": "to repeat"
+    },
+    {
+     "id": "40-14",
+     "it": "tradurre",
+     "es": [
+      "traducir"
+     ],
+     "note": "to translate"
+    },
+    {
+     "id": "40-15",
+     "it": "pronunciare",
+     "es": [
+      "pronunciar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "40-16",
+     "it": "ascoltare",
+     "es": [
+      "escuchar"
+     ],
+     "note": "to listen"
+    },
+    {
+     "id": "40-17",
+     "it": "comunicare",
+     "es": [
+      "comunicar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "40-18",
+     "it": "esprimere",
+     "es": [
+      "expresar"
+     ],
+     "note": "to express"
+    },
+    {
+     "id": "40-19",
+     "it": "descrivere",
+     "es": [
+      "describir"
+     ],
+     "note": "to describe"
+    },
+    {
+     "id": "40-20",
+     "it": "discutere",
+     "es": [
+      "discutir",
+      "debatir"
+     ],
+     "note": "to discuss"
+    },
+    {
+     "id": "40-21",
+     "it": "litigare",
+     "es": [
+      "discutir",
+      "pelearse"
+     ],
+     "note": "to argue"
+    },
+    {
+     "id": "40-22",
+     "it": "mentire",
+     "es": [
+      "mentir"
+     ],
+     "note": "to lie"
+    },
+    {
+     "id": "40-23",
+     "it": "promettere",
+     "es": [
+      "prometer"
+     ],
+     "note": "to promise"
+    },
+    {
+     "id": "40-24",
+     "it": "consigliare",
+     "es": [
+      "aconsejar"
+     ],
+     "note": "to advise"
+    },
+    {
+     "id": "40-25",
+     "it": "suggerire",
+     "es": [
+      "sugerir"
+     ],
+     "note": "to suggest"
+    },
+    {
+     "id": "40-26",
+     "it": "avvertire",
+     "es": [
+      "avisar",
+      "advertir"
+     ],
+     "note": "to warn"
+    },
+    {
+     "id": "40-27",
+     "it": "accento",
+     "es": [
+      "acento"
+     ],
+     "note": "accent"
+    },
+    {
+     "id": "40-28",
+     "it": "voce",
+     "es": [
+      "voz"
+     ],
+     "note": "voice"
+    },
+    {
+     "id": "40-29",
+     "it": "silenzio",
+     "es": [
+      "silencio"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "level": "B2",
+   "title": "B2 · The human body — internal & medical",
+   "file": "b2-41-body-internal.md",
+   "items": [
+    {
+     "id": "41-0",
+     "it": "cervello",
+     "es": [
+      "cerebro"
+     ],
+     "note": "brain"
+    },
+    {
+     "id": "41-1",
+     "it": "polmone",
+     "es": [
+      "pulmón"
+     ],
+     "note": "lung"
+    },
+    {
+     "id": "41-2",
+     "it": "stomaco",
+     "es": [
+      "estómago"
+     ],
+     "note": "stomach"
+    },
+    {
+     "id": "41-3",
+     "it": "fegato",
+     "es": [
+      "hígado"
+     ],
+     "note": "liver"
+    },
+    {
+     "id": "41-4",
+     "it": "rene",
+     "es": [
+      "riñón"
+     ],
+     "note": "kidney"
+    },
+    {
+     "id": "41-5",
+     "it": "intestino",
+     "es": [
+      "intestino"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-6",
+     "it": "osso",
+     "es": [
+      "hueso"
+     ],
+     "note": "bone"
+    },
+    {
+     "id": "41-7",
+     "it": "muscolo",
+     "es": [
+      "músculo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-8",
+     "it": "nervo",
+     "es": [
+      "nervio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-9",
+     "it": "vena",
+     "es": [
+      "vena"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-10",
+     "it": "arteria",
+     "es": [
+      "arteria"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-11",
+     "it": "articolazione",
+     "es": [
+      "articulación"
+     ],
+     "note": "joint"
+    },
+    {
+     "id": "41-12",
+     "it": "costola",
+     "es": [
+      "costilla"
+     ],
+     "note": "rib"
+    },
+    {
+     "id": "41-13",
+     "it": "cranio",
+     "es": [
+      "cráneo"
+     ],
+     "note": "skull"
+    },
+    {
+     "id": "41-14",
+     "it": "scheletro",
+     "es": [
+      "esqueleto"
+     ],
+     "note": "skeleton"
+    },
+    {
+     "id": "41-15",
+     "it": "organo",
+     "es": [
+      "órgano"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-16",
+     "it": "ghiandola",
+     "es": [
+      "glándula"
+     ],
+     "note": "gland"
+    },
+    {
+     "id": "41-17",
+     "it": "respiro",
+     "es": [
+      "respiración",
+      "aliento"
+     ],
+     "note": "breath"
+    },
+    {
+     "id": "41-18",
+     "it": "battito",
+     "es": [
+      "latido"
+     ],
+     "note": "heartbeat"
+    },
+    {
+     "id": "41-19",
+     "it": "digestione",
+     "es": [
+      "digestión"
+     ],
+     "note": ""
+    },
+    {
+     "id": "41-20",
+     "it": "gola",
+     "es": [
+      "garganta"
+     ],
+     "note": "throat"
+    },
+    {
+     "id": "41-21",
+     "it": "fronte",
+     "es": [
+      "frente"
+     ],
+     "note": "forehead"
+    },
+    {
+     "id": "41-22",
+     "it": "sopracciglio",
+     "es": [
+      "ceja"
+     ],
+     "note": "eyebrow"
+    },
+    {
+     "id": "41-23",
+     "it": "ciglio",
+     "es": [
+      "pestaña"
+     ],
+     "note": "eyelash"
+    },
+    {
+     "id": "41-24",
+     "it": "palpebra",
+     "es": [
+      "párpado"
+     ],
+     "note": "eyelid"
+    },
+    {
+     "id": "41-25",
+     "it": "mento",
+     "es": [
+      "barbilla",
+      "mentón"
+     ],
+     "note": "chin"
+    },
+    {
+     "id": "41-26",
+     "it": "gengiva",
+     "es": [
+      "encía"
+     ],
+     "note": "gum"
+    },
+    {
+     "id": "41-27",
+     "it": "tallone",
+     "es": [
+      "talón"
+     ],
+     "note": "heel"
+    },
+    {
+     "id": "41-28",
+     "it": "coscia",
+     "es": [
+      "muslo"
+     ],
+     "note": "thigh"
+    },
+    {
+     "id": "41-29",
+     "it": "fianco",
+     "es": [
+      "cadera",
+      "costado"
+     ],
+     "note": "hip/side"
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "level": "B2",
+   "title": "B2 · Materials & substances",
+   "file": "b2-42-materials-substances.md",
+   "items": [
+    {
+     "id": "42-0",
+     "it": "legno",
+     "es": [
+      "madera"
+     ],
+     "note": "wood"
+    },
+    {
+     "id": "42-1",
+     "it": "metallo",
+     "es": [
+      "metal"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-2",
+     "it": "ferro",
+     "es": [
+      "hierro"
+     ],
+     "note": "iron"
+    },
+    {
+     "id": "42-3",
+     "it": "acciaio",
+     "es": [
+      "acero"
+     ],
+     "note": "steel"
+    },
+    {
+     "id": "42-4",
+     "it": "rame",
+     "es": [
+      "cobre"
+     ],
+     "note": "copper"
+    },
+    {
+     "id": "42-5",
+     "it": "plastica",
+     "es": [
+      "plástico"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-6",
+     "it": "vetro",
+     "es": [
+      "vidrio",
+      "cristal"
+     ],
+     "note": "glass"
+    },
+    {
+     "id": "42-7",
+     "it": "carta",
+     "es": [
+      "papel"
+     ],
+     "note": "paper (also = card)"
+    },
+    {
+     "id": "42-8",
+     "it": "cartone",
+     "es": [
+      "cartón"
+     ],
+     "note": "cardboard"
+    },
+    {
+     "id": "42-9",
+     "it": "stoffa",
+     "es": [
+      "tela",
+      "tejido"
+     ],
+     "note": "fabric"
+    },
+    {
+     "id": "42-10",
+     "it": "cuoio",
+     "es": [
+      "cuero"
+     ],
+     "note": "leather"
+    },
+    {
+     "id": "42-11",
+     "it": "lana",
+     "es": [
+      "lana"
+     ],
+     "note": "wool"
+    },
+    {
+     "id": "42-12",
+     "it": "cotone",
+     "es": [
+      "algodón"
+     ],
+     "note": "cotton"
+    },
+    {
+     "id": "42-13",
+     "it": "seta",
+     "es": [
+      "seda"
+     ],
+     "note": "silk"
+    },
+    {
+     "id": "42-14",
+     "it": "mattone",
+     "es": [
+      "ladrillo"
+     ],
+     "note": "brick"
+    },
+    {
+     "id": "42-15",
+     "it": "cemento",
+     "es": [
+      "cemento",
+      "hormigón"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-16",
+     "it": "marmo",
+     "es": [
+      "mármol"
+     ],
+     "note": "marble"
+    },
+    {
+     "id": "42-17",
+     "it": "argilla",
+     "es": [
+      "arcilla"
+     ],
+     "note": "clay"
+    },
+    {
+     "id": "42-18",
+     "it": "cera",
+     "es": [
+      "cera"
+     ],
+     "note": "wax"
+    },
+    {
+     "id": "42-19",
+     "it": "colla",
+     "es": [
+      "pegamento",
+      "cola"
+     ],
+     "note": "glue"
+    },
+    {
+     "id": "42-20",
+     "it": "liquido",
+     "es": [
+      "líquido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-21",
+     "it": "solido",
+     "es": [
+      "sólido"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-22",
+     "it": "gas",
+     "es": [
+      "gas"
+     ],
+     "note": ""
+    },
+    {
+     "id": "42-23",
+     "it": "polvere",
+     "es": [
+      "polvo"
+     ],
+     "note": "dust/powder"
+    },
+    {
+     "id": "42-24",
+     "it": "fumo",
+     "es": [
+      "humo"
+     ],
+     "note": "smoke"
+    },
+    {
+     "id": "42-25",
+     "it": "cenere",
+     "es": [
+      "ceniza"
+     ],
+     "note": "ash"
+    },
+    {
+     "id": "42-26",
+     "it": "fango",
+     "es": [
+      "barro"
+     ],
+     "note": "mud"
+    },
+    {
+     "id": "42-27",
+     "it": "tessuto",
+     "es": [
+      "tejido"
+     ],
+     "note": "tissue/fabric"
+    },
+    {
+     "id": "42-28",
+     "it": "corda",
+     "es": [
+      "cuerda"
+     ],
+     "note": "rope"
+    },
+    {
+     "id": "42-29",
+     "it": "filo",
+     "es": [
+      "hilo"
+     ],
+     "note": "thread/wire"
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "level": "B2",
+   "title": "B2 · Advanced verbs (actions)",
+   "file": "b2-43-advanced-verbs.md",
+   "items": [
+    {
+     "id": "43-0",
+     "it": "aggiungere",
+     "es": [
+      "añadir",
+      "agregar"
+     ],
+     "note": "to add"
+    },
+    {
+     "id": "43-1",
+     "it": "togliere",
+     "es": [
+      "quitar"
+     ],
+     "note": "to remove"
+    },
+    {
+     "id": "43-2",
+     "it": "riempire",
+     "es": [
+      "llenar"
+     ],
+     "note": "to fill"
+    },
+    {
+     "id": "43-3",
+     "it": "svuotare",
+     "es": [
+      "vaciar"
+     ],
+     "note": "to empty"
+    },
+    {
+     "id": "43-4",
+     "it": "aprire",
+     "es": [
+      "abrir"
+     ],
+     "note": "to open"
+    },
+    {
+     "id": "43-5",
+     "it": "chiudere",
+     "es": [
+      "cerrar"
+     ],
+     "note": "to close"
+    },
+    {
+     "id": "43-6",
+     "it": "tirare",
+     "es": [
+      "tirar"
+     ],
+     "note": "to pull"
+    },
+    {
+     "id": "43-7",
+     "it": "spingere",
+     "es": [
+      "empujar"
+     ],
+     "note": "to push"
+    },
+    {
+     "id": "43-8",
+     "it": "lanciare",
+     "es": [
+      "lanzar"
+     ],
+     "note": "to throw"
+    },
+    {
+     "id": "43-9",
+     "it": "afferrare",
+     "es": [
+      "agarrar"
+     ],
+     "note": "to grab"
+    },
+    {
+     "id": "43-10",
+     "it": "lasciare",
+     "es": [
+      "dejar"
+     ],
+     "note": "to leave/let"
+    },
+    {
+     "id": "43-11",
+     "it": "tenere",
+     "es": [
+      "sostener",
+      "mantener"
+     ],
+     "note": "to hold"
+    },
+    {
+     "id": "43-12",
+     "it": "raccogliere",
+     "es": [
+      "recoger"
+     ],
+     "note": "to gather"
+    },
+    {
+     "id": "43-13",
+     "it": "appoggiare",
+     "es": [
+      "apoyar"
+     ],
+     "note": "to lean/support"
+    },
+    {
+     "id": "43-14",
+     "it": "premere",
+     "es": [
+      "apretar",
+      "pulsar"
+     ],
+     "note": "to press"
+    },
+    {
+     "id": "43-15",
+     "it": "girare",
+     "es": [
+      "girar"
+     ],
+     "note": "to turn"
+    },
+    {
+     "id": "43-16",
+     "it": "piegare",
+     "es": [
+      "doblar"
+     ],
+     "note": "to fold/bend"
+    },
+    {
+     "id": "43-17",
+     "it": "rompere",
+     "es": [
+      "romper"
+     ],
+     "note": "to break"
+    },
+    {
+     "id": "43-18",
+     "it": "costruire",
+     "es": [
+      "construir"
+     ],
+     "note": "to build"
+    },
+    {
+     "id": "43-19",
+     "it": "distruggere",
+     "es": [
+      "destruir"
+     ],
+     "note": "to destroy"
+    },
+    {
+     "id": "43-20",
+     "it": "riparare",
+     "es": [
+      "reparar",
+      "arreglar"
+     ],
+     "note": "to repair"
+    },
+    {
+     "id": "43-21",
+     "it": "colpire",
+     "es": [
+      "golpear"
+     ],
+     "note": "to hit"
+    },
+    {
+     "id": "43-22",
+     "it": "spostare",
+     "es": [
+      "mover",
+      "desplazar"
+     ],
+     "note": "to move (something)"
+    },
+    {
+     "id": "43-23",
+     "it": "muovere",
+     "es": [
+      "mover"
+     ],
+     "note": "to move"
+    },
+    {
+     "id": "43-24",
+     "it": "fermare",
+     "es": [
+      "parar",
+      "detener"
+     ],
+     "note": "to stop"
+    },
+    {
+     "id": "43-25",
+     "it": "evitare",
+     "es": [
+      "evitar"
+     ],
+     "note": "to avoid"
+    },
+    {
+     "id": "43-26",
+     "it": "raggiungere",
+     "es": [
+      "alcanzar"
+     ],
+     "note": "to reach"
+    },
+    {
+     "id": "43-27",
+     "it": "inseguire",
+     "es": [
+      "perseguir"
+     ],
+     "note": "to chase"
+    },
+    {
+     "id": "43-28",
+     "it": "nascondere",
+     "es": [
+      "esconder",
+      "ocultar"
+     ],
+     "note": "to hide"
+    },
+    {
+     "id": "43-29",
+     "it": "scegliere",
+     "es": [
+      "elegir",
+      "escoger"
+     ],
+     "note": "to choose"
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "level": "B2",
+   "title": "B2 · Directions, shapes & measurement",
+   "file": "b2-44-directions-measurement.md",
+   "items": [
+    {
+     "id": "44-0",
+     "it": "destra",
+     "es": [
+      "derecha"
+     ],
+     "note": "right"
+    },
+    {
+     "id": "44-1",
+     "it": "sinistra",
+     "es": [
+      "izquierda"
+     ],
+     "note": "left"
+    },
+    {
+     "id": "44-2",
+     "it": "dritto",
+     "es": [
+      "recto"
+     ],
+     "note": "straight (vs *diritto* = right/law)"
+    },
+    {
+     "id": "44-3",
+     "it": "avanti",
+     "es": [
+      "adelante"
+     ],
+     "note": "forward"
+    },
+    {
+     "id": "44-4",
+     "it": "indietro",
+     "es": [
+      "atrás"
+     ],
+     "note": "backward"
+    },
+    {
+     "id": "44-5",
+     "it": "sopra",
+     "es": [
+      "encima",
+      "arriba"
+     ],
+     "note": "above"
+    },
+    {
+     "id": "44-6",
+     "it": "sotto",
+     "es": [
+      "debajo",
+      "abajo"
+     ],
+     "note": "below"
+    },
+    {
+     "id": "44-7",
+     "it": "davanti",
+     "es": [
+      "delante"
+     ],
+     "note": "in front"
+    },
+    {
+     "id": "44-8",
+     "it": "dietro",
+     "es": [
+      "detrás"
+     ],
+     "note": "behind"
+    },
+    {
+     "id": "44-9",
+     "it": "accanto",
+     "es": [
+      "al lado"
+     ],
+     "note": "next to"
+    },
+    {
+     "id": "44-10",
+     "it": "vicino",
+     "es": [
+      "cerca"
+     ],
+     "note": "near (also = neighbor)"
+    },
+    {
+     "id": "44-11",
+     "it": "lontano",
+     "es": [
+      "lejos"
+     ],
+     "note": "far"
+    },
+    {
+     "id": "44-12",
+     "it": "nord",
+     "es": [
+      "norte"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-13",
+     "it": "sud",
+     "es": [
+      "sur"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-14",
+     "it": "est",
+     "es": [
+      "este"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-15",
+     "it": "ovest",
+     "es": [
+      "oeste"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-16",
+     "it": "direzione",
+     "es": [
+      "dirección"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-17",
+     "it": "distanza",
+     "es": [
+      "distancia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-18",
+     "it": "lunghezza",
+     "es": [
+      "longitud",
+      "largo"
+     ],
+     "note": "length"
+    },
+    {
+     "id": "44-19",
+     "it": "larghezza",
+     "es": [
+      "anchura",
+      "ancho"
+     ],
+     "note": "width"
+    },
+    {
+     "id": "44-20",
+     "it": "altezza",
+     "es": [
+      "altura",
+      "alto"
+     ],
+     "note": "height"
+    },
+    {
+     "id": "44-21",
+     "it": "profondità",
+     "es": [
+      "profundidad"
+     ],
+     "note": "depth"
+    },
+    {
+     "id": "44-22",
+     "it": "chilometro",
+     "es": [
+      "kilómetro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-23",
+     "it": "litro",
+     "es": [
+      "litro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-24",
+     "it": "grammo",
+     "es": [
+      "gramo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-25",
+     "it": "chilo",
+     "es": [
+      "kilo"
+     ],
+     "note": ""
+    },
+    {
+     "id": "44-26",
+     "it": "metà",
+     "es": [
+      "mitad"
+     ],
+     "note": "half"
+    },
+    {
+     "id": "44-27",
+     "it": "doppio",
+     "es": [
+      "doble"
+     ],
+     "note": "double"
+    },
+    {
+     "id": "44-28",
+     "it": "cerchio",
+     "es": [
+      "círculo"
+     ],
+     "note": "circle"
+    },
+    {
+     "id": "44-29",
+     "it": "triangolo",
+     "es": [
+      "triángulo"
+     ],
+     "note": "triangle"
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "level": "B2",
+   "title": "B2 · Character & personality (advanced)",
+   "file": "b2-45-character-personality.md",
+   "items": [
+    {
+     "id": "45-0",
+     "it": "onesto",
+     "es": [
+      "honesto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-1",
+     "it": "sincero",
+     "es": [
+      "sincero"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-2",
+     "it": "generoso",
+     "es": [
+      "generoso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-3",
+     "it": "egoista",
+     "es": [
+      "egoísta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-4",
+     "it": "avaro",
+     "es": [
+      "tacaño",
+      "avaro"
+     ],
+     "note": "stingy"
+    },
+    {
+     "id": "45-5",
+     "it": "orgoglioso",
+     "es": [
+      "orgulloso"
+     ],
+     "note": "proud"
+    },
+    {
+     "id": "45-6",
+     "it": "umile",
+     "es": [
+      "humilde"
+     ],
+     "note": "humble"
+    },
+    {
+     "id": "45-7",
+     "it": "ambizioso",
+     "es": [
+      "ambicioso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-8",
+     "it": "pigro",
+     "es": [
+      "perezoso",
+      "vago"
+     ],
+     "note": "lazy"
+    },
+    {
+     "id": "45-9",
+     "it": "coraggioso",
+     "es": [
+      "valiente"
+     ],
+     "note": "brave"
+    },
+    {
+     "id": "45-10",
+     "it": "codardo",
+     "es": [
+      "cobarde"
+     ],
+     "note": "coward"
+    },
+    {
+     "id": "45-11",
+     "it": "prudente",
+     "es": [
+      "prudente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-12",
+     "it": "sciocco",
+     "es": [
+      "tonto",
+      "necio"
+     ],
+     "note": "silly"
+    },
+    {
+     "id": "45-13",
+     "it": "saggio",
+     "es": [
+      "sabio"
+     ],
+     "note": "wise"
+    },
+    {
+     "id": "45-14",
+     "it": "furbo",
+     "es": [
+      "astuto",
+      "listo"
+     ],
+     "note": "cunning/clever"
+    },
+    {
+     "id": "45-15",
+     "it": "ingenuo",
+     "es": [
+      "ingenuo"
+     ],
+     "note": "naive"
+    },
+    {
+     "id": "45-16",
+     "it": "testardo",
+     "es": [
+      "testarudo",
+      "cabezota"
+     ],
+     "note": "stubborn"
+    },
+    {
+     "id": "45-17",
+     "it": "affidabile",
+     "es": [
+      "fiable",
+      "de fiar"
+     ],
+     "note": "reliable"
+    },
+    {
+     "id": "45-18",
+     "it": "socievole",
+     "es": [
+      "sociable"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-19",
+     "it": "riservato",
+     "es": [
+      "reservado"
+     ],
+     "note": "reserved"
+    },
+    {
+     "id": "45-20",
+     "it": "sensibile",
+     "es": [
+      "sensible"
+     ],
+     "note": "sensitive (false friend: not \"sensible\")"
+    },
+    {
+     "id": "45-21",
+     "it": "severo",
+     "es": [
+      "severo",
+      "estricto"
+     ],
+     "note": "strict"
+    },
+    {
+     "id": "45-22",
+     "it": "maleducato",
+     "es": [
+      "maleducado"
+     ],
+     "note": "rude"
+    },
+    {
+     "id": "45-23",
+     "it": "curioso",
+     "es": [
+      "curioso"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-24",
+     "it": "modesto",
+     "es": [
+      "modesto"
+     ],
+     "note": ""
+    },
+    {
+     "id": "45-25",
+     "it": "vanitoso",
+     "es": [
+      "vanidoso",
+      "presumido"
+     ],
+     "note": "vain"
+    },
+    {
+     "id": "45-26",
+     "it": "disponibile",
+     "es": [
+      "dispuesto",
+      "servicial"
+     ],
+     "note": "helpful/available"
+    },
+    {
+     "id": "45-27",
+     "it": "affettuoso",
+     "es": [
+      "cariñoso"
+     ],
+     "note": "affectionate"
+    },
+    {
+     "id": "45-28",
+     "it": "distratto",
+     "es": [
+      "distraído"
+     ],
+     "note": "absent-minded"
+    },
+    {
+     "id": "45-29",
+     "it": "lavoratore",
+     "es": [
+      "trabajador"
+     ],
+     "note": "hard-working"
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "level": "B2",
+   "title": "B2 · Relationships & social life",
+   "file": "b2-46-relationships-social.md",
+   "items": [
+    {
+     "id": "46-0",
+     "it": "amicizia",
+     "es": [
+      "amistad"
+     ],
+     "note": "friendship"
+    },
+    {
+     "id": "46-1",
+     "it": "rapporto",
+     "es": [
+      "relación"
+     ],
+     "note": "relationship"
+    },
+    {
+     "id": "46-2",
+     "it": "relazione",
+     "es": [
+      "relación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "46-3",
+     "it": "fidanzato",
+     "es": [
+      "novio"
+     ],
+     "note": "boyfriend"
+    },
+    {
+     "id": "46-4",
+     "it": "fidanzata",
+     "es": [
+      "novia"
+     ],
+     "note": "girlfriend"
+    },
+    {
+     "id": "46-5",
+     "it": "matrimonio",
+     "es": [
+      "boda",
+      "matrimonio"
+     ],
+     "note": "wedding/marriage"
+    },
+    {
+     "id": "46-6",
+     "it": "sposo",
+     "es": [
+      "novio",
+      "esposo"
+     ],
+     "note": "groom"
+    },
+    {
+     "id": "46-7",
+     "it": "sposa",
+     "es": [
+      "novia",
+      "esposa"
+     ],
+     "note": "bride"
+    },
+    {
+     "id": "46-8",
+     "it": "divorzio",
+     "es": [
+      "divorcio"
+     ],
+     "note": ""
+    },
+    {
+     "id": "46-9",
+     "it": "fidanzamento",
+     "es": [
+      "noviazgo"
+     ],
+     "note": "engagement"
+    },
+    {
+     "id": "46-10",
+     "it": "appuntamento",
+     "es": [
+      "cita"
+     ],
+     "note": "date/appointment"
+    },
+    {
+     "id": "46-11",
+     "it": "bacio",
+     "es": [
+      "beso"
+     ],
+     "note": "kiss"
+    },
+    {
+     "id": "46-12",
+     "it": "abbraccio",
+     "es": [
+      "abrazo"
+     ],
+     "note": "hug"
+    },
+    {
+     "id": "46-13",
+     "it": "carezza",
+     "es": [
+      "caricia"
+     ],
+     "note": "caress"
+    },
+    {
+     "id": "46-14",
+     "it": "litigio",
+     "es": [
+      "pelea",
+      "discusión"
+     ],
+     "note": "quarrel"
+    },
+    {
+     "id": "46-15",
+     "it": "riconciliazione",
+     "es": [
+      "reconciliación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "46-16",
+     "it": "conoscenza",
+     "es": [
+      "conocido",
+      "conocimiento"
+     ],
+     "note": "acquaintance"
+    },
+    {
+     "id": "46-17",
+     "it": "sconosciuto",
+     "es": [
+      "desconocido"
+     ],
+     "note": "stranger"
+    },
+    {
+     "id": "46-18",
+     "it": "straniero",
+     "es": [
+      "extranjero"
+     ],
+     "note": "foreigner (false friend: not \"strange\")"
+    },
+    {
+     "id": "46-19",
+     "it": "ospite",
+     "es": [
+      "invitado",
+      "huésped"
+     ],
+     "note": "guest"
+    },
+    {
+     "id": "46-20",
+     "it": "invitato",
+     "es": [
+      "invitado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "46-21",
+     "it": "compleanno",
+     "es": [
+      "cumpleaños"
+     ],
+     "note": "birthday"
+    },
+    {
+     "id": "46-22",
+     "it": "anniversario",
+     "es": [
+      "aniversario"
+     ],
+     "note": ""
+    },
+    {
+     "id": "46-23",
+     "it": "tradimento",
+     "es": [
+      "traición"
+     ],
+     "note": "betrayal"
+    },
+    {
+     "id": "46-24",
+     "it": "sostegno",
+     "es": [
+      "apoyo"
+     ],
+     "note": "support"
+    },
+    {
+     "id": "46-25",
+     "it": "solitudine",
+     "es": [
+      "soledad"
+     ],
+     "note": "loneliness"
+    },
+    {
+     "id": "46-26",
+     "it": "comunità",
+     "es": [
+      "comunidad"
+     ],
+     "note": "community"
+    },
+    {
+     "id": "46-27",
+     "it": "amante",
+     "es": [
+      "amante"
+     ],
+     "note": "lover"
+    },
+    {
+     "id": "46-28",
+     "it": "vicinato",
+     "es": [
+      "vecindario"
+     ],
+     "note": "neighborhood"
+    },
+    {
+     "id": "46-29",
+     "it": "conoscente",
+     "es": [
+      "conocido"
+     ],
+     "note": "acquaintance"
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "level": "B2",
+   "title": "B2 · Time, history & sequence",
+   "file": "b2-47-time-history.md",
+   "items": [
+    {
+     "id": "47-0",
+     "it": "storia",
+     "es": [
+      "historia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-1",
+     "it": "passato",
+     "es": [
+      "pasado"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-2",
+     "it": "presente",
+     "es": [
+      "presente"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-3",
+     "it": "futuro",
+     "es": [
+      "futuro"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-4",
+     "it": "periodo",
+     "es": [
+      "periodo",
+      "período"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-5",
+     "it": "decennio",
+     "es": [
+      "década"
+     ],
+     "note": "decade"
+    },
+    {
+     "id": "47-6",
+     "it": "generazione",
+     "es": [
+      "generación"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-7",
+     "it": "inizio",
+     "es": [
+      "principio",
+      "comienzo"
+     ],
+     "note": "beginning"
+    },
+    {
+     "id": "47-8",
+     "it": "fine",
+     "es": [
+      "fin",
+      "final"
+     ],
+     "note": "end"
+    },
+    {
+     "id": "47-9",
+     "it": "durata",
+     "es": [
+      "duración"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-10",
+     "it": "attimo",
+     "es": [
+      "instante",
+      "momento"
+     ],
+     "note": "moment"
+    },
+    {
+     "id": "47-11",
+     "it": "eternità",
+     "es": [
+      "eternidad"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-12",
+     "it": "ritardo",
+     "es": [
+      "retraso"
+     ],
+     "note": "delay"
+    },
+    {
+     "id": "47-13",
+     "it": "anticipo",
+     "es": [
+      "adelanto",
+      "antelación"
+     ],
+     "note": "advance"
+    },
+    {
+     "id": "47-14",
+     "it": "frequenza",
+     "es": [
+      "frecuencia"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-15",
+     "it": "data",
+     "es": [
+      "fecha"
+     ],
+     "note": "date (false friend: not \"data\")"
+    },
+    {
+     "id": "47-16",
+     "it": "calendario",
+     "es": [
+      "calendario"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-17",
+     "it": "orologio",
+     "es": [
+      "reloj"
+     ],
+     "note": "clock/watch"
+    },
+    {
+     "id": "47-18",
+     "it": "evento",
+     "es": [
+      "evento",
+      "acontecimiento"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-19",
+     "it": "avvenimento",
+     "es": [
+      "acontecimiento",
+      "suceso"
+     ],
+     "note": "event"
+    },
+    {
+     "id": "47-20",
+     "it": "origine",
+     "es": [
+      "origen"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-21",
+     "it": "antichità",
+     "es": [
+      "antigüedad"
+     ],
+     "note": "antiquity"
+    },
+    {
+     "id": "47-22",
+     "it": "medioevo",
+     "es": [
+      "edad media"
+     ],
+     "note": "Middle Ages"
+    },
+    {
+     "id": "47-23",
+     "it": "rinascimento",
+     "es": [
+      "renacimiento"
+     ],
+     "note": "Renaissance"
+    },
+    {
+     "id": "47-24",
+     "it": "civiltà",
+     "es": [
+      "civilización"
+     ],
+     "note": ""
+    },
+    {
+     "id": "47-25",
+     "it": "impero",
+     "es": [
+      "imperio"
+     ],
+     "note": "empire"
+    },
+    {
+     "id": "47-26",
+     "it": "regno",
+     "es": [
+      "reino"
+     ],
+     "note": "kingdom"
+    },
+    {
+     "id": "47-27",
+     "it": "re",
+     "es": [
+      "rey"
+     ],
+     "note": "king"
+    },
+    {
+     "id": "47-28",
+     "it": "regina",
+     "es": [
+      "reina"
+     ],
+     "note": "queen"
+    },
+    {
+     "id": "47-29",
+     "it": "tappa",
+     "es": [
+      "etapa"
+     ],
+     "note": "stage/phase"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "level": "B2",
+   "title": "B2 · The senses & perception",
+   "file": "b2-48-senses-perception.md",
+   "items": [
+    {
+     "id": "48-0",
+     "it": "vista",
+     "es": [
+      "vista"
+     ],
+     "note": "sight"
+    },
+    {
+     "id": "48-1",
+     "it": "udito",
+     "es": [
+      "oído"
+     ],
+     "note": "hearing"
+    },
+    {
+     "id": "48-2",
+     "it": "olfatto",
+     "es": [
+      "olfato"
+     ],
+     "note": "smell (sense)"
+    },
+    {
+     "id": "48-3",
+     "it": "gusto",
+     "es": [
+      "gusto"
+     ],
+     "note": "taste (sense)"
+    },
+    {
+     "id": "48-4",
+     "it": "tatto",
+     "es": [
+      "tacto"
+     ],
+     "note": "touch"
+    },
+    {
+     "id": "48-5",
+     "it": "guardare",
+     "es": [
+      "mirar"
+     ],
+     "note": "to look"
+    },
+    {
+     "id": "48-6",
+     "it": "osservare",
+     "es": [
+      "observar"
+     ],
+     "note": ""
+    },
+    {
+     "id": "48-7",
+     "it": "notare",
+     "es": [
+      "notar",
+      "fijarse"
+     ],
+     "note": "to notice"
+    },
+    {
+     "id": "48-8",
+     "it": "udire",
+     "es": [
+      "oír"
+     ],
+     "note": "to hear"
+    },
+    {
+     "id": "48-9",
+     "it": "annusare",
+     "es": [
+      "oler"
+     ],
+     "note": "to sniff"
+    },
+    {
+     "id": "48-10",
+     "it": "toccare",
+     "es": [
+      "tocar"
+     ],
+     "note": "to touch"
+    },
+    {
+     "id": "48-11",
+     "it": "gustare",
+     "es": [
+      "saborear",
+      "degustar"
+     ],
+     "note": "to savour"
+    },
+    {
+     "id": "48-12",
+     "it": "percepire",
+     "es": [
+      "percibir"
+     ],
+     "note": "to perceive"
+    },
+    {
+     "id": "48-13",
+     "it": "sembrare",
+     "es": [
+      "parecer"
+     ],
+     "note": "to seem"
+    },
+    {
+     "id": "48-14",
+     "it": "apparire",
+     "es": [
+      "aparecer"
+     ],
+     "note": "to appear"
+    },
+    {
+     "id": "48-15",
+     "it": "sparire",
+     "es": [
+      "desaparecer"
+     ],
+     "note": "to disappear"
+    },
+    {
+     "id": "48-16",
+     "it": "rumore",
+     "es": [
+      "ruido"
+     ],
+     "note": "noise"
+    },
+    {
+     "id": "48-17",
+     "it": "suono",
+     "es": [
+      "sonido"
+     ],
+     "note": "sound"
+    },
+    {
+     "id": "48-18",
+     "it": "odore",
+     "es": [
+      "olor"
+     ],
+     "note": "smell"
+    },
+    {
+     "id": "48-19",
+     "it": "profumo",
+     "es": [
+      "perfume",
+      "aroma"
+     ],
+     "note": "scent"
+    },
+    {
+     "id": "48-20",
+     "it": "puzza",
+     "es": [
+      "peste",
+      "mal olor"
+     ],
+     "note": "stench"
+    },
+    {
+     "id": "48-21",
+     "it": "sapore",
+     "es": [
+      "sabor"
+     ],
+     "note": "flavour"
+    },
+    {
+     "id": "48-22",
+     "it": "luce",
+     "es": [
+      "luz"
+     ],
+     "note": "light"
+    },
+    {
+     "id": "48-23",
+     "it": "buio",
+     "es": [
+      "oscuridad"
+     ],
+     "note": "darkness"
+    },
+    {
+     "id": "48-24",
+     "it": "ombra",
+     "es": [
+      "sombra"
+     ],
+     "note": "shadow"
+    },
+    {
+     "id": "48-25",
+     "it": "riflesso",
+     "es": [
+      "reflejo"
+     ],
+     "note": "reflection"
+    },
+    {
+     "id": "48-26",
+     "it": "cieco",
+     "es": [
+      "ciego"
+     ],
+     "note": "blind"
+    },
+    {
+     "id": "48-27",
+     "it": "sordo",
+     "es": [
+      "sordo"
+     ],
+     "note": "deaf"
+    },
+    {
+     "id": "48-28",
+     "it": "muto",
+     "es": [
+      "mudo"
+     ],
+     "note": "mute"
+    },
+    {
+     "id": "48-29",
+     "it": "scorgere",
+     "es": [
+      "divisar",
+      "vislumbrar"
+     ],
+     "note": "to make out/glimpse"
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "level": "B2",
+   "title": "B2 · Tools & DIY",
+   "file": "b2-49-tools-diy.md",
+   "items": [
+    {
+     "id": "49-0",
+     "it": "attrezzo",
+     "es": [
+      "herramienta"
+     ],
+     "note": "tool"
+    },
+    {
+     "id": "49-1",
+     "it": "strumento",
+     "es": [
+      "instrumento",
+      "herramienta"
+     ],
+     "note": ""
+    },
+    {
+     "id": "49-2",
+     "it": "martello",
+     "es": [
+      "martillo"
+     ],
+     "note": "hammer"
+    },
+    {
+     "id": "49-3",
+     "it": "chiodo",
+     "es": [
+      "clavo"
+     ],
+     "note": "nail"
+    },
+    {
+     "id": "49-4",
+     "it": "vite",
+     "es": [
+      "tornillo"
+     ],
+     "note": "screw (also = vine)"
+    },
+    {
+     "id": "49-5",
+     "it": "cacciavite",
+     "es": [
+      "destornillador"
+     ],
+     "note": "screwdriver"
+    },
+    {
+     "id": "49-6",
+     "it": "trapano",
+     "es": [
+      "taladro"
+     ],
+     "note": "drill"
+    },
+    {
+     "id": "49-7",
+     "it": "sega",
+     "es": [
+      "sierra"
+     ],
+     "note": "saw"
+    },
+    {
+     "id": "49-8",
+     "it": "pinza",
+     "es": [
+      "alicates",
+      "pinza"
+     ],
+     "note": "pliers"
+    },
+    {
+     "id": "49-9",
+     "it": "tenaglia",
+     "es": [
+      "tenazas"
+     ],
+     "note": "pincers"
+    },
+    {
+     "id": "49-10",
+     "it": "scaletta",
+     "es": [
+      "escalera de mano"
+     ],
+     "note": "stepladder"
+    },
+    {
+     "id": "49-11",
+     "it": "livella",
+     "es": [
+      "nivel"
+     ],
+     "note": "spirit level"
+    },
+    {
+     "id": "49-12",
+     "it": "lima",
+     "es": [
+      "lima"
+     ],
+     "note": "file"
+    },
+    {
+     "id": "49-13",
+     "it": "bullone",
+     "es": [
+      "perno",
+      "tornillo"
+     ],
+     "note": "bolt"
+    },
+    {
+     "id": "49-14",
+     "it": "dado",
+     "es": [
+      "tuerca"
+     ],
+     "note": "nut (also = dice)"
+    },
+    {
+     "id": "49-15",
+     "it": "rondella",
+     "es": [
+      "arandela"
+     ],
+     "note": "washer"
+    },
+    {
+     "id": "49-16",
+     "it": "nastro",
+     "es": [
+      "cinta"
+     ],
+     "note": "tape/ribbon"
+    },
+    {
+     "id": "49-17",
+     "it": "secchio",
+     "es": [
+      "cubo"
+     ],
+     "note": "bucket"
+    },
+    {
+     "id": "49-18",
+     "it": "scopa",
+     "es": [
+      "escoba"
+     ],
+     "note": "broom"
+    },
+    {
+     "id": "49-19",
+     "it": "spazzola",
+     "es": [
+      "cepillo"
+     ],
+     "note": "brush"
+    },
+    {
+     "id": "49-20",
+     "it": "straccio",
+     "es": [
+      "trapo"
+     ],
+     "note": "rag"
+    },
+    {
+     "id": "49-21",
+     "it": "casco",
+     "es": [
+      "casco"
+     ],
+     "note": "helmet"
+    },
+    {
+     "id": "49-22",
+     "it": "pala",
+     "es": [
+      "pala"
+     ],
+     "note": "shovel"
+    },
+    {
+     "id": "49-23",
+     "it": "rastrello",
+     "es": [
+      "rastrillo"
+     ],
+     "note": "rake"
+    },
+    {
+     "id": "49-24",
+     "it": "carriola",
+     "es": [
+      "carretilla"
+     ],
+     "note": "wheelbarrow"
+    },
+    {
+     "id": "49-25",
+     "it": "tubo",
+     "es": [
+      "tubo"
+     ],
+     "note": "pipe/tube"
+    },
+    {
+     "id": "49-26",
+     "it": "interruttore",
+     "es": [
+      "interruptor"
+     ],
+     "note": "switch"
+    },
+    {
+     "id": "49-27",
+     "it": "presa",
+     "es": [
+      "enchufe"
+     ],
+     "note": "socket (also = grip)"
+    },
+    {
+     "id": "49-28",
+     "it": "lampadina",
+     "es": [
+      "bombilla"
+     ],
+     "note": "light bulb"
+    },
+    {
+     "id": "49-29",
+     "it": "batteria",
+     "es": [
+      "pila",
+      "batería"
+     ],
+     "note": "battery"
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "level": "B2",
+   "title": "B2 · Plants & gardening",
+   "file": "b2-50-plants-gardening.md",
+   "items": [
+    {
+     "id": "50-0",
+     "it": "giardinaggio",
+     "es": [
+      "jardinería"
+     ],
+     "note": "gardening"
+    },
+    {
+     "id": "50-1",
+     "it": "orto",
+     "es": [
+      "huerto",
+      "huerta"
+     ],
+     "note": "vegetable garden"
+    },
+    {
+     "id": "50-2",
+     "it": "aiuola",
+     "es": [
+      "parterre",
+      "arriate"
+     ],
+     "note": "flower bed"
+    },
+    {
+     "id": "50-3",
+     "it": "siepe",
+     "es": [
+      "seto"
+     ],
+     "note": "hedge"
+    },
+    {
+     "id": "50-4",
+     "it": "vaso",
+     "es": [
+      "maceta"
+     ],
+     "note": "flowerpot (vs *bicchiere* = glass)"
+    },
+    {
+     "id": "50-5",
+     "it": "terriccio",
+     "es": [
+      "mantillo",
+      "tierra"
+     ],
+     "note": "potting soil"
+    },
+    {
+     "id": "50-6",
+     "it": "concime",
+     "es": [
+      "abono",
+      "fertilizante"
+     ],
+     "note": "fertilizer"
+    },
+    {
+     "id": "50-7",
+     "it": "annaffiare",
+     "es": [
+      "regar"
+     ],
+     "note": "to water"
+    },
+    {
+     "id": "50-8",
+     "it": "potare",
+     "es": [
+      "podar"
+     ],
+     "note": "to prune"
+    },
+    {
+     "id": "50-9",
+     "it": "piantare",
+     "es": [
+      "plantar"
+     ],
+     "note": "to plant"
+    },
+    {
+     "id": "50-10",
+     "it": "seminare",
+     "es": [
+      "sembrar"
+     ],
+     "note": "to sow"
+    },
+    {
+     "id": "50-11",
+     "it": "germoglio",
+     "es": [
+      "brote"
+     ],
+     "note": "sprout"
+    },
+    {
+     "id": "50-12",
+     "it": "bocciolo",
+     "es": [
+      "capullo"
+     ],
+     "note": "bud"
+    },
+    {
+     "id": "50-13",
+     "it": "petalo",
+     "es": [
+      "pétalo"
+     ],
+     "note": "petal"
+    },
+    {
+     "id": "50-14",
+     "it": "stelo",
+     "es": [
+      "tallo"
+     ],
+     "note": "stem"
+    },
+    {
+     "id": "50-15",
+     "it": "spina",
+     "es": [
+      "espina"
+     ],
+     "note": "thorn"
+    },
+    {
+     "id": "50-16",
+     "it": "tronco",
+     "es": [
+      "tronco"
+     ],
+     "note": "trunk"
+    },
+    {
+     "id": "50-17",
+     "it": "corteccia",
+     "es": [
+      "corteza"
+     ],
+     "note": "bark"
+    },
+    {
+     "id": "50-18",
+     "it": "serra",
+     "es": [
+      "invernadero"
+     ],
+     "note": "greenhouse"
+    },
+    {
+     "id": "50-19",
+     "it": "zappa",
+     "es": [
+      "azada"
+     ],
+     "note": "hoe"
+    },
+    {
+     "id": "50-20",
+     "it": "annaffiatoio",
+     "es": [
+      "regadera"
+     ],
+     "note": "watering can"
+    },
+    {
+     "id": "50-21",
+     "it": "margherita",
+     "es": [
+      "margarita"
+     ],
+     "note": "daisy"
+    },
+    {
+     "id": "50-22",
+     "it": "girasole",
+     "es": [
+      "girasol"
+     ],
+     "note": "sunflower"
+    },
+    {
+     "id": "50-23",
+     "it": "tulipano",
+     "es": [
+      "tulipán"
+     ],
+     "note": "tulip"
+    },
+    {
+     "id": "50-24",
+     "it": "papavero",
+     "es": [
+      "amapola"
+     ],
+     "note": "poppy"
+    },
+    {
+     "id": "50-25",
+     "it": "quercia",
+     "es": [
+      "roble"
+     ],
+     "note": "oak"
+    },
+    {
+     "id": "50-26",
+     "it": "pino",
+     "es": [
+      "pino"
+     ],
+     "note": "pine"
+    },
+    {
+     "id": "50-27",
+     "it": "abete",
+     "es": [
+      "abeto"
+     ],
+     "note": "fir"
+    },
+    {
+     "id": "50-28",
+     "it": "palma",
+     "es": [
+      "palmera"
+     ],
+     "note": "palm tree"
+    },
+    {
+     "id": "50-29",
+     "it": "cactus",
+     "es": [
+      "cactus"
+     ],
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

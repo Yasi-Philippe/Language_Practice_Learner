@@ -1,0 +1,15 @@
+{
+  "name": "Ripasso — Italiano → Español",
+  "short_name": "Ripasso",
+  "description": "Personal Italian → Spanish vocabulary drills.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe6",
+  "theme_color": "#c15b3c",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

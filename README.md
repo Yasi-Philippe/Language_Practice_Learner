@@ -15,11 +15,12 @@ This build was made with an **Italian → Spanish** connection in mind, but noth
 1. The app shows an Italian word or expression.
 2. You type its meaning in Spanish. Checking is **forgiving** — multiple accepted answers, and case/accents/small typos are ignored.
 3. If you're right, the Italian hides and you type it **back** from memory (a spelling drill) to advance.
-4. Failed words come back more often. Categories are worked through in order, and every 3 categories a **review round** reinforces what you've missed.
-5. **You can correct the app.** If a word is marked wrong but your answer was actually valid, accept it — the fail is removed and your answer is saved as a new accepted translation.
-6. A **cumulative timer** tracks your total training time across every category, so you can see how many hours you've put in.
+4. Failed words come back more often. You go through categories in order; every 3 categories, two **review rounds** reinforce older words — a normal one (most-missed + random) and a **reverse** one (Spanish → Italian, strict). Review rounds repeat until you clear them in one clean pass, just like categories.
+5. **Overrides.** Don't know a word? *I don't know* marks it missed. Sure you were right? *I had it right* cancels that fail and passes the word — without changing the stored answers.
+6. A **cumulative timer** tracks your total training time, capped at 30 s per word so idle time never inflates it.
+7. **Extra** practice sets sit off the main path (first one: Numbers 0–100), and a **Stats** page shows time per category, tries-to-pass, and your tricky words.
 
-The full algorithm — categories, review rounds, recovery/reset rules, skip conditions, self-correction, and the training timer — lives in **[docs/app-concept.md](docs/app-concept.md)**.
+The full algorithm — categories, both review rounds, recovery/reset, skip conditions, overrides, the AFK-capped timer, and extra categories — lives in **[docs/app-concept.md](docs/app-concept.md)**.
 
 ---
 
@@ -48,13 +49,22 @@ Re-run it after changing any category file. It rebuilds the dictionary and flags
 ```
 Language_Practice_Learner/
 ├── README.md                 ← you are here
+├── app/                      the PWA (serve this folder)
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js                UI + drill logic
+│   ├── data.json             generated vocabulary (from docs/data)
+│   ├── manifest.webmanifest
+│   ├── sw.js                 offline service worker
+│   └── icon.svg
 ├── docs/
 │   ├── app-concept.md        functionality & algorithm
 │   ├── categories.md         master category list (by CEFR level)
 │   ├── dictionary.md         auto-generated index of all Italian terms
 │   └── data/                 per-category word files (a1-01-numbers.md, …)
 └── scripts/
-    └── build_dictionary.py   regenerates docs/dictionary.md
+    ├── build_dictionary.py   regenerates docs/dictionary.md
+    └── build_data.py         regenerates app/data.json
 ```
 
 ---
@@ -62,8 +72,20 @@ Language_Practice_Learner/
 ## Status
 
 - **Data:** A1, A2 and B1 complete, B2 in progress — **50 categories, 1,500 terms** so far (0 duplicates). More B2+ themes still to add.
-- **App:** not built yet. Current phase is gathering and curating the vocabulary.
+- **App:** **built** — a no-build PWA in [app/](app/): category trail (sequential unlock), progress %, level badge, AFK-capped timer, the drill loop with forgiving checking + reverse-spelling, **review rounds** every 3 categories *plus a reverse round* (Spanish→Italian, strict), recovery/reset, **I don't know** / **I had it right** overrides, **Extra categories** (off-path practice; first: Numbers 0–100), and a **Stats** page (time per category, attempts-to-pass, tricky words). Theme toggle on every screen. All saved locally.
+- **Grammar:** [docs/learning-roadmap.md](docs/learning-roadmap.md) — the concepts to self-study per CEFR level (the app covers vocabulary; this covers structure).
 
-## Planned stack
+## Running it
 
-A **PWA** (installable, offline web app) — reuses web skills, runs on Android from the home screen, no server needed. Likely Vite + Svelte, with the vocabulary shipped as a local SQLite/JSON store. See [docs/app-concept.md](docs/app-concept.md) for the reasoning.
+It's a static PWA — regenerate the data, then serve the `app/` folder:
+
+```bash
+python3 scripts/build_data.py                 # rebuild app/data.json after editing categories
+python3 -m http.server 8137 --directory app   # then open http://localhost:8137
+```
+
+On Android, host `app/` (e.g. GitHub Pages) and use **Add to Home Screen** to install it offline.
+
+## Stack
+
+A **PWA** (installable, offline) — runs on Android from the home screen, no server needed. Built as a **no-build PWA** (plain HTML/CSS/JS, zero toolchain) with the vocabulary shipped as a local `data.json`. See [docs/app-concept.md](docs/app-concept.md) for the reasoning.

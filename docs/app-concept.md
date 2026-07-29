@@ -18,7 +18,7 @@ It does **not** teach the basics of Italian (grammar, rules, pronunciation) — 
 1. The app shows an Italian **word or expression**.
 2. The user types its meaning in **Spanish**.
 3. The app checks the answer (forgiving — see §6) and records it pass / fail.
-4. **Reverse spelling.** If the Spanish was correct, the Italian word is **hidden**. With only the typed Spanish visible, the user must type the **Italian** word back to advance — a quick spelling drill. Retry until it's right; this step **gates advancement but does not change the pass/fail score** (the score is set by the Spanish answer in step 2). Spelling matters here (case/accents may be forgiven, but the letters must be right).
+4. **Reverse spelling.** If the Spanish was correct, the Italian word is **hidden**. With only the typed Spanish visible, the user must type the **Italian** word back to advance — a quick spelling drill. Retry until it's right; this step **gates advancement but does not change the pass/fail score** (the score is set by the Spanish answer in step 2). Spelling matters here — **only capitalization is ignored; accents and everything else must be typed exactly** (accents are part of Italian spelling).
 5. The next item appears. **Failed items are more likely to come back.**
 
 Direction for scoring is always **Italian → Spanish** (see the Italian, recall the meaning); the reverse-spelling step only reinforces how the Italian word is written.
@@ -52,7 +52,7 @@ After every **3 completed categories**, a review round runs. It reinforces earli
 
 - It contains **20 items**:
   - **10** = the **most-failed** items so far (across all past categories).
-  - **10** = **random** items from the whole pool (any fail count, including zero).
+  - **10** = **random** items **from words already seen** (past/completed categories only — never future ones), any fail count including zero.
 - Rules:
   - **No duplicates** — the 10 random items must not already appear in the 10 failed.
   - **Ties** in fail count → choose at random among the tied items.
@@ -62,6 +62,10 @@ After every **3 completed categories**, a review round runs. It reinforces earli
 **Recovery — clearing a word's fail history:**
 - In a review round, if a word from the **most-failed** group is answered **correctly on the first attempt**, it earns a **recovery mark**.
 - The **second** recovery mark (first-attempt-correct again in a *later* review round) **resets that word's fail count to 0** — the word is considered relearned and leaves the most-failed pool.
+
+**Reverse round (second checkpoint round):** immediately after each review round, a second **reverse** round runs — **20 random already-seen words** (fail count ignored), shown in **Spanish** for the user to type in **Italian**, checked **strictly** (only capitalization forgiven). It records nothing — pure production practice — and runs even if the normal review was skipped.
+
+**Both review rounds behave like categories:** any miss **refills the whole 20-word set**, and you repeat until you clear it in one clean pass. (The normal round still records fails and awards recovery marks on first-attempt-correct — first pass only; the reverse round records nothing, so the refill alone drives the repetition.)
 
 ---
 
@@ -84,16 +88,15 @@ After every **3 completed categories**, a review round runs. It reinforces earli
 
 ---
 
-## 8. Correcting a wrong "fail" (user override)
+## 8. Overrides — "I don't know" and "I had it right"
 
-We accept that our stored answers may be incomplete or wrong, so the user can fix them on the spot.
+Two buttons let the user steer a fail:
 
-- After an item is marked **failed**, the user gets an option: **"I was right — accept my answer."**
-- If they confirm, the app:
-  1. **Removes the fail** (it no longer counts against the item), and
-  2. **Adds the answer the user typed** to that item's list of **accepted answers**, permanently — so it will be accepted from then on.
-- This is a **deliberate, explicit action** (a confirm), never automatic — that prevents accidentally saving a typo as a valid answer.
-- Effect: the vocabulary data improves over time, shaped by the user. The user is the final authority on what counts as a correct translation.
+- **"I don't know"** (before checking) — the user skips typing; the item is marked **failed**. Cleaner than typing a wrong guess on purpose.
+- **"I had it right"** (after a wrong verdict) — the user overrides the miss. It **does not change the vocabulary data** (nothing is added to the accepted answers — the earlier "edit the data" idea was dropped). It only:
+  1. counts the item as **correct for this round** (so it won't trigger a refill), and
+  2. **cancels the fail** that would otherwise be recorded (prior history is kept; no new fail is added).
+  It doubles as an escape hatch when our stored answer is too strict, and as a way to move past a word when tired of repeating it.
 
 ---
 
@@ -104,10 +107,23 @@ A single cumulative timer tracks total training time.
 - Whenever the user is **inside a category** (actively drilling), the timer runs. It also runs during review rounds.
 - The timer **never resets**: when the user opens the next category, it **continues from where it left off**. It is one ever-growing total across the whole life of the app — not per-session or per-category.
 - Purpose: let the user see how long they've trained overall (e.g. *"I've trained vocabulary for 300 hours"*).
+- **AFK cap:** time is measured per screen and capped at **30 seconds** per item. If more than 30s pass on one word (user stepped away), only 30s is counted.
 
 ---
 
-## 10. Out of scope
+## 10. Extra categories
+
+Optional practice sets **off the main path** (reached via the **Extra** button on home, or from Stats). Doable anytime, any order.
+
+- Their words **do not** count toward level, progress %, the fail list, or review rounds.
+- Their **time does** count (the timer is universal) and appears in Stats like any category.
+- Stats keeps a short **history** per set (attempts, best score).
+- Missed words in extra sets are tracked in a **separate tricky-words list** (Stats → *Extra · tricky words*), **fully independent** of the main fail list and review rounds.
+- First set: **Numbers 0–100** — shown as digits, typed in Italian, strict checking (only capitalization forgiven).
+
+---
+
+## 11. Out of scope
 
 - Teaching grammar, rules, or pronunciation basics.
 - Multiple choice — answers are always **typed**.
