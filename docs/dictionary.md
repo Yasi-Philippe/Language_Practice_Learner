@@ -1,0 +1,1576 @@
+# Dictionary — all Italian terms
+
+Auto-generated from `docs/data/*.md` by `scripts/build_dictionary.py`. **Do not edit by hand** — re-run the script after changing categories.
+
+Total terms: **1500** · unique: **1500**
+
+## All terms (A–Z)
+
+**A**
+
+- a — A1 · Question words & connectors
+- a buon mercato — B1 · Idioms & fixed expressions
+- a domani — A1 · Greetings & courtesy
+- a occhio e croce — B1 · Idioms & fixed expressions
+- a poco a poco — A2 · Common expressions (basic idioms)
+- a presto — A1 · Greetings & courtesy
+- a proposito — A2 · Common expressions (basic idioms)
+- a volte — A2 · Time expressions & adverbs
+- abbraccio — B2 · Relationships & social life
+- abete — B2 · Plants & gardening
+- abito — A1 · Clothing
+- abituarsi a — B1 · Verb + preposition constructions
+- abitudine — B1 · Abstract feelings & opinions
+- accanto — B2 · Directions, shapes & measurement
+- accendere — B1 · Technology & internet
+- accento — B2 · Communication & language
+- acciaio — B2 · Materials & substances
+- accorgersi di — B1 · Verb + preposition constructions
+- accusa — B2 · Law & justice
+- acqua — A1 · Food & drink (basics)
+- acqua in bocca — B1 · Idioms & fixed expressions
+- adesso — A2 · Time expressions & adverbs
+- aereo — A2 · Transport & travel
+- aeroporto — A2 · The city & places
+- affari — B2 · Business & the workplace
+- afferrare — B2 · Advanced verbs (actions)
+- affettuoso — B2 · Character & personality (advanced)
+- affidabile — B2 · Character & personality (advanced)
+- affresco — B2 · Art & culture
+- aggiungere — B2 · Advanced verbs (actions)
+- aglio — A2 · Food (expanded)
+- agosto — A1 · Days, months, seasons & time
+- aiuola — B2 · Plants & gardening
+- albergo — A2 · The city & places
+- albero — A1 · Weather & nature (basics)
+- allegato — B1 · Technology & internet
+- allegro — A2 · Describing people (adjectives)
+- allenamento — B1 · Sports & hobbies
+- allenatore — B1 · Sports & hobbies
+- allergia — A2 · Health & the doctor
+- allo stesso tempo — A2 · Common expressions (basic idioms)
+- allora — A1 · Question words & connectors
+- alluvione — B1 · Nature & environment (expanded)
+- altezza — B2 · Directions, shapes & measurement
+- alto — A2 · Describing people (adjectives)
+- alzare il gomito — B1 · Idioms & fixed expressions
+- amante — B2 · Relationships & social life
+- amare — A2 · Emotions & feelings
+- ambiente — B1 · Nature & environment (expanded)
+- ambizioso — B2 · Character & personality (advanced)
+- amica — A1 · Family & people
+- amicizia — B2 · Relationships & social life
+- amico — A1 · Family & people
+- ammalarsi — A2 · Health & the doctor
+- amore — A2 · Emotions & feelings
+- anche — A1 · Question words & connectors
+- ancora — A2 · Time expressions & adverbs
+- andare — A1 · Common verbs
+- angolo — A2 · The city & places
+- anguria — A2 · Food (expanded)
+- annaffiare — B2 · Plants & gardening
+- annaffiatoio — B2 · Plants & gardening
+- anniversario — B2 · Relationships & social life
+- anno — A1 · Days, months, seasons & time
+- annoiato — A2 · Emotions & feelings
+- annusare — B2 · The senses & perception
+- antichità — B2 · Time, history & sequence
+- anticipo — B2 · Time, history & sequence
+- antico — B2 · Art & culture
+- antipatico — A2 · Describing people (adjectives)
+- ape — A1 · Animals
+- apparire — B2 · The senses & perception
+- appena — A2 · Time expressions & adverbs
+- applicazione — B1 · Technology & internet
+- appoggiare — B2 · Advanced verbs (actions)
+- appuntamento — B2 · Relationships & social life
+- appuntito — B2 · Advanced adjectives (qualities of things)
+- aprile — A1 · Days, months, seasons & time
+- aprire — B2 · Advanced verbs (actions)
+- arancia — A2 · Food (expanded)
+- arancione — A1 · Colors
+- arbitro — B1 · Sports & hobbies
+- architetto — A2 · Work & professions
+- architettura — B2 · Art & culture
+- arcobaleno — A1 · Weather & nature (basics)
+- argento — A1 · Colors
+- argilla — B2 · Materials & substances
+- armadio — A1 · House & rooms
+- arrabbiato — A2 · Emotions & feelings
+- arresto — B2 · Law & justice
+- arrivederci — A1 · Greetings & courtesy
+- arrivo — A2 · Transport & travel
+- arrostire — B2 · Cooking & the kitchen
+- arte — B2 · Art & culture
+- arteria — B2 · The human body — internal & medical
+- articolazione — B2 · The human body — internal & medical
+- artista — B2 · Art & culture
+- asciutto — B2 · Advanced adjectives (qualities of things)
+- ascoltare — B2 · Communication & language
+- asino — A1 · Animals
+- assaggiare — B2 · Cooking & the kitchen
+- assicurazione — B2 · Economy & finance
+- assistere a — B1 · Verb + preposition constructions
+- assunzione — B2 · Business & the workplace
+- atomo — B2 · Science & research
+- attimo — B2 · Time, history & sequence
+- attore — A2 · Work & professions
+- attrezzo — B2 · Tools & DIY
+- attualmente — A2 · Time expressions & adverbs
+- aula — A2 · School & education
+- auto — A2 · Transport & travel
+- autobus — A2 · Transport & travel
+- autore — B1 · Media & entertainment
+- autunno — A1 · Days, months, seasons & time
+- avanti — B2 · Directions, shapes & measurement
+- avaro — B2 · Character & personality (advanced)
+- avere — A1 · Common verbs
+- avere bisogno di — B1 · Verb + preposition constructions
+- avere la testa tra le nuvole — B1 · Idioms & fixed expressions
+- avere un diavolo per capello — B1 · Idioms & fixed expressions
+- avere voglia di — B1 · Verb + preposition constructions
+- avorio — A1 · Colors
+- avvenimento — B2 · Time, history & sequence
+- avvertire — B2 · Communication & language
+- avvocato — A2 · Work & professions
+- azienda — B2 · Business & the workplace
+- azione — B2 · Economy & finance
+- azzurro — A1 · Colors
+
+**B**
+
+- bacio — B2 · Relationships & social life
+- bagaglio — A2 · Transport & travel
+- bagnato — B2 · Advanced adjectives (qualities of things)
+- bagno — A1 · House & rooms
+- ballare — B1 · Media & entertainment
+- ballo — B1 · Sports & hobbies
+- bambina — A1 · Family & people
+- bambino — A1 · Family & people
+- banana — A2 · Food (expanded)
+- banca — A2 · The city & places
+- banco — A2 · School & education
+- bancomat — B2 · Economy & finance
+- banconota — A2 · Shopping & money
+- bandiera — B1 · Society & politics
+- bar — A2 · The city & places
+- barca — A2 · Transport & travel
+- basso — A2 · Describing people (adjectives)
+- batteria — B2 · Tools & DIY
+- battito — B2 · The human body — internal & medical
+- beige — A1 · Colors
+- bello — A2 · Describing people (adjectives)
+- benda — A2 · Health & the doctor
+- bene — A1 · Greetings & courtesy
+- benvenuto — A1 · Greetings & courtesy
+- benzina — A2 · Transport & travel
+- bere — A1 · Common verbs
+- bianco — A1 · Colors
+- biblioteca — A2 · The city & places
+- bicchiere — B2 · Cooking & the kitchen
+- bicicletta — A2 · Transport & travel
+- biglietto — A2 · Transport & travel
+- bilancio — B2 · Business & the workplace
+- binario — A2 · Transport & travel
+- biondo — A2 · Describing people (adjectives)
+- birra — A1 · Food & drink (basics)
+- bisogno — B1 · Abstract feelings & opinions
+- blu — A1 · Colors
+- blu scuro — A1 · Colors
+- bocca — A1 · Body parts
+- bocciolo — B2 · Plants & gardening
+- bolletta — B2 · Economy & finance
+- bollire — B2 · Cooking & the kitchen
+- bonifico — B2 · Economy & finance
+- bordeaux — A1 · Colors
+- borsa — A1 · Clothing
+- bosco — A1 · Weather & nature (basics)
+- braccio — A1 · Body parts
+- bravo — A2 · Describing people (adjectives)
+- bruno — A2 · Describing people (adjectives)
+- brutto — A2 · Describing people (adjectives)
+- bugia — B1 · Abstract feelings & opinions
+- buio — B2 · The senses & perception
+- bullone — B2 · Tools & DIY
+- buon appetito — A1 · Greetings & courtesy
+- buona giornata — A1 · Greetings & courtesy
+- buonanotte — A1 · Greetings & courtesy
+- buonasera — A1 · Greetings & courtesy
+- buongiorno — A1 · Greetings & courtesy
+- buono — A2 · Describing people (adjectives)
+- burro — A1 · Food & drink (basics)
+
+**C**
+
+- cacciavite — B2 · Tools & DIY
+- cactus — B2 · Plants & gardening
+- caffè — A1 · Food & drink (basics)
+- calcio — B1 · Sports & hobbies
+- calcolo — B2 · Science & research
+- caldo — A1 · Weather & nature (basics)
+- calendario — B2 · Time, history & sequence
+- calmo — A2 · Emotions & feelings
+- calvo — A2 · Describing people (adjectives)
+- calze — A1 · Clothing
+- calzini — A1 · Clothing
+- cambio — B2 · Economy & finance
+- camera — A1 · House & rooms
+- cameriere — A2 · Work & professions
+- camicia — A1 · Clothing
+- camion — A2 · Transport & travel
+- campionato — B1 · Sports & hobbies
+- campo — B1 · Nature & environment (expanded)
+- canale — B1 · Media & entertainment
+- cancellare — B1 · Technology & internet
+- cane — A1 · Animals
+- cantante — A2 · Work & professions
+- cantare — B1 · Media & entertainment
+- canzone — B1 · Media & entertainment
+- capelli — A1 · Body parts
+- capire — A1 · Common verbs
+- capitale — B2 · Business & the workplace
+- capo — A2 · Work & professions
+- capolavoro — B2 · Art & culture
+- cappello — A1 · Clothing
+- cappotto — A1 · Clothing
+- capra — A1 · Animals
+- carattere — B1 · Abstract feelings & opinions
+- carcere — B2 · Law & justice
+- carezza — B2 · Relationships & social life
+- caricare — B1 · Technology & internet
+- carino — A2 · Describing people (adjectives)
+- carne — A1 · Food & drink (basics)
+- caro — A2 · Shopping & money
+- carota — A2 · Food (expanded)
+- carriera — B2 · Business & the workplace
+- carriola — B2 · Tools & DIY
+- carta — B2 · Materials & substances
+- carta di credito — A2 · Shopping & money
+- cartella — B1 · Technology & internet
+- cartone — B2 · Materials & substances
+- cartone animato — B1 · Media & entertainment
+- casa — A1 · House & rooms
+- casco — B2 · Tools & DIY
+- cassa — A2 · Shopping & money
+- cassetto — A1 · House & rooms
+- cattivo — A2 · Describing people (adjectives)
+- cavallo — A1 · Animals
+- caviglia — A1 · Body parts
+- cellula — B2 · Science & research
+- cellulare — B1 · Technology & internet
+- cemento — B2 · Materials & substances
+- cena — A2 · Food (expanded)
+- cenere — B2 · Materials & substances
+- cento — A1 · Numbers & quantities
+- centro — A2 · The city & places
+- cera — B2 · Materials & substances
+- cercare di — B1 · Verb + preposition constructions
+- cerchio — B2 · Directions, shapes & measurement
+- cerotto — A2 · Health & the doctor
+- certezza — B1 · Abstract feelings & opinions
+- certo — A2 · Common expressions (basic idioms)
+- cervello — B2 · The human body — internal & medical
+- cespuglio — B1 · Nature & environment (expanded)
+- che — A1 · Question words & connectors
+- che cosa significa? — A2 · Common expressions (basic idioms)
+- che noia — A2 · Common expressions (basic idioms)
+- che peccato — A2 · Common expressions (basic idioms)
+- chi — A1 · Question words & connectors
+- chi dorme non piglia pesci — B1 · Idioms & fixed expressions
+- chiacchierata — B2 · Communication & language
+- chiaro — A1 · Colors
+- chiave — A1 · House & rooms
+- chiedere — B2 · Communication & language
+- chiesa — A2 · The city & places
+- chilo — B2 · Directions, shapes & measurement
+- chilometro — B2 · Directions, shapes & measurement
+- chiodo — B2 · Tools & DIY
+- chiudere — B2 · Advanced verbs (actions)
+- ciao — A1 · Greetings & courtesy
+- ciclismo — B1 · Sports & hobbies
+- cieco — B2 · The senses & perception
+- cielo — A1 · Weather & nature (basics)
+- ciglio — B2 · The human body — internal & medical
+- ciliegia — A2 · Food (expanded)
+- cinema — A2 · The city & places
+- cinquanta — A1 · Numbers & quantities
+- cinque — A1 · Numbers & quantities
+- cintura — A1 · Clothing
+- cioccolato — A1 · Food & drink (basics)
+- cipolla — A2 · Food (expanded)
+- città — A2 · The city & places
+- cittadino — B1 · Society & politics
+- civiltà — B2 · Time, history & sequence
+- classe — A2 · School & education
+- cliccare — B1 · Technology & internet
+- cliente — A2 · Shopping & money
+- clima — B1 · Nature & environment (expanded)
+- codardo — B2 · Character & personality (advanced)
+- colazione — A2 · Food (expanded)
+- colla — B2 · Materials & substances
+- collega — B2 · Business & the workplace
+- collegare — B1 · Technology & internet
+- collina — B1 · Nature & environment (expanded)
+- collo — A1 · Body parts
+- colloquio — B2 · Business & the workplace
+- colore — B2 · Art & culture
+- colpa — B2 · Law & justice
+- colpevole — B2 · Law & justice
+- colpire — B2 · Advanced verbs (actions)
+- coltello — B2 · Cooking & the kitchen
+- come — A1 · Question words & connectors
+- come si dice? — A2 · Common expressions (basic idioms)
+- come sta? — A1 · Greetings & courtesy
+- come stai? — A1 · Greetings & courtesy
+- come va? — A1 · Greetings & courtesy
+- cominciare a — B1 · Verb + preposition constructions
+- commesso — A2 · Work & professions
+- compagno — A2 · School & education
+- compito — A2 · School & education
+- compleanno — B2 · Relationships & social life
+- comprare — A2 · Shopping & money
+- computer — B1 · Technology & internet
+- comunicare — B2 · Communication & language
+- comunità — B2 · Relationships & social life
+- con — A1 · Question words & connectors
+- concerto — B1 · Media & entertainment
+- concime — B2 · Plants & gardening
+- concorrenza — B2 · Business & the workplace
+- condanna — B2 · Law & justice
+- condire — B2 · Cooking & the kitchen
+- confine — B1 · Society & politics
+- congelare — B2 · Cooking & the kitchen
+- coniglio — A1 · Animals
+- conoscente — B2 · Relationships & social life
+- conoscenza — B2 · Relationships & social life
+- consigliare — B2 · Communication & language
+- consistere in — B1 · Verb + preposition constructions
+- contadino — A2 · Work & professions
+- contanti — A2 · Shopping & money
+- contare su — B1 · Verb + preposition constructions
+- contento — A2 · Emotions & feelings
+- continuare a — B1 · Verb + preposition constructions
+- conto — B2 · Economy & finance
+- contratto — B2 · Business & the workplace
+- conversazione — B2 · Communication & language
+- coperchio — B2 · Cooking & the kitchen
+- coppia — A1 · Family & people
+- coraggio — B1 · Abstract feelings & opinions
+- coraggioso — B2 · Character & personality (advanced)
+- corallo — A1 · Colors
+- corda — B2 · Materials & substances
+- cornice — B2 · Art & culture
+- correre — B1 · Sports & hobbies
+- corridoio — A1 · House & rooms
+- corteccia — B2 · Plants & gardening
+- corto — B2 · Advanced adjectives (qualities of things)
+- cosa — A1 · Question words & connectors
+- coscia — B2 · The human body — internal & medical
+- coscienza — B1 · Abstract feelings & opinions
+- così così — A1 · Greetings & courtesy
+- costa — B1 · Nature & environment (expanded)
+- costare — A2 · Shopping & money
+- costare un occhio della testa — B1 · Idioms & fixed expressions
+- costi quel che costi — B1 · Idioms & fixed expressions
+- costo — B2 · Economy & finance
+- costola — B2 · The human body — internal & medical
+- costruire — B2 · Advanced verbs (actions)
+- costume — A1 · Clothing
+- cotone — B2 · Materials & substances
+- cranio — B2 · The human body — internal & medical
+- cravatta — A1 · Clothing
+- credere — A1 · Common verbs
+- credere in — B1 · Verb + preposition constructions
+- credito — B2 · Economy & finance
+- crimine — B2 · Law & justice
+- crisi — B1 · Society & politics
+- cucchiaio — B2 · Cooking & the kitchen
+- cucina — A1 · House & rooms
+- cucinare — B2 · Cooking & the kitchen
+- cugina — A1 · Family & people
+- cugino — A1 · Family & people
+- cultura — B2 · Art & culture
+- cuocere — B2 · Cooking & the kitchen
+- cuoco — A2 · Work & professions
+- cuoio — B2 · Materials & substances
+- cuore — A1 · Body parts
+- cura — A2 · Health & the doctor
+- curiosità — B1 · Abstract feelings & opinions
+- curioso — B2 · Character & personality (advanced)
+- curriculum — B2 · Business & the workplace
+
+**D**
+
+- d'accordo — A2 · Common expressions (basic idioms)
+- da — A1 · Question words & connectors
+- dado — B2 · Tools & DIY
+- dai! — A2 · Common expressions (basic idioms)
+- dare — A1 · Common verbs
+- data — B2 · Time, history & sequence
+- dato — B2 · Science & research
+- davanti — B2 · Directions, shapes & measurement
+- debito — B2 · Economy & finance
+- debole — A2 · Describing people (adjectives)
+- decennio — B2 · Time, history & sequence
+- decidere di — B1 · Verb + preposition constructions
+- delfino — A1 · Animals
+- democrazia — B1 · Society & politics
+- denaro — A2 · Shopping & money
+- dente — A1 · Body parts
+- denuncia — B2 · Law & justice
+- descrivere — B2 · Communication & language
+- deserto — B1 · Nature & environment (expanded)
+- desiderio — B1 · Abstract feelings & opinions
+- destra — B2 · Directions, shapes & measurement
+- di — A1 · Question words & connectors
+- di niente — A1 · Greetings & courtesy
+- di nuovo — A2 · Time expressions & adverbs
+- di punto in bianco — B1 · Idioms & fixed expressions
+- di solito — A2 · Time expressions & adverbs
+- di tanto in tanto — B1 · Idioms & fixed expressions
+- dialogo — B2 · Communication & language
+- dicembre — A1 · Days, months, seasons & time
+- diciannove — A1 · Numbers & quantities
+- diciassette — A1 · Numbers & quantities
+- diciotto — A1 · Numbers & quantities
+- dieci — A1 · Numbers & quantities
+- dieta — A2 · Health & the doctor
+- dietro — B2 · Directions, shapes & measurement
+- difesa — B2 · Law & justice
+- digestione — B2 · The human body — internal & medical
+- dimenticare di — B1 · Verb + preposition constructions
+- dipendente — B2 · Business & the workplace
+- dipendere da — B1 · Verb + preposition constructions
+- dipingere — B2 · Art & culture
+- dire — A1 · Common verbs
+- direzione — B2 · Directions, shapes & measurement
+- dirigente — B2 · Business & the workplace
+- diritto — B1 · Society & politics
+- disco — B1 · Media & entertainment
+- discorso — B2 · Communication & language
+- discutere — B2 · Communication & language
+- disegnare — B2 · Art & culture
+- disoccupazione — B1 · Society & politics
+- disponibile — B2 · Character & personality (advanced)
+- distanza — B2 · Directions, shapes & measurement
+- distratto — B2 · Character & personality (advanced)
+- distruggere — B2 · Advanced verbs (actions)
+- dito — A1 · Body parts
+- ditta — B2 · Business & the workplace
+- divano — A1 · House & rooms
+- divorzio — B2 · Relationships & social life
+- dizionario — A2 · School & education
+- dodici — A1 · Numbers & quantities
+- dolce — A1 · Food & drink (basics)
+- dolore — A2 · Health & the doctor
+- domanda — A2 · School & education
+- domani — A1 · Days, months, seasons & time
+- domenica — A1 · Days, months, seasons & time
+- donna — A1 · Family & people
+- dopo — A2 · Time expressions & adverbs
+- doppio — B2 · Directions, shapes & measurement
+- dorato — A1 · Colors
+- dormire — A1 · Common verbs
+- dottore — A2 · Work & professions
+- dove — A1 · Question words & connectors
+- dovere — A1 · Common verbs
+- dritto — B2 · Directions, shapes & measurement
+- dubbio — B1 · Abstract feelings & opinions
+- due — A1 · Numbers & quantities
+- durata — B2 · Time, history & sequence
+- duro — B2 · Advanced adjectives (qualities of things)
+
+**E**
+
+- e — A1 · Question words & connectors
+- è vero — A2 · Common expressions (basic idioms)
+- economia — B1 · Society & politics
+- economico — A2 · Shopping & money
+- edificio — A2 · The city & places
+- educato — A2 · Describing people (adjectives)
+- egoista — B2 · Character & personality (advanced)
+- elastico — B2 · Advanced adjectives (qualities of things)
+- elefante — A1 · Animals
+- elemento — B2 · Science & research
+- elettricista — A2 · Work & professions
+- elezioni — B1 · Society & politics
+- emozione — B1 · Abstract feelings & opinions
+- energia — B1 · Nature & environment (expanded)
+- epoca — B2 · Art & culture
+- erba — A1 · Weather & nature (basics)
+- errore — A2 · School & education
+- esame — A2 · School & education
+- esperimento — B2 · Science & research
+- esprimere — B2 · Communication & language
+- essere — A1 · Common verbs
+- essere al verde — B1 · Idioms & fixed expressions
+- essere in gamba — B1 · Idioms & fixed expressions
+- est — B2 · Directions, shapes & measurement
+- estate — A1 · Days, months, seasons & time
+- eternità — B2 · Time, history & sequence
+- euro — A2 · Shopping & money
+- evento — B2 · Time, history & sequence
+- evitare — B2 · Advanced verbs (actions)
+
+**F**
+
+- faccia — A1 · Body parts
+- fagioli — A2 · Food (expanded)
+- falegname — A2 · Work & professions
+- fallimento — B2 · Business & the workplace
+- famiglia — A1 · Family & people
+- fango — B2 · Materials & substances
+- fare — A1 · Common verbs
+- fare il ponte — B1 · Idioms & fixed expressions
+- fare orecchie da mercante — B1 · Idioms & fixed expressions
+- farfalla — A1 · Animals
+- farina — A2 · Food (expanded)
+- farmacia — A2 · The city & places
+- fattura — B2 · Business & the workplace
+- febbraio — A1 · Days, months, seasons & time
+- febbre — A2 · Health & the doctor
+- fegato — B2 · The human body — internal & medical
+- felice — A2 · Emotions & feelings
+- felicità — A2 · Emotions & feelings
+- felpa — A1 · Clothing
+- ferita — A2 · Health & the doctor
+- fermare — B2 · Advanced verbs (actions)
+- fermata — A2 · Transport & travel
+- ferro — B2 · Materials & substances
+- festa — B1 · Media & entertainment
+- fianco — B2 · The human body — internal & medical
+- fidanzamento — B2 · Relationships & social life
+- fidanzata — B2 · Relationships & social life
+- fidanzato — B2 · Relationships & social life
+- fidarsi di — B1 · Verb + preposition constructions
+- fiducia — B1 · Abstract feelings & opinions
+- figlia — A1 · Family & people
+- figlio — A1 · Family & people
+- file — B1 · Technology & internet
+- film — B1 · Media & entertainment
+- filo — B2 · Materials & substances
+- finanza — B2 · Economy & finance
+- fine — B2 · Time, history & sequence
+- finestra — A1 · House & rooms
+- finire di — B1 · Verb + preposition constructions
+- fiore — A1 · Weather & nature (basics)
+- fiume — A1 · Weather & nature (basics)
+- foglia — A1 · Weather & nature (basics)
+- foglio — A2 · School & education
+- forchetta — B2 · Cooking & the kitchen
+- foresta — B1 · Nature & environment (expanded)
+- formaggio — A1 · Food & drink (basics)
+- formica — A1 · Animals
+- formula — B2 · Science & research
+- fornello — B2 · Cooking & the kitchen
+- fornitore — B2 · Business & the workplace
+- forno — A1 · House & rooms
+- forse — A2 · Common expressions (basic idioms)
+- forte — A2 · Describing people (adjectives)
+- forza — B2 · Science & research
+- fra — A1 · Question words & connectors
+- fragile — B2 · Advanced adjectives (qualities of things)
+- fragola — A2 · Food (expanded)
+- frase — B2 · Communication & language
+- fratello — A1 · Family & people
+- freddo — A1 · Weather & nature (basics)
+- frequenza — B2 · Time, history & sequence
+- friggere — B2 · Cooking & the kitchen
+- frigorifero — A1 · House & rooms
+- fronte — B2 · The human body — internal & medical
+- frullatore — B2 · Cooking & the kitchen
+- frutta — A1 · Food & drink (basics)
+- fucsia — A1 · Colors
+- fulmine — A1 · Weather & nature (basics)
+- fumetto — B1 · Media & entertainment
+- fumo — B2 · Materials & substances
+- funghi — A2 · Food (expanded)
+- furbo — B2 · Character & personality (advanced)
+- furto — B2 · Law & justice
+- futuro — B2 · Time, history & sequence
+
+**G**
+
+- galleria — B2 · Art & culture
+- gallina — A1 · Animals
+- gamba — A1 · Body parts
+- gambero — A2 · Food (expanded)
+- gara — B1 · Sports & hobbies
+- gas — B2 · Materials & substances
+- gatto — A1 · Animals
+- gelato — A1 · Food & drink (basics)
+- gelosia — A2 · Emotions & feelings
+- gene — B2 · Science & research
+- generazione — B2 · Time, history & sequence
+- generoso — B2 · Character & personality (advanced)
+- gengiva — B2 · The human body — internal & medical
+- genitori — A1 · Family & people
+- gennaio — A1 · Days, months, seasons & time
+- gente — A1 · Family & people
+- gentile — A2 · Describing people (adjectives)
+- germoglio — B2 · Plants & gardening
+- ghiaccio — A1 · Weather & nature (basics)
+- ghiandola — B2 · The human body — internal & medical
+- già — A2 · Time expressions & adverbs
+- giacca — A1 · Clothing
+- giallo — A1 · Colors
+- giardinaggio — B2 · Plants & gardening
+- giardino — A1 · House & rooms
+- ginocchio — A1 · Body parts
+- giocare — A1 · Common verbs
+- giocatore — B1 · Sports & hobbies
+- gioia — A2 · Emotions & feelings
+- giornale — B1 · Media & entertainment
+- giornalista — A2 · Work & professions
+- giorno — A1 · Days, months, seasons & time
+- giovane — A2 · Describing people (adjectives)
+- giovedì — A1 · Days, months, seasons & time
+- girare — B2 · Advanced verbs (actions)
+- girasole — B2 · Plants & gardening
+- giubbotto — A1 · Clothing
+- giudice — B2 · Law & justice
+- giugno — A1 · Days, months, seasons & time
+- giurare — B2 · Law & justice
+- giustizia — B1 · Society & politics
+- gol — B1 · Sports & hobbies
+- gola — B2 · The human body — internal & medical
+- gomito — A1 · Body parts
+- gomma — A2 · School & education
+- gonna — A1 · Clothing
+- governo — B1 · Society & politics
+- grammo — B2 · Directions, shapes & measurement
+- grande — A2 · Describing people (adjectives)
+- grasso — A2 · Describing people (adjectives)
+- gratis — A2 · Shopping & money
+- grattugia — B2 · Cooking & the kitchen
+- gravità — B2 · Science & research
+- grazie — A1 · Greetings & courtesy
+- grazie mille — A1 · Greetings & courtesy
+- grigio — A1 · Colors
+- grigliare — B2 · Cooking & the kitchen
+- gruppo — B1 · Media & entertainment
+- guadagnare — B2 · Economy & finance
+- guadagno — B2 · Business & the workplace
+- guancia — A1 · Body parts
+- guanti — A1 · Clothing
+- guardare — B2 · The senses & perception
+- guarire — A2 · Health & the doctor
+- guerra — B1 · Society & politics
+- guidare — A2 · Transport & travel
+- gustare — B2 · The senses & perception
+- gusto — B2 · The senses & perception
+
+**H**
+
+- hai ragione — A2 · Common expressions (basic idioms)
+- ho fame — A2 · Common expressions (basic idioms)
+- ho sete — A2 · Common expressions (basic idioms)
+- ho sonno — A2 · Common expressions (basic idioms)
+- hobby — B1 · Sports & hobbies
+
+**I**
+
+- idea — B1 · Abstract feelings & opinions
+- idraulico — A2 · Work & professions
+- ieri — A1 · Days, months, seasons & time
+- illegale — B2 · Law & justice
+- imparare — A2 · School & education
+- impasto — B2 · Cooking & the kitchen
+- impero — B2 · Time, history & sequence
+- impiegato — A2 · Work & professions
+- impresa — B2 · Business & the workplace
+- improvvisamente — A2 · Time expressions & adverbs
+- in — A1 · Question words & connectors
+- in bocca al lupo — A2 · Common expressions (basic idioms)
+- in un batter d'occhio — B1 · Idioms & fixed expressions
+- indaco — A1 · Colors
+- indagine — B2 · Law & justice
+- indietro — B2 · Directions, shapes & measurement
+- infermiere — A2 · Work & professions
+- inflazione — B2 · Economy & finance
+- influenza — A2 · Health & the doctor
+- ingegnere — A2 · Work & professions
+- ingenuo — B2 · Character & personality (advanced)
+- ingrediente — B2 · Cooking & the kitchen
+- iniezione — A2 · Health & the doctor
+- inizio — B2 · Time, history & sequence
+- innamorarsi di — B1 · Verb + preposition constructions
+- innocente — B2 · Law & justice
+- inquinamento — B1 · Nature & environment (expanded)
+- insalata — A1 · Food & drink (basics)
+- insegnante — A2 · School & education
+- insegnare — A2 · School & education
+- inseguire — B2 · Advanced verbs (actions)
+- insetto — B1 · Nature & environment (expanded)
+- intelligente — A2 · Describing people (adjectives)
+- interesse — B2 · Economy & finance
+- internet — B1 · Technology & internet
+- interruttore — B2 · Tools & DIY
+- intestino — B2 · The human body — internal & medical
+- invenzione — B2 · Science & research
+- inverno — A1 · Days, months, seasons & time
+- investimento — B2 · Business & the workplace
+- investire — B2 · Economy & finance
+- invidia — A2 · Emotions & feelings
+- invitato — B2 · Relationships & social life
+- ipotesi — B2 · Science & research
+- isola — B1 · Nature & environment (expanded)
+- istante — A2 · Time expressions & adverbs
+
+**J**
+
+- jeans — A1 · Clothing
+
+**L**
+
+- l'unione fa la forza — B1 · Idioms & fixed expressions
+- labbra — A1 · Body parts
+- laboratorio — B2 · Science & research
+- ladro — B2 · Law & justice
+- lago — A1 · Weather & nature (basics)
+- lamentarsi di — B1 · Verb + preposition constructions
+- lampada — A1 · House & rooms
+- lampadina — B2 · Tools & DIY
+- lana — B2 · Materials & substances
+- lanciare — B2 · Advanced verbs (actions)
+- larghezza — B2 · Directions, shapes & measurement
+- largo — B2 · Advanced adjectives (qualities of things)
+- lasciare — B2 · Advanced verbs (actions)
+- latte — A1 · Food & drink (basics)
+- lavagna — A2 · School & education
+- lavorare — A1 · Common verbs
+- lavoratore — B2 · Character & personality (advanced)
+- lavoro — A2 · Work & professions
+- legale — B2 · Law & justice
+- legge — B1 · Society & politics
+- leggere — A1 · Common verbs
+- leggero — B2 · Advanced adjectives (qualities of things)
+- legno — B2 · Materials & substances
+- leone — A1 · Animals
+- letto — A1 · House & rooms
+- lezione — A2 · School & education
+- libertà — B1 · Society & politics
+- libro — A2 · School & education
+- licenziamento — B2 · Business & the workplace
+- lilla — A1 · Colors
+- lima — B2 · Tools & DIY
+- limone — A2 · Food (expanded)
+- lingua — A1 · Body parts
+- linguaggio — B2 · Communication & language
+- liquido — B2 · Materials & substances
+- liscio — B2 · Advanced adjectives (qualities of things)
+- litigare — B2 · Communication & language
+- litigio — B2 · Relationships & social life
+- litro — B2 · Directions, shapes & measurement
+- livella — B2 · Tools & DIY
+- lontano — B2 · Directions, shapes & measurement
+- luce — B2 · The senses & perception
+- lucido — B2 · Advanced adjectives (qualities of things)
+- luglio — A1 · Days, months, seasons & time
+- luna — A1 · Weather & nature (basics)
+- lunedì — A1 · Days, months, seasons & time
+- lunghezza — B2 · Directions, shapes & measurement
+- lungo — B2 · Advanced adjectives (qualities of things)
+- lupo — A1 · Animals
+
+**M**
+
+- ma — A1 · Question words & connectors
+- macchina — A2 · Transport & travel
+- madre — A1 · Family & people
+- maestro — A2 · School & education
+- magari — A2 · Common expressions (basic idioms)
+- maggio — A1 · Days, months, seasons & time
+- maglietta — A1 · Clothing
+- maglione — A1 · Clothing
+- magro — A2 · Describing people (adjectives)
+- mai — A2 · Time expressions & adverbs
+- maiale — A1 · Animals
+- mal di gola — A2 · Health & the doctor
+- mal di testa — A2 · Health & the doctor
+- malato — A2 · Health & the doctor
+- malattia — A2 · Health & the doctor
+- maleducato — B2 · Character & personality (advanced)
+- mamma — A1 · Family & people
+- man mano — B1 · Idioms & fixed expressions
+- mangiare — A1 · Common verbs
+- manifestazione — B1 · Society & politics
+- mano — A1 · Body parts
+- marca — A2 · Shopping & money
+- marciapiede — A2 · The city & places
+- mare — A1 · Weather & nature (basics)
+- margherita — B2 · Plants & gardening
+- marito — A1 · Family & people
+- marmellata — A2 · Food (expanded)
+- marmo — B2 · Materials & substances
+- marrone — A1 · Colors
+- martedì — A1 · Days, months, seasons & time
+- martello — B2 · Tools & DIY
+- marzo — A1 · Days, months, seasons & time
+- massa — B2 · Science & research
+- materia — B2 · Science & research
+- matita — A2 · School & education
+- matrimonio — B2 · Relationships & social life
+- mattina — A2 · Time expressions & adverbs
+- mattone — B2 · Materials & substances
+- meccanico — A2 · Work & professions
+- medicina — A2 · Health & the doctor
+- medico — A2 · Work & professions
+- medioevo — B2 · Time, history & sequence
+- meglio tardi che mai — B1 · Idioms & fixed expressions
+- mela — A1 · Food & drink (basics)
+- memoria — B1 · Abstract feelings & opinions
+- meno male — A2 · Common expressions (basic idioms)
+- mente — B1 · Abstract feelings & opinions
+- mentire — B2 · Communication & language
+- mento — B2 · The human body — internal & medical
+- mentre — A1 · Question words & connectors
+- mercato — A2 · The city & places
+- mercoledì — A1 · Days, months, seasons & time
+- merenda — A2 · Food (expanded)
+- mescolare — B2 · Cooking & the kitchen
+- mese — A1 · Days, months, seasons & time
+- messaggio — B1 · Technology & internet
+- mestiere — A2 · Work & professions
+- mestolo — B2 · Cooking & the kitchen
+- metà — B2 · Directions, shapes & measurement
+- metallo — B2 · Materials & substances
+- metodo — B2 · Science & research
+- metro — A2 · Transport & travel
+- mettere — A1 · Common verbs
+- mezzanotte — A2 · Time expressions & adverbs
+- mezzogiorno — A2 · Time expressions & adverbs
+- mi dispiace — A1 · Greetings & courtesy
+- microscopio — B2 · Science & research
+- miele — A2 · Food (expanded)
+- mille — A1 · Numbers & quantities
+- ministro — B1 · Society & politics
+- minuto — A2 · Time expressions & adverbs
+- misura — B2 · Science & research
+- moderno — B2 · Art & culture
+- modesto — B2 · Character & personality (advanced)
+- moglie — A1 · Family & people
+- molecola — B2 · Science & research
+- molto bene — A1 · Greetings & courtesy
+- momento — A2 · Time expressions & adverbs
+- moneta — A2 · Shopping & money
+- montagna — A1 · Weather & nature (basics)
+- monumento — B2 · Art & culture
+- morbido — B2 · Advanced adjectives (qualities of things)
+- morire — A1 · Common verbs
+- mosca — A1 · Animals
+- mostra — B2 · Art & culture
+- motivo — B1 · Abstract feelings & opinions
+- moto — A2 · Transport & travel
+- motore — A2 · Transport & travel
+- mouse — B1 · Technology & internet
+- mucca — A1 · Animals
+- multa — B2 · Law & justice
+- muovere — B2 · Advanced verbs (actions)
+- muro — A1 · House & rooms
+- muscolo — B2 · The human body — internal & medical
+- museo — A2 · The city & places
+- musica — B1 · Media & entertainment
+- mutande — A1 · Clothing
+- muto — B2 · The senses & perception
+- mutuo — B2 · Economy & finance
+
+**N**
+
+- nascondere — B2 · Advanced verbs (actions)
+- naso — A1 · Body parts
+- nastro — B2 · Tools & DIY
+- natura — B1 · Nature & environment (expanded)
+- nave — A2 · Transport & travel
+- navigare — B1 · Technology & internet
+- nazione — B1 · Society & politics
+- nebbia — A1 · Weather & nature (basics)
+- negozio — A2 · The city & places
+- nero — A1 · Colors
+- nervo — B2 · The human body — internal & medical
+- nervoso — A2 · Emotions & feelings
+- neve — A1 · Weather & nature (basics)
+- nipote — A1 · Family & people
+- no — A1 · Greetings & courtesy
+- non avere peli sulla lingua — B1 · Idioms & fixed expressions
+- non capisco — A2 · Common expressions (basic idioms)
+- non importa — A2 · Common expressions (basic idioms)
+- non lo so — A2 · Common expressions (basic idioms)
+- non vedo l'ora — A2 · Common expressions (basic idioms)
+- nonna — A1 · Family & people
+- nonno — A1 · Family & people
+- nord — B2 · Directions, shapes & measurement
+- notare — B2 · The senses & perception
+- notizia — B1 · Media & entertainment
+- notte — A2 · Time expressions & adverbs
+- novanta — A1 · Numbers & quantities
+- nove — A1 · Numbers & quantities
+- novembre — A1 · Days, months, seasons & time
+- nuotare — B1 · Sports & hobbies
+- nuoto — B1 · Sports & hobbies
+- nuvola — A1 · Weather & nature (basics)
+
+**O**
+
+- o — A1 · Question words & connectors
+- obiettivo — B1 · Abstract feelings & opinions
+- occhiali — A1 · Clothing
+- occhio — A1 · Body parts
+- occuparsi di — B1 · Verb + preposition constructions
+- oceano — B1 · Nature & environment (expanded)
+- ocra — A1 · Colors
+- odiare — A2 · Emotions & feelings
+- odio — A2 · Emotions & feelings
+- odore — B2 · The senses & perception
+- offerta — A2 · Shopping & money
+- oggi — A1 · Days, months, seasons & time
+- ogni morte di papa — B1 · Idioms & fixed expressions
+- olfatto — B2 · The senses & perception
+- olio — A1 · Food & drink (basics)
+- ombra — B2 · The senses & perception
+- onda — B1 · Nature & environment (expanded)
+- onesto — B2 · Character & personality (advanced)
+- opaco — B2 · Advanced adjectives (qualities of things)
+- opera — B2 · Art & culture
+- operaio — A2 · Work & professions
+- opinione — B1 · Abstract feelings & opinions
+- ora — A2 · Time expressions & adverbs
+- orecchio — A1 · Body parts
+- organo — B2 · The human body — internal & medical
+- orgoglio — A2 · Emotions & feelings
+- orgoglioso — B2 · Character & personality (advanced)
+- origine — B2 · Time, history & sequence
+- oro — A1 · Colors
+- orologio — B2 · Time, history & sequence
+- orso — A1 · Animals
+- orto — B2 · Plants & gardening
+- ospedale — A2 · The city & places
+- ospite — B2 · Relationships & social life
+- osservare — B2 · The senses & perception
+- osservazione — B2 · Science & research
+- osso — B2 · The human body — internal & medical
+- ottanta — A1 · Numbers & quantities
+- otto — A1 · Numbers & quantities
+- ottobre — A1 · Days, months, seasons & time
+- ovest — B2 · Directions, shapes & measurement
+
+**P**
+
+- pace — B1 · Society & politics
+- padella — B2 · Cooking & the kitchen
+- padre — A1 · Family & people
+- paesaggio — B1 · Nature & environment (expanded)
+- paese — A2 · The city & places
+- pagamento — B2 · Economy & finance
+- pagare — A2 · Shopping & money
+- pagina — A2 · School & education
+- pala — B2 · Tools & DIY
+- palcoscenico — B1 · Media & entertainment
+- palestra — B1 · Sports & hobbies
+- palla — B1 · Sports & hobbies
+- pallacanestro — B1 · Sports & hobbies
+- palma — B2 · Plants & gardening
+- palpebra — B2 · The human body — internal & medical
+- pancia — A1 · Body parts
+- pane — A1 · Food & drink (basics)
+- panino — A2 · Food (expanded)
+- pantaloni — A1 · Clothing
+- papà — A1 · Family & people
+- papavero — B2 · Plants & gardening
+- parco — A2 · The city & places
+- pareggio — B1 · Sports & hobbies
+- parete — A1 · House & rooms
+- parlamento — B1 · Society & politics
+- parlare — A1 · Common verbs
+- parola — B2 · Communication & language
+- parrucchiere — A2 · Work & professions
+- partecipare a — B1 · Verb + preposition constructions
+- partenza — A2 · Transport & travel
+- partita — B1 · Sports & hobbies
+- partito — B1 · Society & politics
+- passatempo — B1 · Sports & hobbies
+- passato — B2 · Time, history & sequence
+- passeggero — A2 · Transport & travel
+- passo dopo passo — B1 · Idioms & fixed expressions
+- password — B1 · Technology & internet
+- pasta — A1 · Food & drink (basics)
+- pastiglia — A2 · Health & the doctor
+- patata — A1 · Food & drink (basics)
+- patente — A2 · Transport & travel
+- patrimonio — B2 · Art & culture
+- paura — A2 · Emotions & feelings
+- pavimento — A1 · House & rooms
+- paziente — A2 · Health & the doctor
+- pazienza — B1 · Abstract feelings & opinions
+- pecora — A1 · Animals
+- pelle — A1 · Body parts
+- pena — B2 · Law & justice
+- penna — A2 · School & education
+- pennello — B2 · Art & culture
+- pensare — A1 · Common verbs
+- pensare a — B1 · Verb + preposition constructions
+- pensiero — B1 · Abstract feelings & opinions
+- pentirsi di — B1 · Verb + preposition constructions
+- pentola — B2 · Cooking & the kitchen
+- pepe — A1 · Food & drink (basics)
+- per — A1 · Question words & connectors
+- per favore — A1 · Greetings & courtesy
+- per fortuna — A2 · Common expressions (basic idioms)
+- per piacere — A1 · Greetings & courtesy
+- pera — A2 · Food (expanded)
+- percepire — B2 · The senses & perception
+- perché — A1 · Question words & connectors
+- perdere — B1 · Sports & hobbies
+- perdita — B2 · Business & the workplace
+- periodo — B2 · Time, history & sequence
+- permesso — A1 · Greetings & courtesy
+- però — A1 · Question words & connectors
+- persona — A1 · Family & people
+- personaggio — B1 · Media & entertainment
+- pesante — B2 · Advanced adjectives (qualities of things)
+- pesca — A2 · Food (expanded)
+- pesce — A1 · Food & drink (basics)
+- petalo — B2 · Plants & gardening
+- petto — A1 · Body parts
+- piacere — A1 · Greetings & courtesy
+- piangere — A2 · Emotions & feelings
+- pianta — B1 · Nature & environment (expanded)
+- piantare — B2 · Plants & gardening
+- pianto — A2 · Emotions & feelings
+- piatto — B2 · Advanced adjectives (qualities of things)
+- piazza — A2 · The city & places
+- piccolo — A2 · Describing people (adjectives)
+- piede — A1 · Body parts
+- piegare — B2 · Advanced verbs (actions)
+- pieno — B2 · Advanced adjectives (qualities of things)
+- pietra — A1 · Weather & nature (basics)
+- pigiama — A1 · Clothing
+- pigro — B2 · Character & personality (advanced)
+- pillola — A2 · Health & the doctor
+- pilota — A2 · Work & professions
+- pino — B2 · Plants & gardening
+- pinza — B2 · Tools & DIY
+- pioggia — A1 · Weather & nature (basics)
+- piove sul bagnato — B1 · Idioms & fixed expressions
+- piselli — A2 · Food (expanded)
+- pittore — A2 · Work & professions
+- pittura — B2 · Art & culture
+- più o meno — A2 · Common expressions (basic idioms)
+- plastica — B2 · Materials & substances
+- poesia — B1 · Media & entertainment
+- poi — A1 · Question words & connectors
+- politica — B1 · Society & politics
+- polizia — B2 · Law & justice
+- poliziotto — A2 · Work & professions
+- pollo — A1 · Food & drink (basics)
+- polmone — B2 · The human body — internal & medical
+- polso — A1 · Body parts
+- poltrona — A1 · House & rooms
+- polvere — B2 · Materials & substances
+- pomeriggio — A2 · Time expressions & adverbs
+- pomodoro — A1 · Food & drink (basics)
+- pompiere — A2 · Work & professions
+- ponte — A2 · The city & places
+- popolo — B1 · Society & politics
+- porta — A1 · House & rooms
+- portafoglio — A2 · Shopping & money
+- portatile — B1 · Technology & internet
+- porto — A2 · Transport & travel
+- posta elettronica — B1 · Technology & internet
+- potare — B2 · Plants & gardening
+- potere — A1 · Common verbs
+- povero — A2 · Describing people (adjectives)
+- povertà — B2 · Economy & finance
+- pranzo — A2 · Food (expanded)
+- prato — B1 · Nature & environment (expanded)
+- prego — A1 · Greetings & courtesy
+- premere — B2 · Advanced verbs (actions)
+- prendere — A1 · Common verbs
+- prendere due piccioni con una fava — B1 · Idioms & fixed expressions
+- prendere in giro — B1 · Idioms & fixed expressions
+- preoccuparsi di — B1 · Verb + preposition constructions
+- preoccupato — A2 · Emotions & feelings
+- presa — B2 · Tools & DIY
+- presente — B2 · Time, history & sequence
+- presidente — B1 · Society & politics
+- pressione — B2 · Science & research
+- prestare — B2 · Economy & finance
+- prestito — B2 · Economy & finance
+- presto — A2 · Time expressions & adverbs
+- prezzo — A2 · Shopping & money
+- prigione — B2 · Law & justice
+- prima — A2 · Time expressions & adverbs
+- primavera — A1 · Days, months, seasons & time
+- processo — B2 · Law & justice
+- prodotto — A2 · Shopping & money
+- professione — A2 · Work & professions
+- professore — A2 · School & education
+- profitto — B2 · Business & the workplace
+- profondità — B2 · Directions, shapes & measurement
+- profondo — B2 · Advanced adjectives (qualities of things)
+- profumo — B2 · The senses & perception
+- progetto — B2 · Business & the workplace
+- programma — B1 · Technology & internet
+- promettere — B2 · Communication & language
+- promozione — B2 · Business & the workplace
+- pronunciare — B2 · Communication & language
+- prosciutto — A2 · Food (expanded)
+- prova — B2 · Law & justice
+- provare a — B1 · Verb + preposition constructions
+- prudente — B2 · Character & personality (advanced)
+- pubblicità — B1 · Media & entertainment
+- pubblico — B2 · Art & culture
+- pulito — B2 · Advanced adjectives (qualities of things)
+- punto — B1 · Sports & hobbies
+- puoi ripetere? — A2 · Common expressions (basic idioms)
+- purtroppo — A2 · Common expressions (basic idioms)
+- puzza — B2 · The senses & perception
+
+**Q**
+
+- quaderno — A2 · School & education
+- quadrato — B2 · Advanced adjectives (qualities of things)
+- quadro — B2 · Art & culture
+- quale — A1 · Question words & connectors
+- quali — A1 · Question words & connectors
+- quando — A1 · Question words & connectors
+- quanto — A1 · Question words & connectors
+- quaranta — A1 · Numbers & quantities
+- quartiere — A2 · The city & places
+- quattordici — A1 · Numbers & quantities
+- quattro — A1 · Numbers & quantities
+- quercia — B2 · Plants & gardening
+- quindi — A1 · Question words & connectors
+- quindici — A1 · Numbers & quantities
+
+**R**
+
+- rabbia — A2 · Emotions & feelings
+- raccogliere — B2 · Advanced verbs (actions)
+- raccontare — B2 · Communication & language
+- racconto — B1 · Media & entertainment
+- radice — B1 · Nature & environment (expanded)
+- radio — B1 · Media & entertainment
+- raffreddore — A2 · Health & the doctor
+- ragazza — A1 · Family & people
+- ragazzo — A1 · Family & people
+- raggiungere — B2 · Advanced verbs (actions)
+- ragione — B1 · Abstract feelings & opinions
+- ragno — A1 · Animals
+- rame — B2 · Materials & substances
+- ramo — B1 · Nature & environment (expanded)
+- rana — A1 · Animals
+- rapporto — B2 · Relationships & social life
+- raramente — A2 · Time expressions & adverbs
+- rastrello — B2 · Tools & DIY
+- re — B2 · Time, history & sequence
+- reato — B2 · Law & justice
+- recentemente — A2 · Time expressions & adverbs
+- reddito — B2 · Economy & finance
+- regalo — A2 · Shopping & money
+- reggiseno — A1 · Clothing
+- regina — B2 · Time, history & sequence
+- regista — B1 · Media & entertainment
+- regno — B2 · Time, history & sequence
+- relazione — B2 · Relationships & social life
+- rene — B2 · The human body — internal & medical
+- resistente — B2 · Advanced adjectives (qualities of things)
+- respirare — A2 · Health & the doctor
+- respiro — B2 · The human body — internal & medical
+- restauro — B2 · Art & culture
+- resto — A2 · Shopping & money
+- rete — B1 · Technology & internet
+- ricchezza — B2 · Economy & finance
+- ricco — A2 · Describing people (adjectives)
+- ricerca — B2 · Science & research
+- ricetta — A2 · Health & the doctor
+- ricevuta — A2 · Shopping & money
+- riciclaggio — B1 · Nature & environment (expanded)
+- riconciliazione — B2 · Relationships & social life
+- ricordarsi di — B1 · Verb + preposition constructions
+- ricordo — B1 · Abstract feelings & opinions
+- ridere — A2 · Emotions & feelings
+- riempire — B2 · Advanced verbs (actions)
+- rifiuti — B1 · Nature & environment (expanded)
+- riflesso — B2 · The senses & perception
+- rigido — B2 · Advanced adjectives (qualities of things)
+- rinascimento — B2 · Time, history & sequence
+- rinunciare a — B1 · Verb + preposition constructions
+- riparare — B2 · Advanced verbs (actions)
+- ripetere — B2 · Communication & language
+- ripido — B2 · Advanced adjectives (qualities of things)
+- riposo — A2 · Health & the doctor
+- riservato — B2 · Character & personality (advanced)
+- riso — A1 · Food & drink (basics)
+- risparmiare — B2 · Economy & finance
+- risparmio — B2 · Economy & finance
+- rispetto — B1 · Abstract feelings & opinions
+- rispondere — B2 · Communication & language
+- risposta — A2 · School & education
+- ristorante — A2 · The city & places
+- risultato — B2 · Science & research
+- ritardo — B2 · Time, history & sequence
+- riunione — B2 · Business & the workplace
+- riuscire a — B1 · Verb + preposition constructions
+- rivista — B1 · Media & entertainment
+- romanzo — B1 · Media & entertainment
+- rompere — B2 · Advanced verbs (actions)
+- rompere il ghiaccio — B1 · Idioms & fixed expressions
+- rondella — B2 · Tools & DIY
+- rosa — A1 · Colors
+- rosso — A1 · Colors
+- rotondo — B2 · Advanced adjectives (qualities of things)
+- rumore — B2 · The senses & perception
+- ruota — A2 · Transport & travel
+- ruvido — B2 · Advanced adjectives (qualities of things)
+
+**S**
+
+- sabato — A1 · Days, months, seasons & time
+- sabbia — A1 · Weather & nature (basics)
+- saggezza — B1 · Abstract feelings & opinions
+- saggio — B2 · Character & personality (advanced)
+- salame — A2 · Food (expanded)
+- saldi — A2 · Shopping & money
+- sale — A1 · Food & drink (basics)
+- salotto — A1 · House & rooms
+- salsiccia — A2 · Food (expanded)
+- salute — A2 · Health & the doctor
+- salvare — B1 · Technology & internet
+- salve — A1 · Greetings & courtesy
+- sandali — A1 · Clothing
+- sangue — A1 · Body parts
+- sano — A2 · Health & the doctor
+- sapere — A1 · Common verbs
+- sapore — B2 · The senses & perception
+- sbucciare — B2 · Cooking & the kitchen
+- scacchi — B1 · Sports & hobbies
+- scadenza — B2 · Business & the workplace
+- scaffale — A1 · House & rooms
+- scala — A1 · House & rooms
+- scaletta — B2 · Tools & DIY
+- scaricare — B1 · Technology & internet
+- scarpe — A1 · Clothing
+- scegliere — B2 · Advanced verbs (actions)
+- scheletro — B2 · The human body — internal & medical
+- schermo — B1 · Technology & internet
+- schiena — A1 · Body parts
+- sciarpa — A1 · Clothing
+- scienza — B2 · Science & research
+- scienziato — B2 · Science & research
+- scimmia — A1 · Animals
+- sciocco — B2 · Character & personality (advanced)
+- sciopero — B1 · Society & politics
+- sciroppo — A2 · Health & the doctor
+- scogliera — B1 · Nature & environment (expanded)
+- sconfitta — B1 · Sports & hobbies
+- sconosciuto — B2 · Relationships & social life
+- sconto — A2 · Shopping & money
+- scontrino — A2 · Shopping & money
+- scopa — B2 · Tools & DIY
+- scoperta — B2 · Science & research
+- scopo — B1 · Abstract feelings & opinions
+- scorgere — B2 · The senses & perception
+- scrittore — A2 · Work & professions
+- scrivere — A1 · Common verbs
+- scultore — B2 · Art & culture
+- scultura — B2 · Art & culture
+- scuola — A2 · School & education
+- scuro — A1 · Colors
+- scusa — A1 · Greetings & courtesy
+- scusi — A1 · Greetings & courtesy
+- se — A1 · Question words & connectors
+- secchio — B2 · Tools & DIY
+- secolo — B2 · Art & culture
+- secondo — A2 · Time expressions & adverbs
+- secondo me — A2 · Common expressions (basic idioms)
+- sedia — A1 · House & rooms
+- sedici — A1 · Numbers & quantities
+- sega — B2 · Tools & DIY
+- sei — A1 · Numbers & quantities
+- semaforo — A2 · The city & places
+- sembrare — B2 · The senses & perception
+- seme — B1 · Nature & environment (expanded)
+- seminare — B2 · Plants & gardening
+- sempre — A2 · Time expressions & adverbs
+- senape — A1 · Colors
+- sensibile — B2 · Character & personality (advanced)
+- senso — B2 · Communication & language
+- sentenza — B2 · Law & justice
+- sentimento — B1 · Abstract feelings & opinions
+- sentire — A1 · Common verbs
+- senza — A1 · Question words & connectors
+- sera — A2 · Time expressions & adverbs
+- serie — B1 · Media & entertainment
+- serio — A2 · Describing people (adjectives)
+- serpente — A1 · Animals
+- serra — B2 · Plants & gardening
+- sessanta — A1 · Numbers & quantities
+- seta — B2 · Materials & substances
+- settanta — A1 · Numbers & quantities
+- sette — A1 · Numbers & quantities
+- settembre — A1 · Days, months, seasons & time
+- settimana — A1 · Days, months, seasons & time
+- severo — B2 · Character & personality (advanced)
+- sì — A1 · Greetings & courtesy
+- siccità — B1 · Nature & environment (expanded)
+- siepe — B2 · Plants & gardening
+- significato — B2 · Communication & language
+- silenzio — B2 · Communication & language
+- simpatico — A2 · Describing people (adjectives)
+- sincero — B2 · Character & personality (advanced)
+- sindaco — B1 · Society & politics
+- sinistra — B2 · Directions, shapes & measurement
+- sito — B1 · Technology & internet
+- smartphone — B1 · Technology & internet
+- smettere di — B1 · Verb + preposition constructions
+- società — B1 · Society & politics
+- socievole — B2 · Character & personality (advanced)
+- socio — B2 · Business & the workplace
+- soffitto — A1 · House & rooms
+- soggiorno — A1 · House & rooms
+- sogno — B1 · Abstract feelings & opinions
+- soldato — A2 · Work & professions
+- soldi — A2 · Shopping & money
+- sole — A1 · Weather & nature (basics)
+- solido — B2 · Materials & substances
+- solitudine — B2 · Relationships & social life
+- sopra — B2 · Directions, shapes & measurement
+- sopracciglio — B2 · The human body — internal & medical
+- sordo — B2 · The senses & perception
+- sorella — A1 · Family & people
+- sorpreso — A2 · Emotions & feelings
+- sorriso — A2 · Emotions & feelings
+- sospetto — B2 · Law & justice
+- sostanza — B2 · Science & research
+- sostegno — B2 · Relationships & social life
+- sotto — B2 · Directions, shapes & measurement
+- spalla — A1 · Body parts
+- sparire — B2 · The senses & perception
+- spaventato — A2 · Emotions & feelings
+- spazzola — B2 · Tools & DIY
+- specchio — A1 · House & rooms
+- specie — B1 · Nature & environment (expanded)
+- spegnere — B1 · Technology & internet
+- spendere — A2 · Shopping & money
+- speranza — A2 · Emotions & feelings
+- spesa — B2 · Economy & finance
+- spesso — A2 · Time expressions & adverbs
+- spettacolo — B1 · Media & entertainment
+- spiaggia — A1 · Weather & nature (basics)
+- spiegare — B2 · Communication & language
+- spina — B2 · Plants & gardening
+- spinaci — A2 · Food (expanded)
+- spingere — B2 · Advanced verbs (actions)
+- sporco — B2 · Advanced adjectives (qualities of things)
+- sport — B1 · Sports & hobbies
+- sportello — B2 · Economy & finance
+- sposa — B2 · Relationships & social life
+- sposo — B2 · Relationships & social life
+- spostare — B2 · Advanced verbs (actions)
+- squadra — B1 · Sports & hobbies
+- squalo — A1 · Animals
+- stampante — B1 · Technology & internet
+- stampare — B1 · Technology & internet
+- stanco — A2 · Emotions & feelings
+- stanza — A1 · House & rooms
+- stare — A1 · Common verbs
+- starnutire — A2 · Health & the doctor
+- stato — B1 · Society & politics
+- statua — B2 · Art & culture
+- stazione — A2 · The city & places
+- stella — A1 · Weather & nature (basics)
+- stelo — B2 · Plants & gardening
+- stile — B2 · Art & culture
+- stipendio — B2 · Business & the workplace
+- stivali — A1 · Clothing
+- stoffa — B2 · Materials & substances
+- stomaco — B2 · The human body — internal & medical
+- storia — B2 · Time, history & sequence
+- straccio — B2 · Tools & DIY
+- strada — A2 · The city & places
+- straniero — B2 · Relationships & social life
+- stretto — B2 · Advanced adjectives (qualities of things)
+- strumento — B2 · Tools & DIY
+- studente — A2 · School & education
+- studentessa — A2 · School & education
+- studiare — A2 · School & education
+- stupido — A2 · Describing people (adjectives)
+- su — A1 · Question words & connectors
+- subito — A2 · Time expressions & adverbs
+- successo — B2 · Business & the workplace
+- succo — A1 · Food & drink (basics)
+- sud — B2 · Directions, shapes & measurement
+- suggerire — B2 · Communication & language
+- suono — B2 · The senses & perception
+- supermercato — A2 · The city & places
+- svuotare — B2 · Advanced verbs (actions)
+
+**T**
+
+- taglia — A2 · Shopping & money
+- tagliare — B2 · Cooking & the kitchen
+- tagliere — B2 · Cooking & the kitchen
+- tale e quale — B1 · Idioms & fixed expressions
+- tallone — B2 · The human body — internal & medical
+- tappa — B2 · Time, history & sequence
+- tardi — A2 · Time expressions & adverbs
+- tartaruga — A1 · Animals
+- tassa — B2 · Economy & finance
+- tasse — B1 · Society & politics
+- tasso — B2 · Economy & finance
+- tastiera — B1 · Technology & internet
+- tatto — B2 · The senses & perception
+- tavolo — A1 · House & rooms
+- taxi — A2 · Transport & travel
+- tazza — B2 · Cooking & the kitchen
+- tè — A1 · Food & drink (basics)
+- teatro — A2 · The city & places
+- tegame — B2 · Cooking & the kitchen
+- tela — B2 · Art & culture
+- telefono — B1 · Technology & internet
+- televisione — B1 · Media & entertainment
+- televisore — B1 · Media & entertainment
+- temperatura — B2 · Science & research
+- tempo — A1 · Weather & nature (basics)
+- temporale — A1 · Weather & nature (basics)
+- tenaglia — B2 · Tools & DIY
+- tenere — B2 · Advanced verbs (actions)
+- tennis — B1 · Sports & hobbies
+- teoria — B2 · Science & research
+- terra — A1 · Weather & nature (basics)
+- terremoto — B1 · Nature & environment (expanded)
+- terriccio — B2 · Plants & gardening
+- tessuto — B2 · Materials & substances
+- testa — A1 · Body parts
+- testardo — B2 · Character & personality (advanced)
+- testimone — B2 · Law & justice
+- tetto — A1 · House & rooms
+- tifoso — B1 · Sports & hobbies
+- tigre — A1 · Animals
+- timido — A2 · Describing people (adjectives)
+- tirare — B2 · Advanced verbs (actions)
+- tirare a campare — B1 · Idioms & fixed expressions
+- titolo — B2 · Economy & finance
+- toccare — B2 · The senses & perception
+- toccare ferro — B1 · Idioms & fixed expressions
+- togliere — B2 · Advanced verbs (actions)
+- tonno — A2 · Food (expanded)
+- topo — A1 · Animals
+- tosse — A2 · Health & the doctor
+- tra — A1 · Question words & connectors
+- tradimento — B2 · Relationships & social life
+- tradizione — B2 · Art & culture
+- tradurre — B2 · Communication & language
+- trama — B1 · Media & entertainment
+- tranquillo — A2 · Emotions & feelings
+- trapano — B2 · Tools & DIY
+- trasformarsi in — B1 · Verb + preposition constructions
+- trasparente — B2 · Advanced adjectives (qualities of things)
+- tre — A1 · Numbers & quantities
+- tredici — A1 · Numbers & quantities
+- treno — A2 · Transport & travel
+- trenta — A1 · Numbers & quantities
+- triangolo — B2 · Directions, shapes & measurement
+- tribunale — B2 · Law & justice
+- triste — A2 · Emotions & feelings
+- tristezza — A2 · Emotions & feelings
+- tritare — B2 · Cooking & the kitchen
+- tronco — B2 · Plants & gardening
+- trovare — A1 · Common verbs
+- truffa — B2 · Law & justice
+- tubo — B2 · Tools & DIY
+- tulipano — B2 · Plants & gardening
+- tuono — A1 · Weather & nature (basics)
+- turchese — A1 · Colors
+- tuta — A1 · Clothing
+- tutto bene? — A2 · Common expressions (basic idioms)
+
+**U**
+
+- uccello — A1 · Animals
+- udire — B2 · The senses & perception
+- udito — B2 · The senses & perception
+- ufficio — A2 · The city & places
+- uguaglianza — B1 · Society & politics
+- umido — B2 · Advanced adjectives (qualities of things)
+- umile — B2 · Character & personality (advanced)
+- umore — B1 · Abstract feelings & opinions
+- undici — A1 · Numbers & quantities
+- unghia — A1 · Body parts
+- università — A2 · School & education
+- uno — A1 · Numbers & quantities
+- uomo — A1 · Family & people
+- uovo — A1 · Food & drink (basics)
+- uva — A2 · Food (expanded)
+
+**V**
+
+- va bene — A2 · Common expressions (basic idioms)
+- vale la pena — B1 · Idioms & fixed expressions
+- valigia — A2 · Transport & travel
+- valle — B1 · Nature & environment (expanded)
+- valuta — B2 · Economy & finance
+- vanitoso — B2 · Character & personality (advanced)
+- vaso — B2 · Plants & gardening
+- vecchio — A2 · Describing people (adjectives)
+- vedere — A1 · Common verbs
+- velocità — B2 · Science & research
+- vena — B2 · The human body — internal & medical
+- vendere — A2 · Shopping & money
+- venerdì — A1 · Days, months, seasons & time
+- venire — A1 · Common verbs
+- venti — A1 · Numbers & quantities
+- vento — A1 · Weather & nature (basics)
+- verde — A1 · Colors
+- verde chiaro — A1 · Colors
+- verde scuro — A1 · Colors
+- verdura — A1 · Food & drink (basics)
+- vergogna — A2 · Emotions & feelings
+- vergognarsi di — B1 · Verb + preposition constructions
+- verità — B1 · Abstract feelings & opinions
+- versare — B2 · Cooking & the kitchen
+- vestito — A1 · Clothing
+- vetrina — A2 · Shopping & money
+- vetro — B2 · Materials & substances
+- via — A2 · The city & places
+- viaggiare — A2 · Transport & travel
+- viaggio — A2 · Transport & travel
+- vicinato — B2 · Relationships & social life
+- vicino — B2 · Directions, shapes & measurement
+- videogioco — B1 · Media & entertainment
+- vincere — B1 · Sports & hobbies
+- vino — A1 · Food & drink (basics)
+- viola — A1 · Colors
+- viso — A1 · Body parts
+- vista — B2 · The senses & perception
+- vite — B2 · Tools & DIY
+- vittima — B2 · Law & justice
+- vittoria — B1 · Sports & hobbies
+- vivere — A1 · Common verbs
+- voce — B2 · Communication & language
+- volare — A2 · Transport & travel
+- volere — A1 · Common verbs
+- volo — A2 · Transport & travel
+- volontà — B1 · Abstract feelings & opinions
+- volpe — A1 · Animals
+- vomitare — A2 · Health & the doctor
+- votare — B1 · Society & politics
+- voto — A2 · School & education
+- vulcano — B1 · Nature & environment (expanded)
+- vuoto — B2 · Advanced adjectives (qualities of things)
+
+**Y**
+
+- yogurt — A2 · Food (expanded)
+
+**Z**
+
+- zaino — A1 · Clothing
+- zanzara — A1 · Animals
+- zappa — B2 · Plants & gardening
+- zero — A1 · Numbers & quantities
+- zia — A1 · Family & people
+- zio — A1 · Family & people
+- zucchero — A1 · Food & drink (basics)
+- zuppa — A1 · Food & drink (basics)
