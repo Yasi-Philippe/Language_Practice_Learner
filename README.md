@@ -74,7 +74,7 @@ Language_Practice_Learner/
 │   ├── data.json             generated vocabulary (from docs/data)
 │   ├── manifest.webmanifest
 │   ├── sw.js                 offline service worker
-│   └── icon.svg
+│   └── icon-192.png, icon-512.png   home-screen icons
 ├── docs/
 │   ├── app-concept.md        functionality & algorithm
 │   ├── categories.md         master category list (by CEFR level)
