@@ -61,10 +61,11 @@ button { font-family: inherit; cursor: pointer; }
 .theme-btn:active { transform: scale(.92); }
 .brand-actions { display: flex; align-items: center; gap: 10px; }
 .pill-btn {
-  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer;
   border-radius: 999px; padding: 9px 16px; font-weight: 700; font-size: 13px; transition: transform .15s;
 }
 .pill-btn:active { transform: scale(.95); }
+.pill-btn.wide { display: block; box-sizing: border-box; width: 100%; margin-top: 8px; text-align: center; }
 
 /* ===== Stats ===== */
 .empty { color: var(--muted); font-size: 14px; padding: 4px 4px 20px; }
@@ -76,7 +77,6 @@ button { font-family: inherit; cursor: pointer; }
 .bar-track > i { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
 .bar-val { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
 .bar-tries { font-size: 11px; color: var(--accent); font-variant-numeric: tabular-nums; text-align: right; min-width: 20px; }
-.pill-btn.wide { width: 100%; margin-top: 4px; text-align: center; }
 
 .tricky-cap { color: var(--muted); font-size: 12.5px; margin: 0 4px 12px; }
 .tricky { list-style: none; margin: 0 0 20px; padding: 0; }
