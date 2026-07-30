@@ -117,9 +117,10 @@ Optional practice sets **off the main path** (reached via the **Extra** button o
 
 - Their words **do not** count toward level, progress %, the fail list, or review rounds.
 - Their **time does** count (the timer is universal) and appears in Stats like any category.
-- Stats keeps a short **history** per set (attempts, best score).
+- Stats keeps a short **history** per set (attempts, and best **first-pass** score).
 - Missed words in extra sets are tracked in a **separate tricky-words list** (Stats → *Extra · tricky words*), **fully independent** of the main fail list and review rounds.
-- First set: **Numbers 0–100** — shown as digits, typed in Italian, strict checking (only capitalization forgiven).
+- **Completion — whittle-down:** go through all items once; the ones you miss come back as the next pass (only those), then only *their* misses, and so on until every one is right. Not a full refill like categories — only the misses carry forward. (E.g. 100 → miss 20 → miss 6 → … → 0.)
+- Sets: **Numbers 0–100** (digits → Italian), **Days of the week**, and **Months & seasons** (both Spanish → Italian). All typed in Italian, strict (only capitalization forgiven).
 
 ---
 

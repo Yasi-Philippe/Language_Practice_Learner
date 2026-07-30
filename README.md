@@ -4,6 +4,14 @@ A small, personal app for memorizing **Italian** vocabulary and expressions by t
 
 It does **not** teach the basics of Italian (grammar, rules, pronunciation) — you learn those elsewhere. This app is a **memorization sustain**: it drills you and keeps bringing back what you fail.
 
+## A look at it
+
+| Your path | A word to translate | Your stats |
+| :---: | :---: | :---: |
+| ![Home screen showing the category path, progress and level](pictures/home.png) | ![Drill screen: an Italian word to translate into Spanish](pictures/drill.png) | ![Stats screen: time per category and tricky words](pictures/stats.png) |
+
+---
+
 ## Any language pair
 
 This build was made with an **Italian → Spanish** connection in mind, but nothing in the app is tied to those two languages. The vocabulary is just categorized word lists in `docs/data/`, so an **LLM can regenerate the whole set for any language pair** (e.g. German → English, Japanese → French) in the same format — and the app runs unchanged.
@@ -21,6 +29,16 @@ This build was made with an **Italian → Spanish** connection in mind, but noth
 7. **Extra** practice sets sit off the main path (first one: Numbers 0–100), and a **Stats** page shows time per category, tries-to-pass, and your tricky words.
 
 The full algorithm — categories, both review rounds, recovery/reset, skip conditions, overrides, the AFK-capped timer, and extra categories — lives in **[docs/app-concept.md](docs/app-concept.md)**.
+
+---
+
+## Your data
+
+Everything you do is stored **only in your browser on that device** (`localStorage`) — no server, no account, nothing uploaded or shared. Each person who opens the link gets their own independent progress.
+
+- **Stats → Export backup / Import backup** saves your progress to a JSON file and restores it (e.g. on a new phone) — fully manual.
+- The app requests **persistent storage** so the browser won't auto-evict your data.
+- Clearing the browser's site data or uninstalling still wipes it, so export a copy now and then.
 
 ---
 

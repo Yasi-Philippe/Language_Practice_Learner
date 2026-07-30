@@ -135,8 +135,19 @@
     for (var n = 0; n <= 100; n++) { var f = italianNumber(n); items.push({ id: 'num-' + n, prompt: String(n), accepted: f, it: f[0], note: '' }); }
     return items;
   }
+  function buildPairs(prefix, pairs) {
+    return pairs.map(function (p, i) { return { id: prefix + i, prompt: p[0], accepted: [p[1]], it: p[1], note: '' }; });
+  }
+  function buildDays() {
+    return buildPairs('day-', [['lunes', 'lunedì'], ['martes', 'martedì'], ['miércoles', 'mercoledì'], ['jueves', 'giovedì'], ['viernes', 'venerdì'], ['sábado', 'sabato'], ['domingo', 'domenica']]);
+  }
+  function buildMonths() {
+    return buildPairs('mon-', [['enero', 'gennaio'], ['febrero', 'febbraio'], ['marzo', 'marzo'], ['abril', 'aprile'], ['mayo', 'maggio'], ['junio', 'giugno'], ['julio', 'luglio'], ['agosto', 'agosto'], ['septiembre', 'settembre'], ['octubre', 'ottobre'], ['noviembre', 'novembre'], ['diciembre', 'dicembre'], ['primavera', 'primavera'], ['verano', 'estate'], ['otoño', 'autunno'], ['invierno', 'inverno']]);
+  }
   var EXTRAS = [
-    { id: 'x-numbers', title: 'Numbers 0–100', kind: 'Number → Italiano', build: buildNumbers }
+    { id: 'x-numbers', title: 'Numbers 0–100', kind: 'Number → Italiano', build: buildNumbers },
+    { id: 'x-days', title: 'Days of the week', kind: 'Español → Italiano', build: buildDays },
+    { id: 'x-months', title: 'Months & seasons', kind: 'Español → Italiano', build: buildMonths }
   ];
   function extraById(id) { for (var i = 0; i < EXTRAS.length; i++) if (EXTRAS[i].id === id) return EXTRAS[i]; return null; }
 
@@ -290,6 +301,11 @@
       html += '</ul>';
     }
     html += '<button class="pill-btn wide" data-action="extrafails">Extra · tricky words ›</button>';
+    html += '<div class="section-label" style="margin-top:26px">Backup</div>';
+    html += '<div class="tricky-cap">Your progress lives only on this device. Export a copy to keep it safe; import to restore it or move to a new phone.</div>';
+    html += '<button class="pill-btn wide" data-action="export">Export backup</button>';
+    html += '<label class="pill-btn wide" for="import-file">Import backup</label>';
+    html += '<input id="import-file" type="file" accept="application/json,.json" hidden>';
     root.innerHTML = html;
   }
 
@@ -308,27 +324,34 @@
     view = 'drill'; startTick(); renderDrill();
   }
   function startExtra(def) {
-    session = { mode: 'extra', reversed: true, extra: def, queue: shuffle(def.build()), pos: 0, correctCount: 0, phase: 'answer', screen: 'item', last: null, kindLabel: def.kind, returnTo: 'extra' };
+    var items = shuffle(def.build());
+    session = { mode: 'extra', reversed: true, extra: def, queue: items, missed: [], pass: 1, firstCorrect: 0, total: items.length, pos: 0, roundFails: 0, rounds: 1, correctCount: 0, phase: 'answer', screen: 'item', last: null, kindLabel: def.kind, returnTo: 'extra' };
     view = 'drill'; startTick(); renderDrill();
   }
   function rebuildRound() {
-    session.queue = (session.mode === 'category') ? orderedRound(session.cat) : shuffle(session.queue.slice());
+    if (session.mode === 'extra') { session.queue = shuffle(session.missed.slice()); session.missed = []; session.pass++; }
+    else if (session.mode === 'category') session.queue = orderedRound(session.cat);
+    else session.queue = shuffle(session.queue.slice());
     session.pos = 0; session.roundFails = 0; session.rounds++; session.phase = 'answer'; session.screen = 'item'; session.last = null;
     renderDrill();
   }
   function endRound() {
-    // categories AND both review rounds refill until a clean pass; extra is a single pass
+    // extra: whittle down — only the missed items come back each pass, until none remain
+    if (session.mode === 'extra') {
+      if (session.missed.length > 0) { session.roundFails = session.missed.length; session.screen = 'refill'; return renderDrill(); }
+      recordExtra(); session.screen = 'done'; return renderDrill();
+    }
+    // categories AND both review rounds refill the whole set until a clean pass
     var refillMode = (session.mode === 'category' || session.mode === 'review' || session.mode === 'review2');
     if (refillMode && session.roundFails > 0) { session.screen = 'refill'; return renderDrill(); }
     if (session.mode === 'review') { state.reviewsDone++; saveState(); }
     else if (session.mode === 'review2') { state.reviews2Done++; saveState(); }
-    else if (session.mode === 'extra') { recordExtra(); }
     else { if (!isDone(session.cat.id)) state.completed.push(session.cat.id); state.attempts[session.cat.id] = session.rounds; saveState(); }
     session.screen = 'done'; renderDrill();
   }
   function recordExtra() {
-    var id = session.extra.id, e = state.extra[id] || { attempts: 0, best: 0, last: 0, total: session.queue.length };
-    e.attempts++; e.last = session.correctCount; e.best = Math.max(e.best, session.correctCount); e.total = session.queue.length;
+    var id = session.extra.id, e = state.extra[id] || { attempts: 0, best: 0, last: 0, total: session.total };
+    e.attempts++; e.last = session.firstCorrect; e.best = Math.max(e.best, session.firstCorrect); e.total = session.total;
     state.extra[id] = e; saveState();
   }
   function leaveDrill() { var to = session ? session.returnTo : 'home'; timer.stop(); stopTick(); session = null; view = to; if (to === 'extra') renderExtra(); else renderHome(); }
@@ -402,15 +425,17 @@
   }
 
   function renderRefill() {
-    var head = session.mode === 'category' ? 'The category refills' : 'The round repeats';
-    var html = drillTop() + '<div class="overlay"><div class="mark warn">' + ICON.cycle + '</div><h2>' + head + '</h2>';
-    html += '<p>' + session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.</p>';
-    html += '<button class="action" data-action="continue">Go again</button></div>';
+    var head, body, btn;
+    if (session.mode === 'extra') { head = 'Just the ones you missed'; body = session.roundFails + ' to go — only the words you got wrong come back, until every one is right.'; btn = 'Keep going'; }
+    else if (session.mode === 'category') { head = 'The category refills'; body = session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.'; btn = 'Go again'; }
+    else { head = 'The round repeats'; body = session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.'; btn = 'Go again'; }
+    var html = drillTop() + '<div class="overlay"><div class="mark warn">' + ICON.cycle + '</div><h2>' + head + '</h2><p>' + body + '</p>';
+    html += '<button class="action" data-action="continue">' + btn + '</button></div>';
     root.innerHTML = html; var b = root.querySelector('[data-action="continue"]'); if (b) b.focus();
   }
   function renderDone() {
     var title, msg;
-    if (session.mode === 'extra') { title = 'Extra complete'; msg = 'You got ' + session.correctCount + ' / ' + session.queue.length + ' right in “' + escapeHtml(session.extra.title) + '”.'; }
+    if (session.mode === 'extra') { title = 'Extra cleared'; msg = 'All ' + session.total + ' done in “' + escapeHtml(session.extra.title) + '” — you knew ' + session.firstCorrect + ' / ' + session.total + ' on the first pass.'; }
     else if (session.mode === 'review2') { title = 'Reverse round complete'; msg = 'Cleared — every word produced in Italian.'; }
     else if (session.mode === 'review') { title = 'Review round complete'; msg = 'Checkpoint cleared — the reverse round is next.'; }
     else { title = 'Category complete'; msg = 'Clean round — “' + escapeHtml(shortName(session.cat.title)) + '” is done' + (session.rounds > 1 ? ' after ' + session.rounds + ' tries' : '') + '. The next one is unlocked.'; }
@@ -429,10 +454,10 @@
     session.last = { correct: correct, input: val, item: item, selfCorrected: false, idk: false };
     if (correct) session.correctCount++;
     if (session.reversed) {
-      if (!correct) {
-        if (session.mode === 'extra') { state.extraFails[item.id] = (state.extraFails[item.id] || 0) + 1; saveState(); }
-        else session.roundFails++;   // review2: drives the refill-until-clean
-      }
+      if (session.mode === 'extra') {
+        if (correct) { if (session.pass === 1) session.firstCorrect++; }
+        else { state.extraFails[item.id] = (state.extraFails[item.id] || 0) + 1; session.missed.push(item); saveState(); }
+      } else if (!correct) session.roundFails++;   // review2: drives the refill-until-clean
       session.phase = 'reveal';
     } else if (correct) { session.phase = 'spell'; session.spellMiss = false; }
     else { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); session.phase = 'reveal'; }
@@ -443,7 +468,7 @@
     var item = session.queue[session.pos];
     session.last = { correct: false, input: '', item: item, selfCorrected: false, idk: true };
     if (!session.reversed) { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); }
-    else if (session.mode === 'extra') { state.extraFails[item.id] = (state.extraFails[item.id] || 0) + 1; saveState(); }
+    else if (session.mode === 'extra') { state.extraFails[item.id] = (state.extraFails[item.id] || 0) + 1; session.missed.push(item); saveState(); }
     else session.roundFails++;   // review2 idk
     session.phase = 'reveal'; renderDrill();
   }
@@ -478,6 +503,32 @@
   function stopTick() { if (tick) { clearInterval(tick); tick = null; } }
 
   function escapeHtml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+  function exportData() {
+    var blob = new Blob([JSON.stringify(state)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var d = new Date();
+    var stamp = '' + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + '-' + pad2(d.getHours()) + pad2(d.getMinutes());
+    var a = document.createElement('a');
+    a.href = url; a.download = 'ripasso-backup-' + stamp + '.json';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+  }
+  function importData(file) {
+    var reader = new FileReader();
+    reader.onload = function () {
+      var incoming;
+      try { incoming = JSON.parse(reader.result); } catch (e) { incoming = null; }
+      if (!incoming || typeof incoming !== 'object' || !('completed' in incoming || 'fails' in incoming || 'totalMs' in incoming)) {
+        alert('That file is not a valid Ripasso backup.'); return;
+      }
+      if (!confirm('Replace your current progress with this backup? This cannot be undone.')) return;
+      try { localStorage.setItem(STATE_KEY, JSON.stringify(incoming)); } catch (e) {}
+      state = loadState(); view = 'home'; renderHome();
+    };
+    reader.readAsText(file);
+  }
   function toggleTheme() {
     var cur = document.documentElement.getAttribute('data-theme');
     var next = cur === 'light' ? 'dark' : (cur === 'dark' ? '' : 'light');
@@ -492,6 +543,7 @@
     if (a === 'stats') { view = 'stats'; return renderStats(); }
     if (a === 'extras') { view = 'extra'; return renderExtra(); }
     if (a === 'extrafails') { view = 'extrafails'; return renderExtraFails(); }
+    if (a === 'export') return exportData();
     if (a === 'gohome') { view = 'home'; return renderHome(); }
     if (a === 'open') { var id = +t.getAttribute('data-id'); var c = data.categories.filter(function (x) { return x.id === id; })[0]; if (c) startCategory(c); return; }
     if (a === 'extra') { var d = extraById(t.getAttribute('data-id')); if (d) startExtra(d); return; }
@@ -508,6 +560,9 @@
     if (e.target.id === 'answer-form') { e.preventDefault(); submitAnswer(); }
     else if (e.target.id === 'spell-form') { e.preventDefault(); spellSubmit(); }
   });
+  root.addEventListener('change', function (e) {
+    if (e.target && e.target.id === 'import-file' && e.target.files && e.target.files[0]) importData(e.target.files[0]);
+  });
   document.addEventListener('visibilitychange', function () {
     if (view !== 'drill' || !session || session.screen === 'done') return;
     if (document.hidden) timer.stop(); else timer.arm();
@@ -515,6 +570,9 @@
   window.addEventListener('beforeunload', function () { if (view === 'drill') timer.stop(); });
 
   (function initTheme() { var t; try { t = localStorage.getItem(THEME_KEY); } catch (e) { t = null; } if (t) document.documentElement.setAttribute('data-theme', t); })();
+
+  // Ask the browser to keep our local data (reduces the chance it's auto-evicted).
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(function () {});
 
   fetch('data.json').then(function (r) { return r.json(); }).then(function (d) {
     data = d; data.allItems = []; data.itemById = {};
