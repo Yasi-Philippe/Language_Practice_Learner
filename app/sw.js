@@ -1,7 +1,7 @@
-const CACHE = 'ripasso-v1';
+const CACHE = 'ripasso-v2';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'data.json',
-  'manifest.webmanifest', 'icon.svg'
+  'manifest.webmanifest', 'icon-192.png', 'icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {
