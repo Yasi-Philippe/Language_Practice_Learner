@@ -97,6 +97,7 @@ Two buttons let the user steer a fail:
   1. counts the item as **correct for this round** (so it won't trigger a refill), and
   2. **cancels the fail** that would otherwise be recorded (prior history is kept; no new fail is added).
   It doubles as an escape hatch when our stored answer is too strict, and as a way to move past a word when tired of repeating it.
+  - Available in categories and both review rounds (**including the reverse round** — there it just passes the word, since that round records no fails). Not offered in extra categories.
 
 ---
 

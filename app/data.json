@@ -12675,6 +12675,617 @@
      "note": ""
     }
    ]
+  },
+  {
+   "id": 51,
+   "level": "B2",
+   "title": "B2 · False friends (1)",
+   "file": "b2-51-false-friends-1.md",
+   "items": [
+    {
+     "id": "51-0",
+     "it": "burro",
+     "es": [
+      "mantequilla"
+     ],
+     "note": "ES burro = donkey"
+    },
+    {
+     "id": "51-1",
+     "it": "aceto",
+     "es": [
+      "vinagre"
+     ],
+     "note": "ES aceite = oil"
+    },
+    {
+     "id": "51-2",
+     "it": "gamba",
+     "es": [
+      "pierna"
+     ],
+     "note": "ES gamba = prawn"
+    },
+    {
+     "id": "51-3",
+     "it": "primo",
+     "es": [
+      "primero"
+     ],
+     "note": "ES primo = cousin"
+    },
+    {
+     "id": "51-4",
+     "it": "nudo",
+     "es": [
+      "desnudo"
+     ],
+     "note": "ES nudo = knot"
+    },
+    {
+     "id": "51-5",
+     "it": "imbarazzata",
+     "es": [
+      "avergonzada"
+     ],
+     "note": "ES embarazada = pregnant"
+    },
+    {
+     "id": "51-6",
+     "it": "autista",
+     "es": [
+      "conductor",
+      "chófer"
+     ],
+     "note": "ES autista = autistic"
+    },
+    {
+     "id": "51-7",
+     "it": "tenda",
+     "es": [
+      "cortina",
+      "tienda de campaña"
+     ],
+     "note": "ES tienda = shop"
+    },
+    {
+     "id": "51-8",
+     "it": "tovaglia",
+     "es": [
+      "mantel"
+     ],
+     "note": "ES toalla = towel"
+    },
+    {
+     "id": "51-9",
+     "it": "camino",
+     "es": [
+      "chimenea"
+     ],
+     "note": "ES camino = road, path"
+    },
+    {
+     "id": "51-10",
+     "it": "sembrare",
+     "es": [
+      "parecer"
+     ],
+     "note": "ES sembrar = to sow"
+    },
+    {
+     "id": "51-11",
+     "it": "domandare",
+     "es": [
+      "preguntar"
+     ],
+     "note": "ES demandar = to sue"
+    },
+    {
+     "id": "51-12",
+     "it": "asilo",
+     "es": [
+      "guardería"
+     ],
+     "note": "ES asilo = asylum, nursing home"
+    },
+    {
+     "id": "51-13",
+     "it": "camera",
+     "es": [
+      "habitación"
+     ],
+     "note": "EN camera / ES cámara = camera (device)"
+    },
+    {
+     "id": "51-14",
+     "it": "fabbrica",
+     "es": [
+      "fábrica"
+     ],
+     "note": "EN fabric = tela, tejido"
+    },
+    {
+     "id": "51-15",
+     "it": "educato",
+     "es": [
+      "educado"
+     ],
+     "note": "EN educated = culto, instruido"
+    },
+    {
+     "id": "51-16",
+     "it": "attualmente",
+     "es": [
+      "actualmente"
+     ],
+     "note": "EN actually = en realidad"
+    },
+    {
+     "id": "51-17",
+     "it": "annoiare",
+     "es": [
+      "aburrir"
+     ],
+     "note": "EN annoy = molestar"
+    },
+    {
+     "id": "51-18",
+     "it": "fastidioso",
+     "es": [
+      "molesto"
+     ],
+     "note": "EN fastidious = quisquilloso"
+    },
+    {
+     "id": "51-19",
+     "it": "lettura",
+     "es": [
+      "lectura"
+     ],
+     "note": "EN lecture = conferencia"
+    },
+    {
+     "id": "51-20",
+     "it": "straniero",
+     "es": [
+      "extranjero"
+     ],
+     "note": "EN stranger = desconocido"
+    },
+    {
+     "id": "51-21",
+     "it": "attico",
+     "es": [
+      "ático"
+     ],
+     "note": "EN attic = desván, buhardilla"
+    },
+    {
+     "id": "51-22",
+     "it": "accomodarsi",
+     "es": [
+      "sentarse",
+      "ponerse cómodo"
+     ],
+     "note": "EN accommodate = alojar"
+    },
+    {
+     "id": "51-23",
+     "it": "gara",
+     "es": [
+      "carrera",
+      "competición"
+     ],
+     "note": "FR gare = train station"
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "level": "B2",
+   "title": "B2 · False friends (2)",
+   "file": "b2-52-false-friends-2.md",
+   "items": [
+    {
+     "id": "52-0",
+     "it": "salire",
+     "es": [
+      "subir"
+     ],
+     "note": "ES salir = to go out; FR salir = to dirty"
+    },
+    {
+     "id": "52-1",
+     "it": "caldo",
+     "es": [
+      "caliente"
+     ],
+     "note": "ES caldo = broth"
+    },
+    {
+     "id": "52-2",
+     "it": "topo",
+     "es": [
+      "ratón"
+     ],
+     "note": "ES topo = mole (animal)"
+    },
+    {
+     "id": "52-3",
+     "it": "prima",
+     "es": [
+      "antes"
+     ],
+     "note": "ES prima = cousin (f), bonus"
+    },
+    {
+     "id": "52-4",
+     "it": "largo",
+     "es": [
+      "ancho"
+     ],
+     "note": "ES largo = long"
+    },
+    {
+     "id": "52-5",
+     "it": "esito",
+     "es": [
+      "resultado"
+     ],
+     "note": "ES éxito = success"
+    },
+    {
+     "id": "52-6",
+     "it": "equipaggio",
+     "es": [
+      "tripulación"
+     ],
+     "note": "ES equipaje = luggage"
+    },
+    {
+     "id": "52-7",
+     "it": "carta",
+     "es": [
+      "papel"
+     ],
+     "note": "ES carta = letter, menu"
+    },
+    {
+     "id": "52-8",
+     "it": "mantello",
+     "es": [
+      "capa",
+      "manto"
+     ],
+     "note": "ES mantel = tablecloth"
+    },
+    {
+     "id": "52-9",
+     "it": "cantina",
+     "es": [
+      "bodega",
+      "sótano"
+     ],
+     "note": "ES cantina = canteen, bar"
+    },
+    {
+     "id": "52-10",
+     "it": "attendere",
+     "es": [
+      "esperar"
+     ],
+     "note": "ES atender = to attend to"
+    },
+    {
+     "id": "52-11",
+     "it": "domanda",
+     "es": [
+      "pregunta"
+     ],
+     "note": "ES demanda = lawsuit, demand"
+    },
+    {
+     "id": "52-12",
+     "it": "roba",
+     "es": [
+      "cosas"
+     ],
+     "note": "ES ropa = clothes"
+    },
+    {
+     "id": "52-13",
+     "it": "libreria",
+     "es": [
+      "librería"
+     ],
+     "note": "EN library = biblioteca"
+    },
+    {
+     "id": "52-14",
+     "it": "parente",
+     "es": [
+      "pariente",
+      "familiar"
+     ],
+     "note": "EN parent = padre, madre"
+    },
+    {
+     "id": "52-15",
+     "it": "morbido",
+     "es": [
+      "blando",
+      "suave"
+     ],
+     "note": "EN morbid = morboso"
+    },
+    {
+     "id": "52-16",
+     "it": "eventualmente",
+     "es": [
+      "llegado el caso",
+      "quizá"
+     ],
+     "note": "EN eventually = al final"
+    },
+    {
+     "id": "52-17",
+     "it": "sopportare",
+     "es": [
+      "soportar",
+      "aguantar"
+     ],
+     "note": "EN support = apoyar, sostener"
+    },
+    {
+     "id": "52-18",
+     "it": "rumore",
+     "es": [
+      "ruido"
+     ],
+     "note": "EN rumour = rumor, bulo"
+    },
+    {
+     "id": "52-19",
+     "it": "ricetta",
+     "es": [
+      "receta"
+     ],
+     "note": "EN receipt = recibo, ticket"
+    },
+    {
+     "id": "52-20",
+     "it": "lussuria",
+     "es": [
+      "lujuria"
+     ],
+     "note": "EN luxury = lujo"
+    },
+    {
+     "id": "52-21",
+     "it": "simpatico",
+     "es": [
+      "simpático"
+     ],
+     "note": "EN sympathetic = comprensivo"
+    },
+    {
+     "id": "52-22",
+     "it": "patente",
+     "es": [
+      "carné de conducir"
+     ],
+     "note": "EN patent = brevetto"
+    },
+    {
+     "id": "52-23",
+     "it": "addizione",
+     "es": [
+      "suma"
+     ],
+     "note": "FR addition = the bill"
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "level": "B2",
+   "title": "B2 · False friends (3)",
+   "file": "b2-53-false-friends-3.md",
+   "items": [
+    {
+     "id": "53-0",
+     "it": "subire",
+     "es": [
+      "sufrir",
+      "padecer"
+     ],
+     "note": "ES subir = to go up"
+    },
+    {
+     "id": "53-1",
+     "it": "vaso",
+     "es": [
+      "jarrón",
+      "maceta"
+     ],
+     "note": "ES vaso = drinking glass"
+    },
+    {
+     "id": "53-2",
+     "it": "seta",
+     "es": [
+      "seda"
+     ],
+     "note": "ES seta = mushroom"
+    },
+    {
+     "id": "53-3",
+     "it": "pronto",
+     "es": [
+      "listo",
+      "preparado"
+     ],
+     "note": "ES pronto = soon"
+    },
+    {
+     "id": "53-4",
+     "it": "brutto",
+     "es": [
+      "feo"
+     ],
+     "note": "ES bruto = brute, coarse"
+    },
+    {
+     "id": "53-5",
+     "it": "successo",
+     "es": [
+      "éxito"
+     ],
+     "note": "ES suceso = event"
+    },
+    {
+     "id": "53-6",
+     "it": "negozio",
+     "es": [
+      "tienda"
+     ],
+     "note": "ES negocio = business"
+    },
+    {
+     "id": "53-7",
+     "it": "lettera",
+     "es": [
+      "carta"
+     ],
+     "note": "ES letra = letter (of the alphabet)"
+    },
+    {
+     "id": "53-8",
+     "it": "spalla",
+     "es": [
+      "hombro"
+     ],
+     "note": "ES espalda = back"
+    },
+    {
+     "id": "53-9",
+     "it": "guardare",
+     "es": [
+      "mirar"
+     ],
+     "note": "ES guardar = to keep"
+    },
+    {
+     "id": "53-10",
+     "it": "contestare",
+     "es": [
+      "rebatir",
+      "impugnar"
+     ],
+     "note": "ES contestar = to answer"
+    },
+    {
+     "id": "53-11",
+     "it": "fracasso",
+     "es": [
+      "estruendo",
+      "jaleo"
+     ],
+     "note": "ES fracaso = failure"
+    },
+    {
+     "id": "53-12",
+     "it": "compromesso",
+     "es": [
+      "acuerdo",
+      "término medio"
+     ],
+     "note": "ES compromiso = commitment, engagement"
+    },
+    {
+     "id": "53-13",
+     "it": "fattoria",
+     "es": [
+      "granja"
+     ],
+     "note": "EN factory = fábrica"
+    },
+    {
+     "id": "53-14",
+     "it": "sensibile",
+     "es": [
+      "sensible"
+     ],
+     "note": "EN sensible = sensato"
+    },
+    {
+     "id": "53-15",
+     "it": "bravo",
+     "es": [
+      "bueno",
+      "hábil"
+     ],
+     "note": "EN brave = valiente; ES bravo = fierce"
+    },
+    {
+     "id": "53-16",
+     "it": "pretendere",
+     "es": [
+      "exigir",
+      "esperar"
+     ],
+     "note": "EN pretend = fingir"
+    },
+    {
+     "id": "53-17",
+     "it": "argomento",
+     "es": [
+      "tema"
+     ],
+     "note": "EN argument = discusión; ES argumento = plot"
+    },
+    {
+     "id": "53-18",
+     "it": "vacanza",
+     "es": [
+      "vacaciones"
+     ],
+     "note": "EN vacancy = vacante"
+    },
+    {
+     "id": "53-19",
+     "it": "delusione",
+     "es": [
+      "decepción"
+     ],
+     "note": "EN delusion = engaño, ilusión"
+    },
+    {
+     "id": "53-20",
+     "it": "estate",
+     "es": [
+      "verano"
+     ],
+     "note": "EN estate = propiedad, finca"
+    },
+    {
+     "id": "53-21",
+     "it": "confetti",
+     "es": [
+      "peladillas"
+     ],
+     "note": "EN confetti = confeti"
+    },
+    {
+     "id": "53-22",
+     "it": "fermare",
+     "es": [
+      "parar",
+      "detener"
+     ],
+     "note": "FR fermer = to close"
+    }
+   ]
   }
  ]
 }

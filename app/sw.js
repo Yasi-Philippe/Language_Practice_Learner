@@ -1,4 +1,4 @@
-const CACHE = 'ripasso-v2';
+const CACHE = 'ripasso-v4';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'data.json',
   'manifest.webmanifest', 'icon-192.png', 'icon-512.png'

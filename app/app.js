@@ -385,7 +385,7 @@
     html += '<div class="word">' + escapeHtml(promptText) + '</div><div class="verdict">';
     if (revealing) {
       if (session.last.correct) html += '<span class="badge ok-b">' + ICON.check + ' Correct</span>';
-      else if (session.last.selfCorrected) { html += '<span class="badge ok-b">' + ICON.check + ' Counted as correct</span><div class="answer">' + escapeHtml(item.es.join(', ')) + '</div><div class="your">kept as a pass — no fail recorded</div>'; }
+      else if (session.last.selfCorrected) { html += '<span class="badge ok-b">' + ICON.check + ' Counted as correct</span><div class="answer">' + escapeHtml(reversed ? item.accepted[0] : item.es.join(', ')) + '</div><div class="your">kept as a pass — no fail recorded</div>'; }
       else {
         html += '<span class="badge no-b">' + ICON.x + ' Not quite</span>';
         html += '<div class="answer">' + escapeHtml(reversed ? item.accepted[0] : item.es.join(', ')) + '</div>';
@@ -397,7 +397,7 @@
     if (revealing) {
       html += '<input value="' + escapeHtml(session.last.input) + '" readonly>';
       html += '<button class="action" data-action="next">Next</button>';
-      if (!reversed && !session.last.correct && !session.last.selfCorrected) html += '<button class="action ghost" type="button" data-action="self">I had it right</button>';
+      if (session.mode !== 'extra' && !session.last.correct && !session.last.selfCorrected) html += '<button class="action ghost" type="button" data-action="self">I had it right</button>';
     } else {
       var ph = reversed ? 'type it in Italian…' : 'type the meaning in Spanish…';
       html += '<form id="answer-form" autocomplete="off"><input id="answer" placeholder="' + ph + '" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go">';
@@ -473,9 +473,10 @@
     session.phase = 'reveal'; renderDrill();
   }
   function selfCorrect() {
-    if (session.reversed || session.phase !== 'reveal' || !session.last || session.last.correct || session.last.selfCorrected) return;
+    if (session.phase !== 'reveal' || !session.last || session.last.correct || session.last.selfCorrected) return;
+    if (session.mode === 'extra') return;                 // extras don't offer an override
     var id = session.last.item.id;
-    if (state.fails[id] > 0) { state.fails[id]--; if (state.fails[id] === 0) delete state.fails[id]; }
+    if (!session.reversed && state.fails[id] > 0) { state.fails[id]--; if (state.fails[id] === 0) delete state.fails[id]; }
     session.roundFails = Math.max(0, session.roundFails - 1); session.correctCount++;
     session.last.selfCorrected = true; saveState(); renderDrill();
   }
