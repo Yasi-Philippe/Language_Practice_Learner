@@ -2,7 +2,40 @@
 
 Auto-generated from `docs/data/*.md` by `scripts/build_dictionary.py`. **Do not edit by hand** — re-run the script after changing categories.
 
-Total terms: **1500** · unique: **1500**
+Total terms: **1571** · unique: **1541**
+
+## ⚠️ Duplicates (same word in more than one place)
+
+- attualmente (A2 · Time expressions & adverbs); attualmente (B2 · False friends (1))
+- bravo (A2 · Describing people (adjectives)); bravo (B2 · False friends (3))
+- brutto (A2 · Describing people (adjectives)); brutto (B2 · False friends (3))
+- burro (A1 · Food & drink (basics)); burro (B2 · False friends (1))
+- caldo (A1 · Weather & nature (basics)); caldo (B2 · False friends (2))
+- camera (A1 · House & rooms); camera (B2 · False friends (1))
+- carta (B2 · Materials & substances); carta (B2 · False friends (2))
+- domanda (A2 · School & education); domanda (B2 · False friends (2))
+- educato (A2 · Describing people (adjectives)); educato (B2 · False friends (1))
+- estate (A1 · Days, months, seasons & time); estate (B2 · False friends (3))
+- fermare (B2 · Advanced verbs (actions)); fermare (B2 · False friends (3))
+- gamba (A1 · Body parts); gamba (B2 · False friends (1))
+- gara (B1 · Sports & hobbies); gara (B2 · False friends (1))
+- guardare (B2 · The senses & perception); guardare (B2 · False friends (3))
+- largo (B2 · Advanced adjectives (qualities of things)); largo (B2 · False friends (2))
+- morbido (B2 · Advanced adjectives (qualities of things)); morbido (B2 · False friends (2))
+- negozio (A2 · The city & places); negozio (B2 · False friends (3))
+- patente (A2 · Transport & travel); patente (B2 · False friends (2))
+- prima (A2 · Time expressions & adverbs); prima (B2 · False friends (2))
+- ricetta (A2 · Health & the doctor); ricetta (B2 · False friends (2))
+- rumore (B2 · The senses & perception); rumore (B2 · False friends (2))
+- sembrare (B2 · The senses & perception); sembrare (B2 · False friends (1))
+- sensibile (B2 · Character & personality (advanced)); sensibile (B2 · False friends (3))
+- seta (B2 · Materials & substances); seta (B2 · False friends (3))
+- simpatico (A2 · Describing people (adjectives)); simpatico (B2 · False friends (2))
+- spalla (A1 · Body parts); spalla (B2 · False friends (3))
+- straniero (B2 · Relationships & social life); straniero (B2 · False friends (1))
+- successo (B2 · Business & the workplace); successo (B2 · False friends (3))
+- topo (A1 · Animals); topo (B2 · False friends (2))
+- vaso (B2 · Plants & gardening); vaso (B2 · False friends (3))
 
 ## All terms (A–Z)
 
@@ -25,10 +58,13 @@ Total terms: **1500** · unique: **1500**
 - accendere — B1 · Technology & internet
 - accento — B2 · Communication & language
 - acciaio — B2 · Materials & substances
+- accomodarsi — B2 · False friends (1)
 - accorgersi di — B1 · Verb + preposition constructions
 - accusa — B2 · Law & justice
+- aceto — B2 · False friends (1)
 - acqua — A1 · Food & drink (basics)
 - acqua in bocca — B1 · Idioms & fixed expressions
+- addizione — B2 · False friends (2)
 - adesso — A2 · Time expressions & adverbs
 - aereo — A2 · Transport & travel
 - aeroporto — A2 · The city & places
@@ -72,6 +108,7 @@ Total terms: **1500** · unique: **1500**
 - annaffiatoio — B2 · Plants & gardening
 - anniversario — B2 · Relationships & social life
 - anno — A1 · Days, months, seasons & time
+- annoiare — B2 · False friends (1)
 - annoiato — A2 · Emotions & feelings
 - annusare — B2 · The senses & perception
 - antichità — B2 · Time, history & sequence
@@ -95,6 +132,7 @@ Total terms: **1500** · unique: **1500**
 - arcobaleno — A1 · Weather & nature (basics)
 - argento — A1 · Colors
 - argilla — B2 · Materials & substances
+- argomento — B2 · False friends (3)
 - armadio — A1 · House & rooms
 - arrabbiato — A2 · Emotions & feelings
 - arresto — B2 · Law & justice
@@ -107,17 +145,22 @@ Total terms: **1500** · unique: **1500**
 - artista — B2 · Art & culture
 - asciutto — B2 · Advanced adjectives (qualities of things)
 - ascoltare — B2 · Communication & language
+- asilo — B2 · False friends (1)
 - asino — A1 · Animals
 - assaggiare — B2 · Cooking & the kitchen
 - assicurazione — B2 · Economy & finance
 - assistere a — B1 · Verb + preposition constructions
 - assunzione — B2 · Business & the workplace
 - atomo — B2 · Science & research
+- attendere — B2 · False friends (2)
+- attico — B2 · False friends (1)
 - attimo — B2 · Time, history & sequence
 - attore — A2 · Work & professions
 - attrezzo — B2 · Tools & DIY
 - attualmente — A2 · Time expressions & adverbs
+- attualmente — B2 · False friends (1)
 - aula — A2 · School & education
+- autista — B2 · False friends (1)
 - auto — A2 · Transport & travel
 - autobus — A2 · Transport & travel
 - autore — B1 · Media & entertainment
@@ -187,8 +230,10 @@ Total terms: **1500** · unique: **1500**
 - bosco — A1 · Weather & nature (basics)
 - braccio — A1 · Body parts
 - bravo — A2 · Describing people (adjectives)
+- bravo — B2 · False friends (3)
 - bruno — A2 · Describing people (adjectives)
 - brutto — A2 · Describing people (adjectives)
+- brutto — B2 · False friends (3)
 - bugia — B1 · Abstract feelings & opinions
 - buio — B2 · The senses & perception
 - bullone — B2 · Tools & DIY
@@ -199,6 +244,7 @@ Total terms: **1500** · unique: **1500**
 - buongiorno — A1 · Greetings & courtesy
 - buono — A2 · Describing people (adjectives)
 - burro — A1 · Food & drink (basics)
+- burro — B2 · False friends (1)
 
 **C**
 
@@ -208,6 +254,7 @@ Total terms: **1500** · unique: **1500**
 - calcio — B1 · Sports & hobbies
 - calcolo — B2 · Science & research
 - caldo — A1 · Weather & nature (basics)
+- caldo — B2 · False friends (2)
 - calendario — B2 · Time, history & sequence
 - calmo — A2 · Emotions & feelings
 - calvo — A2 · Describing people (adjectives)
@@ -215,8 +262,10 @@ Total terms: **1500** · unique: **1500**
 - calzini — A1 · Clothing
 - cambio — B2 · Economy & finance
 - camera — A1 · House & rooms
+- camera — B2 · False friends (1)
 - cameriere — A2 · Work & professions
 - camicia — A1 · Clothing
+- camino — B2 · False friends (1)
 - camion — A2 · Transport & travel
 - campionato — B1 · Sports & hobbies
 - campo — B1 · Nature & environment (expanded)
@@ -225,6 +274,7 @@ Total terms: **1500** · unique: **1500**
 - cane — A1 · Animals
 - cantante — A2 · Work & professions
 - cantare — B1 · Media & entertainment
+- cantina — B2 · False friends (2)
 - canzone — B1 · Media & entertainment
 - capelli — A1 · Body parts
 - capire — A1 · Common verbs
@@ -245,6 +295,7 @@ Total terms: **1500** · unique: **1500**
 - carriera — B2 · Business & the workplace
 - carriola — B2 · Tools & DIY
 - carta — B2 · Materials & substances
+- carta — B2 · False friends (2)
 - carta di credito — A2 · Shopping & money
 - cartella — B1 · Technology & internet
 - cartone — B2 · Materials & substances
@@ -329,6 +380,7 @@ Total terms: **1500** · unique: **1500**
 - compito — A2 · School & education
 - compleanno — B2 · Relationships & social life
 - comprare — A2 · Shopping & money
+- compromesso — B2 · False friends (3)
 - computer — B1 · Technology & internet
 - comunicare — B2 · Communication & language
 - comunità — B2 · Relationships & social life
@@ -338,6 +390,7 @@ Total terms: **1500** · unique: **1500**
 - concorrenza — B2 · Business & the workplace
 - condanna — B2 · Law & justice
 - condire — B2 · Cooking & the kitchen
+- confetti — B2 · False friends (3)
 - confine — B1 · Society & politics
 - congelare — B2 · Cooking & the kitchen
 - coniglio — A1 · Animals
@@ -349,6 +402,7 @@ Total terms: **1500** · unique: **1500**
 - contanti — A2 · Shopping & money
 - contare su — B1 · Verb + preposition constructions
 - contento — A2 · Emotions & feelings
+- contestare — B2 · False friends (3)
 - continuare a — B1 · Verb + preposition constructions
 - conto — B2 · Economy & finance
 - contratto — B2 · Business & the workplace
@@ -414,6 +468,7 @@ Total terms: **1500** · unique: **1500**
 - decennio — B2 · Time, history & sequence
 - decidere di — B1 · Verb + preposition constructions
 - delfino — A1 · Animals
+- delusione — B2 · False friends (3)
 - democrazia — B1 · Society & politics
 - denaro — A2 · Shopping & money
 - dente — A1 · Body parts
@@ -464,6 +519,8 @@ Total terms: **1500** · unique: **1500**
 - dolce — A1 · Food & drink (basics)
 - dolore — A2 · Health & the doctor
 - domanda — A2 · School & education
+- domanda — B2 · False friends (2)
+- domandare — B2 · False friends (1)
 - domani — A1 · Days, months, seasons & time
 - domenica — A1 · Days, months, seasons & time
 - donna — A1 · Family & people
@@ -488,6 +545,7 @@ Total terms: **1500** · unique: **1500**
 - economico — A2 · Shopping & money
 - edificio — A2 · The city & places
 - educato — A2 · Describing people (adjectives)
+- educato — B2 · False friends (1)
 - egoista — B2 · Character & personality (advanced)
 - elastico — B2 · Advanced adjectives (qualities of things)
 - elefante — A1 · Animals
@@ -497,9 +555,11 @@ Total terms: **1500** · unique: **1500**
 - emozione — B1 · Abstract feelings & opinions
 - energia — B1 · Nature & environment (expanded)
 - epoca — B2 · Art & culture
+- equipaggio — B2 · False friends (2)
 - erba — A1 · Weather & nature (basics)
 - errore — A2 · School & education
 - esame — A2 · School & education
+- esito — B2 · False friends (2)
 - esperimento — B2 · Science & research
 - esprimere — B2 · Communication & language
 - essere — A1 · Common verbs
@@ -507,13 +567,16 @@ Total terms: **1500** · unique: **1500**
 - essere in gamba — B1 · Idioms & fixed expressions
 - est — B2 · Directions, shapes & measurement
 - estate — A1 · Days, months, seasons & time
+- estate — B2 · False friends (3)
 - eternità — B2 · Time, history & sequence
 - euro — A2 · Shopping & money
 - evento — B2 · Time, history & sequence
+- eventualmente — B2 · False friends (2)
 - evitare — B2 · Advanced verbs (actions)
 
 **F**
 
+- fabbrica — B2 · False friends (1)
 - faccia — A1 · Body parts
 - fagioli — A2 · Food (expanded)
 - falegname — A2 · Work & professions
@@ -526,6 +589,8 @@ Total terms: **1500** · unique: **1500**
 - farfalla — A1 · Animals
 - farina — A2 · Food (expanded)
 - farmacia — A2 · The city & places
+- fastidioso — B2 · False friends (1)
+- fattoria — B2 · False friends (3)
 - fattura — B2 · Business & the workplace
 - febbraio — A1 · Days, months, seasons & time
 - febbre — A2 · Health & the doctor
@@ -535,6 +600,7 @@ Total terms: **1500** · unique: **1500**
 - felpa — A1 · Clothing
 - ferita — A2 · Health & the doctor
 - fermare — B2 · Advanced verbs (actions)
+- fermare — B2 · False friends (3)
 - fermata — A2 · Transport & travel
 - ferro — B2 · Materials & substances
 - festa — B1 · Media & entertainment
@@ -569,6 +635,7 @@ Total terms: **1500** · unique: **1500**
 - forte — A2 · Describing people (adjectives)
 - forza — B2 · Science & research
 - fra — A1 · Question words & connectors
+- fracasso — B2 · False friends (3)
 - fragile — B2 · Advanced adjectives (qualities of things)
 - fragola — A2 · Food (expanded)
 - frase — B2 · Communication & language
@@ -594,8 +661,10 @@ Total terms: **1500** · unique: **1500**
 - galleria — B2 · Art & culture
 - gallina — A1 · Animals
 - gamba — A1 · Body parts
+- gamba — B2 · False friends (1)
 - gambero — A2 · Food (expanded)
 - gara — B1 · Sports & hobbies
+- gara — B2 · False friends (1)
 - gas — B2 · Materials & substances
 - gatto — A1 · Animals
 - gelato — A1 · Food & drink (basics)
@@ -654,6 +723,7 @@ Total terms: **1500** · unique: **1500**
 - guancia — A1 · Body parts
 - guanti — A1 · Clothing
 - guardare — B2 · The senses & perception
+- guardare — B2 · False friends (3)
 - guarire — A2 · Health & the doctor
 - guerra — B1 · Society & politics
 - guidare — A2 · Transport & travel
@@ -674,6 +744,7 @@ Total terms: **1500** · unique: **1500**
 - idraulico — A2 · Work & professions
 - ieri — A1 · Days, months, seasons & time
 - illegale — B2 · Law & justice
+- imbarazzata — B2 · False friends (1)
 - imparare — A2 · School & education
 - impasto — B2 · Cooking & the kitchen
 - impero — B2 · Time, history & sequence
@@ -735,6 +806,7 @@ Total terms: **1500** · unique: **1500**
 - lanciare — B2 · Advanced verbs (actions)
 - larghezza — B2 · Directions, shapes & measurement
 - largo — B2 · Advanced adjectives (qualities of things)
+- largo — B2 · False friends (2)
 - lasciare — B2 · Advanced verbs (actions)
 - latte — A1 · Food & drink (basics)
 - lavagna — A2 · School & education
@@ -747,9 +819,12 @@ Total terms: **1500** · unique: **1500**
 - leggero — B2 · Advanced adjectives (qualities of things)
 - legno — B2 · Materials & substances
 - leone — A1 · Animals
+- lettera — B2 · False friends (3)
 - letto — A1 · House & rooms
+- lettura — B2 · False friends (1)
 - lezione — A2 · School & education
 - libertà — B1 · Society & politics
+- libreria — B2 · False friends (2)
 - libro — A2 · School & education
 - licenziamento — B2 · Business & the workplace
 - lilla — A1 · Colors
@@ -772,6 +847,7 @@ Total terms: **1500** · unique: **1500**
 - lunghezza — B2 · Directions, shapes & measurement
 - lungo — B2 · Advanced adjectives (qualities of things)
 - lupo — A1 · Animals
+- lussuria — B2 · False friends (2)
 
 **M**
 
@@ -796,6 +872,7 @@ Total terms: **1500** · unique: **1500**
 - mangiare — A1 · Common verbs
 - manifestazione — B1 · Society & politics
 - mano — A1 · Body parts
+- mantello — B2 · False friends (2)
 - marca — A2 · Shopping & money
 - marciapiede — A2 · The city & places
 - mare — A1 · Weather & nature (basics)
@@ -857,6 +934,7 @@ Total terms: **1500** · unique: **1500**
 - montagna — A1 · Weather & nature (basics)
 - monumento — B2 · Art & culture
 - morbido — B2 · Advanced adjectives (qualities of things)
+- morbido — B2 · False friends (2)
 - morire — A1 · Common verbs
 - mosca — A1 · Animals
 - mostra — B2 · Art & culture
@@ -886,6 +964,7 @@ Total terms: **1500** · unique: **1500**
 - nazione — B1 · Society & politics
 - nebbia — A1 · Weather & nature (basics)
 - negozio — A2 · The city & places
+- negozio — B2 · False friends (3)
 - nero — A1 · Colors
 - nervo — B2 · The human body — internal & medical
 - nervoso — A2 · Emotions & feelings
@@ -906,6 +985,7 @@ Total terms: **1500** · unique: **1500**
 - novanta — A1 · Numbers & quantities
 - nove — A1 · Numbers & quantities
 - novembre — A1 · Days, months, seasons & time
+- nudo — B2 · False friends (1)
 - nuotare — B1 · Sports & hobbies
 - nuoto — B1 · Sports & hobbies
 - nuvola — A1 · Weather & nature (basics)
@@ -979,6 +1059,7 @@ Total terms: **1500** · unique: **1500**
 - papavero — B2 · Plants & gardening
 - parco — A2 · The city & places
 - pareggio — B1 · Sports & hobbies
+- parente — B2 · False friends (2)
 - parete — A1 · House & rooms
 - parlamento — B1 · Society & politics
 - parlare — A1 · Common verbs
@@ -997,6 +1078,7 @@ Total terms: **1500** · unique: **1500**
 - pastiglia — A2 · Health & the doctor
 - patata — A1 · Food & drink (basics)
 - patente — A2 · Transport & travel
+- patente — B2 · False friends (2)
 - patrimonio — B2 · Art & culture
 - paura — A2 · Emotions & feelings
 - pavimento — A1 · House & rooms
@@ -1097,10 +1179,13 @@ Total terms: **1500** · unique: **1500**
 - prestare — B2 · Economy & finance
 - prestito — B2 · Economy & finance
 - presto — A2 · Time expressions & adverbs
+- pretendere — B2 · False friends (3)
 - prezzo — A2 · Shopping & money
 - prigione — B2 · Law & justice
 - prima — A2 · Time expressions & adverbs
+- prima — B2 · False friends (2)
 - primavera — A1 · Days, months, seasons & time
+- primo — B2 · False friends (1)
 - processo — B2 · Law & justice
 - prodotto — A2 · Shopping & money
 - professione — A2 · Work & professions
@@ -1113,6 +1198,7 @@ Total terms: **1500** · unique: **1500**
 - programma — B1 · Technology & internet
 - promettere — B2 · Communication & language
 - promozione — B2 · Business & the workplace
+- pronto — B2 · False friends (3)
 - pronunciare — B2 · Communication & language
 - prosciutto — A2 · Food (expanded)
 - prova — B2 · Law & justice
@@ -1184,6 +1270,7 @@ Total terms: **1500** · unique: **1500**
 - ricco — A2 · Describing people (adjectives)
 - ricerca — B2 · Science & research
 - ricetta — A2 · Health & the doctor
+- ricetta — B2 · False friends (2)
 - ricevuta — A2 · Shopping & money
 - riciclaggio — B1 · Nature & environment (expanded)
 - riconciliazione — B2 · Relationships & social life
@@ -1213,6 +1300,7 @@ Total terms: **1500** · unique: **1500**
 - riunione — B2 · Business & the workplace
 - riuscire a — B1 · Verb + preposition constructions
 - rivista — B1 · Media & entertainment
+- roba — B2 · False friends (2)
 - romanzo — B1 · Media & entertainment
 - rompere — B2 · Advanced verbs (actions)
 - rompere il ghiaccio — B1 · Idioms & fixed expressions
@@ -1221,6 +1309,7 @@ Total terms: **1500** · unique: **1500**
 - rosso — A1 · Colors
 - rotondo — B2 · Advanced adjectives (qualities of things)
 - rumore — B2 · The senses & perception
+- rumore — B2 · False friends (2)
 - ruota — A2 · Transport & travel
 - ruvido — B2 · Advanced adjectives (qualities of things)
 
@@ -1233,6 +1322,7 @@ Total terms: **1500** · unique: **1500**
 - salame — A2 · Food (expanded)
 - saldi — A2 · Shopping & money
 - sale — A1 · Food & drink (basics)
+- salire — B2 · False friends (2)
 - salotto — A1 · House & rooms
 - salsiccia — A2 · Food (expanded)
 - salute — A2 · Health & the doctor
@@ -1290,11 +1380,13 @@ Total terms: **1500** · unique: **1500**
 - sei — A1 · Numbers & quantities
 - semaforo — A2 · The city & places
 - sembrare — B2 · The senses & perception
+- sembrare — B2 · False friends (1)
 - seme — B1 · Nature & environment (expanded)
 - seminare — B2 · Plants & gardening
 - sempre — A2 · Time expressions & adverbs
 - senape — A1 · Colors
 - sensibile — B2 · Character & personality (advanced)
+- sensibile — B2 · False friends (3)
 - senso — B2 · Communication & language
 - sentenza — B2 · Law & justice
 - sentimento — B1 · Abstract feelings & opinions
@@ -1307,6 +1399,7 @@ Total terms: **1500** · unique: **1500**
 - serra — B2 · Plants & gardening
 - sessanta — A1 · Numbers & quantities
 - seta — B2 · Materials & substances
+- seta — B2 · False friends (3)
 - settanta — A1 · Numbers & quantities
 - sette — A1 · Numbers & quantities
 - settembre — A1 · Days, months, seasons & time
@@ -1318,6 +1411,7 @@ Total terms: **1500** · unique: **1500**
 - significato — B2 · Communication & language
 - silenzio — B2 · Communication & language
 - simpatico — A2 · Describing people (adjectives)
+- simpatico — B2 · False friends (2)
 - sincero — B2 · Character & personality (advanced)
 - sindaco — B1 · Society & politics
 - sinistra — B2 · Directions, shapes & measurement
@@ -1335,6 +1429,7 @@ Total terms: **1500** · unique: **1500**
 - sole — A1 · Weather & nature (basics)
 - solido — B2 · Materials & substances
 - solitudine — B2 · Relationships & social life
+- sopportare — B2 · False friends (2)
 - sopra — B2 · Directions, shapes & measurement
 - sopracciglio — B2 · The human body — internal & medical
 - sordo — B2 · The senses & perception
@@ -1346,6 +1441,7 @@ Total terms: **1500** · unique: **1500**
 - sostegno — B2 · Relationships & social life
 - sotto — B2 · Directions, shapes & measurement
 - spalla — A1 · Body parts
+- spalla — B2 · False friends (3)
 - sparire — B2 · The senses & perception
 - spaventato — A2 · Emotions & feelings
 - spazzola — B2 · Tools & DIY
@@ -1390,6 +1486,7 @@ Total terms: **1500** · unique: **1500**
 - straccio — B2 · Tools & DIY
 - strada — A2 · The city & places
 - straniero — B2 · Relationships & social life
+- straniero — B2 · False friends (1)
 - stretto — B2 · Advanced adjectives (qualities of things)
 - strumento — B2 · Tools & DIY
 - studente — A2 · School & education
@@ -1397,8 +1494,10 @@ Total terms: **1500** · unique: **1500**
 - studiare — A2 · School & education
 - stupido — A2 · Describing people (adjectives)
 - su — A1 · Question words & connectors
+- subire — B2 · False friends (3)
 - subito — A2 · Time expressions & adverbs
 - successo — B2 · Business & the workplace
+- successo — B2 · False friends (3)
 - succo — A1 · Food & drink (basics)
 - sud — B2 · Directions, shapes & measurement
 - suggerire — B2 · Communication & language
@@ -1435,6 +1534,7 @@ Total terms: **1500** · unique: **1500**
 - tempo — A1 · Weather & nature (basics)
 - temporale — A1 · Weather & nature (basics)
 - tenaglia — B2 · Tools & DIY
+- tenda — B2 · False friends (1)
 - tenere — B2 · Advanced verbs (actions)
 - tennis — B1 · Sports & hobbies
 - teoria — B2 · Science & research
@@ -1457,7 +1557,9 @@ Total terms: **1500** · unique: **1500**
 - togliere — B2 · Advanced verbs (actions)
 - tonno — A2 · Food (expanded)
 - topo — A1 · Animals
+- topo — B2 · False friends (2)
 - tosse — A2 · Health & the doctor
+- tovaglia — B2 · False friends (1)
 - tra — A1 · Question words & connectors
 - tradimento — B2 · Relationships & social life
 - tradizione — B2 · Art & culture
@@ -1507,12 +1609,14 @@ Total terms: **1500** · unique: **1500**
 **V**
 
 - va bene — A2 · Common expressions (basic idioms)
+- vacanza — B2 · False friends (3)
 - vale la pena — B1 · Idioms & fixed expressions
 - valigia — A2 · Transport & travel
 - valle — B1 · Nature & environment (expanded)
 - valuta — B2 · Economy & finance
 - vanitoso — B2 · Character & personality (advanced)
 - vaso — B2 · Plants & gardening
+- vaso — B2 · False friends (3)
 - vecchio — A2 · Describing people (adjectives)
 - vedere — A1 · Common verbs
 - velocità — B2 · Science & research

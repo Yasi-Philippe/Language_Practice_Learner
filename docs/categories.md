@@ -71,7 +71,12 @@ CEFR order doubles as **difficulty order**: earlier = more common / more fundame
 48. The senses & perception
 49. Tools & DIY
 50. Plants & gardening
-51. *(more specialized themes to come)*
+51. False friends (1)
+52. False friends (2)
+53. False friends (3)
+54. *(more specialized themes to come)*
+
+> **False friends** deliberately re-drill some words that also appear in earlier categories (30 of ~71) — that's intentional, so the dictionary's duplicate check will list them.
 
 ---
 
