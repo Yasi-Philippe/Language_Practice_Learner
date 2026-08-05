@@ -33,6 +33,7 @@
     if (typeof s.reviewMs !== 'number') s.reviewMs = 0;
     if (!s.extra || typeof s.extra !== 'object') s.extra = {};
     if (!s.extraFails || typeof s.extraFails !== 'object') s.extraFails = {};
+    if (!Array.isArray(s.personal)) s.personal = [];
     return s;
   }
   function saveState() { try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {} }
@@ -201,6 +202,7 @@
     var levelSub = li.allDone ? 'All levels complete' : (li.achieved ? 'Working on ' + li.working : 'Working towards ' + li.working);
     var html = '<div class="brand"><div><h1>Ripasso</h1><div class="sub">Italiano → Español</div></div>' +
       '<div class="brand-actions">' +
+      '<button class="pill-btn" data-action="personal">Mine</button>' +
       '<button class="pill-btn" data-action="extras">Extra</button>' +
       '<button class="pill-btn" data-action="stats">Stats</button>' +
       '<button class="theme-btn" data-action="theme" title="Theme">◐</button></div></div>';
@@ -259,6 +261,72 @@
       html += '</ul>';
     }
     root.innerHTML = html;
+  }
+
+  /* ================= PERSONAL (my words) ================= */
+  var personalCtx = null;   // id of the personal category being added to
+  function genId(p) { return p + '-' + Date.now().toString(36) + Math.floor(Math.random() * 1000); }
+  function personalById(id) { for (var i = 0; i < state.personal.length; i++) if (state.personal[i].id === id) return state.personal[i]; return null; }
+
+  function renderPersonal() {
+    var html = '<div class="drill-top"><button class="icon-btn" data-action="gohome">' + ICON.back + '</button>' +
+      '<div class="drill-title"><div class="t">My words</div></div>' + themeBtn() + '</div>';
+    html += '<div class="tricky-cap">Your own categories — add words you meet day to day and revise them later. They don’t touch your level or the review rounds.</div>';
+    html += '<button class="pill-btn wide" data-action="p-new">+ New category</button>';
+    if (!state.personal.length) html += '<div class="empty">No personal categories yet.</div>';
+    else {
+      html += '<ul class="trail" style="margin-top:16px">';
+      state.personal.forEach(function (c) {
+        html += '<li class="node current review"><div class="rail"><div class="dot">' + ICON.dot + '</div></div>';
+        html += '<div class="card"><span class="chip">Mine</span><div class="name">' + escapeHtml(c.name) + '</div>';
+        html += '<div class="meta">' + c.items.length + ' word' + (c.items.length === 1 ? '' : 's') + ' · ' + (c.hard ? 'Hard' : 'Soft') + ' mode</div>';
+        if (c.items.length) html += '<button class="begin" data-action="p-practice" data-id="' + c.id + '">Revise</button>';
+        html += '<button class="pill-btn wide mode-toggle" data-action="p-mode" data-id="' + c.id + '">' +
+          (c.hard ? 'Hard · a miss redoes the whole set — tap for Soft' : 'Soft · only missed words repeat — tap for Hard') + '</button>';
+        html += '<div class="prow"><button class="pill-btn" data-action="p-add" data-id="' + c.id + '">Add words</button>' +
+          '<button class="pill-btn" data-action="p-del" data-id="' + c.id + '">Delete</button></div></div></li>';
+      });
+      html += '</ul>';
+    }
+    root.innerHTML = html;
+  }
+
+  function renderPersonalAdd() {
+    var c = personalById(personalCtx);
+    if (!c) { view = 'personal'; return renderPersonal(); }
+    var html = '<div class="drill-top"><button class="icon-btn" data-action="personal">' + ICON.back + '</button>' +
+      '<div class="drill-title"><div class="chip">Mine</div><div class="t">' + escapeHtml(c.name) + '</div></div>' + themeBtn() + '</div>';
+    html += '<form id="p-add-form" class="p-form" autocomplete="off">';
+    html += '<input id="p-it" placeholder="Italian word" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="next">';
+    html += '<input id="p-es" placeholder="meaning in Spanish (comma = synonyms)" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="done">';
+    html += '<button class="action" type="submit">Add word</button></form>';
+    if (c.items.length) {
+      html += '<div class="section-label">' + c.items.length + ' word' + (c.items.length === 1 ? '' : 's') + '</div><ul class="p-list">';
+      for (var k = c.items.length - 1; k >= 0; k--) {
+        var it = c.items[k];
+        html += '<li><span class="pw-it">' + escapeHtml(it.it) + '</span><span class="pw-es">' + escapeHtml(it.es.join(', ')) + '</span>' +
+          '<button class="pw-del" type="button" data-action="p-delword" data-id="' + it.id + '" title="Remove">' + ICON.x + '</button></li>';
+      }
+      html += '</ul>';
+    } else html += '<div class="empty">No words yet — add your first above.</div>';
+    root.innerHTML = html;
+    var el = root.querySelector('#p-it'); if (el) el.focus();
+  }
+
+  function addPersonalWord() {
+    var c = personalById(personalCtx); if (!c) return;
+    var itEl = root.querySelector('#p-it'), esEl = root.querySelector('#p-es');
+    var it = itEl ? itEl.value.trim() : '', es = esEl ? esEl.value.trim() : '';
+    if (!it || !es) { if (!it && itEl) itEl.focus(); else if (esEl) esEl.focus(); return; }
+    var accepted = es.split(',').map(function (x) { return x.trim(); }).filter(function (x) { return x; });
+    c.items.push({ id: genId('pi'), it: it, es: accepted, note: '' });
+    saveState();
+    renderPersonalAdd();   // re-render clears the inputs and re-focuses the Italian field
+  }
+
+  function startPersonalDrill(c) {
+    session = { mode: 'personal', reversed: false, hard: !!c.hard, allItems: c.items.slice(), personalId: c.id, personalName: c.name, queue: shuffle(c.items.slice()), missed: [], pass: 1, total: c.items.length, pos: 0, roundFails: 0, rounds: 1, correctCount: 0, phase: 'answer', screen: 'item', last: null, returnTo: 'personal' };
+    view = 'drill'; startTick(); renderDrill();
   }
 
   /* ================= STATS ================= */
@@ -330,6 +398,7 @@
   }
   function rebuildRound() {
     if (session.mode === 'extra') { session.queue = shuffle(session.missed.slice()); session.missed = []; session.pass++; }
+    else if (session.mode === 'personal') { session.queue = session.hard ? shuffle(session.allItems.slice()) : shuffle(session.missed.slice()); session.missed = []; session.pass++; }
     else if (session.mode === 'category') session.queue = orderedRound(session.cat);
     else session.queue = shuffle(session.queue.slice());
     session.pos = 0; session.roundFails = 0; session.rounds++; session.phase = 'answer'; session.screen = 'item'; session.last = null;
@@ -340,6 +409,11 @@
     if (session.mode === 'extra') {
       if (session.missed.length > 0) { session.roundFails = session.missed.length; session.screen = 'refill'; return renderDrill(); }
       recordExtra(); session.screen = 'done'; return renderDrill();
+    }
+    if (session.mode === 'personal') {
+      var more = session.hard ? session.roundFails > 0 : session.missed.length > 0;
+      if (more) { if (!session.hard) session.roundFails = session.missed.length; session.screen = 'refill'; return renderDrill(); }
+      session.screen = 'done'; return renderDrill();
     }
     // categories AND both review rounds refill the whole set until a clean pass
     var refillMode = (session.mode === 'category' || session.mode === 'review' || session.mode === 'review2');
@@ -354,11 +428,11 @@
     e.attempts++; e.last = session.firstCorrect; e.best = Math.max(e.best, session.firstCorrect); e.total = session.total;
     state.extra[id] = e; saveState();
   }
-  function leaveDrill() { var to = session ? session.returnTo : 'home'; timer.stop(); stopTick(); session = null; view = to; if (to === 'extra') renderExtra(); else renderHome(); }
+  function leaveDrill() { var to = session ? session.returnTo : 'home'; timer.stop(); stopTick(); session = null; view = to; if (to === 'extra') renderExtra(); else if (to === 'personal') renderPersonal(); else renderHome(); }
 
   function drillTop() {
-    var chip = session.mode === 'category' ? session.cat.level : (session.mode === 'extra' ? 'Extra' : (session.mode === 'review2' ? 'Reverse' : 'Review'));
-    var title = session.mode === 'category' ? shortName(session.cat.title) : (session.mode === 'extra' ? session.extra.title : 'Checkpoint');
+    var chip = session.mode === 'category' ? session.cat.level : (session.mode === 'extra' ? 'Extra' : (session.mode === 'personal' ? 'Mine' : (session.mode === 'review2' ? 'Reverse' : 'Review')));
+    var title = session.mode === 'category' ? shortName(session.cat.title) : (session.mode === 'extra' ? session.extra.title : (session.mode === 'personal' ? session.personalName : 'Checkpoint'));
     return '<div class="drill-top"><button class="icon-btn" data-action="exit">' + ICON.back + '</button>' +
       '<div class="drill-title"><div class="chip">' + chip + '</div><div class="t">' + title + '</div></div>' +
       '<div class="clock"><span class="rec"></span><span id="clock">' + fmtHours(timer.liveMs()) + '</span></div>' + themeBtn() + '</div>';
@@ -426,8 +500,9 @@
 
   function renderRefill() {
     var head, body, btn;
-    if (session.mode === 'extra') { head = 'Just the ones you missed'; body = session.roundFails + ' to go — only the words you got wrong come back, until every one is right.'; btn = 'Keep going'; }
-    else if (session.mode === 'category') { head = 'The category refills'; body = session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.'; btn = 'Go again'; }
+    var whittle = (session.mode === 'extra') || (session.mode === 'personal' && !session.hard);
+    if (whittle) { head = 'Just the ones you missed'; body = session.roundFails + ' to go — only the words you got wrong come back, until every one is right.'; btn = 'Keep going'; }
+    else if (session.mode === 'category' || (session.mode === 'personal' && session.hard)) { head = session.mode === 'category' ? 'The category refills' : 'Redo the whole set'; body = session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.'; btn = 'Go again'; }
     else { head = 'The round repeats'; body = session.roundFails + ' missed this round. The whole set comes back — every word, until you clear it in one clean pass.'; btn = 'Go again'; }
     var html = drillTop() + '<div class="overlay"><div class="mark warn">' + ICON.cycle + '</div><h2>' + head + '</h2><p>' + body + '</p>';
     html += '<button class="action" data-action="continue">' + btn + '</button></div>';
@@ -438,8 +513,9 @@
     if (session.mode === 'extra') { title = 'Extra cleared'; msg = 'All ' + session.total + ' done in “' + escapeHtml(session.extra.title) + '” — you knew ' + session.firstCorrect + ' / ' + session.total + ' on the first pass.'; }
     else if (session.mode === 'review2') { title = 'Reverse round complete'; msg = 'Cleared — every word produced in Italian.'; }
     else if (session.mode === 'review') { title = 'Review round complete'; msg = 'Checkpoint cleared — the reverse round is next.'; }
+    else if (session.mode === 'personal') { title = 'Revised!'; msg = 'You cleared all ' + session.total + ' words in “' + escapeHtml(session.personalName) + '”.'; }
     else { title = 'Category complete'; msg = 'Clean round — “' + escapeHtml(shortName(session.cat.title)) + '” is done' + (session.rounds > 1 ? ' after ' + session.rounds + ' tries' : '') + '. The next one is unlocked.'; }
-    var back = (session.returnTo === 'extra') ? 'Back to extra' : 'Back to your path';
+    var back = (session.returnTo === 'extra') ? 'Back to extra' : (session.returnTo === 'personal' ? 'Back to my words' : 'Back to your path');
     var html = '<div class="topbar-min">' + themeBtn() + '</div><div class="overlay"><div class="mark good">' + ICON.check + '</div><h2>' + title + '</h2><p>' + msg + '</p>';
     html += '<button class="action" data-action="finish">' + back + '</button></div>';
     root.innerHTML = html; var b = root.querySelector('[data-action="finish"]'); if (b) b.focus();
@@ -460,14 +536,19 @@
       } else if (!correct) session.roundFails++;   // review2: drives the refill-until-clean
       session.phase = 'reveal';
     } else if (correct) { session.phase = 'spell'; session.spellMiss = false; }
-    else { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); session.phase = 'reveal'; }
+    else {
+      if (session.mode === 'personal') { if (session.hard) session.roundFails++; else session.missed.push(item); }
+      else { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); }
+      session.phase = 'reveal';
+    }
     renderDrill();
   }
   function idk() {
     if (session.phase !== 'answer') return;
     var item = session.queue[session.pos];
     session.last = { correct: false, input: '', item: item, selfCorrected: false, idk: true };
-    if (!session.reversed) { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); }
+    if (session.mode === 'personal') { if (session.hard) session.roundFails++; else session.missed.push(item); }
+    else if (!session.reversed) { state.fails[item.id] = (state.fails[item.id] || 0) + 1; session.roundFails++; saveState(); }
     else if (session.mode === 'extra') { state.extraFails[item.id] = (state.extraFails[item.id] || 0) + 1; session.missed.push(item); saveState(); }
     else session.roundFails++;   // review2 idk
     session.phase = 'reveal'; renderDrill();
@@ -475,10 +556,16 @@
   function selfCorrect() {
     if (session.phase !== 'reveal' || !session.last || session.last.correct || session.last.selfCorrected) return;
     if (session.mode === 'extra') return;                 // extras don't offer an override
-    var id = session.last.item.id;
-    if (!session.reversed && state.fails[id] > 0) { state.fails[id]--; if (state.fails[id] === 0) delete state.fails[id]; }
-    session.roundFails = Math.max(0, session.roundFails - 1); session.correctCount++;
-    session.last.selfCorrected = true; saveState(); renderDrill();
+    var it = session.last.item;
+    if (session.mode === 'personal') {
+      if (session.hard) session.roundFails = Math.max(0, session.roundFails - 1);
+      else for (var k = session.missed.length - 1; k >= 0; k--) if (session.missed[k].id === it.id) { session.missed.splice(k, 1); break; }
+    } else {
+      if (!session.reversed && state.fails[it.id] > 0) { state.fails[it.id]--; if (state.fails[it.id] === 0) delete state.fails[it.id]; }
+      session.roundFails = Math.max(0, session.roundFails - 1); saveState();
+    }
+    session.correctCount++;
+    session.last.selfCorrected = true; renderDrill();
   }
   function spellSubmit() {
     var el = root.querySelector('#spell-input'); if (!el) return;
@@ -545,6 +632,13 @@
     if (a === 'extras') { view = 'extra'; return renderExtra(); }
     if (a === 'extrafails') { view = 'extrafails'; return renderExtraFails(); }
     if (a === 'export') return exportData();
+    if (a === 'personal') { view = 'personal'; return renderPersonal(); }
+    if (a === 'p-new') { var pn = prompt('Name your category:'); if (pn && pn.trim()) { var pcat = { id: genId('p'), name: pn.trim(), items: [] }; state.personal.push(pcat); saveState(); personalCtx = pcat.id; view = 'personal-add'; renderPersonalAdd(); } return; }
+    if (a === 'p-add') { personalCtx = t.getAttribute('data-id'); view = 'personal-add'; return renderPersonalAdd(); }
+    if (a === 'p-practice') { var ppc = personalById(t.getAttribute('data-id')); if (ppc && ppc.items.length) startPersonalDrill(ppc); return; }
+    if (a === 'p-del') { var pdid = t.getAttribute('data-id'), pdc = personalById(pdid); if (pdc && confirm('Delete “' + pdc.name + '” and all its words?')) { state.personal = state.personal.filter(function (x) { return x.id !== pdid; }); saveState(); renderPersonal(); } return; }
+    if (a === 'p-delword') { var wcc = personalById(personalCtx); if (wcc) { var wid = t.getAttribute('data-id'); wcc.items = wcc.items.filter(function (x) { return x.id !== wid; }); saveState(); renderPersonalAdd(); } return; }
+    if (a === 'p-mode') { var mc = personalById(t.getAttribute('data-id')); if (mc) { mc.hard = !mc.hard; saveState(); renderPersonal(); } return; }
     if (a === 'gohome') { view = 'home'; return renderHome(); }
     if (a === 'open') { var id = +t.getAttribute('data-id'); var c = data.categories.filter(function (x) { return x.id === id; })[0]; if (c) startCategory(c); return; }
     if (a === 'extra') { var d = extraById(t.getAttribute('data-id')); if (d) startExtra(d); return; }
@@ -560,9 +654,13 @@
     if (!e.target) return;
     if (e.target.id === 'answer-form') { e.preventDefault(); submitAnswer(); }
     else if (e.target.id === 'spell-form') { e.preventDefault(); spellSubmit(); }
+    else if (e.target.id === 'p-add-form') { e.preventDefault(); addPersonalWord(); }
   });
   root.addEventListener('change', function (e) {
     if (e.target && e.target.id === 'import-file' && e.target.files && e.target.files[0]) importData(e.target.files[0]);
+  });
+  root.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && e.target && e.target.id === 'p-it') { e.preventDefault(); var es = root.querySelector('#p-es'); if (es) es.focus(); }
   });
   document.addEventListener('visibilitychange', function () {
     if (view !== 'drill' || !session || session.screen === 'done') return;
