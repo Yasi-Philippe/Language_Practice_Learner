@@ -125,7 +125,18 @@ Optional practice sets **off the main path** (reached via the **Extra** button o
 
 ---
 
-## 11. Out of scope
+## 11. Personal categories ("My words")
+
+The user's **own** categories, reached via the **Mine** button on home — for words met day to day.
+
+- **Create** a named category; **add words** fast (Italian + Spanish meaning, comma = synonyms); a category can always take more words later.
+- **Revise:** drills like the normal loop (Italian → type Spanish → retype Italian), with the **I had it right** override available.
+- **Soft or Hard, chosen per category** (toggle on the category): *Soft* = only the words you miss come back (whittle-down); *Hard* = any miss redoes the whole set (like a main category).
+- **Local & separate:** they do **not** affect level, progress %, the main fail list, or the review rounds. Training time still counts toward the total. Stored on the device and included in Export/Import.
+
+---
+
+## 12. Out of scope
 
 - Teaching grammar, rules, or pronunciation basics.
 - Multiple choice — answers are always **typed**.
