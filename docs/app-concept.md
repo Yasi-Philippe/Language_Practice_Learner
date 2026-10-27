@@ -7,9 +7,9 @@ It does **not** contain the vocabulary data (see `categories.md` and the per-cat
 
 ## 1. Purpose
 
-A personal drill app to memorize **Italian** vocabulary and expressions by translating them into **Spanish** — and, on a second path, to make Italian **grammar** automatic with gap-fill sentences (§12).
+A personal drill app to memorize **Italian** vocabulary and expressions by translating them into **Spanish** — and, on a second path, to make Italian **grammar** automatic with gap-fill sentences (§12), each grammar category opening with a short **theory** lesson (§13). A **reading list** by level (§14) points to real Italian books.
 
-It does **not** teach the basics of Italian (grammar rules, pronunciation) — the user learns those elsewhere ([learning-roadmap.md](learning-roadmap.md)). This app is a **memorization sustain**, built on retrieval practice + repetition, weighted toward the things you get wrong.
+Memory stays the primary goal: the app is a **memorization sustain**, built on retrieval practice + repetition, weighted toward the things you get wrong. The theory is there so the drilling has something to stick to — short, comparative (Italian vs Spanish), never a textbook. Pronunciation and deeper study live elsewhere ([learning-roadmap.md](learning-roadmap.md)).
 
 ---
 
@@ -145,7 +145,7 @@ A second path next to vocabulary — a **Vocabulary | Grammar** switch on home (
   - e.g. *Ieri Giulia ___ al mare.* · cue *andare* · *Ayer Giulia fue a la playa.* → **è andata**
 - **Checking: strict like Italian spelling** — accents count (*è* ≠ *e*, *parlò* ≠ *parlo*). Forgiven: capitals, curly vs straight apostrophes, extra spaces, stray end punctuation. Each item can list several accepted answers. A miss that only gets the accents wrong says so.
 - **After every answer** the sentence is shown complete, with a short note on the rule (no retype step — the answer was already typed in Italian).
-- **Categories** follow the roadmap by CEFR level (list: [grammar-categories.md](grammar-categories.md)), ~20 sentences each. Each shows a **one-line rule reminder** on its card before you start — a memory aid, not a lesson.
+- **Categories** follow the roadmap by CEFR level (list: [grammar-categories.md](grammar-categories.md)), ~20 sentences each. Each shows a **one-line rule reminder** on its card, and opens with its **theory lesson** the first time (§13).
 - **Progression, refill, fails, recovery marks, overrides and the timer work exactly as in vocabulary** (§4–§9): in order; any miss refills the whole category; *I don't know* / *I had it right*; checkpoints every 3 categories.
 - **Checkpoint rounds:** the **review** round is the same (10 most-missed + 10 random seen sentences, records fails, awards recovery marks; skipped if there are no grammar fails). The second round is **no hints** instead of reverse: 20 random seen sentences with the **cue hidden** — only the Spanish to go on. Records nothing; repeats until a clean pass.
 - **Separate progress:** grammar has its own completed list, fails, level, %, review rounds, time per category and extra-set history. Vocabulary is never touched by grammar and vice versa. The **timer is shared** — one total of training time.
@@ -153,18 +153,53 @@ A second path next to vocabulary — a **Vocabulary | Grammar** switch on home (
 
 ---
 
-## 13. Your data & backups
+## 13. Grammar theory
 
-- Everything is one JSON object in the browser (`localStorage`, key `lpl-state-v1`); **Export backup** saves exactly that object.
-- **Vocabulary progress stays at the root** of that object, in the same fields it always had; **grammar progress is added under `grammar`** with the same shape. So:
-  - Updating the app on the same device keeps all progress — nothing is migrated or renamed.
-  - **Backups from before grammar import as they are.** Importing one replaces the vocabulary progress and **keeps the grammar progress already on the device** (and adds its training time to the restored total).
-  - A new backup imported into an old version of the app still shows the vocabulary progress and keeps the grammar data untouched.
-- Item ids are **positional** — `<category>-<row>` (vocabulary) and `g<category>-<row>` (grammar) — and the fail counts are stored under them. **Never insert, delete or reorder rows** in a shipped category file; fix typos in place and add new items at the end.
+Every grammar category has a short lesson (~300 words, `docs/theory/`), written for a Spanish speaker. Not a textbook: the point is to give the drill a hook to hang on.
+
+- **Theory first.** The first time a category becomes current, its card says **Start with the theory**; the lesson ends with **Start drilling**. Afterwards the card offers **Start drilling** plus a **Theory** button, and every completed grammar step keeps a **Theory** button on the path.
+- **Same six sections, always in this order** — each a colored card:
+  1. **La regola** — the rule, usually as a compact table;
+  2. **Come in spagnolo** — what transfers straight from Spanish;
+  3. **Diverso dallo spagnolo** — what doesn't;
+  4. **Occhio!** — the traps a Spanish speaker falls into;
+  5. **Curiosità** — a real story behind the rule (history, etymology, literature);
+  6. **Il trucco** — one memory trick.
+- **During a drill** a book button opens the theory of the sentence on screen; **Back to the drill** returns to the exact same question and verdict.
+- Reading counts as training time for that category. Scrolling shows you're still there: up to 90 s are counted between scrolls (vs 30 s per item in drills), so an open lesson left alone doesn't inflate the clock.
 
 ---
 
-## 14. Out of scope
+## 14. Books
 
-- Teaching grammar from scratch, or pronunciation — the grammar track drills forms (with a one-line reminder per category); explanations live elsewhere.
+A reading list by level, **A1 → C2**, of books originally written in Italian (`docs/books.md`), in the recommended order within each level: comics and nursery rhymes at A1, Rodari's short stories at A2, first novels (Calvino, Baricco, Ammaniti) at B1, up to Manzoni, Dante and Gadda at C2.
+
+- Each book shows its author and year, **why it suits that level**, and a curiosity.
+- Tap to cycle a book's status: *to read → reading → read*. The shelf matching your **vocabulary working level** is marked **You are here**.
+- Off the path like Extra: no effect on levels or the fail list. Stored with the rest of the progress and included in backups.
+
+---
+
+## 15. Screens
+
+- A floating bar at the bottom reaches the five main screens: **Path** (vocabulary or grammar, by the switch), **Extra**, **Mine**, **Books**, **Stats**. Drills and theory hide it, to keep the focus.
+- **Path:** a hero card with the progress %, the level and the hours trained; completed steps fold into one line ("11 steps completed · show") so the current step sits right below it, followed by the steps still locked, grouped by level.
+- Each area has its own accent color: vocabulary terracotta, grammar *azzurro*, books olive. Light and dark themes (the button top-right cycles light / dark / system); the phone's status bar follows the page color.
+
+---
+
+## 16. Your data & backups
+
+- Everything is one JSON object in the browser (`localStorage`, key `lpl-state-v1`); **Export backup** saves exactly that object.
+- **Vocabulary progress stays at the root** of that object, in the same fields it always had. Every later addition is a new field next to it: **`grammar`** (same shape as the root, plus `theoryRead`, which lessons have been opened) and **`books`** (reading status per book). So:
+  - Updating the app on the same device keeps all progress — nothing is migrated or renamed.
+  - **Older backups import as they are.** Whatever a backup predates stays as it is on the device: a pre-grammar backup restores the vocabulary and keeps this device's grammar (adding its training time to the restored total), its theory flags and its reading list; a backup from the grammar release keeps this device's theory flags and reading list.
+  - A newer backup imported into an older version of the app still shows the progress that version knows, and keeps the newer fields untouched when it saves.
+- Item ids are **positional** — `<category>-<row>` (vocabulary) and `g<category>-<row>` (grammar) — and the fail counts are stored under them. **Never insert, delete or reorder rows** in a shipped category file; fix typos in place and add new items at the end. Books are stored under their **title** — don't rename a title once marked.
+
+---
+
+## 17. Out of scope
+
+- Pronunciation, and grammar beyond what the short theory lessons cover — the roadmap lists what to study elsewhere.
 - Multiple choice — answers are always **typed**.

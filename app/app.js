@@ -5,19 +5,29 @@
   var THEME_KEY = 'lpl-theme';
   var TRACK_KEY = 'lpl-track';
   var CAP = 30000;                 // AFK cap: at most 30s counted per screen dwell
+  var THEORY_CAP = 90000;          // reading theory: up to 90s between scrolls
   var data = null, state = null;
-  var view = 'home';               // 'home' | 'drill' | 'stats' | 'extra'
+  var view = 'home';               // 'home' | 'drill' | 'theory' | 'extra' | 'personal' | 'books' | 'stats' | …
   var track = 'vocab';             // the path home & stats show: 'vocab' | 'grammar'
   var session = null, tick = null;
+  var reading = null, theoryBack = 'home';   // the grammar category whose theory is open, and where "back" leads
+  var showDone = {};               // per track: completed steps unfolded on the path
   var root = document.getElementById('app');
 
+  function svg(paths) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + paths + '</svg>'; }
   var ICON = {
     check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
-    lock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>',
-    back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
-    x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
+    lock: svg('<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>'),
+    back: svg('<path d="M15 18l-6-6 6-6"/>'),
+    x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
     dot: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="currentColor"/></svg>',
-    cycle: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>'
+    cycle: svg('<path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/>'),
+    path: svg('<circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5"/>'),
+    spark: svg('<path d="M12 3l1.9 5.6 5.6 1.9-5.6 1.9L12 18l-1.9-5.6-5.6-1.9 5.6-1.9z"/><path d="M19 15v4M17 17h4"/>'),
+    bookmark: svg('<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'),
+    book: svg('<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/>'),
+    chart: svg('<path d="M3 20h18"/><path d="M6 16v-5"/><path d="M11 16V6"/><path d="M16 16v-8"/>'),
+    theme: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>'
   };
 
   /* ---------- persistence ---------- */
@@ -42,6 +52,8 @@
     fillProgress(s);
     if (!s.grammar || typeof s.grammar !== 'object') s.grammar = {};
     fillProgress(s.grammar);
+    if (!s.grammar.theoryRead || typeof s.grammar.theoryRead !== 'object') s.grammar.theoryRead = {};
+    if (!s.books || typeof s.books !== 'object') s.books = {};
     if (typeof s.totalMs !== 'number') s.totalMs = 0;
     if (!Array.isArray(s.personal)) s.personal = [];
     return s;
@@ -59,6 +71,7 @@
 
   /* ---------- timer (segment-based, AFK-capped) ---------- */
   function attributeTime(d) {
+    if (reading) { var gp = prog('grammar'); gp.categoryMs[reading.id] = (gp.categoryMs[reading.id] || 0) + d; return; }   // theory counts for its category
     if (!session) return;
     var p = prog(session.track);
     if (session.mode === 'review' || session.mode === 'review2') p.reviewMs += d;
@@ -67,7 +80,7 @@
   }
   var timer = {
     start: 0,
-    _d: function () { return this.start ? Math.min(Date.now() - this.start, CAP) : 0; },
+    _d: function () { return this.start ? Math.min(Date.now() - this.start, reading ? THEORY_CAP : CAP) : 0; },
     _flush: function () { if (this.start) { var d = this._d(); state.totalMs += d; attributeTime(d); } },
     mark: function () { this._flush(); this.start = Date.now(); saveState(); },   // close prev dwell (capped), start new
     stop: function () { this._flush(); this.start = 0; saveState(); },
@@ -223,98 +236,161 @@
   }
   function noHintPicks(t) { return shuffle(completedItems(t)).slice(0, 20); }   // random seen sentences, cue hidden
 
-  /* ================= HOME ================= */
-  function categoryNode(t, c, status) {
-    var dot = status === 'done' ? ICON.check : (status === 'locked' ? ICON.lock : ICON.dot);
-    var h = '<li class="node ' + status + '"><div class="rail"><div class="dot">' + dot + '</div></div>';
-    h += '<div class="card"><span class="chip">' + c.level + '</span><div class="name">' + shortName(c.title) + '</div>';
-    h += '<div class="meta">' + c.items.length + (t.grammar ? ' sentences' : ' words') + '</div>';
-    if (status === 'current' && c.rule) h += '<div class="rule">' + fmtNote(c.rule) + '</div>';
-    if (status === 'current') h += '<button class="begin" data-action="open" data-id="' + c.id + '">Start category</button>';
-    else if (status === 'done') h += '<div class="done-tag">' + ICON.check + ' Completed</div>';
-    return h + '</div></li>';
+  /* ---------- screen helpers ---------- */
+  // Each screen paints its accent: vocabulary terracotta, grammar azzurro, books olive.
+  function paint(key) { root.setAttribute('data-track', key); }
+  function themeBtn() { return '<button class="icon-btn" data-action="theme" title="Theme" aria-label="Theme">' + ICON.theme + '</button>'; }
+  function pageHead(title, sub) {
+    return '<header class="page-head"><div><h1>' + title + '</h1>' + (sub ? '<p>' + sub + '</p>' : '') + '</div>' + themeBtn() + '</header>';
   }
-  function reviewNode(t, m, status, rev) {
-    var dot = status === 'done' ? ICON.check : (status === 'locked' ? ICON.lock : ICON.cycle);
-    var r2 = t.grammar ? { chip: 'No hints', name: 'no hints', meta: '20 sentences · no cue — just the Spanish', btn: 'no-hints round' }
-      : { chip: 'Reverse', name: 'reverse', meta: '20 words · Español → Italiano', btn: 'reverse round' };
-    var h = '<li class="node review ' + status + '"><div class="rail"><div class="dot">' + dot + '</div></div>';
-    h += '<div class="card"><span class="chip">' + (rev ? r2.chip : 'Review') + '</span>';
-    h += '<div class="name">Checkpoint ' + m + (rev ? ' · ' + r2.name : '') + '</div>';
-    h += '<div class="meta">' + (rev ? r2.meta : '20 ' + (t.grammar ? 'sentences' : 'words') + ' · most-missed + random') + '</div>';
-    if (status === 'current') h += '<button class="begin" data-action="' + (rev ? 'review2' : 'review') + '">Start ' + (rev ? r2.btn : 'review round') + '</button>';
-    else if (status === 'done') h += '<div class="done-tag">' + ICON.check + ' Cleared</div>';
-    return h + '</div></li>';
+  function subHead(back, chip, title, right) {   // sub-pages: a back button, a small label, a title
+    return '<header class="sub-head"><button class="icon-btn" data-action="' + back + '" aria-label="Back">' + ICON.back + '</button>' +
+      '<div class="sub-t">' + (chip ? '<div class="chip-s">' + chip + '</div>' : '') + '<div class="t">' + title + '</div></div>' + (right || '') + '</header>';
   }
-  function themeBtn() { return '<button class="icon-btn tgl" data-action="theme" title="Theme">◐</button>'; }
+  var NAV = [['gohome', 'home', 'Path', 'path'], ['extras', 'extra', 'Extra', 'spark'], ['personal', 'personal', 'Mine', 'bookmark'], ['books', 'books', 'Books', 'book'], ['stats', 'stats', 'Stats', 'chart']];
+  function navBar() {
+    return '<nav class="nav">' + NAV.map(function (n) {
+      return '<button class="' + (view === n[1] ? 'on' : '') + '" data-action="' + n[0] + '" aria-label="' + n[2] + '">' + ICON[n[3]] + '<span>' + n[2] + '</span></button>';
+    }).join('') + '</nav>';
+  }
+  var entering = false;            // true while a screen change renders: its content slides in
+  function show(html, withNav) {   // swap the screen; the floating nav only on the five main screens
+    root.innerHTML = html + (withNav ? navBar() : '');
+    root.classList.toggle('with-nav', !!withNav);
+    root.classList.toggle('enter', entering);
+  }
   function trackTabs() {
     return '<div class="tabs">' + [['vocab', 'Vocabulary'], ['grammar', 'Grammar']].map(function (k) {
       return '<button class="tab' + (track === k[0] ? ' on' : '') + '" data-action="track" data-id="' + k[0] + '">' + k[1] + '</button>';
     }).join('') + '</div>';
   }
 
-  function renderHome() {
+  /* ================= HOME ================= */
+  function renderHome(keepScroll) {
     var t = trk(track);
-    var html = '<div class="brand"><div><h1>Ripasso</h1><div class="sub">Italiano → Español</div></div>' +
-      '<div class="brand-actions">' +
-      '<button class="pill-btn" data-action="personal">Mine</button>' +
-      '<button class="pill-btn" data-action="extras">Extra</button>' +
-      '<button class="pill-btn" data-action="stats">Stats</button>' +
-      '<button class="theme-btn" data-action="theme" title="Theme">◐</button></div></div>';
+    paint(t.key);
+    if (!keepScroll) window.scrollTo(0, 0);
+    var html = '<header class="home-head"><div class="brand"><div class="logo">Ripasso<i class="tri"></i></div><div class="sub">Italiano → Español</div></div>' + themeBtn() + '</header>';
     html += trackTabs();
-    if (!t.cats.length) { root.innerHTML = html + '<div class="empty">The grammar path hasn’t loaded yet — close the app and open it again to finish the update.</div>'; return; }
-    var pct = progressPct(t), R = 26, C = 2 * Math.PI * R, off = C * (1 - pct / 100), li = levelInfo(t);
-    var levelName = li.achieved || 'Rookie';
-    var levelSub = li.allDone ? 'All levels complete' : (li.achieved ? 'Working on ' + li.working : 'Working towards ' + li.working);
-    html += '<div class="stats"><div class="ring"><svg width="66" height="66">' +
-      '<circle class="track" cx="33" cy="33" r="' + R + '" fill="none" stroke-width="6"/>' +
-      '<circle class="fill" cx="33" cy="33" r="' + R + '" fill="none" stroke-width="6" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + off.toFixed(1) + '"/>' +
-      '</svg><div class="pct">' + pct + '%</div></div>' +
-      '<div><div class="level-name">' + levelName + '</div><div class="level-sub">' + levelSub + '</div></div>' +
-      '<div class="hours"><div class="n">' + fmtHours(state.totalMs) + '</div><div class="l">trained</div></div></div>';
-    html += '<div class="section-label">Your path</div><ul class="trail">';
-    var pending = resolveGate(t), ci = currentIndex(t);
+    if (!t.cats.length) return show(html + '<div class="empty">The grammar path hasn’t loaded yet — close the app and open it again to finish the update.</div>', true);
+    var li = levelInfo(t), pct = progressPct(t);
+    html += '<section class="hero"><div class="hero-row"><div><div class="hero-pct">' + pct + '<span>%</span></div>' +
+      '<div class="hero-l">of the ' + (t.grammar ? 'grammar' : 'vocabulary') + ' path</div></div>' +
+      '<div class="hero-lv"><b class="level-name">' + (li.achieved || 'Rookie') + '</b><span>' + (li.allDone ? 'All levels complete' : (li.achieved ? 'Working on ' : 'Working towards ') + li.working) + '</span></div></div>' +
+      '<div class="hero-bar"><i style="width:' + pct + '%"></i></div>' +
+      '<div class="hero-foot"><span>' + t.p.completed.length + ' / ' + t.cats.length + ' categories</span><span>' + fmtHours(state.totalMs) + ' trained</span></div></section>';
+    html += '<div class="section-label">Your path</div>' + trail(t);
+    show(html, true);
+    var now = root.querySelector('.trail .now');
+    if (!keepScroll && now && now.getBoundingClientRect().top > window.innerHeight * 0.7) now.scrollIntoView({ block: 'center' });
+  }
+
+  // The path: categories in order, a checkpoint (review + reverse / no-hints) after every 3.
+  // Completed steps fold into one line once there are a few, so the current one is right under the hero.
+  function trail(t) {
+    var steps = [], pending = resolveGate(t), ci = currentIndex(t);
     for (var i = 0; i < t.cats.length; i++) {
       var c = t.cats[i];
-      var cStatus = isDone(t, c.id) ? 'done' : (!pending && i === ci ? 'current' : 'locked');
-      html += categoryNode(t, c, cStatus);
+      steps.push({ cat: c, lv: c.level, st: isDone(t, c.id) ? 'done' : (!pending && i === ci ? 'now' : 'locked') });
       if ((i + 1) % 3 === 0) {
         var m = (i + 1) / 3;
-        html += reviewNode(t, m, t.p.reviewsDone >= m ? 'done' : (pending && pending.type === 'r1' && pending.m === m ? 'current' : 'locked'), false);
-        html += reviewNode(t, m, t.p.reviews2Done >= m ? 'done' : (pending && pending.type === 'r2' && pending.m === m ? 'current' : 'locked'), true);
+        steps.push({ cp: m, rev: false, lv: c.level, st: t.p.reviewsDone >= m ? 'done' : (pending && pending.type === 'r1' && pending.m === m ? 'now' : 'locked') });
+        steps.push({ cp: m, rev: true, lv: c.level, st: t.p.reviews2Done >= m ? 'done' : (pending && pending.type === 'r2' && pending.m === m ? 'now' : 'locked') });
       }
     }
-    root.innerHTML = html + '</ul>';
+    var nDone = steps.filter(function (s) { return s.st === 'done'; }).length, fold = nDone > 3 && !showDone[t.key];
+    var html = '<ul class="trail">', lastLv = null;
+    if (nDone > 3) html += '<li class="fold"><span class="st">' + ICON.check + '</span><button class="fold-btn" data-action="fold">' + (fold ? nDone + ' steps completed · show' : 'Hide completed steps') + '</button></li>';
+    steps.forEach(function (s) {
+      if (fold && s.st === 'done') return;
+      if (s.lv !== lastLv) { html += '<li class="lv-sep"><span class="lv-pill">' + s.lv + '</span></li>'; lastLv = s.lv; }
+      html += s.cat ? catStep(t, s.cat, s.st) : cpStep(t, s.cp, s.rev, s.st);
+    });
+    return html + '</ul>';
+  }
+  function catStep(t, c, st) {
+    var icon = st === 'done' ? ICON.check : (st === 'locked' ? ICON.lock : ICON.dot);
+    var unit = c.items.length + (t.grammar ? ' sentences' : ' words'), tries = t.p.attempts[c.id];
+    var h = '<li class="step ' + st + '"><span class="st">' + icon + '</span>';
+    if (st !== 'now') {
+      var right = st === 'done' && c.theory ? '<button class="mini" data-action="theory" data-id="' + c.id + '">Theory</button>'
+        : '<span class="rt">' + (st === 'done' && tries > 1 ? tries + ' tries' : unit) + '</span>';
+      return h + '<div class="row"><span class="nm">' + shortName(c.title) + '</span>' + right + '</div></li>';
+    }
+    h += '<div class="card now-card"><div class="card-top"><span class="chip">' + c.level + '</span><span class="meta">' + unit + '</span></div>';
+    h += '<div class="name">' + shortName(c.title) + '</div>';
+    if (c.rule) h += '<div class="rule">' + fmtNote(c.rule) + '</div>';
+    if (c.theory && !state.grammar.theoryRead[c.id]) h += '<div class="btns"><button class="btn primary" data-action="theory" data-id="' + c.id + '">' + ICON.book + 'Start with the theory</button></div>';
+    else h += '<div class="btns"><button class="btn primary" data-action="open" data-id="' + c.id + '">' + (t.grammar ? 'Start drilling' : 'Start category') + '</button>' +
+      (c.theory ? '<button class="btn tonal" data-action="theory" data-id="' + c.id + '">' + ICON.book + 'Theory</button>' : '') + '</div>';
+    return h + '</div></li>';
+  }
+  function cpStep(t, m, rev, st) {
+    var icon = st === 'done' ? ICON.check : (st === 'locked' ? ICON.lock : ICON.cycle);
+    var r2 = t.grammar ? { chip: 'No hints', meta: '20 sentences · no cue — just the Spanish', btn: 'Start the no-hints round' }
+      : { chip: 'Reverse', meta: '20 words · Español → Italiano', btn: 'Start the reverse round' };
+    var h = '<li class="step cp ' + st + '"><span class="st">' + icon + '</span>';
+    if (st !== 'now') return h + '<div class="row"><span class="nm">Checkpoint ' + m + ' · ' + (rev ? r2.chip.toLowerCase() : 'review') + '</span><span class="rt">' + (st === 'done' ? 'cleared' : '') + '</span></div></li>';
+    h += '<div class="card now-card"><div class="card-top"><span class="chip">' + (rev ? r2.chip : 'Review') + '</span><span class="meta">' + (rev ? r2.meta : '20 ' + (t.grammar ? 'sentences' : 'words') + ' · most-missed + random') + '</span></div>';
+    h += '<div class="name">Checkpoint ' + m + '</div>';
+    return h + '<div class="btns"><button class="btn primary" data-action="' + (rev ? 'review2' : 'review') + '">' + (rev ? r2.btn : 'Start the review round') + '</button></div></div></li>';
+  }
+
+  /* ================= THEORY ================= */
+  // A short lesson before each grammar category (and any time after): the rule, what works like
+  // Spanish, what doesn't, the traps, a curiosity and a trick. Reading it counts as training time.
+  function grammarCat(id) { var t = trk('grammar'); for (var i = 0; i < t.cats.length; i++) if (t.cats[i].id === id) return t.cats[i]; return null; }
+  function openTheory(c, from) {
+    if (!c || !c.theory) return;
+    timer.mark();                                   // closes the previous dwell (a drill's, when opened from one)
+    reading = c; theoryBack = from;
+    if (!state.grammar.theoryRead[c.id]) { state.grammar.theoryRead[c.id] = 1; saveState(); }
+    go('theory', renderTheory);
+  }
+  function closeTheory() {
+    if (theoryBack === 'drill' && session) { timer.mark(); reading = null; view = 'drill'; window.scrollTo(0, 0); return renderDrill(); }
+    timer.stop(); reading = null; go('home', renderHome);
+  }
+  function theoryStart() { var c = reading; timer.mark(); reading = null; startCategory(trk('grammar'), c); }
+  function renderTheory() {
+    var c = reading, th = c.theory, t = trk('grammar');
+    paint('grammar');
+    var html = subHead('theory-close', c.level + ' · Theory', escapeHtml(shortName(c.title)));
+    html += '<article class="theory"><h1 class="th-title">' + escapeHtml(th.title) + '</h1>';
+    if (th.lead) html += '<p class="th-lead">' + th.lead + '</p>';
+    html += th.html + '</article><div class="th-end">';
+    var isNow = !isDone(t, c.id) && !resolveGate(t) && t.cats[currentIndex(t)] === c;
+    if (theoryBack === 'drill') html += '<button class="btn primary block" data-action="theory-close">Back to the drill</button>';
+    else if (isNow) html += '<button class="btn primary block" data-action="theory-start">Start drilling</button><button class="btn ghost block" data-action="theory-close">Later</button>';
+    else html += '<button class="btn tonal block" data-action="theory-close">Back to your path</button>';
+    show(html + '</div>', false);
   }
 
   /* ================= EXTRA LIST ================= */
   function renderExtra() {
-    var html = '<div class="drill-top"><button class="icon-btn" data-action="gohome">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="t">Extra categories</div></div>' + themeBtn() + '</div>';
-    html += '<div class="tricky-cap">Practice sets off the main path — they don’t affect your level or fail list, but time still counts.</div>';
+    paint('vocab');
+    var html = pageHead('Extra', 'Practice sets off the path. They don’t touch your level or your fail list; time still counts.');
     [['vocab', 'Vocabulary'], ['grammar', 'Grammar']].forEach(function (g) {
-      html += '<div class="section-label">' + g[1] + '</div><ul class="trail">';
+      html += '<div class="section-label">' + g[1] + '</div><div class="cards">';
       EXTRAS.forEach(function (def) {
         if (def.track !== g[0]) return;
         var e = prog(def.track).extra[def.id], n = def.build().length;
-        html += '<li class="node current review"><div class="rail"><div class="dot">' + ICON.dot + '</div></div>';
-        html += '<div class="card"><span class="chip">Extra</span><div class="name">' + def.title + '</div>';
-        html += '<div class="meta">' + n + ' items · type in Italian' + (e ? ' · best ' + e.best + '/' + e.total + ' (' + e.attempts + '×)' : '') + '</div>';
-        html += '<button class="begin" data-action="extra" data-id="' + def.id + '">' + (e ? 'Practice again' : 'Start') + '</button>';
-        html += '</div></li>';
+        html += '<div class="card x-card" data-t="' + def.track + '"><div class="card-top"><span class="chip">Extra</span><span class="meta">' + n + ' items · type in Italian</span></div>';
+        html += '<div class="name">' + def.title + '</div>' + (e ? '<div class="meta best">Best first pass ' + e.best + '/' + e.total + ' · ' + e.attempts + '×</div>' : '');
+        html += '<div class="btns"><button class="btn primary" data-action="extra" data-id="' + def.id + '">' + (e ? 'Practice again' : 'Start') + '</button></div></div>';
       });
-      html += '</ul>';
+      html += '</div>';
     });
-    root.innerHTML = html;
+    show(html, true);
   }
 
   function renderExtraFails() {
     var p = prog(track);
-    var html = '<div class="drill-top"><button class="icon-btn" data-action="stats">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="t">Extra · tricky words</div></div>' + themeBtn() + '</div>';
+    paint(track);
+    var html = subHead('stats', 'Extra', 'Tricky words');
     var ids = Object.keys(p.extraFails).filter(function (id) { return p.extraFails[id] > 0 && data.extraItemById[id]; })
       .sort(function (a, b) { return p.extraFails[b] - p.extraFails[a]; });
-    html += '<div class="tricky-cap">Misses from the ' + (track === 'grammar' ? 'grammar' : 'vocabulary') + ' Extra sets only — completely separate from your main list and review rounds.</div>';
+    html += '<p class="cap">Misses from the ' + (track === 'grammar' ? 'grammar' : 'vocabulary') + ' Extra sets only — completely separate from your main list and review rounds.</p>';
     if (!ids.length) html += '<div class="empty">No extra misses yet.</div>';
     else {
       html += '<ul class="tricky">';
@@ -325,7 +401,7 @@
       });
       html += '</ul>';
     }
-    root.innerHTML = html;
+    show(html, false);
   }
 
   /* ================= PERSONAL (my words) ================= */
@@ -334,37 +410,35 @@
   function personalById(id) { for (var i = 0; i < state.personal.length; i++) if (state.personal[i].id === id) return state.personal[i]; return null; }
 
   function renderPersonal() {
-    var html = '<div class="drill-top"><button class="icon-btn" data-action="gohome">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="t">My words</div></div>' + themeBtn() + '</div>';
-    html += '<div class="tricky-cap">Your own categories — add words you meet day to day and revise them later. They don’t touch your level or the review rounds.</div>';
-    html += '<button class="pill-btn wide" data-action="p-new">+ New category</button>';
+    paint('vocab');
+    var html = pageHead('Mine', 'Your own categories — add the words you meet day to day and revise them later. They don’t touch your level or the review rounds.');
+    html += '<button class="btn primary block" data-action="p-new">+ New category</button>';
     if (!state.personal.length) html += '<div class="empty">No personal categories yet.</div>';
     else {
-      html += '<ul class="trail" style="margin-top:16px">';
+      html += '<div class="cards">';
       state.personal.forEach(function (c) {
-        html += '<li class="node current review"><div class="rail"><div class="dot">' + ICON.dot + '</div></div>';
-        html += '<div class="card"><span class="chip">Mine</span><div class="name">' + escapeHtml(c.name) + '</div>';
-        html += '<div class="meta">' + c.items.length + ' word' + (c.items.length === 1 ? '' : 's') + ' · ' + (c.hard ? 'Hard' : 'Soft') + ' mode</div>';
-        if (c.items.length) html += '<button class="begin" data-action="p-practice" data-id="' + c.id + '">Revise</button>';
-        html += '<button class="pill-btn wide mode-toggle" data-action="p-mode" data-id="' + c.id + '">' +
+        html += '<div class="card"><div class="card-top"><span class="chip">Mine</span><span class="meta">' + c.items.length + ' word' + (c.items.length === 1 ? '' : 's') + ' · ' + (c.hard ? 'Hard' : 'Soft') + ' mode</span></div>';
+        html += '<div class="name">' + escapeHtml(c.name) + '</div>';
+        if (c.items.length) html += '<div class="btns"><button class="btn primary" data-action="p-practice" data-id="' + c.id + '">Revise</button></div>';
+        html += '<button class="mode-toggle" data-action="p-mode" data-id="' + c.id + '">' +
           (c.hard ? 'Hard · a miss redoes the whole set — tap for Soft' : 'Soft · only missed words repeat — tap for Hard') + '</button>';
-        html += '<div class="prow"><button class="pill-btn" data-action="p-add" data-id="' + c.id + '">Add words</button>' +
-          '<button class="pill-btn" data-action="p-del" data-id="' + c.id + '">Delete</button></div></div></li>';
+        html += '<div class="prow"><button class="btn tonal" data-action="p-add" data-id="' + c.id + '">Add words</button>' +
+          '<button class="btn ghost" data-action="p-del" data-id="' + c.id + '">Delete</button></div></div>';
       });
-      html += '</ul>';
+      html += '</div>';
     }
-    root.innerHTML = html;
+    show(html, true);
   }
 
   function renderPersonalAdd() {
     var c = personalById(personalCtx);
     if (!c) { view = 'personal'; return renderPersonal(); }
-    var html = '<div class="drill-top"><button class="icon-btn" data-action="personal">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="chip">Mine</div><div class="t">' + escapeHtml(c.name) + '</div></div>' + themeBtn() + '</div>';
+    paint('vocab');
+    var html = subHead('personal', 'Mine', escapeHtml(c.name));
     html += '<form id="p-add-form" class="p-form" autocomplete="off">';
     html += '<input id="p-it" placeholder="Italian word" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="next">';
     html += '<input id="p-es" placeholder="meaning in Spanish (comma = synonyms)" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="done">';
-    html += '<button class="action" type="submit">Add word</button></form>';
+    html += '<button class="btn primary block" type="submit">Add word</button></form>';
     if (c.items.length) {
       html += '<div class="section-label">' + c.items.length + ' word' + (c.items.length === 1 ? '' : 's') + '</div><ul class="p-list">';
       for (var k = c.items.length - 1; k >= 0; k--) {
@@ -374,7 +448,7 @@
       }
       html += '</ul>';
     } else html += '<div class="empty">No words yet — add your first above.</div>';
-    root.innerHTML = html;
+    show(html, false);
     var el = root.querySelector('#p-it'); if (el) el.focus();
   }
 
@@ -394,12 +468,42 @@
     view = 'drill'; startTick(); renderDrill();
   }
 
+  /* ================= BOOKS ================= */
+  // Reading list by level (docs/books.md), with a status per book: to read → reading → read.
+  var SPINES = ['#c8502a', '#2563c9', '#557428', '#b7791f', '#7c4dbe', '#0f7c74', '#b23a5b'];
+  function spine(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return SPINES[h % SPINES.length]; }
+  function cycleBook(id) {
+    var cur = state.books[id];
+    if (!cur) state.books[id] = 'reading'; else if (cur === 'reading') state.books[id] = 'read'; else delete state.books[id];
+    saveState();
+  }
+  function renderBooks() {
+    paint('books');
+    var shelves = data.books || [], here = levelInfo(trk('vocab')).working, all = 0, nRead = 0;
+    shelves.forEach(function (g) { g.books.forEach(function (b) { all++; if (state.books[b.id] === 'read') nRead++; }); });
+    var html = pageHead('Books', 'Italian, written by Italians — level by level. Inside each level, start at the top.');
+    html += '<div class="books-sum"><div class="bs-n"><b>' + nRead + '</b> / ' + all + ' read</div><div class="bar"><i style="width:' + Math.round(nRead / Math.max(1, all) * 100) + '%"></i></div></div>';
+    shelves.forEach(function (g) {
+      var r = g.books.filter(function (b) { return state.books[b.id] === 'read'; }).length;
+      html += '<section class="shelf"><div class="shelf-head"><span class="lv-pill">' + g.level + '</span><span class="shelf-t">' + escapeHtml(g.blurb) + '</span>' +
+        (g.level === here ? '<span class="here">You are here</span>' : '') + '<span class="shelf-n">' + r + '/' + g.books.length + '</span></div>';
+      g.books.forEach(function (b, i) {
+        var st = state.books[b.id] || '';
+        html += '<article class="book ' + st + '" style="--spine:' + spine(b.title) + '"><div class="bk-top"><span class="bk-n">' + (i + 1) + '</span><div>' +
+          '<h3 class="bk-t">' + escapeHtml(b.title) + '</h3><div class="bk-a">' + escapeHtml(b.author) + (b.year ? ' · ' + escapeHtml(b.year) : '') + '</div></div></div>' +
+          '<p class="bk-why">' + b.why + '</p>' + (b.fun ? '<p class="bk-fun">' + b.fun + '</p>' : '') +
+          '<button class="bk-st" data-action="book" data-id="' + b.id + '">' + (st === 'read' ? ICON.check + 'Read' : (st === 'reading' ? 'Reading now · tap when done' : '+ Add to my reading')) + '</button></article>';
+      });
+      html += '</section>';
+    });
+    show(html, true);
+  }
+
   /* ================= STATS ================= */
   function renderStats() {
     var t = trk(track), p = t.p;
-    var html = '<div class="drill-top"><button class="icon-btn" data-action="gohome">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="t">Stats</div></div>' +
-      '<div class="clock"><span>' + fmtHours(state.totalMs) + '</span></div>' + themeBtn() + '</div>';
+    paint(t.key);
+    var html = pageHead('Stats', fmtHours(state.totalMs) + ' trained in total');
     html += trackTabs();
 
     var rows = [];
@@ -407,6 +511,13 @@
     EXTRAS.forEach(function (def) { var ms = def.track === t.key ? p.categoryMs[def.id] || 0 : 0; if (ms > 0) rows.push({ name: def.title, lv: '✦', ms: ms, tries: 0 }); });
     if (p.reviewMs > 0) rows.push({ name: 'Review rounds', lv: '★', ms: p.reviewMs, tries: 0 });
     var sum = rows.reduce(function (s, r) { return s + r.ms; }, 0);
+    var tricky = Object.keys(p.fails).filter(function (id) { return p.fails[id] > 0 && t.byId[id]; })
+      .map(function (id) { return t.byId[id]; })
+      .sort(function (a, b) { return (p.fails[b.id] || 0) - (p.fails[a.id] || 0); });
+    html += '<div class="tiles"><div class="tile"><b>' + (sum ? fmtDur(sum) : '0') + '</b><span>on ' + (t.grammar ? 'grammar' : 'vocabulary') + '</span></div>' +
+      '<div class="tile"><b>' + p.completed.length + '<small>/' + t.cats.length + '</small></b><span>categories</span></div>' +
+      '<div class="tile"><b>' + tricky.length + '</b><span>tricky ' + (t.grammar ? 'sentences' : 'words') + '</span></div></div>';
+
     html += '<div class="section-label">Time by category' + (sum ? ' · <span class="dur">' + fmtDur(sum) + '</span>' : '') + '</div>';
     if (!rows.length) html += '<div class="empty">No time recorded yet — start a category.</div>';
     else {
@@ -422,13 +533,10 @@
       html += '</div>';
     }
 
-    var tricky = Object.keys(p.fails).filter(function (id) { return p.fails[id] > 0 && t.byId[id]; })
-      .map(function (id) { return t.byId[id]; })
-      .sort(function (a, b) { return (p.fails[b.id] || 0) - (p.fails[a.id] || 0); });
     html += '<div class="section-label">Tricky ' + (t.grammar ? 'sentences' : 'words') + ' (' + tricky.length + ')</div>';
     if (!tricky.length) html += '<div class="empty">No misses yet — clean slate.</div>';
     else {
-      html += '<div class="tricky-cap">Every ' + (t.grammar ? 'sentence' : 'word') + ' you have missed, hardest first — review rounds pick from these.</div><ul class="tricky">';
+      html += '<p class="cap">Every ' + (t.grammar ? 'sentence' : 'word') + ' you have missed, hardest first — review rounds pick from these.</p><ul class="tricky">';
       tricky.forEach(function (it, i) {
         var mark = (p.recoveryMarks[it.id] > 0) ? '<span class="tw-mark" title="1 of 2 clean review passes — one more clears this ' + (t.grammar ? 'sentence' : 'word') + '">✓</span>' : '';
         if (t.grammar) html += '<li class="gram' + (i < 10 ? ' hot' : '') + '"><span class="tw-q">' + sentenceHtml(it, it.a[0]) + '</span>' +
@@ -438,13 +546,13 @@
       });
       html += '</ul>';
     }
-    html += '<button class="pill-btn wide" data-action="extrafails">Extra · tricky words ›</button>';
-    html += '<div class="section-label" style="margin-top:26px">Backup</div>';
-    html += '<div class="tricky-cap">Your progress (vocabulary and grammar) lives only on this device. Export a copy to keep it safe; import to restore it or move to a new phone. Backups from older versions import too.</div>';
-    html += '<button class="pill-btn wide" data-action="export">Export backup</button>';
-    html += '<label class="pill-btn wide" for="import-file">Import backup</label>';
+    html += '<button class="btn ghost block" data-action="extrafails">Extra · tricky words</button>';
+    html += '<div class="section-label" style="margin-top:28px">Backup</div>';
+    html += '<p class="cap">Your progress (vocabulary, grammar, reading list) lives only on this device. Export a copy to keep it safe; import to restore it or move to a new phone. Backups from older versions import too.</p>';
+    html += '<div class="btns"><button class="btn tonal" data-action="export">Export backup</button>';
+    html += '<label class="btn tonal" for="import-file">Import backup</label></div>';
     html += '<input id="import-file" type="file" accept="application/json,.json" hidden>';
-    root.innerHTML = html;
+    show(html, true);
   }
 
   /* ================= DRILL ================= */
@@ -499,17 +607,23 @@
     e.attempts++; e.last = session.firstCorrect; e.best = Math.max(e.best, session.firstCorrect); e.total = session.total;
     p.extra[id] = e; saveState();
   }
-  function leaveDrill() { var to = session ? session.returnTo : 'home'; timer.stop(); stopTick(); session = null; view = to; if (to === 'extra') renderExtra(); else if (to === 'personal') renderPersonal(); else renderHome(); }
+  function leaveDrill() {
+    var to = session ? session.returnTo : 'home'; timer.stop(); stopTick(); session = null;
+    go(to, to === 'extra' ? renderExtra : (to === 'personal' ? renderPersonal : renderHome));
+  }
 
   function drillTop() {
     var chip = session.mode === 'category' ? session.cat.level : (session.mode === 'extra' ? 'Extra' : (session.mode === 'personal' ? 'Mine' : (session.mode === 'review2' ? (session.grammar ? 'No hints' : 'Reverse') : 'Review')));
     var title = session.mode === 'category' ? shortName(session.cat.title) : (session.mode === 'extra' ? session.extra.title : (session.mode === 'personal' ? session.personalName : 'Checkpoint'));
-    return '<div class="drill-top"><button class="icon-btn" data-action="exit">' + ICON.back + '</button>' +
-      '<div class="drill-title"><div class="chip">' + chip + '</div><div class="t">' + title + '</div></div>' +
-      '<div class="clock"><span class="rec"></span><span id="clock">' + fmtHours(timer.liveMs()) + '</span></div>' + themeBtn() + '</div>';
+    var item = session.screen === 'item' ? session.queue[session.pos] : null;
+    var th = session.grammar && item && item.cat && item.cat.theory ? '<button class="icon-btn" data-action="theory-drill" aria-label="Theory" title="Theory">' + ICON.book + '</button>' : '';
+    return '<header class="sub-head"><button class="icon-btn" data-action="exit" aria-label="Close">' + ICON.x + '</button>' +
+      '<div class="sub-t"><div class="chip-s">' + chip + '</div><div class="t">' + title + '</div></div>' +
+      '<div class="clock"><span class="rec"></span><span id="clock">' + fmtHours(timer.liveMs()) + '</span></div>' + th + '</header>';
   }
 
   function renderDrill() {
+    paint(session.track === 'grammar' ? 'grammar' : 'vocab');
     if (session.screen === 'refill') { timer.mark(); return renderRefill(); }
     if (session.screen === 'done') { timer.stop(); stopTick(); return renderDone(); }
     if (session.phase === 'spell') { timer.mark(); return renderSpell(); }
@@ -528,15 +642,15 @@
     html += '<div class="entry">';
     if (revealing) {
       html += '<input value="' + escapeHtml(session.last.input) + '" readonly>';
-      html += '<button class="action" data-action="next">Next</button>';
-      if (session.mode !== 'extra' && !session.last.correct && !session.last.selfCorrected) html += '<button class="action ghost" type="button" data-action="self">I had it right</button>';
+      html += '<button class="btn primary block" data-action="next">Next</button>';
+      if (session.mode !== 'extra' && !session.last.correct && !session.last.selfCorrected) html += '<button class="btn ghost block" type="button" data-action="self">I had it right</button>';
     } else {
       var ph = session.grammar ? 'fill the gap…' : (session.reversed ? 'type it in Italian…' : 'type the meaning in Spanish…');
       html += '<form id="answer-form" autocomplete="off"><input id="answer" placeholder="' + ph + '" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go">';
-      html += '<button class="action" type="submit">Check</button></form>';
-      html += '<button class="action ghost" type="button" data-action="idk">I don’t know</button>';
+      html += '<button class="btn primary block" type="submit">Check</button></form>';
+      html += '<button class="btn ghost block" type="button" data-action="idk">I don’t know</button>';
     }
-    root.innerHTML = html + '</div>';
+    show(html + '</div>', false);
     var f = revealing ? root.querySelector('[data-action="next"]') : root.querySelector('#answer');
     if (f) f.focus();
   }
@@ -596,8 +710,8 @@
     if (item.note) html += '<div class="note">' + fmtNote(item.note) + '</div>';
     if (session.spellMiss) html += '<div class="verdict"><span class="badge no-b">' + ICON.x + ' check the spelling</span><div class="answer">' + escapeHtml(item.it) + '</div></div>';
     html += '</div><div class="entry"><form id="spell-form" autocomplete="off"><input id="spell-input" placeholder="type it in Italian…" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go">';
-    html += '<button class="action" type="submit">Continue</button></form></div>';
-    root.innerHTML = html;
+    html += '<button class="btn primary block" type="submit">Continue</button></form></div>';
+    show(html, false);
     var el = root.querySelector('#spell-input'); if (el) el.focus();
   }
 
@@ -608,8 +722,8 @@
     else if (session.mode === 'category' || (session.mode === 'personal' && session.hard)) { head = session.mode === 'category' ? 'The category refills' : 'Redo the whole set'; body = session.roundFails + ' missed this round. The whole set comes back — every ' + unit + ', until you clear it in one clean pass.'; btn = 'Go again'; }
     else { head = 'The round repeats'; body = session.roundFails + ' missed this round. The whole set comes back — every ' + unit + ', until you clear it in one clean pass.'; btn = 'Go again'; }
     var html = drillTop() + '<div class="overlay"><div class="mark warn">' + ICON.cycle + '</div><h2>' + head + '</h2><p>' + body + '</p>';
-    html += '<button class="action" data-action="continue">' + btn + '</button></div>';
-    root.innerHTML = html; var b = root.querySelector('[data-action="continue"]'); if (b) b.focus();
+    html += '<button class="btn primary block" data-action="continue">' + btn + '</button></div>';
+    show(html, false); var b = root.querySelector('[data-action="continue"]'); if (b) b.focus();
   }
   function renderDone() {
     var title, msg;
@@ -620,8 +734,8 @@
     else { title = 'Category complete'; msg = 'Clean round — “' + escapeHtml(shortName(session.cat.title)) + '” is done' + (session.rounds > 1 ? ' after ' + session.rounds + ' tries' : '') + '. The next one is unlocked.'; }
     var back = (session.returnTo === 'extra') ? 'Back to extra' : (session.returnTo === 'personal' ? 'Back to my words' : 'Back to your path');
     var html = '<div class="topbar-min">' + themeBtn() + '</div><div class="overlay"><div class="mark good">' + ICON.check + '</div><h2>' + title + '</h2><p>' + msg + '</p>';
-    html += '<button class="action" data-action="finish">' + back + '</button></div>';
-    root.innerHTML = html; var b = root.querySelector('[data-action="finish"]'); if (b) b.focus();
+    html += '<button class="btn primary block" data-action="finish">' + back + '</button></div>';
+    show(html, false); var b = root.querySelector('[data-action="finish"]'); if (b) b.focus();
   }
 
   /* ---------- interactions ---------- */
@@ -711,13 +825,16 @@
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
   }
-  // A backup made before grammar existed holds vocabulary only: it replaces that, and this
-  // device's grammar progress — and the training time spent on it — carries over untouched.
-  function keepGrammar(b) {
-    var g = state.grammar, ms = g.reviewMs;
-    for (var k in g.categoryMs) ms += g.categoryMs[k] || 0;
-    b.grammar = g;
-    b.totalMs = (typeof b.totalMs === 'number' ? b.totalMs : 0) + ms;
+  // A backup from an older version restores what it has; whatever it predates stays as it is on this
+  // device: grammar (and the training time spent on it), which theory has been read, the reading list.
+  function keepNewer(b) {
+    if (!('grammar' in b)) {
+      var g = state.grammar, ms = g.reviewMs;
+      for (var k in g.categoryMs) ms += g.categoryMs[k] || 0;
+      b.grammar = g;
+      b.totalMs = (typeof b.totalMs === 'number' ? b.totalMs : 0) + ms;
+    } else if (b.grammar && typeof b.grammar === 'object' && !b.grammar.theoryRead) b.grammar.theoryRead = state.grammar.theoryRead;
+    if (!('books' in b)) b.books = state.books;
   }
   function importData(file) {
     var reader = new FileReader();
@@ -727,40 +844,59 @@
       if (!incoming || typeof incoming !== 'object' || !('completed' in incoming || 'fails' in incoming || 'totalMs' in incoming)) {
         alert('That file is not a valid Ripasso backup.'); return;
       }
-      var old = !('grammar' in incoming);
-      if (!confirm(old ? 'This backup is from before grammar was added. Replace your vocabulary progress with it? Your grammar progress on this device stays as it is.'
-        : 'Replace your current progress with this backup? This cannot be undone.')) return;
-      if (old) keepGrammar(incoming);
+      var msg = !('grammar' in incoming) ? 'This backup is from before grammar was added. Replace your vocabulary progress with it? Your grammar progress and reading list on this device stay as they are.'
+        : (!('books' in incoming) ? 'Replace your progress with this backup? It predates the reading list, so your reading list on this device stays as it is.'
+          : 'Replace your current progress with this backup? This cannot be undone.');
+      if (!confirm(msg)) return;
+      keepNewer(incoming);
       try { localStorage.setItem(STATE_KEY, JSON.stringify(incoming)); } catch (e) {}
       state = loadState(); view = 'home'; renderHome();
     };
     reader.readAsText(file);
+  }
+  function syncThemeColor() {   // the phone's status bar takes the page color
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', getComputedStyle(document.documentElement).getPropertyValue('--bg').trim() || '#f7f5f2');
   }
   function toggleTheme() {
     var cur = document.documentElement.getAttribute('data-theme');
     var next = cur === 'light' ? 'dark' : (cur === 'dark' ? '' : 'light');
     if (next) document.documentElement.setAttribute('data-theme', next); else document.documentElement.removeAttribute('data-theme');
     try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+    syncThemeColor();
+  }
+  // Switch between screens: back to the top, the new content sliding in. (A CSS animation rather than
+  // a view transition: those swallow taps while they run, and this screen is live at once.)
+  function go(v, render) {
+    view = v; if (v !== 'home') window.scrollTo(0, 0);
+    entering = true; render(); entering = false;
   }
 
   root.addEventListener('click', function (e) {
     var t = e.target.closest('[data-action]'); if (!t) return;
     var a = t.getAttribute('data-action');
     if (a === 'theme') return toggleTheme();
-    if (a === 'track') { setTrack(t.getAttribute('data-id')); return view === 'stats' ? renderStats() : renderHome(); }
-    if (a === 'stats') { view = 'stats'; return renderStats(); }
-    if (a === 'extras') { view = 'extra'; return renderExtra(); }
-    if (a === 'extrafails') { view = 'extrafails'; return renderExtraFails(); }
+    if (a === 'track') { setTrack(t.getAttribute('data-id')); return go(view, view === 'stats' ? renderStats : renderHome); }
+    if (a === 'fold') { showDone[track] = !showDone[track]; return renderHome(true); }
+    if (a === 'stats') return go('stats', renderStats);
+    if (a === 'extras') return go('extra', renderExtra);
+    if (a === 'books') return go('books', renderBooks);
+    if (a === 'book') { cycleBook(t.getAttribute('data-id')); return renderBooks(); }
+    if (a === 'extrafails') return go('extrafails', renderExtraFails);
     if (a === 'export') return exportData();
-    if (a === 'personal') { view = 'personal'; return renderPersonal(); }
+    if (a === 'personal') return go('personal', renderPersonal);
     if (a === 'p-new') { var pn = prompt('Name your category:'); if (pn && pn.trim()) { var pcat = { id: genId('p'), name: pn.trim(), items: [] }; state.personal.push(pcat); saveState(); personalCtx = pcat.id; view = 'personal-add'; renderPersonalAdd(); } return; }
-    if (a === 'p-add') { personalCtx = t.getAttribute('data-id'); view = 'personal-add'; return renderPersonalAdd(); }
+    if (a === 'p-add') { personalCtx = t.getAttribute('data-id'); view = 'personal-add'; window.scrollTo(0, 0); return renderPersonalAdd(); }
     if (a === 'p-practice') { var ppc = personalById(t.getAttribute('data-id')); if (ppc && ppc.items.length) startPersonalDrill(ppc); return; }
     if (a === 'p-del') { var pdid = t.getAttribute('data-id'), pdc = personalById(pdid); if (pdc && confirm('Delete “' + pdc.name + '” and all its words?')) { state.personal = state.personal.filter(function (x) { return x.id !== pdid; }); saveState(); renderPersonal(); } return; }
     if (a === 'p-delword') { var wcc = personalById(personalCtx); if (wcc) { var wid = t.getAttribute('data-id'); wcc.items = wcc.items.filter(function (x) { return x.id !== wid; }); saveState(); renderPersonalAdd(); } return; }
     if (a === 'p-mode') { var mc = personalById(t.getAttribute('data-id')); if (mc) { mc.hard = !mc.hard; saveState(); renderPersonal(); } return; }
-    if (a === 'gohome') { view = 'home'; return renderHome(); }
+    if (a === 'gohome') return go('home', renderHome);
     if (a === 'open') { var oid = t.getAttribute('data-id'), ot = trk(track), c = ot.cats.filter(function (x) { return String(x.id) === oid; })[0]; if (c) startCategory(ot, c); return; }
+    if (a === 'theory') return openTheory(grammarCat(t.getAttribute('data-id')), 'home');
+    if (a === 'theory-drill') return openTheory(session && session.queue[session.pos].cat, 'drill');
+    if (a === 'theory-close') return closeTheory();
+    if (a === 'theory-start') return theoryStart();
     if (a === 'extra') { var d = extraById(t.getAttribute('data-id')); if (d) startExtra(d); return; }
     if (a === 'review') return startReview(trk(track));
     if (a === 'review2') return startReview2(trk(track));
@@ -783,13 +919,20 @@
     if (e.key === 'Enter' && e.target && e.target.id === 'p-it') { e.preventDefault(); var es = root.querySelector('#p-es'); if (es) es.focus(); }
   });
   document.addEventListener('visibilitychange', function () {
-    if (view !== 'drill' || !session || session.screen === 'done') return;
+    var timing = view === 'theory' || (view === 'drill' && session && session.screen !== 'done');
+    if (!timing) return;
     if (document.hidden) timer.stop(); else timer.arm();
   });
-  window.addEventListener('beforeunload', function () { if (view === 'drill') timer.stop(); });
+  window.addEventListener('beforeunload', function () { if (view === 'drill' || view === 'theory') timer.stop(); });
+  var lastScrollMark = 0;
+  window.addEventListener('scroll', function () {   // reading theory: scrolling shows you're still there
+    if (view !== 'theory' || Date.now() - lastScrollMark < 10000) return;
+    lastScrollMark = Date.now(); timer.mark();
+  }, { passive: true });
 
-  (function initTheme() { var t; try { t = localStorage.getItem(THEME_KEY); } catch (e) { t = null; } if (t) document.documentElement.setAttribute('data-theme', t); })();
+  (function initTheme() { var t; try { t = localStorage.getItem(THEME_KEY); } catch (e) { t = null; } if (t) document.documentElement.setAttribute('data-theme', t); syncThemeColor(); })();
   (function initTrack() { var t; try { t = localStorage.getItem(TRACK_KEY); } catch (e) { t = null; } track = t === 'grammar' ? 'grammar' : 'vocab'; })();
+  if (window.matchMedia) matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncThemeColor);
 
   // Ask the browser to keep our local data (reduces the chance it's auto-evicted).
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(function () {});
@@ -798,11 +941,12 @@
     data = d; data.allItems = []; data.itemById = {};
     data.categories.forEach(function (c) { c.items.forEach(function (it) { data.allItems.push(it); data.itemById[it.id] = it; }); });
     data.grammar = d.grammar || { levels: [], categories: [] };   // a data.json cached before the update has none
+    data.books = d.books || [];
     data.grammarItemById = {};
-    data.grammar.categories.forEach(function (c) { var topic = shortName(c.title); c.items.forEach(function (it) { it.topic = topic; data.grammarItemById[it.id] = it; }); });
+    data.grammar.categories.forEach(function (c) { var topic = shortName(c.title); c.items.forEach(function (it) { it.topic = topic; it.cat = c; data.grammarItemById[it.id] = it; }); });
     data.extraItemById = {};
     EXTRAS.forEach(function (def) { def.build().forEach(function (it) { data.extraItemById[it.id] = { prompt: it.prompt, it: it.it }; }); });
-    state = loadState(); renderHome();
+    state = loadState(); go('home', renderHome);
   }).catch(function () { root.innerHTML = '<div class="overlay"><h2>Could not load data</h2><p>Serve this folder over http (see README) and reload.</p></div>'; });
 
   if ('serviceWorker' in navigator) window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });

@@ -1,14 +1,16 @@
 # Language_Practice_Learner
 
-A small, personal app for memorizing **Italian** vocabulary and expressions by translating them into **Spanish (Spain)** — and for drilling Italian **grammar** with gap-fill sentences. It learns through trial and error — repetition, weighted toward what you get wrong. Built for domestic use, not deployment, and highly customizable.
+A small, personal app for memorizing **Italian** vocabulary and expressions by translating them into **Spanish (Spain)** — and for drilling Italian **grammar** with gap-fill sentences, each grammar topic introduced by a short **theory** lesson that compares Italian with Spanish. It learns through trial and error — repetition, weighted toward what you get wrong. Built for domestic use, not deployment, and highly customizable.
 
-It does **not** teach the basics of Italian (grammar rules, pronunciation) — you learn those elsewhere ([the roadmap](docs/learning-roadmap.md) says what, level by level). This app is a **memorization sustain**: it drills you and keeps bringing back what you fail.
+Memory comes first: this app is a **memorization sustain** — it drills you and keeps bringing back what you fail. The theory lessons give the drills something to stick to; a **reading list** by level points you to real Italian books. Pronunciation and deeper study live elsewhere ([the roadmap](docs/learning-roadmap.md) says what, level by level).
 
 ## A look at it
 
-| Your path | A word to translate | Your stats |
+| Your path | The grammar path | A theory lesson |
 | :---: | :---: | :---: |
-| ![Home screen showing the category path, progress and level](pictures/home.png) | ![Drill screen: an Italian word to translate into Spanish](pictures/drill.png) | ![Stats screen: time per category and tricky words](pictures/stats.png) |
+| ![Home: progress hero card, completed steps folded, the current category](pictures/home.png) | ![Grammar path: the current category starts with its theory](pictures/grammar.png) | ![Theory lesson: the rule, then Italian vs Spanish](pictures/theory.png) |
+| **A gap to fill** | **Books by level** | **Your stats** |
+| ![Grammar drill: a sentence with the gap filled in, correct](pictures/drill.png) | ![Reading list: Italian books by level, with a status per book](pictures/books.png) | ![Stats: time, categories, tricky sentences](pictures/stats.png) |
 
 ---
 
@@ -28,8 +30,10 @@ This build was made with an **Italian → Spanish** connection in mind, but noth
 6. A **cumulative timer** tracks your total training time, capped at 30 s per word so idle time never inflates it.
 7. **Extra** practice sets sit off the main path (first one: Numbers 0–100), and a **Stats** page shows time per category, tries-to-pass, and your tricky words.
 8. **Grammar** is a second path (the **Vocabulary | Grammar** switch on home): an Italian sentence with a gap, a cue and the Spanish meaning — type the missing form (*Ieri Giulia ___ al mare* · *andare* → **è andata**). Checked strictly (accents count), same refill / review / override rules, its own progress; the second checkpoint round hides the cue (**no hints**).
+9. **Theory first.** Each grammar category opens with a short lesson: the rule, what works like Spanish, what doesn't, the traps, a curiosity and a trick. It stays one tap away — on the path and inside the drill.
+10. **Books.** A reading list from A1 to C2, all originally Italian, with a *to read → reading → read* status per book.
 
-The full algorithm — categories, both review rounds, recovery/reset, skip conditions, overrides, the AFK-capped timer, extra categories and the grammar track — lives in **[docs/app-concept.md](docs/app-concept.md)**.
+Five screens sit on a floating bar at the bottom: **Path · Extra · Mine · Books · Stats**. The full algorithm — categories, both review rounds, recovery/reset, skip conditions, overrides, the AFK-capped timer, extra categories, the grammar track, theory and books — lives in **[docs/app-concept.md](docs/app-concept.md)**.
 
 ---
 
@@ -38,7 +42,7 @@ The full algorithm — categories, both review rounds, recovery/reset, skip cond
 Everything you do is stored **only in your browser on that device** (`localStorage`) — no server, no account, nothing uploaded or shared. Each person who opens the link gets their own independent progress.
 
 - **Stats → Export backup / Import backup** saves your progress to a JSON file and restores it (e.g. on a new phone) — fully manual.
-- **Backups from before grammar still import.** They restore your vocabulary progress and leave any grammar progress on the device as it is. Updating the app keeps your progress too: vocabulary stays where it always was, grammar is stored alongside it.
+- **Backups from older versions still import.** They restore what they contain and leave whatever they predate (grammar, theory read, reading list) as it is on the device. Updating the app keeps your progress too: vocabulary stays where it always was; everything newer is stored alongside it.
 - The app requests **persistent storage** so the browser won't auto-evict your data.
 - Clearing the browser's site data or uninstalling still wipes it, so export a copy now and then.
 
@@ -68,10 +72,17 @@ Re-run it after changing any category file. It rebuilds the dictionary and flags
 
 ## The grammar
 
-- **Categories** follow [docs/learning-roadmap.md](docs/learning-roadmap.md) by CEFR level — **A1 and A2 so far: 30 categories, 600 sentences**. List: **[docs/grammar-categories.md](docs/grammar-categories.md)**.
+- **Categories** follow [docs/learning-roadmap.md](docs/learning-roadmap.md) by CEFR level — **A1 to C1: 59 categories, 1,180 sentences**. List: **[docs/grammar-categories.md](docs/grammar-categories.md)**.
 - Per-category files: **[docs/grammar/](docs/grammar/)** — a one-line rule reminder (`> ` line) plus a table `Italian (one ___ gap) | Cue | Answer (accepted) | Spanish | Notes`.
 - The Spanish translation is written so that, even with the cue hidden, it settles which form goes in the gap.
 - Same id rule as vocabulary: don't insert, delete or reorder rows in a shipped file.
+- **Theory lessons:** **[docs/theory/](docs/theory/)** — one per grammar category, same file name. Markdown with a `# title`, a `> ` lead line and six `##` sections: *La regola, Come in spagnolo, Diverso dallo spagnolo, Occhio!, Curiosità, Il trucco* (each becomes a colored card). Supported formatting: `**bold**` (Italian forms), `*italics*` (Spanish forms), lists, tables, `> ` quotes.
+
+---
+
+## The books
+
+**[docs/books.md](docs/books.md)** — books originally written in Italian, by level (A1 → C2) and in the recommended order: one `## <level> · <description>` heading per level, then a table `Title | Author | Year | Why this level | Curiosity`. Your reading status is stored under each book's **title**, so don't rename a title once marked.
 
 ---
 
@@ -84,7 +95,7 @@ Language_Practice_Learner/
 │   ├── index.html
 │   ├── styles.css
 │   ├── app.js                UI + drill logic
-│   ├── data.json             generated vocabulary + grammar (from docs/data, docs/grammar)
+│   ├── data.json             generated: vocabulary, grammar + theory, books (from docs/)
 │   ├── manifest.webmanifest
 │   ├── sw.js                 offline service worker
 │   └── icon-192.png, icon-512.png   home-screen icons
@@ -94,11 +105,14 @@ Language_Practice_Learner/
 │   ├── grammar-categories.md master grammar category list
 │   ├── learning-roadmap.md   grammar concepts per CEFR level
 │   ├── dictionary.md         auto-generated index of all Italian terms
+│   ├── books.md              the reading list, by level
 │   ├── data/                 per-category word files (a1-01-numbers.md, …)
-│   └── grammar/              per-category sentence files (a1-01-definite-articles.md, …)
+│   ├── grammar/              per-category sentence files (a1-01-definite-articles.md, …)
+│   └── theory/               one theory lesson per grammar category (same file names)
+├── pictures/                 screenshots for this README
 └── scripts/
     ├── build_dictionary.py   regenerates docs/dictionary.md
-    └── build_data.py         regenerates app/data.json (vocabulary + grammar, validates the grammar tables)
+    └── build_data.py         regenerates app/data.json (vocabulary, grammar, theory, books; validates the tables)
 ```
 
 ---
@@ -106,8 +120,9 @@ Language_Practice_Learner/
 ## Status
 
 - **Data:** A1, A2 and B1 complete, B2 in progress — **50 categories, 1,500 terms** so far (0 duplicates). More B2+ themes still to add.
-- **App:** **built** — a no-build PWA in [app/](app/): category trail (sequential unlock), progress %, level badge, AFK-capped timer, the drill loop with forgiving checking + reverse-spelling, **review rounds** every 3 categories *plus a reverse round* (Spanish→Italian, strict), recovery/reset, **I don't know** / **I had it right** overrides, **Extra categories** (off-path practice; first: Numbers 0–100), and a **Stats** page (time per category, attempts-to-pass, tricky words). Theme toggle on every screen. All saved locally.
-- **Grammar:** a second path in the app — **A1 and A2 complete (30 categories, 600 gap-fill sentences)**, plus two grammar Extra sets (prepositions + articles, irregular participles). B1+ next. [docs/learning-roadmap.md](docs/learning-roadmap.md) lists the concepts to study per CEFR level.
+- **App:** **built** — a no-build PWA in [app/](app/): category path (sequential unlock, completed steps folded), progress hero, level badge, AFK-capped timer, the drill loop with forgiving checking + reverse-spelling, **review rounds** every 3 categories *plus a reverse round* (Spanish→Italian, strict), recovery/reset, **I don't know** / **I had it right** overrides, **Extra categories**, **Mine**, **Books** and **Stats** — on a floating bottom bar. Light/dark themes, a color per area. All saved locally.
+- **Grammar:** a second path in the app — **A1 to C1 complete (59 categories, 1,180 gap-fill sentences, 59 theory lessons)**, plus two grammar Extra sets (prepositions + articles, irregular participles). [docs/learning-roadmap.md](docs/learning-roadmap.md) lists the concepts to study per CEFR level.
+- **Books:** 30 Italian books from A1 (comics, nursery rhymes) to C2 (Manzoni, Dante, Gadda).
 
 ## Running it
 

@@ -5,6 +5,7 @@ Each one is a set of **gap-fill sentences** (~20) drilled on the app's Grammar p
 
 - One data file per category under `docs/grammar/` (`a1-01-definite-articles.md`, …).
 - Each file has a one-line **rule reminder** (the `> ` line under the title), shown on the category card before you start.
+- Each category has a **theory lesson** with the same file name under `docs/theory/` — read before the first drill, reachable any time after. Format: a `# title`, a `> ` lead, then six `##` sections in this order: **La regola**, **Come in spagnolo**, **Diverso dallo spagnolo**, **Occhio!**, **Curiosità**, **Il trucco**. Keep it ~300 words, written for a Spanish speaker; curiosities must be true (check them).
 - Table columns: `Italian (one ___ gap) | Cue | Answer (accepted) | Spanish | Notes`.
   - **Cue** — what to put in the gap (the verb, *su + il*, *mio*…); may be empty when the sentence says enough. Hidden in the *no hints* checkpoint round.
   - **Answer** — comma-separated; the first is shown as the answer, the others are also accepted.
@@ -48,9 +49,43 @@ Each one is a set of **gap-fill sentences** (~20) drilled on the app's Grammar p
 29. bello, buono, grande, santo
 30. Time markers & connectors
 
-## B1 and up
+## B1 — moods & hypotheticals
 
-31. *(next: conditional, subjunctive, combined pronouns, relative pronouns, imperative with pronouns, impersonal si… — see the roadmap)*
+31. Conditional: present
+32. Conditional: past
+33. Trapassato prossimo
+34. Futuro anteriore
+35. Subjunctive: present forms
+36. Subjunctive or indicative?
+37. Subjunctive: past
+38. Combined pronouns
+39. Relative pronouns
+40. Imperative with pronouns & the polite Lei
+41. Impersonal and passive si
+42. If-clauses: the real ones
+43. Gerund and participle clauses
+44. Connectors: however, so, although
+
+## B2 — nuance, register, complex syntax
+
+45. Subjunctive: imperfect
+46. Subjunctive: pluperfect
+47. If-clauses: unreal present and past
+48. Sequence of tenses
+49. Passato remoto
+50. The passive: essere, venire, andare
+51. Causative fare and lasciare
+52. Reported speech
+53. Pronominal verbs: farcela, andarsene…
+54. Connectors & register
+
+## C1 — mastery
+
+55. The subjunctive in every corner
+56. Mixed and hidden hypotheticals
+57. Literary tenses: trapassato remoto & narration
+58. Infinitive and participle constructions
+59. Discourse markers & spoken Italian
 
 ---
 
