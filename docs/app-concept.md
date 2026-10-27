@@ -7,9 +7,9 @@ It does **not** contain the vocabulary data (see `categories.md` and the per-cat
 
 ## 1. Purpose
 
-A personal drill app to memorize **Italian** vocabulary and expressions by translating them into **Spanish**.
+A personal drill app to memorize **Italian** vocabulary and expressions by translating them into **Spanish** — and, on a second path, to make Italian **grammar** automatic with gap-fill sentences (§12).
 
-It does **not** teach the basics of Italian (grammar, rules, pronunciation) — the user learns those elsewhere. This app is a **memorization sustain**, built on retrieval practice + repetition, weighted toward the things you get wrong.
+It does **not** teach the basics of Italian (grammar rules, pronunciation) — the user learns those elsewhere ([learning-roadmap.md](learning-roadmap.md)). This app is a **memorization sustain**, built on retrieval practice + repetition, weighted toward the things you get wrong.
 
 ---
 
@@ -122,6 +122,7 @@ Optional practice sets **off the main path** (reached via the **Extra** button o
 - Missed words in extra sets are tracked in a **separate tricky-words list** (Stats → *Extra · tricky words*), **fully independent** of the main fail list and review rounds.
 - **Completion — whittle-down:** go through all items once; the ones you miss come back as the next pass (only those), then only *their* misses, and so on until every one is right. Not a full refill like categories — only the misses carry forward. (E.g. 100 → miss 20 → miss 6 → … → 0.)
 - Sets: **Numbers 0–100** (digits → Italian), **Days of the week**, and **Months & seasons** (both Spanish → Italian). All typed in Italian, strict (only capitalization forgiven).
+- Grammar sets (listed under their own heading, recorded with the grammar progress): **Prepositions + articles** (*di + il → del* … the full 35-form grid) and **Irregular past participles** (*fare → fatto*, 40 verbs).
 
 ---
 
@@ -136,7 +137,34 @@ The user's **own** categories, reached via the **Mine** button on home — for w
 
 ---
 
-## 12. Out of scope
+## 12. Grammar track
 
-- Teaching grammar, rules, or pronunciation basics.
+A second path next to vocabulary — a **Vocabulary | Grammar** switch on home (and on Stats) picks which one you see. Same ideas, applied to structure instead of words.
+
+- **Item = one Italian sentence with a gap**, a **cue** for what goes in it (*andare · io*, *su + il*, *mio*… — sometimes none), and the **Spanish** meaning of the whole sentence. Type the missing form in Italian.
+  - e.g. *Ieri Giulia ___ al mare.* · cue *andare* · *Ayer Giulia fue a la playa.* → **è andata**
+- **Checking: strict like Italian spelling** — accents count (*è* ≠ *e*, *parlò* ≠ *parlo*). Forgiven: capitals, curly vs straight apostrophes, extra spaces, stray end punctuation. Each item can list several accepted answers. A miss that only gets the accents wrong says so.
+- **After every answer** the sentence is shown complete, with a short note on the rule (no retype step — the answer was already typed in Italian).
+- **Categories** follow the roadmap by CEFR level (list: [grammar-categories.md](grammar-categories.md)), ~20 sentences each. Each shows a **one-line rule reminder** on its card before you start — a memory aid, not a lesson.
+- **Progression, refill, fails, recovery marks, overrides and the timer work exactly as in vocabulary** (§4–§9): in order; any miss refills the whole category; *I don't know* / *I had it right*; checkpoints every 3 categories.
+- **Checkpoint rounds:** the **review** round is the same (10 most-missed + 10 random seen sentences, records fails, awards recovery marks; skipped if there are no grammar fails). The second round is **no hints** instead of reverse: 20 random seen sentences with the **cue hidden** — only the Spanish to go on. Records nothing; repeats until a clean pass.
+- **Separate progress:** grammar has its own completed list, fails, level, %, review rounds, time per category and extra-set history. Vocabulary is never touched by grammar and vice versa. The **timer is shared** — one total of training time.
+- In review rounds each sentence is labelled with its topic (*Passato prossimo with essere*…).
+
+---
+
+## 13. Your data & backups
+
+- Everything is one JSON object in the browser (`localStorage`, key `lpl-state-v1`); **Export backup** saves exactly that object.
+- **Vocabulary progress stays at the root** of that object, in the same fields it always had; **grammar progress is added under `grammar`** with the same shape. So:
+  - Updating the app on the same device keeps all progress — nothing is migrated or renamed.
+  - **Backups from before grammar import as they are.** Importing one replaces the vocabulary progress and **keeps the grammar progress already on the device** (and adds its training time to the restored total).
+  - A new backup imported into an old version of the app still shows the vocabulary progress and keeps the grammar data untouched.
+- Item ids are **positional** — `<category>-<row>` (vocabulary) and `g<category>-<row>` (grammar) — and the fail counts are stored under them. **Never insert, delete or reorder rows** in a shipped category file; fix typos in place and add new items at the end.
+
+---
+
+## 14. Out of scope
+
+- Teaching grammar from scratch, or pronunciation — the grammar track drills forms (with a one-line reminder per category); explanations live elsewhere.
 - Multiple choice — answers are always **typed**.

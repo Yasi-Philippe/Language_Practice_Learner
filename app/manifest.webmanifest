@@ -1,7 +1,7 @@
 {
   "name": "Ripasso — Italiano → Español",
   "short_name": "Ripasso",
-  "description": "Personal Italian → Spanish vocabulary drills.",
+  "description": "Personal Italian → Spanish vocabulary and grammar drills.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
