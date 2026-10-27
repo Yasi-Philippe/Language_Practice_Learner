@@ -225,6 +225,26 @@ button { font-family: inherit; cursor: pointer; }
 .action:active { transform: scale(.985); filter: brightness(.96); }
 .action.ghost { background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); }
 
+/* ===== Grammar ===== */
+.tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 0 0 18px; background: var(--surface-2); border-radius: 14px; }
+.tab { border: none; background: none; color: var(--muted); font-weight: 700; font-size: 14px; padding: 9px 8px; border-radius: 10px; transition: background .2s, color .2s; }
+.tab.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 4px -1px rgba(60, 40, 20, .3); }
+.card .rule { margin-top: 9px; padding: 9px 11px; border-radius: 10px; background: var(--surface-2); font-size: 13px; line-height: 1.5; }
+.prompt.gram { padding: 32px 20px 28px; }
+.sentence { font-family: var(--serif); font-size: 26px; font-weight: 600; line-height: 1.4; word-break: break-word; }
+.gap { display: inline-block; width: 2.4em; height: .9em; margin: 0 .06em; border-bottom: 2.5px solid var(--accent); }
+.gap.filled { width: auto; height: auto; padding: 0 .1em; border-bottom-color: currentColor; }
+.prompt.ok .gap.filled { color: var(--good); }
+.prompt.no .gap.filled { color: var(--warn); }
+.cue { display: inline-block; margin-top: 16px; padding: 4px 13px; border-radius: 999px; background: var(--surface-2); font-size: 14px; font-weight: 600; }
+.es { margin-top: 12px; color: var(--muted); font-size: 15px; font-style: italic; }
+.tricky li.gram { grid-template-columns: 1fr auto; row-gap: 3px; }
+.tw-q { font-family: var(--serif); font-size: 15px; min-width: 0; }
+.tw-q .gap.filled { padding: 0; border: none; color: var(--warn); font-weight: 700; }
+.tw-topic { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.note em { font-style: normal; color: var(--ink); }
+.section-label .dur { text-transform: none; letter-spacing: .04em; }
+
 /* ===== Overlays (refill / done) ===== */
 .overlay { text-align: center; padding: 40px 20px; }
 .overlay .mark {

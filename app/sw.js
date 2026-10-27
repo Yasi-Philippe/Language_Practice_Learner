@@ -1,11 +1,13 @@
-const CACHE = 'ripasso-v6';
+const CACHE = 'ripasso-v7';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'data.json',
   'manifest.webmanifest', 'icon-192.png', 'icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // 'reload' skips the browser's HTTP cache, so an update never re-caches the previous version's files
+  const fresh = ASSETS.map((u) => new Request(u, { cache: 'reload' }));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(fresh)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {

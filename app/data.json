@@ -13287,5 +13287,6326 @@
     }
    ]
   }
- ]
+ ],
+ "grammar": {
+  "levels": [
+   "A1",
+   "A2"
+  ],
+  "categories": [
+   {
+    "id": "g1",
+    "level": "A1",
+    "title": "A1 · Definite articles",
+    "file": "a1-01-definite-articles.md",
+    "rule": "*il* + consonant · *lo* + s+consonant, z, gn, ps, y · *l'* + vowel · *la* (f.) · plural: *i* · *gli* · *le*",
+    "items": [
+     {
+      "id": "g1-0",
+      "q": "___ libro è sul tavolo.",
+      "cue": "",
+      "a": [
+       "Il"
+      ],
+      "es": "El libro está sobre la mesa.",
+      "note": "*il* + consonant"
+     },
+     {
+      "id": "g1-1",
+      "q": "___ treno parte alle otto.",
+      "cue": "",
+      "a": [
+       "Il"
+      ],
+      "es": "El tren sale a las ocho.",
+      "note": ""
+     },
+     {
+      "id": "g1-2",
+      "q": "___ zaino è nuovo.",
+      "cue": "",
+      "a": [
+       "Lo"
+      ],
+      "es": "La mochila es nueva.",
+      "note": "*lo* + z — and *zaino* is masculine"
+     },
+     {
+      "id": "g1-3",
+      "q": "___ studente è in classe.",
+      "cue": "",
+      "a": [
+       "Lo"
+      ],
+      "es": "El estudiante está en clase.",
+      "note": "*lo* + s + consonant"
+     },
+     {
+      "id": "g1-4",
+      "q": "Mi piace ___ yogurt.",
+      "cue": "",
+      "a": [
+       "lo"
+      ],
+      "es": "Me gusta el yogur.",
+      "note": "*lo* + y"
+     },
+     {
+      "id": "g1-5",
+      "q": "___ psicologo è molto bravo.",
+      "cue": "",
+      "a": [
+       "Lo"
+      ],
+      "es": "El psicólogo es muy bueno.",
+      "note": "*lo* + ps"
+     },
+     {
+      "id": "g1-6",
+      "q": "___amica di Marco è simpatica.",
+      "cue": "",
+      "a": [
+       "L'"
+      ],
+      "es": "La amiga de Marco es simpática.",
+      "note": "*l'* + vowel, masculine and feminine"
+     },
+     {
+      "id": "g1-7",
+      "q": "___uomo legge il giornale.",
+      "cue": "",
+      "a": [
+       "L'"
+      ],
+      "es": "El hombre lee el periódico.",
+      "note": ""
+     },
+     {
+      "id": "g1-8",
+      "q": "___acqua è fredda.",
+      "cue": "",
+      "a": [
+       "L'"
+      ],
+      "es": "El agua está fría.",
+      "note": "ES *el agua*, IT *l'acqua* (f.)"
+     },
+     {
+      "id": "g1-9",
+      "q": "___ casa è grande.",
+      "cue": "",
+      "a": [
+       "La"
+      ],
+      "es": "La casa es grande.",
+      "note": ""
+     },
+     {
+      "id": "g1-10",
+      "q": "___ porta è aperta.",
+      "cue": "",
+      "a": [
+       "La"
+      ],
+      "es": "La puerta está abierta.",
+      "note": ""
+     },
+     {
+      "id": "g1-11",
+      "q": "___ ragazzi giocano a calcio.",
+      "cue": "",
+      "a": [
+       "I"
+      ],
+      "es": "Los chicos juegan al fútbol.",
+      "note": "*i* = plural of *il*"
+     },
+     {
+      "id": "g1-12",
+      "q": "___ giorni passano in fretta.",
+      "cue": "",
+      "a": [
+       "I"
+      ],
+      "es": "Los días pasan deprisa.",
+      "note": ""
+     },
+     {
+      "id": "g1-13",
+      "q": "___ studenti sono stanchi.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "Los estudiantes están cansados.",
+      "note": "*gli* = plural of *lo*"
+     },
+     {
+      "id": "g1-14",
+      "q": "___ amici arrivano domani.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "Los amigos llegan mañana.",
+      "note": "*gli* + vowel (plural of *l'*)"
+     },
+     {
+      "id": "g1-15",
+      "q": "___ gnocchi sono buonissimi.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "Los ñoquis están buenísimos.",
+      "note": "*gli* + gn"
+     },
+     {
+      "id": "g1-16",
+      "q": "___ uomini lavorano qui.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "Los hombres trabajan aquí.",
+      "note": "*l'uomo → gli uomini*"
+     },
+     {
+      "id": "g1-17",
+      "q": "___ ragazze parlano inglese.",
+      "cue": "",
+      "a": [
+       "Le"
+      ],
+      "es": "Las chicas hablan inglés.",
+      "note": ""
+     },
+     {
+      "id": "g1-18",
+      "q": "___ arance sono dolci.",
+      "cue": "",
+      "a": [
+       "Le"
+      ],
+      "es": "Las naranjas son dulces.",
+      "note": "plural *le* never takes an apostrophe"
+     },
+     {
+      "id": "g1-19",
+      "q": "___ notizie sono buone.",
+      "cue": "",
+      "a": [
+       "Le"
+      ],
+      "es": "Las noticias son buenas.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g2",
+    "level": "A1",
+    "title": "A1 · Indefinite articles",
+    "file": "a1-02-indefinite-articles.md",
+    "rule": "*un* (m.) · *uno* + s+consonant, z, gn, ps, y · *una* (f.) · *un'* + vowel — feminine only: masculine *un* never takes an apostrophe",
+    "items": [
+     {
+      "id": "g2-0",
+      "q": "Ho ___ fratello e una sorella.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Tengo un hermano y una hermana.",
+      "note": "*un* + consonant (m.)"
+     },
+     {
+      "id": "g2-1",
+      "q": "Vorrei ___ caffè, per favore.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Quisiera un café, por favor.",
+      "note": ""
+     },
+     {
+      "id": "g2-2",
+      "q": "Abbiamo ___ amico in comune.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Tenemos un amigo en común.",
+      "note": "masculine *un* never takes an apostrophe"
+     },
+     {
+      "id": "g2-3",
+      "q": "Lavora in ___ ufficio in centro.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Trabaja en una oficina en el centro.",
+      "note": "*l'ufficio* is masculine"
+     },
+     {
+      "id": "g2-4",
+      "q": "Stasera guardiamo ___ film.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Esta noche vemos una película.",
+      "note": "*il film* is masculine"
+     },
+     {
+      "id": "g2-5",
+      "q": "Vivono in ___ appartamento piccolo.",
+      "cue": "",
+      "a": [
+       "un"
+      ],
+      "es": "Viven en un piso pequeño.",
+      "note": "masculine + vowel → *un*"
+     },
+     {
+      "id": "g2-6",
+      "q": "È ___ zaino molto pesante.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Es una mochila muy pesada.",
+      "note": "*uno* + z"
+     },
+     {
+      "id": "g2-7",
+      "q": "C'è ___ studente nuovo in classe.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Hay un estudiante nuevo en clase.",
+      "note": "*uno* + s + consonant"
+     },
+     {
+      "id": "g2-8",
+      "q": "Cerco ___ psicologo bravo.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Busco un buen psicólogo.",
+      "note": "*uno* + ps"
+     },
+     {
+      "id": "g2-9",
+      "q": "Mi serve ___ specchio.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Necesito un espejo.",
+      "note": ""
+     },
+     {
+      "id": "g2-10",
+      "q": "C'è ___ gnomo in giardino.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Hay un gnomo en el jardín.",
+      "note": "*uno* + gn"
+     },
+     {
+      "id": "g2-11",
+      "q": "Mangio ___ yogurt a colazione.",
+      "cue": "",
+      "a": [
+       "uno"
+      ],
+      "es": "Me tomo un yogur para desayunar.",
+      "note": "*uno* + y"
+     },
+     {
+      "id": "g2-12",
+      "q": "Mangio ___ mela al giorno.",
+      "cue": "",
+      "a": [
+       "una"
+      ],
+      "es": "Me como una manzana al día.",
+      "note": ""
+     },
+     {
+      "id": "g2-13",
+      "q": "Ho comprato ___ zucchina.",
+      "cue": "",
+      "a": [
+       "una"
+      ],
+      "es": "He comprado un calabacín.",
+      "note": "*uno* is only masculine: *una zucchina*"
+     },
+     {
+      "id": "g2-14",
+      "q": "È ___ ragazza molto simpatica.",
+      "cue": "",
+      "a": [
+       "una"
+      ],
+      "es": "Es una chica muy simpática.",
+      "note": ""
+     },
+     {
+      "id": "g2-15",
+      "q": "Lui ha ___ zia molto ricca.",
+      "cue": "",
+      "a": [
+       "una"
+      ],
+      "es": "Él tiene una tía muy rica.",
+      "note": ""
+     },
+     {
+      "id": "g2-16",
+      "q": "Mia madre ha ___amica a Napoli.",
+      "cue": "",
+      "a": [
+       "un'"
+      ],
+      "es": "Mi madre tiene una amiga en Nápoles.",
+      "note": "*un'* = *una* before a vowel"
+     },
+     {
+      "id": "g2-17",
+      "q": "Ho ___idea!",
+      "cue": "",
+      "a": [
+       "un'"
+      ],
+      "es": "¡Tengo una idea!",
+      "note": ""
+     },
+     {
+      "id": "g2-18",
+      "q": "Prendo ___aranciata.",
+      "cue": "",
+      "a": [
+       "un'"
+      ],
+      "es": "Me tomo una naranjada.",
+      "note": ""
+     },
+     {
+      "id": "g2-19",
+      "q": "Marco ha ___auto nuova.",
+      "cue": "",
+      "a": [
+       "un'"
+      ],
+      "es": "Marco tiene un coche nuevo.",
+      "note": "*l'auto* is feminine → *un'auto*"
+     }
+    ]
+   },
+   {
+    "id": "g3",
+    "level": "A1",
+    "title": "A1 · Noun plurals",
+    "file": "a1-03-noun-plurals.md",
+    "rule": "*-o → -i* · *-a → -e* · *-e → -i* · accented, one-syllable and foreign nouns don't change · *-ca/-ga → -che/-ghe* · *uomo → uomini*, *uovo → uova*, *mano → mani*",
+    "items": [
+     {
+      "id": "g3-0",
+      "q": "Ho due ___ in tasca.",
+      "cue": "biglietto",
+      "a": [
+       "biglietti"
+      ],
+      "es": "Tengo dos billetes en el bolsillo.",
+      "note": "*-o → -i*"
+     },
+     {
+      "id": "g3-1",
+      "q": "Le ___ sono aperte.",
+      "cue": "finestra",
+      "a": [
+       "finestre"
+      ],
+      "es": "Las ventanas están abiertas.",
+      "note": "*-a → -e*"
+     },
+     {
+      "id": "g3-2",
+      "q": "I miei ___ sono simpatici.",
+      "cue": "professore",
+      "a": [
+       "professori"
+      ],
+      "es": "Mis profesores son simpáticos.",
+      "note": "*-e → -i*"
+     },
+     {
+      "id": "g3-3",
+      "q": "Ho dimenticato le ___ a casa.",
+      "cue": "chiave",
+      "a": [
+       "chiavi"
+      ],
+      "es": "Me he dejado las llaves en casa.",
+      "note": "*-e → -i*, also for feminine nouns"
+     },
+     {
+      "id": "g3-4",
+      "q": "Gli ___ studiano in biblioteca.",
+      "cue": "studente",
+      "a": [
+       "studenti"
+      ],
+      "es": "Los estudiantes estudian en la biblioteca.",
+      "note": ""
+     },
+     {
+      "id": "g3-5",
+      "q": "In autunno cadono le ___.",
+      "cue": "foglia",
+      "a": [
+       "foglie"
+      ],
+      "es": "En otoño caen las hojas.",
+      "note": ""
+     },
+     {
+      "id": "g3-6",
+      "q": "Visitiamo molte ___ italiane.",
+      "cue": "città",
+      "a": [
+       "città"
+      ],
+      "es": "Visitamos muchas ciudades italianas.",
+      "note": "ends in an accented vowel: no change"
+     },
+     {
+      "id": "g3-7",
+      "q": "Quanti ___ bevi al giorno?",
+      "cue": "caffè",
+      "a": [
+       "caffè"
+      ],
+      "es": "¿Cuántos cafés tomas al día?",
+      "note": "accented: no change"
+     },
+     {
+      "id": "g3-8",
+      "q": "Stasera ci sono due ___ in TV.",
+      "cue": "film",
+      "a": [
+       "film"
+      ],
+      "es": "Esta noche hay dos películas en la tele.",
+      "note": "foreign words don't change"
+     },
+     {
+      "id": "g3-9",
+      "q": "Le mie ___ sono fredde.",
+      "cue": "mano",
+      "a": [
+       "mani"
+      ],
+      "es": "Mis manos están frías.",
+      "note": "*la mano → le mani* — feminine!"
+     },
+     {
+      "id": "g3-10",
+      "q": "Ho comprato sei ___.",
+      "cue": "uovo",
+      "a": [
+       "uova"
+      ],
+      "es": "He comprado seis huevos.",
+      "note": "*l'uovo → le uova* — feminine plural!"
+     },
+     {
+      "id": "g3-11",
+      "q": "Gli ___ lavorano molto.",
+      "cue": "uomo",
+      "a": [
+       "uomini"
+      ],
+      "es": "Los hombres trabajan mucho.",
+      "note": "irregular: *uomo → uomini*"
+     },
+     {
+      "id": "g3-12",
+      "q": "Le mie ___ arrivano stasera.",
+      "cue": "amica",
+      "a": [
+       "amiche"
+      ],
+      "es": "Mis amigas llegan esta noche.",
+      "note": "*-ca → -che* keeps the hard c"
+     },
+     {
+      "id": "g3-13",
+      "q": "I miei ___ abitano a Milano.",
+      "cue": "amico",
+      "a": [
+       "amici"
+      ],
+      "es": "Mis amigos viven en Milán.",
+      "note": "*amico → amici* (but *gioco → giochi*)"
+     },
+     {
+      "id": "g3-14",
+      "q": "I bambini hanno molti ___.",
+      "cue": "gioco",
+      "a": [
+       "giochi"
+      ],
+      "es": "Los niños tienen muchos juegos.",
+      "note": "*-co → -chi* when stressed on the second-last syllable"
+     },
+     {
+      "id": "g3-15",
+      "q": "In questo ospedale ci sono venti ___.",
+      "cue": "medico",
+      "a": [
+       "medici"
+      ],
+      "es": "En este hospital hay veinte médicos.",
+      "note": "*-co → -ci* when stressed on the third-last (*mèdico*)"
+     },
+     {
+      "id": "g3-16",
+      "q": "Le mie ___ di lavoro sono gentili.",
+      "cue": "collega",
+      "a": [
+       "colleghe"
+      ],
+      "es": "Mis compañeras de trabajo son amables.",
+      "note": "*-ga → -ghe* keeps the hard g"
+     },
+     {
+      "id": "g3-17",
+      "q": "I ___ fanno molte foto.",
+      "cue": "turista",
+      "a": [
+       "turisti"
+      ],
+      "es": "Los turistas hacen muchas fotos.",
+      "note": "*-ista → -isti* (m.) / *-iste* (f.)"
+     },
+     {
+      "id": "g3-18",
+      "q": "Ho due ___ e una figlia.",
+      "cue": "figlio",
+      "a": [
+       "figli"
+      ],
+      "es": "Tengo dos hijos y una hija.",
+      "note": "*-io → -i*: only one i"
+     },
+     {
+      "id": "g3-19",
+      "q": "Ho comprato due ___ bianche.",
+      "cue": "camicia",
+      "a": [
+       "camicie"
+      ],
+      "es": "He comprado dos camisas blancas.",
+      "note": "*-cia* after a vowel → *-cie*"
+     }
+    ]
+   },
+   {
+    "id": "g4",
+    "level": "A1",
+    "title": "A1 · Adjective agreement",
+    "file": "a1-04-adjective-agreement.md",
+    "rule": "*-o* adjectives: *-o, -a, -i, -e* · *-e* adjectives: *-e* (m. and f.), plural *-i* · *-co/-go → -chi/-ghi*, *-ca/-ga → -che/-ghe* · *blu, rosa, viola* never change",
+    "items": [
+     {
+      "id": "g4-0",
+      "q": "La casa è ___.",
+      "cue": "piccolo",
+      "a": [
+       "piccola"
+      ],
+      "es": "La casa es pequeña.",
+      "note": "*-o* adjectives: *-o, -a, -i, -e*"
+     },
+     {
+      "id": "g4-1",
+      "q": "I ragazzi sono ___.",
+      "cue": "alto",
+      "a": [
+       "alti"
+      ],
+      "es": "Los chicos son altos.",
+      "note": ""
+     },
+     {
+      "id": "g4-2",
+      "q": "Le ragazze sono ___.",
+      "cue": "simpatico",
+      "a": [
+       "simpatiche"
+      ],
+      "es": "Las chicas son simpáticas.",
+      "note": "*-ca → -che*"
+     },
+     {
+      "id": "g4-3",
+      "q": "I miei amici sono molto ___.",
+      "cue": "simpatico",
+      "a": [
+       "simpatici"
+      ],
+      "es": "Mis amigos son muy simpáticos.",
+      "note": "*simpàtico → simpatici*"
+     },
+     {
+      "id": "g4-4",
+      "q": "Le lezioni sono ___.",
+      "cue": "interessante",
+      "a": [
+       "interessanti"
+      ],
+      "es": "Las clases son interesantes.",
+      "note": "*-e* adjectives: plural *-i*, masculine and feminine"
+     },
+     {
+      "id": "g4-5",
+      "q": "È una ragazza molto ___.",
+      "cue": "gentile",
+      "a": [
+       "gentile"
+      ],
+      "es": "Es una chica muy amable.",
+      "note": "*-e* adjectives: one form for m. and f."
+     },
+     {
+      "id": "g4-6",
+      "q": "Ho comprato delle scarpe ___.",
+      "cue": "nero",
+      "a": [
+       "nere"
+      ],
+      "es": "He comprado unos zapatos negros.",
+      "note": "*la scarpa* is feminine"
+     },
+     {
+      "id": "g4-7",
+      "q": "Ho ___ amici a Roma.",
+      "cue": "molto",
+      "a": [
+       "molti"
+      ],
+      "es": "Tengo muchos amigos en Roma.",
+      "note": "*molto, poco, troppo* agree like adjectives"
+     },
+     {
+      "id": "g4-8",
+      "q": "C'è ___ gente in centro.",
+      "cue": "troppo",
+      "a": [
+       "troppa"
+      ],
+      "es": "Hay demasiada gente en el centro.",
+      "note": "*la gente* is feminine singular"
+     },
+     {
+      "id": "g4-9",
+      "q": "I pantaloni ___ sono nuovi.",
+      "cue": "blu",
+      "a": [
+       "blu"
+      ],
+      "es": "Los pantalones azules son nuevos.",
+      "note": "*blu, rosa, viola* never change"
+     },
+     {
+      "id": "g4-10",
+      "q": "Ho due magliette ___.",
+      "cue": "rosa",
+      "a": [
+       "rosa"
+      ],
+      "es": "Tengo dos camisetas rosas.",
+      "note": "*rosa* never changes"
+     },
+     {
+      "id": "g4-11",
+      "q": "Ha gli occhi ___.",
+      "cue": "verde",
+      "a": [
+       "verdi"
+      ],
+      "es": "Tiene los ojos verdes.",
+      "note": ""
+     },
+     {
+      "id": "g4-12",
+      "q": "I tovaglioli sono ___.",
+      "cue": "bianco",
+      "a": [
+       "bianchi"
+      ],
+      "es": "Las servilletas son blancas.",
+      "note": "*-co → -chi*; *il tovagliolo* is masculine"
+     },
+     {
+      "id": "g4-13",
+      "q": "Le camicie sono ___.",
+      "cue": "bianco",
+      "a": [
+       "bianche"
+      ],
+      "es": "Las camisas son blancas.",
+      "note": ""
+     },
+     {
+      "id": "g4-14",
+      "q": "Mia sorella è ___.",
+      "cue": "stanco",
+      "a": [
+       "stanca"
+      ],
+      "es": "Mi hermana está cansada.",
+      "note": ""
+     },
+     {
+      "id": "g4-15",
+      "q": "I bambini sono ___.",
+      "cue": "stanco",
+      "a": [
+       "stanchi"
+      ],
+      "es": "Los niños están cansados.",
+      "note": ""
+     },
+     {
+      "id": "g4-16",
+      "q": "Abbiamo una macchina ___.",
+      "cue": "nuovo",
+      "a": [
+       "nuova"
+      ],
+      "es": "Tenemos un coche nuevo.",
+      "note": "*la macchina* is feminine"
+     },
+     {
+      "id": "g4-17",
+      "q": "Sono film molto ___.",
+      "cue": "lungo",
+      "a": [
+       "lunghi"
+      ],
+      "es": "Son películas muy largas.",
+      "note": "*-go → -ghi*; *il film* is masculine"
+     },
+     {
+      "id": "g4-18",
+      "q": "In estate le giornate sono ___.",
+      "cue": "lungo",
+      "a": [
+       "lunghe"
+      ],
+      "es": "En verano los días son largos.",
+      "note": "*-ga → -ghe*; *la giornata* is feminine"
+     },
+     {
+      "id": "g4-19",
+      "q": "Paolo e Giulia sono ___.",
+      "cue": "italiano",
+      "a": [
+       "italiani"
+      ],
+      "es": "Paolo y Giulia son italianos.",
+      "note": "mixed group → masculine plural"
+     }
+    ]
+   },
+   {
+    "id": "g5",
+    "level": "A1",
+    "title": "A1 · Present: essere & avere",
+    "file": "a1-05-essere-avere.md",
+    "rule": "*essere*: sono, sei, è, siamo, siete, sono · *avere*: ho, hai, ha, abbiamo, avete, hanno (the h is silent)",
+    "items": [
+     {
+      "id": "g5-0",
+      "q": "Io ___ italiano.",
+      "cue": "essere",
+      "a": [
+       "sono"
+      ],
+      "es": "Yo soy italiano.",
+      "note": ""
+     },
+     {
+      "id": "g5-1",
+      "q": "Tu ___ stanco?",
+      "cue": "essere",
+      "a": [
+       "sei"
+      ],
+      "es": "¿Estás cansado?",
+      "note": "*essere* covers both *ser* and *estar*"
+     },
+     {
+      "id": "g5-2",
+      "q": "Marco ___ a casa.",
+      "cue": "essere",
+      "a": [
+       "è"
+      ],
+      "es": "Marco está en casa.",
+      "note": "*è* (is) has an accent; *e* = and"
+     },
+     {
+      "id": "g5-3",
+      "q": "Noi ___ amici.",
+      "cue": "essere",
+      "a": [
+       "siamo"
+      ],
+      "es": "Somos amigos.",
+      "note": ""
+     },
+     {
+      "id": "g5-4",
+      "q": "Voi ___ di Madrid?",
+      "cue": "essere",
+      "a": [
+       "siete"
+      ],
+      "es": "¿Sois de Madrid?",
+      "note": ""
+     },
+     {
+      "id": "g5-5",
+      "q": "Loro ___ in vacanza.",
+      "cue": "essere",
+      "a": [
+       "sono"
+      ],
+      "es": "Ellos están de vacaciones.",
+      "note": "*sono* = I am and they are"
+     },
+     {
+      "id": "g5-6",
+      "q": "Signora, Lei ___ spagnola?",
+      "cue": "essere",
+      "a": [
+       "è"
+      ],
+      "es": "Señora, ¿usted es española?",
+      "note": "polite *Lei* takes the 3rd person"
+     },
+     {
+      "id": "g5-7",
+      "q": "La lezione ___ alle nove.",
+      "cue": "essere",
+      "a": [
+       "è"
+      ],
+      "es": "La clase es a las nueve.",
+      "note": ""
+     },
+     {
+      "id": "g5-8",
+      "q": "Io e Luca ___ fratelli.",
+      "cue": "essere",
+      "a": [
+       "siamo"
+      ],
+      "es": "Luca y yo somos hermanos.",
+      "note": "*io e Luca* = noi"
+     },
+     {
+      "id": "g5-9",
+      "q": "Che ore ___?",
+      "cue": "essere",
+      "a": [
+       "sono"
+      ],
+      "es": "¿Qué hora es?",
+      "note": "Italian asks in the plural: *che ore sono?*"
+     },
+     {
+      "id": "g5-10",
+      "q": "Oggi ___ lunedì.",
+      "cue": "essere",
+      "a": [
+       "è"
+      ],
+      "es": "Hoy es lunes.",
+      "note": ""
+     },
+     {
+      "id": "g5-11",
+      "q": "Io ___ fame.",
+      "cue": "avere",
+      "a": [
+       "ho"
+      ],
+      "es": "Tengo hambre.",
+      "note": "*avere fame* = tener hambre"
+     },
+     {
+      "id": "g5-12",
+      "q": "Quanti anni ___?",
+      "cue": "avere · tu",
+      "a": [
+       "hai"
+      ],
+      "es": "¿Cuántos años tienes?",
+      "note": ""
+     },
+     {
+      "id": "g5-13",
+      "q": "Lei ___ una macchina rossa.",
+      "cue": "avere",
+      "a": [
+       "ha"
+      ],
+      "es": "Ella tiene un coche rojo.",
+      "note": "*ha* (has) — the h is silent"
+     },
+     {
+      "id": "g5-14",
+      "q": "Noi ___ un cane.",
+      "cue": "avere",
+      "a": [
+       "abbiamo"
+      ],
+      "es": "Tenemos un perro.",
+      "note": ""
+     },
+     {
+      "id": "g5-15",
+      "q": "Voi ___ ragione.",
+      "cue": "avere",
+      "a": [
+       "avete"
+      ],
+      "es": "Tenéis razón.",
+      "note": ""
+     },
+     {
+      "id": "g5-16",
+      "q": "I bambini ___ sonno.",
+      "cue": "avere",
+      "a": [
+       "hanno"
+      ],
+      "es": "Los niños tienen sueño.",
+      "note": ""
+     },
+     {
+      "id": "g5-17",
+      "q": "___ freddo, chiudi la finestra!",
+      "cue": "avere · io",
+      "a": [
+       "Ho"
+      ],
+      "es": "Tengo frío, ¡cierra la ventana!",
+      "note": ""
+     },
+     {
+      "id": "g5-18",
+      "q": "Tu e Anna ___ un gatto?",
+      "cue": "avere",
+      "a": [
+       "avete"
+      ],
+      "es": "¿Anna y tú tenéis un gato?",
+      "note": "*tu e Anna* = voi"
+     },
+     {
+      "id": "g5-19",
+      "q": "Loro ___ paura del buio.",
+      "cue": "avere",
+      "a": [
+       "hanno"
+      ],
+      "es": "Ellos tienen miedo a la oscuridad.",
+      "note": "*avere paura* = tener miedo"
+     }
+    ]
+   },
+   {
+    "id": "g6",
+    "level": "A1",
+    "title": "A1 · Present: regular verbs",
+    "file": "a1-06-present-regular.md",
+    "rule": "*-are*: -o, -i, -a, -iamo, -ate, -ano · *-ere*: -o, -i, -e, -iamo, -ete, -ono · *-ire*: -o, -i, -e, -iamo, -ite, -ono · *-isc-* verbs: capisco, capisci, capisce, capiamo, capite, capiscono",
+    "items": [
+     {
+      "id": "g6-0",
+      "q": "Io ___ italiano e spagnolo.",
+      "cue": "parlare",
+      "a": [
+       "parlo"
+      ],
+      "es": "Hablo italiano y español.",
+      "note": "*-are*: -o, -i, -a, -iamo, -ate, -ano"
+     },
+     {
+      "id": "g6-1",
+      "q": "Tu ___ in centro?",
+      "cue": "abitare",
+      "a": [
+       "abiti"
+      ],
+      "es": "¿Vives en el centro?",
+      "note": ""
+     },
+     {
+      "id": "g6-2",
+      "q": "Marco ___ la televisione.",
+      "cue": "guardare",
+      "a": [
+       "guarda"
+      ],
+      "es": "Marco ve la tele.",
+      "note": ""
+     },
+     {
+      "id": "g6-3",
+      "q": "Stasera ___ la pizza.",
+      "cue": "mangiare · noi",
+      "a": [
+       "mangiamo"
+      ],
+      "es": "Esta noche comemos pizza.",
+      "note": "only one i: *mangiamo*"
+     },
+     {
+      "id": "g6-4",
+      "q": "Voi ___ troppo.",
+      "cue": "lavorare",
+      "a": [
+       "lavorate"
+      ],
+      "es": "Trabajáis demasiado.",
+      "note": ""
+     },
+     {
+      "id": "g6-5",
+      "q": "Loro ___ il treno alle otto.",
+      "cue": "prendere",
+      "a": [
+       "prendono"
+      ],
+      "es": "Ellos cogen el tren a las ocho.",
+      "note": "*-ere*: -o, -i, -e, -iamo, -ete, -ono"
+     },
+     {
+      "id": "g6-6",
+      "q": "Io ___ un libro alla settimana.",
+      "cue": "leggere",
+      "a": [
+       "leggo"
+      ],
+      "es": "Leo un libro a la semana.",
+      "note": ""
+     },
+     {
+      "id": "g6-7",
+      "q": "Tu ___ bene senza occhiali?",
+      "cue": "vedere",
+      "a": [
+       "vedi"
+      ],
+      "es": "¿Ves bien sin gafas?",
+      "note": ""
+     },
+     {
+      "id": "g6-8",
+      "q": "Lei ___ una lettera.",
+      "cue": "scrivere",
+      "a": [
+       "scrive"
+      ],
+      "es": "Ella escribe una carta.",
+      "note": ""
+     },
+     {
+      "id": "g6-9",
+      "q": "Noi ___ domani.",
+      "cue": "partire",
+      "a": [
+       "partiamo"
+      ],
+      "es": "Nos vamos mañana.",
+      "note": "*-ire*: -o, -i, -e, -iamo, -ite, -ono"
+     },
+     {
+      "id": "g6-10",
+      "q": "Voi ___ la porta?",
+      "cue": "aprire",
+      "a": [
+       "aprite"
+      ],
+      "es": "¿Abrís la puerta?",
+      "note": ""
+     },
+     {
+      "id": "g6-11",
+      "q": "I bambini ___ poco.",
+      "cue": "dormire",
+      "a": [
+       "dormono"
+      ],
+      "es": "Los niños duermen poco.",
+      "note": ""
+     },
+     {
+      "id": "g6-12",
+      "q": "Io non ___ la domanda.",
+      "cue": "capire",
+      "a": [
+       "capisco"
+      ],
+      "es": "No entiendo la pregunta.",
+      "note": "*-isc-* verb"
+     },
+     {
+      "id": "g6-13",
+      "q": "Tu ___ il lavoro alle sei?",
+      "cue": "finire",
+      "a": [
+       "finisci"
+      ],
+      "es": "¿Terminas el trabajo a las seis?",
+      "note": ""
+     },
+     {
+      "id": "g6-14",
+      "q": "Lui ___ il tè.",
+      "cue": "preferire",
+      "a": [
+       "preferisce"
+      ],
+      "es": "Él prefiere el té.",
+      "note": ""
+     },
+     {
+      "id": "g6-15",
+      "q": "Noi ___ bene.",
+      "cue": "capire",
+      "a": [
+       "capiamo"
+      ],
+      "es": "Entendemos bien.",
+      "note": "no *-isc-* with noi and voi"
+     },
+     {
+      "id": "g6-16",
+      "q": "Loro ___ alle otto.",
+      "cue": "finire",
+      "a": [
+       "finiscono"
+      ],
+      "es": "Ellos terminan a las ocho.",
+      "note": ""
+     },
+     {
+      "id": "g6-17",
+      "q": "Tu ___ le chiavi?",
+      "cue": "cercare",
+      "a": [
+       "cerchi"
+      ],
+      "es": "¿Buscas las llaves?",
+      "note": "*-care*: add an h → *cerchi*"
+     },
+     {
+      "id": "g6-18",
+      "q": "Noi ___ il conto.",
+      "cue": "pagare",
+      "a": [
+       "paghiamo"
+      ],
+      "es": "Pagamos la cuenta.",
+      "note": "*-gare*: add an h → *paghiamo*"
+     },
+     {
+      "id": "g6-19",
+      "q": "Tu ___ medicina?",
+      "cue": "studiare",
+      "a": [
+       "studi"
+      ],
+      "es": "¿Estudias medicina?",
+      "note": "*-iare*: only one i → *studi*"
+     }
+    ]
+   },
+   {
+    "id": "g7",
+    "level": "A1",
+    "title": "A1 · Present: irregular verbs",
+    "file": "a1-07-present-irregular.md",
+    "rule": "*fare*: faccio, fai, fa, facciamo, fate, fanno · *andare*: vado, vai, va, andiamo, andate, vanno · *stare*: sto, stai, sta… · *venire*: vengo, vieni, viene… · *dire*: dico, dici, dice… · *uscire*: esco, esci, esce…",
+    "items": [
+     {
+      "id": "g7-0",
+      "q": "Cosa ___ stasera?",
+      "cue": "fare · tu",
+      "a": [
+       "fai"
+      ],
+      "es": "¿Qué haces esta noche?",
+      "note": "*fare*: faccio, fai, fa, facciamo, fate, fanno"
+     },
+     {
+      "id": "g7-1",
+      "q": "Io ___ colazione alle otto.",
+      "cue": "fare",
+      "a": [
+       "faccio"
+      ],
+      "es": "Desayuno a las ocho.",
+      "note": "*fare colazione* = desayunar"
+     },
+     {
+      "id": "g7-2",
+      "q": "Loro ___ una passeggiata.",
+      "cue": "fare",
+      "a": [
+       "fanno"
+      ],
+      "es": "Ellos dan un paseo.",
+      "note": "*fare una passeggiata* = dar un paseo"
+     },
+     {
+      "id": "g7-3",
+      "q": "Domani ___ a Roma.",
+      "cue": "andare · io",
+      "a": [
+       "vado"
+      ],
+      "es": "Mañana voy a Roma.",
+      "note": "*andare*: vado, vai, va, andiamo, andate, vanno"
+     },
+     {
+      "id": "g7-4",
+      "q": "Noi ___ al cinema.",
+      "cue": "andare",
+      "a": [
+       "andiamo"
+      ],
+      "es": "Vamos al cine.",
+      "note": ""
+     },
+     {
+      "id": "g7-5",
+      "q": "I ragazzi ___ a scuola in bici.",
+      "cue": "andare",
+      "a": [
+       "vanno"
+      ],
+      "es": "Los chicos van al colegio en bici.",
+      "note": ""
+     },
+     {
+      "id": "g7-6",
+      "q": "Voi ___ al mare quest'estate?",
+      "cue": "andare",
+      "a": [
+       "andate"
+      ],
+      "es": "¿Vais a la playa este verano?",
+      "note": "*andare al mare* = ir a la playa"
+     },
+     {
+      "id": "g7-7",
+      "q": "Come ___?",
+      "cue": "stare · tu",
+      "a": [
+       "stai"
+      ],
+      "es": "¿Cómo estás?",
+      "note": "*stare*: sto, stai, sta, stiamo, state, stanno"
+     },
+     {
+      "id": "g7-8",
+      "q": "Io ___ bene, grazie.",
+      "cue": "stare",
+      "a": [
+       "sto"
+      ],
+      "es": "Estoy bien, gracias.",
+      "note": ""
+     },
+     {
+      "id": "g7-9",
+      "q": "___ con noi?",
+      "cue": "venire · tu",
+      "a": [
+       "Vieni"
+      ],
+      "es": "¿Vienes con nosotros?",
+      "note": "*venire*: vengo, vieni, viene, veniamo, venite, vengono"
+     },
+     {
+      "id": "g7-10",
+      "q": "Loro ___ dalla Spagna.",
+      "cue": "venire",
+      "a": [
+       "vengono"
+      ],
+      "es": "Ellos vienen de España.",
+      "note": ""
+     },
+     {
+      "id": "g7-11",
+      "q": "Scusa, che cosa ___?",
+      "cue": "dire · tu",
+      "a": [
+       "dici"
+      ],
+      "es": "Perdona, ¿qué dices?",
+      "note": "*dire*: dico, dici, dice, diciamo, dite, dicono"
+     },
+     {
+      "id": "g7-12",
+      "q": "Noi ___ sempre la verità.",
+      "cue": "dire",
+      "a": [
+       "diciamo"
+      ],
+      "es": "Siempre decimos la verdad.",
+      "note": ""
+     },
+     {
+      "id": "g7-13",
+      "q": "Stasera ___ con gli amici.",
+      "cue": "uscire · io",
+      "a": [
+       "esco"
+      ],
+      "es": "Esta noche salgo con los amigos.",
+      "note": "*uscire*: esco, esci, esce, usciamo, uscite, escono"
+     },
+     {
+      "id": "g7-14",
+      "q": "A che ora ___ voi?",
+      "cue": "uscire",
+      "a": [
+       "uscite"
+      ],
+      "es": "¿A qué hora salís?",
+      "note": ""
+     },
+     {
+      "id": "g7-15",
+      "q": "Lui ___ un regalo a Maria.",
+      "cue": "dare",
+      "a": [
+       "dà"
+      ],
+      "es": "Él le da un regalo a María.",
+      "note": "*dà* (gives) has an accent; *da* = from"
+     },
+     {
+      "id": "g7-16",
+      "q": "Io ___ solo acqua.",
+      "cue": "bere",
+      "a": [
+       "bevo"
+      ],
+      "es": "Solo bebo agua.",
+      "note": "*bere*: bevo, bevi, beve, beviamo, bevete, bevono"
+     },
+     {
+      "id": "g7-17",
+      "q": "Voi cosa ___?",
+      "cue": "bere",
+      "a": [
+       "bevete"
+      ],
+      "es": "¿Vosotros qué bebéis?",
+      "note": ""
+     },
+     {
+      "id": "g7-18",
+      "q": "Oggi ___ a casa.",
+      "cue": "rimanere · io",
+      "a": [
+       "rimango"
+      ],
+      "es": "Hoy me quedo en casa.",
+      "note": "*rimanere*: rimango, rimani, rimane… rimangono"
+     },
+     {
+      "id": "g7-19",
+      "q": "Io ___ sempre la finestra aperta.",
+      "cue": "tenere",
+      "a": [
+       "tengo"
+      ],
+      "es": "Siempre tengo la ventana abierta.",
+      "note": "*tenere*: tengo, tieni, tiene… tengono"
+     }
+    ]
+   },
+   {
+    "id": "g8",
+    "level": "A1",
+    "title": "A1 · Present: potere, volere, dovere, sapere",
+    "file": "a1-08-modal-verbs.md",
+    "rule": "*potere*: posso, puoi, può, possiamo, potete, possono · *volere*: voglio, vuoi, vuole, vogliamo, volete, vogliono · *dovere*: devo, devi, deve, dobbiamo, dovete, devono · *sapere*: so, sai, sa, sappiamo, sapete, sanno",
+    "items": [
+     {
+      "id": "g8-0",
+      "q": "___ aprire la finestra?",
+      "cue": "potere · io",
+      "a": [
+       "Posso"
+      ],
+      "es": "¿Puedo abrir la ventana?",
+      "note": ""
+     },
+     {
+      "id": "g8-1",
+      "q": "___ venire anche tu?",
+      "cue": "potere · tu",
+      "a": [
+       "Puoi"
+      ],
+      "es": "¿Puedes venir tú también?",
+      "note": ""
+     },
+     {
+      "id": "g8-2",
+      "q": "Lui non ___ uscire stasera.",
+      "cue": "potere",
+      "a": [
+       "può"
+      ],
+      "es": "Él no puede salir esta noche.",
+      "note": "*può* has an accent"
+     },
+     {
+      "id": "g8-3",
+      "q": "Signora, ___ aspettare un momento?",
+      "cue": "potere · Lei",
+      "a": [
+       "può"
+      ],
+      "es": "Señora, ¿puede esperar un momento?",
+      "note": "polite *Lei* takes the 3rd person"
+     },
+     {
+      "id": "g8-4",
+      "q": "Loro non ___ venire.",
+      "cue": "potere",
+      "a": [
+       "possono"
+      ],
+      "es": "Ellos no pueden venir.",
+      "note": ""
+     },
+     {
+      "id": "g8-5",
+      "q": "Io ___ un caffè.",
+      "cue": "volere",
+      "a": [
+       "voglio"
+      ],
+      "es": "Quiero un café.",
+      "note": ""
+     },
+     {
+      "id": "g8-6",
+      "q": "Cosa ___ mangiare?",
+      "cue": "volere · tu",
+      "a": [
+       "vuoi"
+      ],
+      "es": "¿Qué quieres comer?",
+      "note": ""
+     },
+     {
+      "id": "g8-7",
+      "q": "Noi ___ parlare con il direttore.",
+      "cue": "volere",
+      "a": [
+       "vogliamo"
+      ],
+      "es": "Queremos hablar con el director.",
+      "note": ""
+     },
+     {
+      "id": "g8-8",
+      "q": "Voi ___ venire alla festa?",
+      "cue": "volere",
+      "a": [
+       "volete"
+      ],
+      "es": "¿Queréis venir a la fiesta?",
+      "note": ""
+     },
+     {
+      "id": "g8-9",
+      "q": "I bambini ___ giocare.",
+      "cue": "volere",
+      "a": [
+       "vogliono"
+      ],
+      "es": "Los niños quieren jugar.",
+      "note": ""
+     },
+     {
+      "id": "g8-10",
+      "q": "Io ___ studiare stasera.",
+      "cue": "dovere",
+      "a": [
+       "devo"
+      ],
+      "es": "Tengo que estudiar esta noche.",
+      "note": "*dovere* = tener que / deber"
+     },
+     {
+      "id": "g8-11",
+      "q": "Tu ___ fare i compiti.",
+      "cue": "dovere",
+      "a": [
+       "devi"
+      ],
+      "es": "Tienes que hacer los deberes.",
+      "note": ""
+     },
+     {
+      "id": "g8-12",
+      "q": "Noi ___ andare via adesso.",
+      "cue": "dovere",
+      "a": [
+       "dobbiamo"
+      ],
+      "es": "Tenemos que irnos ahora.",
+      "note": ""
+     },
+     {
+      "id": "g8-13",
+      "q": "Voi ___ partire presto?",
+      "cue": "dovere",
+      "a": [
+       "dovete"
+      ],
+      "es": "¿Tenéis que salir temprano?",
+      "note": ""
+     },
+     {
+      "id": "g8-14",
+      "q": "Loro ___ lavorare sabato.",
+      "cue": "dovere",
+      "a": [
+       "devono"
+      ],
+      "es": "Tienen que trabajar el sábado.",
+      "note": ""
+     },
+     {
+      "id": "g8-15",
+      "q": "Non ___ dov'è la stazione.",
+      "cue": "sapere · io",
+      "a": [
+       "so"
+      ],
+      "es": "No sé dónde está la estación.",
+      "note": ""
+     },
+     {
+      "id": "g8-16",
+      "q": "___ nuotare?",
+      "cue": "sapere · tu",
+      "a": [
+       "Sai"
+      ],
+      "es": "¿Sabes nadar?",
+      "note": "*sapere* + infinitive = to know how to"
+     },
+     {
+      "id": "g8-17",
+      "q": "Lei ___ parlare tre lingue.",
+      "cue": "sapere",
+      "a": [
+       "sa"
+      ],
+      "es": "Ella sabe hablar tres idiomas.",
+      "note": ""
+     },
+     {
+      "id": "g8-18",
+      "q": "Noi non ___ niente.",
+      "cue": "sapere",
+      "a": [
+       "sappiamo"
+      ],
+      "es": "No sabemos nada.",
+      "note": ""
+     },
+     {
+      "id": "g8-19",
+      "q": "Voi ___ guidare?",
+      "cue": "sapere",
+      "a": [
+       "sapete"
+      ],
+      "es": "¿Sabéis conducir?",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g9",
+    "level": "A1",
+    "title": "A1 · Simple prepositions",
+    "file": "a1-09-simple-prepositions.md",
+    "rule": "*a* + city · *in* + country, transport, *in banca / in cucina* · *di* = of, origin · *da* = from, at someone's place, since · *per* = for · *con* · *su* = on, about · *tra / fra* = between, in (time)",
+    "items": [
+     {
+      "id": "g9-0",
+      "q": "Vado ___ Roma domani.",
+      "cue": "",
+      "a": [
+       "a"
+      ],
+      "es": "Mañana voy a Roma.",
+      "note": "city → *a*"
+     },
+     {
+      "id": "g9-1",
+      "q": "In estate vado ___ Spagna.",
+      "cue": "",
+      "a": [
+       "in"
+      ],
+      "es": "En verano voy a España.",
+      "note": "country → *in* (ES *a*)"
+     },
+     {
+      "id": "g9-2",
+      "q": "Torno ___ casa alle sei.",
+      "cue": "",
+      "a": [
+       "a"
+      ],
+      "es": "Vuelvo a casa a las seis.",
+      "note": "*a casa* — no article"
+     },
+     {
+      "id": "g9-3",
+      "q": "Vado al lavoro ___ piedi.",
+      "cue": "",
+      "a": [
+       "a"
+      ],
+      "es": "Voy al trabajo a pie.",
+      "note": ""
+     },
+     {
+      "id": "g9-4",
+      "q": "Andiamo ___ treno.",
+      "cue": "",
+      "a": [
+       "in"
+      ],
+      "es": "Vamos en tren.",
+      "note": "transport → *in* (but *a piedi*)"
+     },
+     {
+      "id": "g9-5",
+      "q": "Lavoro ___ banca.",
+      "cue": "",
+      "a": [
+       "in"
+      ],
+      "es": "Trabajo en un banco.",
+      "note": "*in banca, in farmacia, in ufficio* — no article"
+     },
+     {
+      "id": "g9-6",
+      "q": "Siamo ___ cucina.",
+      "cue": "",
+      "a": [
+       "in"
+      ],
+      "es": "Estamos en la cocina.",
+      "note": "*in cucina, in camera, in giardino*"
+     },
+     {
+      "id": "g9-7",
+      "q": "Sono ___ Madrid.",
+      "cue": "",
+      "a": [
+       "di"
+      ],
+      "es": "Soy de Madrid.",
+      "note": "origin with *essere* → *di*"
+     },
+     {
+      "id": "g9-8",
+      "q": "È la macchina ___ Paolo.",
+      "cue": "",
+      "a": [
+       "di"
+      ],
+      "es": "Es el coche de Paolo.",
+      "note": ""
+     },
+     {
+      "id": "g9-9",
+      "q": "Vengo ___ Barcellona.",
+      "cue": "",
+      "a": [
+       "da"
+      ],
+      "es": "Vengo de Barcelona.",
+      "note": "*venire da* = to come from"
+     },
+     {
+      "id": "g9-10",
+      "q": "Stasera vado ___ Marco.",
+      "cue": "",
+      "a": [
+       "da"
+      ],
+      "es": "Esta noche voy a casa de Marco.",
+      "note": "*da* + person = at / to someone's place"
+     },
+     {
+      "id": "g9-11",
+      "q": "Studio italiano ___ tre anni.",
+      "cue": "",
+      "a": [
+       "da"
+      ],
+      "es": "Estudio italiano desde hace tres años.",
+      "note": "*da* + time = for / since (still going on)"
+     },
+     {
+      "id": "g9-12",
+      "q": "Questo regalo è ___ te.",
+      "cue": "",
+      "a": [
+       "per"
+      ],
+      "es": "Este regalo es para ti.",
+      "note": ""
+     },
+     {
+      "id": "g9-13",
+      "q": "Compro un regalo ___ mia madre.",
+      "cue": "",
+      "a": [
+       "per"
+      ],
+      "es": "Compro un regalo para mi madre.",
+      "note": ""
+     },
+     {
+      "id": "g9-14",
+      "q": "Il treno ___ Firenze parte alle tre.",
+      "cue": "",
+      "a": [
+       "per"
+      ],
+      "es": "El tren a Florencia sale a las tres.",
+      "note": "where a train or plane is going → *per*"
+     },
+     {
+      "id": "g9-15",
+      "q": "Esco ___ i miei amici.",
+      "cue": "",
+      "a": [
+       "con"
+      ],
+      "es": "Salgo con mis amigos.",
+      "note": ""
+     },
+     {
+      "id": "g9-16",
+      "q": "Parlo ___ la professoressa.",
+      "cue": "",
+      "a": [
+       "con"
+      ],
+      "es": "Hablo con la profesora.",
+      "note": ""
+     },
+     {
+      "id": "g9-17",
+      "q": "Ho letto un articolo ___ Napoli.",
+      "cue": "",
+      "a": [
+       "su"
+      ],
+      "es": "He leído un artículo sobre Nápoles.",
+      "note": "*su* = about / on"
+     },
+     {
+      "id": "g9-18",
+      "q": "La farmacia è ___ la banca e il bar.",
+      "cue": "",
+      "a": [
+       "tra",
+       "fra"
+      ],
+      "es": "La farmacia está entre el banco y el bar.",
+      "note": "*tra* = *fra*"
+     },
+     {
+      "id": "g9-19",
+      "q": "Parto ___ due giorni.",
+      "cue": "",
+      "a": [
+       "tra",
+       "fra"
+      ],
+      "es": "Me voy dentro de dos días.",
+      "note": "*tra / fra* + time = in (the future)"
+     }
+    ]
+   },
+   {
+    "id": "g10",
+    "level": "A1",
+    "title": "A1 · Articulated prepositions",
+    "file": "a1-10-articulated-prepositions.md",
+    "rule": "*di, a, da, in, su* + article become one word: *del, al, dal, nel, sul* · *dello, allo…* · *dell', all'…* · *della, alla…* · *dei, ai…* · *degli, agli…* · *delle, alle…* (*in* → *ne-*)",
+    "items": [
+     {
+      "id": "g10-0",
+      "q": "Il libro è ___ tavolo.",
+      "cue": "su + il",
+      "a": [
+       "sul"
+      ],
+      "es": "El libro está sobre la mesa.",
+      "note": ""
+     },
+     {
+      "id": "g10-1",
+      "q": "Vado ___ stazione.",
+      "cue": "a + la",
+      "a": [
+       "alla"
+      ],
+      "es": "Voy a la estación.",
+      "note": ""
+     },
+     {
+      "id": "g10-2",
+      "q": "Torno ___ufficio alle sette.",
+      "cue": "da + l'",
+      "a": [
+       "dall'"
+      ],
+      "es": "Vuelvo de la oficina a las siete.",
+      "note": ""
+     },
+     {
+      "id": "g10-3",
+      "q": "Le chiavi sono ___ borsa.",
+      "cue": "in + la",
+      "a": [
+       "nella"
+      ],
+      "es": "Las llaves están en el bolso.",
+      "note": "*in* → *ne-*: nel, nella, nei…"
+     },
+     {
+      "id": "g10-4",
+      "q": "Il treno parte ___ otto.",
+      "cue": "a + le",
+      "a": [
+       "alle"
+      ],
+      "es": "El tren sale a las ocho.",
+      "note": "clock time: *alle* + hour (but *all'una*)"
+     },
+     {
+      "id": "g10-5",
+      "q": "Questa è la casa ___ nonni.",
+      "cue": "di + i",
+      "a": [
+       "dei"
+      ],
+      "es": "Esta es la casa de los abuelos.",
+      "note": ""
+     },
+     {
+      "id": "g10-6",
+      "q": "Domani vado ___ medico.",
+      "cue": "da + il",
+      "a": [
+       "dal"
+      ],
+      "es": "Mañana voy al médico.",
+      "note": "*da* + person: *dal medico, dalla nonna*"
+     },
+     {
+      "id": "g10-7",
+      "q": "Metto il latte ___ frigo.",
+      "cue": "in + il",
+      "a": [
+       "nel"
+      ],
+      "es": "Pongo la leche en la nevera.",
+      "note": ""
+     },
+     {
+      "id": "g10-8",
+      "q": "Il professore parla ___ studenti.",
+      "cue": "a + gli",
+      "a": [
+       "agli"
+      ],
+      "es": "El profesor les habla a los estudiantes.",
+      "note": ""
+     },
+     {
+      "id": "g10-9",
+      "q": "Il nome ___ ristorante è strano.",
+      "cue": "di + il",
+      "a": [
+       "del"
+      ],
+      "es": "El nombre del restaurante es raro.",
+      "note": ""
+     },
+     {
+      "id": "g10-10",
+      "q": "Arriviamo ___aeroporto alle dieci.",
+      "cue": "a + l'",
+      "a": [
+       "all'"
+      ],
+      "es": "Llegamos al aeropuerto a las diez.",
+      "note": ""
+     },
+     {
+      "id": "g10-11",
+      "q": "C'è molta gente ___ strade.",
+      "cue": "in + le",
+      "a": [
+       "nelle"
+      ],
+      "es": "Hay mucha gente en las calles.",
+      "note": ""
+     },
+     {
+      "id": "g10-12",
+      "q": "Ho messo i piatti ___ tavola.",
+      "cue": "su + la",
+      "a": [
+       "sulla"
+      ],
+      "es": "He puesto los platos en la mesa.",
+      "note": ""
+     },
+     {
+      "id": "g10-13",
+      "q": "È la macchina ___ zio di Marco.",
+      "cue": "di + lo",
+      "a": [
+       "dello"
+      ],
+      "es": "Es el coche del tío de Marco.",
+      "note": ""
+     },
+     {
+      "id": "g10-14",
+      "q": "Torno ___ Stati Uniti a maggio.",
+      "cue": "da + gli",
+      "a": [
+       "dagli"
+      ],
+      "es": "Vuelvo de Estados Unidos en mayo.",
+      "note": ""
+     },
+     {
+      "id": "g10-15",
+      "q": "C'è un bar ___albergo.",
+      "cue": "in + l'",
+      "a": [
+       "nell'"
+      ],
+      "es": "Hay un bar en el hotel.",
+      "note": ""
+     },
+     {
+      "id": "g10-16",
+      "q": "Parliamo ___ vacanze.",
+      "cue": "di + le",
+      "a": [
+       "delle"
+      ],
+      "es": "Hablamos de las vacaciones.",
+      "note": ""
+     },
+     {
+      "id": "g10-17",
+      "q": "Ho dato un regalo ___ zio.",
+      "cue": "a + lo",
+      "a": [
+       "allo"
+      ],
+      "es": "Le he dado un regalo al tío.",
+      "note": ""
+     },
+     {
+      "id": "g10-18",
+      "q": "Torno ___ spiaggia alle sette.",
+      "cue": "da + la",
+      "a": [
+       "dalla"
+      ],
+      "es": "Vuelvo de la playa a las siete.",
+      "note": ""
+     },
+     {
+      "id": "g10-19",
+      "q": "I libri sono ___ scaffali.",
+      "cue": "su + gli",
+      "a": [
+       "sugli"
+      ],
+      "es": "Los libros están en las estanterías.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g11",
+    "level": "A1",
+    "title": "A1 · Possessives",
+    "file": "a1-11-possessives.md",
+    "rule": "Article + possessive: *il mio, la mia, i miei, le mie* (*tuo, suo, nostro, vostro* the same) · *loro* never changes · one family member: no article (*mia madre*), but *i miei fratelli*, *il loro padre*",
+    "items": [
+     {
+      "id": "g11-0",
+      "q": "Questa è ___ casa.",
+      "cue": "mio",
+      "a": [
+       "la mia"
+      ],
+      "es": "Esta es mi casa.",
+      "note": "Italian keeps the article: *la mia casa*"
+     },
+     {
+      "id": "g11-1",
+      "q": "Dove sono ___ chiavi?",
+      "cue": "mio",
+      "a": [
+       "le mie"
+      ],
+      "es": "¿Dónde están mis llaves?",
+      "note": ""
+     },
+     {
+      "id": "g11-2",
+      "q": "Ho dimenticato ___ libri.",
+      "cue": "mio",
+      "a": [
+       "i miei"
+      ],
+      "es": "He olvidado mis libros.",
+      "note": ""
+     },
+     {
+      "id": "g11-3",
+      "q": "___ madre è medico.",
+      "cue": "mio",
+      "a": [
+       "Mia"
+      ],
+      "es": "Mi madre es médica.",
+      "note": "one family member: no article"
+     },
+     {
+      "id": "g11-4",
+      "q": "___ fratelli abitano a Bologna.",
+      "cue": "mio",
+      "a": [
+       "I miei"
+      ],
+      "es": "Mis hermanos viven en Bolonia.",
+      "note": "family in the plural: the article comes back"
+     },
+     {
+      "id": "g11-5",
+      "q": "___ amici sono simpatici.",
+      "cue": "tuo",
+      "a": [
+       "I tuoi"
+      ],
+      "es": "Tus amigos son simpáticos.",
+      "note": ""
+     },
+     {
+      "id": "g11-6",
+      "q": "Mi piace ___ giacca.",
+      "cue": "tuo",
+      "a": [
+       "la tua"
+      ],
+      "es": "Me gusta tu chaqueta.",
+      "note": ""
+     },
+     {
+      "id": "g11-7",
+      "q": "___ sorella è simpatica.",
+      "cue": "tuo",
+      "a": [
+       "Tua"
+      ],
+      "es": "Tu hermana es simpática.",
+      "note": ""
+     },
+     {
+      "id": "g11-8",
+      "q": "Le ___ idee sono ottime.",
+      "cue": "tuo",
+      "a": [
+       "tue"
+      ],
+      "es": "Tus ideas son estupendas.",
+      "note": ""
+     },
+     {
+      "id": "g11-9",
+      "q": "Dove sono ___ genitori?",
+      "cue": "tuo",
+      "a": [
+       "i tuoi"
+      ],
+      "es": "¿Dónde están tus padres?",
+      "note": ""
+     },
+     {
+      "id": "g11-10",
+      "q": "Marco ha perso ___ telefono.",
+      "cue": "suo",
+      "a": [
+       "il suo"
+      ],
+      "es": "Marco ha perdido su teléfono.",
+      "note": ""
+     },
+     {
+      "id": "g11-11",
+      "q": "Giulia parla con ___ padre.",
+      "cue": "suo",
+      "a": [
+       "suo"
+      ],
+      "es": "Giulia habla con su padre.",
+      "note": "*suo* = his or her — it agrees with what is owned"
+     },
+     {
+      "id": "g11-12",
+      "q": "Paolo e ___ moglie sono in vacanza.",
+      "cue": "suo",
+      "a": [
+       "sua"
+      ],
+      "es": "Paolo y su mujer están de vacaciones.",
+      "note": ""
+     },
+     {
+      "id": "g11-13",
+      "q": "Signora, è ___ borsa?",
+      "cue": "suo · Lei",
+      "a": [
+       "la Sua",
+       "la sua"
+      ],
+      "es": "Señora, ¿es su bolso?",
+      "note": "polite *Lei* → *Suo* (often capitalised)"
+     },
+     {
+      "id": "g11-14",
+      "q": "___ macchina è nuova.",
+      "cue": "nostro",
+      "a": [
+       "La nostra"
+      ],
+      "es": "Nuestro coche es nuevo.",
+      "note": "*la macchina* is feminine"
+     },
+     {
+      "id": "g11-15",
+      "q": "___ cugini arrivano domani.",
+      "cue": "nostro",
+      "a": [
+       "I nostri"
+      ],
+      "es": "Nuestros primos llegan mañana.",
+      "note": ""
+     },
+     {
+      "id": "g11-16",
+      "q": "Com'è ___ casa?",
+      "cue": "vostro",
+      "a": [
+       "la vostra"
+      ],
+      "es": "¿Cómo es vuestra casa?",
+      "note": ""
+     },
+     {
+      "id": "g11-17",
+      "q": "Questi sono i ___ bagagli?",
+      "cue": "vostro",
+      "a": [
+       "vostri"
+      ],
+      "es": "¿Este es vuestro equipaje?",
+      "note": ""
+     },
+     {
+      "id": "g11-18",
+      "q": "___ figli vanno a scuola.",
+      "cue": "loro",
+      "a": [
+       "I loro"
+      ],
+      "es": "Sus hijos van al colegio.",
+      "note": "*loro* never changes"
+     },
+     {
+      "id": "g11-19",
+      "q": "___ padre è ingegnere.",
+      "cue": "loro",
+      "a": [
+       "Il loro"
+      ],
+      "es": "Su padre es ingeniero.",
+      "note": "*loro* keeps the article, even with family"
+     }
+    ]
+   },
+   {
+    "id": "g12",
+    "level": "A1",
+    "title": "A1 · Demonstratives: questo & quello",
+    "file": "a1-12-demonstratives.md",
+    "rule": "*questo, questa, questi, queste* (*quest'* + vowel) · *quello* changes like the article: *quel, quello, quell', quella, quei, quegli, quelle*",
+    "items": [
+     {
+      "id": "g12-0",
+      "q": "___ libro è interessante.",
+      "cue": "questo",
+      "a": [
+       "Questo"
+      ],
+      "es": "Este libro es interesante.",
+      "note": ""
+     },
+     {
+      "id": "g12-1",
+      "q": "___ ragazza è mia sorella.",
+      "cue": "questo",
+      "a": [
+       "Questa"
+      ],
+      "es": "Esta chica es mi hermana.",
+      "note": ""
+     },
+     {
+      "id": "g12-2",
+      "q": "___ scarpe sono comode.",
+      "cue": "questo",
+      "a": [
+       "Queste"
+      ],
+      "es": "Estos zapatos son cómodos.",
+      "note": "*la scarpa* is feminine"
+     },
+     {
+      "id": "g12-3",
+      "q": "___ fiori sono per te.",
+      "cue": "questo",
+      "a": [
+       "Questi"
+      ],
+      "es": "Estas flores son para ti.",
+      "note": "*il fiore* is masculine"
+     },
+     {
+      "id": "g12-4",
+      "q": "___ sera esco con Laura.",
+      "cue": "questo",
+      "a": [
+       "Questa"
+      ],
+      "es": "Esta noche salgo con Laura.",
+      "note": ""
+     },
+     {
+      "id": "g12-5",
+      "q": "___estate siamo andati in Grecia.",
+      "cue": "questo",
+      "a": [
+       "Quest'",
+       "Questa"
+      ],
+      "es": "Este verano hemos ido a Grecia.",
+      "note": "*quest'* + vowel (*questa* is fine too)"
+     },
+     {
+      "id": "g12-6",
+      "q": "Di chi è ___ombrello?",
+      "cue": "questo",
+      "a": [
+       "quest'",
+       "questo"
+      ],
+      "es": "¿De quién es este paraguas?",
+      "note": "*quest'* + vowel (*questo* is fine too)"
+     },
+     {
+      "id": "g12-7",
+      "q": "Ti piace ___ ristorante?",
+      "cue": "quello",
+      "a": [
+       "quel"
+      ],
+      "es": "¿Te gusta ese restaurante?",
+      "note": "*quel* ~ *il*"
+     },
+     {
+      "id": "g12-8",
+      "q": "Non mi piace ___ colore.",
+      "cue": "quello",
+      "a": [
+       "quel"
+      ],
+      "es": "No me gusta ese color.",
+      "note": ""
+     },
+     {
+      "id": "g12-9",
+      "q": "___ studente è spagnolo.",
+      "cue": "quello",
+      "a": [
+       "Quello"
+      ],
+      "es": "Ese estudiante es español.",
+      "note": "*quello* ~ *lo*"
+     },
+     {
+      "id": "g12-10",
+      "q": "___ specchio è antico.",
+      "cue": "quello",
+      "a": [
+       "Quello"
+      ],
+      "es": "Ese espejo es antiguo.",
+      "note": ""
+     },
+     {
+      "id": "g12-11",
+      "q": "___albero è altissimo.",
+      "cue": "quello",
+      "a": [
+       "Quell'"
+      ],
+      "es": "Ese árbol es altísimo.",
+      "note": "*quell'* ~ *l'*"
+     },
+     {
+      "id": "g12-12",
+      "q": "Vedi ___uomo?",
+      "cue": "quello",
+      "a": [
+       "quell'"
+      ],
+      "es": "¿Ves a ese hombre?",
+      "note": ""
+     },
+     {
+      "id": "g12-13",
+      "q": "___ casa è in vendita.",
+      "cue": "quello",
+      "a": [
+       "Quella"
+      ],
+      "es": "Esa casa está en venta.",
+      "note": ""
+     },
+     {
+      "id": "g12-14",
+      "q": "Chi sono ___ ragazzi?",
+      "cue": "quello",
+      "a": [
+       "quei"
+      ],
+      "es": "¿Quiénes son esos chicos?",
+      "note": "*quei* ~ *i*"
+     },
+     {
+      "id": "g12-15",
+      "q": "Prendo ___ pantaloni neri.",
+      "cue": "quello",
+      "a": [
+       "quei"
+      ],
+      "es": "Me llevo esos pantalones negros.",
+      "note": ""
+     },
+     {
+      "id": "g12-16",
+      "q": "___ zaini sono nostri.",
+      "cue": "quello",
+      "a": [
+       "Quegli"
+      ],
+      "es": "Esas mochilas son nuestras.",
+      "note": "*quegli* ~ *gli*"
+     },
+     {
+      "id": "g12-17",
+      "q": "___ amici di Paolo sono simpatici.",
+      "cue": "quello",
+      "a": [
+       "Quegli"
+      ],
+      "es": "Esos amigos de Paolo son simpáticos.",
+      "note": "*quegli* + vowel"
+     },
+     {
+      "id": "g12-18",
+      "q": "Ho comprato ___ borse.",
+      "cue": "quello",
+      "a": [
+       "quelle"
+      ],
+      "es": "He comprado esos bolsos.",
+      "note": ""
+     },
+     {
+      "id": "g12-19",
+      "q": "___ ragazze parlano tedesco.",
+      "cue": "quello",
+      "a": [
+       "Quelle"
+      ],
+      "es": "Esas chicas hablan alemán.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g13",
+    "level": "A1",
+    "title": "A1 · Questions, negation, c'è / ci sono",
+    "file": "a1-13-questions-negation.md",
+    "rule": "*chi, che / cosa, dove, quando, come, quanto, perché, quale* · *non* before the verb · *non… mai / niente / nessuno* · *c'è* + singular, *ci sono* + plural",
+    "items": [
+     {
+      "id": "g13-0",
+      "q": "___ ti chiami?",
+      "cue": "",
+      "a": [
+       "Come"
+      ],
+      "es": "¿Cómo te llamas?",
+      "note": ""
+     },
+     {
+      "id": "g13-1",
+      "q": "___ abiti?",
+      "cue": "",
+      "a": [
+       "Dove"
+      ],
+      "es": "¿Dónde vives?",
+      "note": ""
+     },
+     {
+      "id": "g13-2",
+      "q": "___ è quel ragazzo?",
+      "cue": "",
+      "a": [
+       "Chi"
+      ],
+      "es": "¿Quién es ese chico?",
+      "note": ""
+     },
+     {
+      "id": "g13-3",
+      "q": "___ fai stasera?",
+      "cue": "",
+      "a": [
+       "Cosa",
+       "Che cosa",
+       "Che"
+      ],
+      "es": "¿Qué haces esta noche?",
+      "note": "*che*, *cosa* and *che cosa* all work"
+     },
+     {
+      "id": "g13-4",
+      "q": "___ costa questo libro?",
+      "cue": "",
+      "a": [
+       "Quanto"
+      ],
+      "es": "¿Cuánto cuesta este libro?",
+      "note": ""
+     },
+     {
+      "id": "g13-5",
+      "q": "___ parti per Roma?",
+      "cue": "",
+      "a": [
+       "Quando"
+      ],
+      "es": "¿Cuándo te vas a Roma?",
+      "note": ""
+     },
+     {
+      "id": "g13-6",
+      "q": "___ studi l'italiano?",
+      "cue": "",
+      "a": [
+       "Perché"
+      ],
+      "es": "¿Por qué estudias italiano?",
+      "note": ""
+     },
+     {
+      "id": "g13-7",
+      "q": "___ fratelli hai?",
+      "cue": "",
+      "a": [
+       "Quanti"
+      ],
+      "es": "¿Cuántos hermanos tienes?",
+      "note": "*quanto* agrees: *quanti fratelli*"
+     },
+     {
+      "id": "g13-8",
+      "q": "___ ore lavori al giorno?",
+      "cue": "",
+      "a": [
+       "Quante"
+      ],
+      "es": "¿Cuántas horas trabajas al día?",
+      "note": "feminine plural: *quante*"
+     },
+     {
+      "id": "g13-9",
+      "q": "___ libro preferisci?",
+      "cue": "",
+      "a": [
+       "Quale",
+       "Che"
+      ],
+      "es": "¿Qué libro prefieres?",
+      "note": "*quale* = which (ES *qué / cuál*)"
+     },
+     {
+      "id": "g13-10",
+      "q": "___ sono le tue scarpe?",
+      "cue": "",
+      "a": [
+       "Quali"
+      ],
+      "es": "¿Cuáles son tus zapatos?",
+      "note": "plural: *quali*"
+     },
+     {
+      "id": "g13-11",
+      "q": "___ un supermercato qui vicino?",
+      "cue": "",
+      "a": [
+       "C'è"
+      ],
+      "es": "¿Hay un supermercado por aquí cerca?",
+      "note": "*c'è* + singular"
+     },
+     {
+      "id": "g13-12",
+      "q": "In classe ___ venti studenti.",
+      "cue": "",
+      "a": [
+       "ci sono"
+      ],
+      "es": "En clase hay veinte estudiantes.",
+      "note": "*ci sono* + plural"
+     },
+     {
+      "id": "g13-13",
+      "q": "___ molta gente in piazza.",
+      "cue": "",
+      "a": [
+       "C'è"
+      ],
+      "es": "Hay mucha gente en la plaza.",
+      "note": "*la gente* is singular → *c'è*"
+     },
+     {
+      "id": "g13-14",
+      "q": "Non ___ problemi.",
+      "cue": "",
+      "a": [
+       "ci sono"
+      ],
+      "es": "No hay problemas.",
+      "note": ""
+     },
+     {
+      "id": "g13-15",
+      "q": "Io ___ parlo tedesco.",
+      "cue": "",
+      "a": [
+       "non"
+      ],
+      "es": "Yo no hablo alemán.",
+      "note": ""
+     },
+     {
+      "id": "g13-16",
+      "q": "Non vado ___ in discoteca.",
+      "cue": "",
+      "a": [
+       "mai"
+      ],
+      "es": "No voy nunca a la discoteca.",
+      "note": "*non… mai* = nunca (double negative)"
+     },
+     {
+      "id": "g13-17",
+      "q": "Non ho mangiato ___.",
+      "cue": "",
+      "a": [
+       "niente",
+       "nulla"
+      ],
+      "es": "No he comido nada.",
+      "note": ""
+     },
+     {
+      "id": "g13-18",
+      "q": "Non conosco ___ qui.",
+      "cue": "",
+      "a": [
+       "nessuno"
+      ],
+      "es": "No conozco a nadie aquí.",
+      "note": ""
+     },
+     {
+      "id": "g13-19",
+      "q": "Non compro la giacca ___ è troppo cara.",
+      "cue": "",
+      "a": [
+       "perché"
+      ],
+      "es": "No me compro la chaqueta porque es demasiado cara.",
+      "note": "*perché* = why AND because"
+     }
+    ]
+   },
+   {
+    "id": "g14",
+    "level": "A1",
+    "title": "A1 · Piacere (mi piace / mi piacciono)",
+    "file": "a1-14-piacere.md",
+    "rule": "*piace* + one thing or a verb · *piacciono* + plural · *mi, ti, gli* (to him), *le* (to her, polite you), *ci, vi, gli* (to them)",
+    "items": [
+     {
+      "id": "g14-0",
+      "q": "Mi ___ la pizza.",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "Me gusta la pizza.",
+      "note": "one thing → *piace*"
+     },
+     {
+      "id": "g14-1",
+      "q": "Mi ___ i gatti.",
+      "cue": "",
+      "a": [
+       "piacciono"
+      ],
+      "es": "Me gustan los gatos.",
+      "note": "plural → *piacciono*"
+     },
+     {
+      "id": "g14-2",
+      "q": "Ti ___ ballare?",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "¿Te gusta bailar?",
+      "note": "a verb → *piace*"
+     },
+     {
+      "id": "g14-3",
+      "q": "Mi ___ cucinare e mangiare.",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "Me gusta cocinar y comer.",
+      "note": "verbs → *piace*, even two"
+     },
+     {
+      "id": "g14-4",
+      "q": "A Marco ___ il calcio.",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "A Marco le gusta el fútbol.",
+      "note": "no extra pronoun: *a Marco piace* (ES *le*)"
+     },
+     {
+      "id": "g14-5",
+      "q": "Ai miei genitori ___ viaggiare.",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "A mis padres les gusta viajar.",
+      "note": ""
+     },
+     {
+      "id": "g14-6",
+      "q": "A Giulia ___ le rose.",
+      "cue": "",
+      "a": [
+       "piacciono"
+      ],
+      "es": "A Giulia le gustan las rosas.",
+      "note": ""
+     },
+     {
+      "id": "g14-7",
+      "q": "Ai bambini ___ i dolci.",
+      "cue": "",
+      "a": [
+       "piacciono"
+      ],
+      "es": "A los niños les gustan los dulces.",
+      "note": ""
+     },
+     {
+      "id": "g14-8",
+      "q": "A me non ___ le verdure.",
+      "cue": "",
+      "a": [
+       "piacciono"
+      ],
+      "es": "A mí no me gustan las verduras.",
+      "note": ""
+     },
+     {
+      "id": "g14-9",
+      "q": "A loro non ___ il freddo.",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "A ellos no les gusta el frío.",
+      "note": ""
+     },
+     {
+      "id": "g14-10",
+      "q": "Ci ___ le vacanze al mare.",
+      "cue": "",
+      "a": [
+       "piacciono"
+      ],
+      "es": "Nos gustan las vacaciones en la playa.",
+      "note": ""
+     },
+     {
+      "id": "g14-11",
+      "q": "Vi ___ questa città?",
+      "cue": "",
+      "a": [
+       "piace"
+      ],
+      "es": "¿Os gusta esta ciudad?",
+      "note": ""
+     },
+     {
+      "id": "g14-12",
+      "q": "___ piace molto Roma.",
+      "cue": "a me",
+      "a": [
+       "Mi"
+      ],
+      "es": "Me gusta mucho Roma.",
+      "note": ""
+     },
+     {
+      "id": "g14-13",
+      "q": "___ piace il cioccolato?",
+      "cue": "a te",
+      "a": [
+       "Ti"
+      ],
+      "es": "¿Te gusta el chocolate?",
+      "note": ""
+     },
+     {
+      "id": "g14-14",
+      "q": "___ piacciono i film d'azione.",
+      "cue": "a lui",
+      "a": [
+       "Gli"
+      ],
+      "es": "A él le gustan las películas de acción.",
+      "note": "to him = *gli*"
+     },
+     {
+      "id": "g14-15",
+      "q": "___ piace leggere.",
+      "cue": "a lei",
+      "a": [
+       "Le"
+      ],
+      "es": "A ella le gusta leer.",
+      "note": "to her = *le*"
+     },
+     {
+      "id": "g14-16",
+      "q": "Signora, ___ piace il caffè?",
+      "cue": "a Lei",
+      "a": [
+       "Le"
+      ],
+      "es": "Señora, ¿le gusta el café?",
+      "note": "polite: *Le piace?*"
+     },
+     {
+      "id": "g14-17",
+      "q": "___ piacciono gli spaghetti.",
+      "cue": "a noi",
+      "a": [
+       "Ci"
+      ],
+      "es": "Nos gustan los espaguetis.",
+      "note": ""
+     },
+     {
+      "id": "g14-18",
+      "q": "___ piace questo ristorante?",
+      "cue": "a voi",
+      "a": [
+       "Vi"
+      ],
+      "es": "¿Os gusta este restaurante?",
+      "note": ""
+     },
+     {
+      "id": "g14-19",
+      "q": "___ piacciono le canzoni italiane.",
+      "cue": "a loro",
+      "a": [
+       "Gli",
+       "A loro"
+      ],
+      "es": "A ellos les gustan las canciones italianas.",
+      "note": "to them = *gli* (formal: *a loro*)"
+     }
+    ]
+   },
+   {
+    "id": "g15",
+    "level": "A2",
+    "title": "A2 · Passato prossimo with avere",
+    "file": "a2-15-passato-prossimo-avere.md",
+    "rule": "*avere* (ho, hai, ha, abbiamo, avete, hanno) + participle: *-are → -ato*, *-ere → -uto*, *-ire → -ito* · with *avere* the participle doesn't change",
+    "items": [
+     {
+      "id": "g15-0",
+      "q": "Ieri ___ la pizza.",
+      "cue": "mangiare · io",
+      "a": [
+       "ho mangiato"
+      ],
+      "es": "Ayer comí pizza.",
+      "note": "*-are → -ato*"
+     },
+     {
+      "id": "g15-1",
+      "q": "Ieri ___ con Luca.",
+      "cue": "parlare · io",
+      "a": [
+       "ho parlato"
+      ],
+      "es": "Ayer hablé con Luca.",
+      "note": ""
+     },
+     {
+      "id": "g15-2",
+      "q": "Stamattina ___ il latte.",
+      "cue": "comprare · io",
+      "a": [
+       "ho comprato"
+      ],
+      "es": "Esta mañana he comprado leche.",
+      "note": ""
+     },
+     {
+      "id": "g15-3",
+      "q": "Ieri ___ mia nonna.",
+      "cue": "aiutare · io",
+      "a": [
+       "ho aiutato"
+      ],
+      "es": "Ayer ayudé a mi abuela.",
+      "note": ""
+     },
+     {
+      "id": "g15-4",
+      "q": "___ la lezione?",
+      "cue": "capire · tu",
+      "a": [
+       "Hai capito"
+      ],
+      "es": "¿Has entendido la lección?",
+      "note": "*-ire → -ito*"
+     },
+     {
+      "id": "g15-5",
+      "q": "___ la mamma?",
+      "cue": "chiamare · tu",
+      "a": [
+       "Hai chiamato"
+      ],
+      "es": "¿Has llamado a mamá?",
+      "note": ""
+     },
+     {
+      "id": "g15-6",
+      "q": "___ bene?",
+      "cue": "dormire · tu",
+      "a": [
+       "Hai dormito"
+      ],
+      "es": "¿Has dormido bien?",
+      "note": ""
+     },
+     {
+      "id": "g15-7",
+      "q": "___ la torta?",
+      "cue": "assaggiare · tu",
+      "a": [
+       "Hai assaggiato"
+      ],
+      "es": "¿Has probado la tarta?",
+      "note": ""
+     },
+     {
+      "id": "g15-8",
+      "q": "Marco ___ tutto il giorno.",
+      "cue": "lavorare",
+      "a": [
+       "ha lavorato"
+      ],
+      "es": "Marco ha trabajado todo el día.",
+      "note": ""
+     },
+     {
+      "id": "g15-9",
+      "q": "Lei ___ le chiavi.",
+      "cue": "dimenticare",
+      "a": [
+       "ha dimenticato"
+      ],
+      "es": "Ella ha olvidado las llaves.",
+      "note": ""
+     },
+     {
+      "id": "g15-10",
+      "q": "Noi ___ la casa.",
+      "cue": "pulire",
+      "a": [
+       "abbiamo pulito"
+      ],
+      "es": "Hemos limpiado la casa.",
+      "note": ""
+     },
+     {
+      "id": "g15-11",
+      "q": "Ieri sera ___ fino a tardi.",
+      "cue": "ballare · noi",
+      "a": [
+       "abbiamo ballato"
+      ],
+      "es": "Anoche bailamos hasta tarde.",
+      "note": ""
+     },
+     {
+      "id": "g15-12",
+      "q": "Noi ___ in un ristorante cinese.",
+      "cue": "cenare",
+      "a": [
+       "abbiamo cenato"
+      ],
+      "es": "Hemos cenado en un restaurante chino.",
+      "note": ""
+     },
+     {
+      "id": "g15-13",
+      "q": "Ieri ___ la macchina vecchia.",
+      "cue": "vendere · noi",
+      "a": [
+       "abbiamo venduto"
+      ],
+      "es": "Ayer vendimos el coche viejo.",
+      "note": "*-ere → -uto*"
+     },
+     {
+      "id": "g15-14",
+      "q": "Voi ___ la partita?",
+      "cue": "guardare",
+      "a": [
+       "avete guardato"
+      ],
+      "es": "¿Habéis visto el partido?",
+      "note": ""
+     },
+     {
+      "id": "g15-15",
+      "q": "Voi ___ i compiti?",
+      "cue": "finire",
+      "a": [
+       "avete finito"
+      ],
+      "es": "¿Habéis terminado los deberes?",
+      "note": ""
+     },
+     {
+      "id": "g15-16",
+      "q": "___ la valigia?",
+      "cue": "preparare · voi",
+      "a": [
+       "Avete preparato"
+      ],
+      "es": "¿Habéis preparado la maleta?",
+      "note": ""
+     },
+     {
+      "id": "g15-17",
+      "q": "I ragazzi ___ a tennis.",
+      "cue": "giocare",
+      "a": [
+       "hanno giocato"
+      ],
+      "es": "Los chicos han jugado al tenis.",
+      "note": ""
+     },
+     {
+      "id": "g15-18",
+      "q": "Loro ___ il conto.",
+      "cue": "pagare",
+      "a": [
+       "hanno pagato"
+      ],
+      "es": "Ellos han pagado la cuenta.",
+      "note": ""
+     },
+     {
+      "id": "g15-19",
+      "q": "Loro ___ il pacco.",
+      "cue": "ricevere",
+      "a": [
+       "hanno ricevuto"
+      ],
+      "es": "Ellos han recibido el paquete.",
+      "note": "*ricevere → ricevuto*"
+     }
+    ]
+   },
+   {
+    "id": "g16",
+    "level": "A2",
+    "title": "A2 · Irregular past participles",
+    "file": "a2-16-irregular-participles.md",
+    "rule": "*fatto, detto, letto, scritto, visto, preso, messo, aperto, chiuso, chiesto, risposto, vinto, perso, bevuto, speso, scelto, corso, deciso, acceso, offerto*",
+    "items": [
+     {
+      "id": "g16-0",
+      "q": "___ i compiti.",
+      "cue": "fare · io",
+      "a": [
+       "Ho fatto"
+      ],
+      "es": "He hecho los deberes.",
+      "note": "*fare → fatto*"
+     },
+     {
+      "id": "g16-1",
+      "q": "Cosa ___?",
+      "cue": "dire · tu",
+      "a": [
+       "hai detto"
+      ],
+      "es": "¿Qué has dicho?",
+      "note": "*dire → detto*"
+     },
+     {
+      "id": "g16-2",
+      "q": "___ quel libro?",
+      "cue": "leggere · tu",
+      "a": [
+       "Hai letto"
+      ],
+      "es": "¿Has leído ese libro?",
+      "note": "*leggere → letto*"
+     },
+     {
+      "id": "g16-3",
+      "q": "Marco ___ una lettera.",
+      "cue": "scrivere",
+      "a": [
+       "ha scritto"
+      ],
+      "es": "Marco ha escrito una carta.",
+      "note": "*scrivere → scritto*"
+     },
+     {
+      "id": "g16-4",
+      "q": "Ieri ___ un bel film.",
+      "cue": "vedere · noi",
+      "a": [
+       "abbiamo visto"
+      ],
+      "es": "Ayer vimos una buena película.",
+      "note": "*vedere → visto*"
+     },
+     {
+      "id": "g16-5",
+      "q": "Loro ___ il treno delle otto.",
+      "cue": "prendere",
+      "a": [
+       "hanno preso"
+      ],
+      "es": "Han cogido el tren de las ocho.",
+      "note": "*prendere → preso*"
+     },
+     {
+      "id": "g16-6",
+      "q": "Dove ___ le chiavi?",
+      "cue": "mettere · tu",
+      "a": [
+       "hai messo"
+      ],
+      "es": "¿Dónde has puesto las llaves?",
+      "note": "*mettere → messo*"
+     },
+     {
+      "id": "g16-7",
+      "q": "Chi ___ la finestra?",
+      "cue": "aprire",
+      "a": [
+       "ha aperto"
+      ],
+      "es": "¿Quién ha abierto la ventana?",
+      "note": "*aprire → aperto*"
+     },
+     {
+      "id": "g16-8",
+      "q": "___ la porta a chiave.",
+      "cue": "chiudere · io",
+      "a": [
+       "Ho chiuso"
+      ],
+      "es": "He cerrado la puerta con llave.",
+      "note": "*chiudere → chiuso*"
+     },
+     {
+      "id": "g16-9",
+      "q": "___ aiuto a Marco.",
+      "cue": "chiedere · io",
+      "a": [
+       "Ho chiesto"
+      ],
+      "es": "Le he pedido ayuda a Marco.",
+      "note": "*chiedere → chiesto*"
+     },
+     {
+      "id": "g16-10",
+      "q": "Non ___ alla mia domanda.",
+      "cue": "rispondere · lui",
+      "a": [
+       "ha risposto"
+      ],
+      "es": "No ha respondido a mi pregunta.",
+      "note": "*rispondere → risposto*"
+     },
+     {
+      "id": "g16-11",
+      "q": "La nostra squadra ___ la partita!",
+      "cue": "vincere",
+      "a": [
+       "ha vinto"
+      ],
+      "es": "¡Nuestro equipo ha ganado el partido!",
+      "note": "*vincere → vinto*"
+     },
+     {
+      "id": "g16-12",
+      "q": "___ il portafoglio.",
+      "cue": "perdere · io",
+      "a": [
+       "Ho perso",
+       "Ho perduto"
+      ],
+      "es": "He perdido la cartera.",
+      "note": "*perdere → perso* (also *perduto*)"
+     },
+     {
+      "id": "g16-13",
+      "q": "Voi ___ troppo vino.",
+      "cue": "bere",
+      "a": [
+       "avete bevuto"
+      ],
+      "es": "Habéis bebido demasiado vino.",
+      "note": "*bere → bevuto*"
+     },
+     {
+      "id": "g16-14",
+      "q": "Quanto ___ per il regalo?",
+      "cue": "spendere · voi",
+      "a": [
+       "avete speso"
+      ],
+      "es": "¿Cuánto os habéis gastado en el regalo?",
+      "note": "*spendere → speso*"
+     },
+     {
+      "id": "g16-15",
+      "q": "___ il ristorante?",
+      "cue": "scegliere · tu",
+      "a": [
+       "Hai scelto"
+      ],
+      "es": "¿Has elegido el restaurante?",
+      "note": "*scegliere → scelto*"
+     },
+     {
+      "id": "g16-16",
+      "q": "Ieri ___ dieci chilometri.",
+      "cue": "correre · io",
+      "a": [
+       "ho corso"
+      ],
+      "es": "Ayer corrí diez kilómetros.",
+      "note": "*correre → corso*"
+     },
+     {
+      "id": "g16-17",
+      "q": "___ di partire.",
+      "cue": "decidere · noi",
+      "a": [
+       "Abbiamo deciso"
+      ],
+      "es": "Hemos decidido irnos.",
+      "note": "*decidere → deciso*"
+     },
+     {
+      "id": "g16-18",
+      "q": "Chi ___ la luce?",
+      "cue": "accendere",
+      "a": [
+       "ha acceso"
+      ],
+      "es": "¿Quién ha encendido la luz?",
+      "note": "*accendere → acceso*"
+     },
+     {
+      "id": "g16-19",
+      "q": "Mi ___ un caffè.",
+      "cue": "offrire · lui",
+      "a": [
+       "ha offerto"
+      ],
+      "es": "Me ha invitado a un café.",
+      "note": "*offrire → offerto* (*offrire* = invitar)"
+     }
+    ]
+   },
+   {
+    "id": "g17",
+    "level": "A2",
+    "title": "A2 · Passato prossimo with essere",
+    "file": "a2-17-passato-prossimo-essere.md",
+    "rule": "*essere* + participle with verbs of movement and change (*andare, venire, partire, arrivare, uscire, tornare, nascere, morire, restare, diventare, piacere…*) · the participle agrees: *-o, -a, -i, -e*",
+    "items": [
+     {
+      "id": "g17-0",
+      "q": "Ieri Marco ___ al cinema.",
+      "cue": "andare",
+      "a": [
+       "è andato"
+      ],
+      "es": "Ayer Marco fue al cine.",
+      "note": "*essere* + participle, which agrees: *andato*"
+     },
+     {
+      "id": "g17-1",
+      "q": "Ieri Giulia ___ al mare.",
+      "cue": "andare",
+      "a": [
+       "è andata"
+      ],
+      "es": "Ayer Giulia fue a la playa.",
+      "note": "feminine → *andata*"
+     },
+     {
+      "id": "g17-2",
+      "q": "Mi chiamo Sara. Ieri ___ dal dentista.",
+      "cue": "andare",
+      "a": [
+       "sono andata"
+      ],
+      "es": "Me llamo Sara. Ayer fui al dentista.",
+      "note": ""
+     },
+     {
+      "id": "g17-3",
+      "q": "Io e Paolo ___ alle dieci.",
+      "cue": "arrivare",
+      "a": [
+       "siamo arrivati"
+      ],
+      "es": "Paolo y yo hemos llegado a las diez.",
+      "note": "a mixed or male group → *-i*"
+     },
+     {
+      "id": "g17-4",
+      "q": "Paolo, quando ___?",
+      "cue": "arrivare · tu",
+      "a": [
+       "sei arrivato"
+      ],
+      "es": "Paolo, ¿cuándo has llegado?",
+      "note": ""
+     },
+     {
+      "id": "g17-5",
+      "q": "Le ragazze ___ presto.",
+      "cue": "uscire",
+      "a": [
+       "sono uscite"
+      ],
+      "es": "Las chicas han salido pronto.",
+      "note": "feminine plural → *-e*"
+     },
+     {
+      "id": "g17-6",
+      "q": "Anna, a che ora ___?",
+      "cue": "tornare · tu",
+      "a": [
+       "sei tornata"
+      ],
+      "es": "Anna, ¿a qué hora has vuelto?",
+      "note": ""
+     },
+     {
+      "id": "g17-7",
+      "q": "I ragazzi ___ a casa da soli.",
+      "cue": "tornare",
+      "a": [
+       "sono tornati"
+      ],
+      "es": "Los chicos han vuelto solos a casa.",
+      "note": ""
+     },
+     {
+      "id": "g17-8",
+      "q": "Il treno ___ in ritardo.",
+      "cue": "partire",
+      "a": [
+       "è partito"
+      ],
+      "es": "El tren ha salido con retraso.",
+      "note": ""
+     },
+     {
+      "id": "g17-9",
+      "q": "Lucia ___ in ufficio alle nove.",
+      "cue": "entrare",
+      "a": [
+       "è entrata"
+      ],
+      "es": "Lucía ha entrado en la oficina a las nueve.",
+      "note": ""
+     },
+     {
+      "id": "g17-10",
+      "q": "I miei nonni ___ in Sicilia.",
+      "cue": "nascere",
+      "a": [
+       "sono nati"
+      ],
+      "es": "Mis abuelos nacieron en Sicilia.",
+      "note": "*nascere → nato*"
+     },
+     {
+      "id": "g17-11",
+      "q": "Il nonno ___ l'anno scorso.",
+      "cue": "morire",
+      "a": [
+       "è morto"
+      ],
+      "es": "El abuelo murió el año pasado.",
+      "note": "*morire → morto*"
+     },
+     {
+      "id": "g17-12",
+      "q": "Maria ___ a casa tutto il giorno.",
+      "cue": "stare",
+      "a": [
+       "è stata"
+      ],
+      "es": "María ha estado en casa todo el día.",
+      "note": "*stare → stato*, like *essere*"
+     },
+     {
+      "id": "g17-13",
+      "q": "Ragazzi, ___ in Italia?",
+      "cue": "essere · voi",
+      "a": [
+       "siete stati"
+      ],
+      "es": "Chicos, ¿habéis estado en Italia?",
+      "note": "*essere → stato*"
+     },
+     {
+      "id": "g17-14",
+      "q": "Marta ___ in Spagna per tre mesi.",
+      "cue": "rimanere",
+      "a": [
+       "è rimasta"
+      ],
+      "es": "Marta se quedó tres meses en España.",
+      "note": "*rimanere → rimasto*"
+     },
+     {
+      "id": "g17-15",
+      "q": "Mio padre ___ medico a trent'anni.",
+      "cue": "diventare",
+      "a": [
+       "è diventato"
+      ],
+      "es": "Mi padre se hizo médico a los treinta años.",
+      "note": ""
+     },
+     {
+      "id": "g17-16",
+      "q": "I prezzi ___ molto.",
+      "cue": "salire",
+      "a": [
+       "sono saliti"
+      ],
+      "es": "Los precios han subido mucho.",
+      "note": ""
+     },
+     {
+      "id": "g17-17",
+      "q": "Che cosa ___?",
+      "cue": "succedere",
+      "a": [
+       "è successo"
+      ],
+      "es": "¿Qué ha pasado?",
+      "note": "*succedere → successo*"
+     },
+     {
+      "id": "g17-18",
+      "q": "La festa mi ___ molto.",
+      "cue": "piacere",
+      "a": [
+       "è piaciuta"
+      ],
+      "es": "La fiesta me ha gustado mucho.",
+      "note": "*piacere* takes *essere* and agrees with what you liked"
+     },
+     {
+      "id": "g17-19",
+      "q": "Ti ___ i biscotti?",
+      "cue": "piacere",
+      "a": [
+       "sono piaciuti"
+      ],
+      "es": "¿Te han gustado las galletas?",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g18",
+    "level": "A2",
+    "title": "A2 · Imperfetto",
+    "file": "a2-18-imperfetto.md",
+    "rule": "*-are*: -avo, -avi, -ava, -avamo, -avate, -avano (*-evo*, *-ivo* the same) · *essere*: ero, eri, era, eravamo, eravate, erano · *fare → facevo*, *bere → bevevo*, *dire → dicevo*",
+    "items": [
+     {
+      "id": "g18-0",
+      "q": "Da bambino ___ a calcio ogni giorno.",
+      "cue": "giocare · io",
+      "a": [
+       "giocavo"
+      ],
+      "es": "De niño jugaba al fútbol todos los días.",
+      "note": "a habit in the past → imperfetto"
+     },
+     {
+      "id": "g18-1",
+      "q": "Quando eri piccola, dove ___?",
+      "cue": "abitare · tu",
+      "a": [
+       "abitavi"
+      ],
+      "es": "Cuando eras pequeña, ¿dónde vivías?",
+      "note": ""
+     },
+     {
+      "id": "g18-2",
+      "q": "Mentre io ___, tu guardavi la TV.",
+      "cue": "cucinare",
+      "a": [
+       "cucinavo"
+      ],
+      "es": "Mientras yo cocinaba, tú veías la tele.",
+      "note": ""
+     },
+     {
+      "id": "g18-3",
+      "q": "Tu ___ troppo veloce.",
+      "cue": "parlare",
+      "a": [
+       "parlavi"
+      ],
+      "es": "Hablabas demasiado rápido.",
+      "note": ""
+     },
+     {
+      "id": "g18-4",
+      "q": "Voi ___ la televisione?",
+      "cue": "guardare",
+      "a": [
+       "guardavate"
+      ],
+      "es": "¿Veíais la tele?",
+      "note": ""
+     },
+     {
+      "id": "g18-5",
+      "q": "Loro ___ spesso al mare.",
+      "cue": "andare",
+      "a": [
+       "andavano"
+      ],
+      "es": "Ellos iban a menudo a la playa.",
+      "note": ""
+     },
+     {
+      "id": "g18-6",
+      "q": "Voi ___ a scuola a piedi?",
+      "cue": "andare",
+      "a": [
+       "andavate"
+      ],
+      "es": "¿Ibais al colegio a pie?",
+      "note": ""
+     },
+     {
+      "id": "g18-7",
+      "q": "I miei genitori ___ in una piccola casa.",
+      "cue": "vivere",
+      "a": [
+       "vivevano"
+      ],
+      "es": "Mis padres vivían en una casa pequeña.",
+      "note": "*-ere* → *-evo, -evi…*"
+     },
+     {
+      "id": "g18-8",
+      "q": "Da giovane mio padre ___ moltissimo.",
+      "cue": "leggere",
+      "a": [
+       "leggeva"
+      ],
+      "es": "De joven mi padre leía muchísimo.",
+      "note": ""
+     },
+     {
+      "id": "g18-9",
+      "q": "Il bambino ___ perché aveva fame.",
+      "cue": "piangere",
+      "a": [
+       "piangeva"
+      ],
+      "es": "El niño lloraba porque tenía hambre.",
+      "note": ""
+     },
+     {
+      "id": "g18-10",
+      "q": "Non ___ la risposta.",
+      "cue": "sapere · io",
+      "a": [
+       "sapevo"
+      ],
+      "es": "No sabía la respuesta.",
+      "note": ""
+     },
+     {
+      "id": "g18-11",
+      "q": "A dieci anni ___ i capelli lunghi.",
+      "cue": "avere · io",
+      "a": [
+       "avevo"
+      ],
+      "es": "A los diez años tenía el pelo largo.",
+      "note": "age and description → imperfetto"
+     },
+     {
+      "id": "g18-12",
+      "q": "Noi ___ tutti i giorni alle sette.",
+      "cue": "uscire",
+      "a": [
+       "uscivamo"
+      ],
+      "es": "Salíamos todos los días a las siete.",
+      "note": "*-ire* → *-ivo, -ivi…*"
+     },
+     {
+      "id": "g18-13",
+      "q": "Noi ___ molto stanchi.",
+      "cue": "essere",
+      "a": [
+       "eravamo"
+      ],
+      "es": "Estábamos muy cansados.",
+      "note": "*essere*: ero, eri, era, eravamo, eravate, erano"
+     },
+     {
+      "id": "g18-14",
+      "q": "La casa ___ grande e luminosa.",
+      "cue": "essere",
+      "a": [
+       "era"
+      ],
+      "es": "La casa era grande y luminosa.",
+      "note": ""
+     },
+     {
+      "id": "g18-15",
+      "q": "___ le otto di sera.",
+      "cue": "essere",
+      "a": [
+       "Erano"
+      ],
+      "es": "Eran las ocho de la tarde.",
+      "note": "clock time → imperfetto"
+     },
+     {
+      "id": "g18-16",
+      "q": "Mia nonna ___ sempre la pasta in casa.",
+      "cue": "fare",
+      "a": [
+       "faceva"
+      ],
+      "es": "Mi abuela siempre hacía la pasta en casa.",
+      "note": "*fare → facevo*"
+     },
+     {
+      "id": "g18-17",
+      "q": "Ieri ___ freddo.",
+      "cue": "fare",
+      "a": [
+       "faceva"
+      ],
+      "es": "Ayer hacía frío.",
+      "note": "weather → imperfetto"
+     },
+     {
+      "id": "g18-18",
+      "q": "Io ___ sempre il latte la mattina.",
+      "cue": "bere",
+      "a": [
+       "bevevo"
+      ],
+      "es": "Siempre bebía leche por la mañana.",
+      "note": "*bere → bevevo*"
+     },
+     {
+      "id": "g18-19",
+      "q": "Che cosa ___ il professore?",
+      "cue": "dire",
+      "a": [
+       "diceva"
+      ],
+      "es": "¿Qué decía el profesor?",
+      "note": "*dire → dicevo*"
+     }
+    ]
+   },
+   {
+    "id": "g19",
+    "level": "A2",
+    "title": "A2 · Passato prossimo vs imperfetto",
+    "file": "a2-19-prossimo-vs-imperfetto.md",
+    "rule": "Passato prossimo = what happened (a finished event) · imperfetto = how things were: background, habits, descriptions, actions in progress — like Spanish *fui* vs *iba*",
+    "items": [
+     {
+      "id": "g19-0",
+      "q": "Mentre ___ la doccia, è suonato il telefono.",
+      "cue": "fare · io",
+      "a": [
+       "facevo"
+      ],
+      "es": "Mientras me duchaba, sonó el teléfono.",
+      "note": "an action in progress → imperfetto"
+     },
+     {
+      "id": "g19-1",
+      "q": "Quando sono arrivato, ___.",
+      "cue": "piovere",
+      "a": [
+       "pioveva",
+       "stava piovendo"
+      ],
+      "es": "Cuando llegué, llovía.",
+      "note": "background → imperfetto"
+     },
+     {
+      "id": "g19-2",
+      "q": "Quando ___ a Roma, faceva caldo.",
+      "cue": "arrivare · noi",
+      "a": [
+       "siamo arrivati",
+       "siamo arrivate"
+      ],
+      "es": "Cuando llegamos a Roma, hacía calor.",
+      "note": "the event → passato prossimo"
+     },
+     {
+      "id": "g19-3",
+      "q": "Quando sono uscito, ___ molto freddo.",
+      "cue": "fare",
+      "a": [
+       "faceva"
+      ],
+      "es": "Cuando salí, hacía mucho frío.",
+      "note": "weather as background → imperfetto"
+     },
+     {
+      "id": "g19-4",
+      "q": "Ieri ___ Marco al bar.",
+      "cue": "incontrare · io",
+      "a": [
+       "ho incontrato"
+      ],
+      "es": "Ayer me encontré con Marco en el bar.",
+      "note": ""
+     },
+     {
+      "id": "g19-5",
+      "q": "Da piccolo ___ sempre i cartoni animati.",
+      "cue": "guardare · io",
+      "a": [
+       "guardavo"
+      ],
+      "es": "De pequeño siempre veía los dibujos animados.",
+      "note": "a habit → imperfetto"
+     },
+     {
+      "id": "g19-6",
+      "q": "L'anno scorso ___ in Portogallo.",
+      "cue": "andare · noi",
+      "a": [
+       "siamo andati",
+       "siamo andate"
+      ],
+      "es": "El año pasado fuimos a Portugal.",
+      "note": ""
+     },
+     {
+      "id": "g19-7",
+      "q": "Ogni estate ___ in campeggio.",
+      "cue": "andare · noi",
+      "a": [
+       "andavamo"
+      ],
+      "es": "Cada verano íbamos de camping.",
+      "note": "every summer → imperfetto"
+     },
+     {
+      "id": "g19-8",
+      "q": "Un'estate ___ in campeggio in Francia.",
+      "cue": "andare · noi",
+      "a": [
+       "siamo andati",
+       "siamo andate"
+      ],
+      "es": "Un verano fuimos de camping a Francia.",
+      "note": "one summer → passato prossimo"
+     },
+     {
+      "id": "g19-9",
+      "q": "___ stanca, così sono andata a letto.",
+      "cue": "essere · io",
+      "a": [
+       "Ero"
+      ],
+      "es": "Estaba cansada, así que me fui a la cama.",
+      "note": "a state → imperfetto"
+     },
+     {
+      "id": "g19-10",
+      "q": "Avevo sonno, così ___ a letto presto.",
+      "cue": "andare · io",
+      "a": [
+       "sono andato",
+       "sono andata"
+      ],
+      "es": "Tenía sueño, así que me fui pronto a la cama.",
+      "note": "what I did → passato prossimo"
+     },
+     {
+      "id": "g19-11",
+      "q": "Mentre i bambini ___, noi pulivamo la casa.",
+      "cue": "dormire",
+      "a": [
+       "dormivano"
+      ],
+      "es": "Mientras los niños dormían, nosotros limpiábamos la casa.",
+      "note": "two actions in progress → both imperfetto"
+     },
+     {
+      "id": "g19-12",
+      "q": "Mentre camminavo, ___ un amico.",
+      "cue": "vedere · io",
+      "a": [
+       "ho visto"
+      ],
+      "es": "Mientras caminaba, vi a un amigo.",
+      "note": ""
+     },
+     {
+      "id": "g19-13",
+      "q": "Ieri sera ___ un film bellissimo.",
+      "cue": "vedere · io",
+      "a": [
+       "ho visto"
+      ],
+      "es": "Anoche vi una película preciosa.",
+      "note": ""
+     },
+     {
+      "id": "g19-14",
+      "q": "Quando ero giovane, ___ in centro.",
+      "cue": "abitare · io",
+      "a": [
+       "abitavo"
+      ],
+      "es": "Cuando era joven, vivía en el centro.",
+      "note": ""
+     },
+     {
+      "id": "g19-15",
+      "q": "Nel 2010 ___ casa.",
+      "cue": "cambiare · noi",
+      "a": [
+       "abbiamo cambiato"
+      ],
+      "es": "En 2010 nos cambiamos de casa.",
+      "note": ""
+     },
+     {
+      "id": "g19-16",
+      "q": "Il cielo ___ azzurro e il sole splendeva.",
+      "cue": "essere",
+      "a": [
+       "era"
+      ],
+      "es": "El cielo era azul y el sol brillaba.",
+      "note": "a description → imperfetto"
+     },
+     {
+      "id": "g19-17",
+      "q": "Ieri ___ tre ore.",
+      "cue": "studiare · io",
+      "a": [
+       "ho studiato"
+      ],
+      "es": "Ayer estudié tres horas.",
+      "note": "a closed span of time → passato prossimo"
+     },
+     {
+      "id": "g19-18",
+      "q": "Prima ___, ora non fumo più.",
+      "cue": "fumare · io",
+      "a": [
+       "fumavo"
+      ],
+      "es": "Antes fumaba, ahora ya no fumo.",
+      "note": ""
+     },
+     {
+      "id": "g19-19",
+      "q": "Quando ___ la notizia, ero a casa.",
+      "cue": "sentire · io",
+      "a": [
+       "ho sentito"
+      ],
+      "es": "Cuando oí la noticia, estaba en casa.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g20",
+    "level": "A2",
+    "title": "A2 · Future: regular verbs",
+    "file": "a2-20-future-regular.md",
+    "rule": "*-are / -ere*: -erò, -erai, -erà, -eremo, -erete, -eranno · *-ire*: -irò, -irai… · *cercherò, pagherò* (keep the hard sound) · *comincerò, mangerò* (drop the i)",
+    "items": [
+     {
+      "id": "g20-0",
+      "q": "Domani ___ con il direttore.",
+      "cue": "parlare · io",
+      "a": [
+       "parlerò"
+      ],
+      "es": "Mañana hablaré con el director.",
+      "note": "*-are* → *-erò*: the a becomes e"
+     },
+     {
+      "id": "g20-1",
+      "q": "Domani a che ora ___?",
+      "cue": "arrivare · tu",
+      "a": [
+       "arriverai"
+      ],
+      "es": "¿A qué hora llegarás mañana?",
+      "note": ""
+     },
+     {
+      "id": "g20-2",
+      "q": "Mi ___ stasera?",
+      "cue": "chiamare · tu",
+      "a": [
+       "chiamerai"
+      ],
+      "es": "¿Me llamarás esta noche?",
+      "note": ""
+     },
+     {
+      "id": "g20-3",
+      "q": "Voi ___ la cena?",
+      "cue": "preparare",
+      "a": [
+       "preparerete"
+      ],
+      "es": "¿Prepararéis la cena?",
+      "note": ""
+     },
+     {
+      "id": "g20-4",
+      "q": "Loro ___ una casa nuova.",
+      "cue": "comprare",
+      "a": [
+       "compreranno"
+      ],
+      "es": "Ellos comprarán una casa nueva.",
+      "note": ""
+     },
+     {
+      "id": "g20-5",
+      "q": "Gli ospiti ___ alle otto.",
+      "cue": "arrivare",
+      "a": [
+       "arriveranno"
+      ],
+      "es": "Los invitados llegarán a las ocho.",
+      "note": ""
+     },
+     {
+      "id": "g20-6",
+      "q": "___ un lavoro migliore.",
+      "cue": "cercare · io",
+      "a": [
+       "Cercherò"
+      ],
+      "es": "Buscaré un trabajo mejor.",
+      "note": "*-care*: add an h → *cercherò*"
+     },
+     {
+      "id": "g20-7",
+      "q": "Chi ___ il conto?",
+      "cue": "pagare",
+      "a": [
+       "pagherà"
+      ],
+      "es": "¿Quién pagará la cuenta?",
+      "note": "*-gare*: add an h → *pagherà*"
+     },
+     {
+      "id": "g20-8",
+      "q": "Il corso ___ lunedì.",
+      "cue": "cominciare",
+      "a": [
+       "comincerà"
+      ],
+      "es": "El curso empezará el lunes.",
+      "note": "*-ciare*: drop the i → *comincerà*"
+     },
+     {
+      "id": "g20-9",
+      "q": "Stasera ___ fuori.",
+      "cue": "mangiare · noi",
+      "a": [
+       "mangeremo"
+      ],
+      "es": "Esta noche comeremos fuera.",
+      "note": "*-giare*: drop the i → *mangeremo*"
+     },
+     {
+      "id": "g20-10",
+      "q": "L'anno prossimo ___ molto.",
+      "cue": "viaggiare · io",
+      "a": [
+       "viaggerò"
+      ],
+      "es": "El año que viene viajaré mucho.",
+      "note": ""
+     },
+     {
+      "id": "g20-11",
+      "q": "___ una lettera a Marta.",
+      "cue": "scrivere · io",
+      "a": [
+       "Scriverò"
+      ],
+      "es": "Le escribiré una carta a Marta.",
+      "note": "*-ere* → *-erò*"
+     },
+     {
+      "id": "g20-12",
+      "q": "Quando ___ il libro?",
+      "cue": "leggere · tu",
+      "a": [
+       "leggerai"
+      ],
+      "es": "¿Cuándo leerás el libro?",
+      "note": ""
+     },
+     {
+      "id": "g20-13",
+      "q": "Domani ___ la macchina.",
+      "cue": "prendere · noi",
+      "a": [
+       "prenderemo"
+      ],
+      "es": "Mañana cogeremos el coche.",
+      "note": ""
+     },
+     {
+      "id": "g20-14",
+      "q": "Domenica ___ la partita?",
+      "cue": "vincere · voi",
+      "a": [
+       "vincerete"
+      ],
+      "es": "¿Ganaréis el partido el domingo?",
+      "note": ""
+     },
+     {
+      "id": "g20-15",
+      "q": "Noi ___ in agosto.",
+      "cue": "partire",
+      "a": [
+       "partiremo"
+      ],
+      "es": "Nos iremos en agosto.",
+      "note": "*-ire* → *-irò*"
+     },
+     {
+      "id": "g20-16",
+      "q": "Stanotte i bambini ___ dai nonni.",
+      "cue": "dormire",
+      "a": [
+       "dormiranno"
+      ],
+      "es": "Esta noche los niños dormirán en casa de los abuelos.",
+      "note": ""
+     },
+     {
+      "id": "g20-17",
+      "q": "Paolo ___ il giardino sabato.",
+      "cue": "pulire",
+      "a": [
+       "pulirà"
+      ],
+      "es": "Paolo limpiará el jardín el sábado.",
+      "note": ""
+     },
+     {
+      "id": "g20-18",
+      "q": "Un giorno ___ tutto.",
+      "cue": "capire · tu",
+      "a": [
+       "capirai"
+      ],
+      "es": "Algún día lo entenderás todo.",
+      "note": "no *-isc-* in the future"
+     },
+     {
+      "id": "g20-19",
+      "q": "___ i compiti dopo cena.",
+      "cue": "finire · noi",
+      "a": [
+       "Finiremo"
+      ],
+      "es": "Terminaremos los deberes después de cenar.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g21",
+    "level": "A2",
+    "title": "A2 · Future: irregular verbs",
+    "file": "a2-21-future-irregular.md",
+    "rule": "Short stems: *sarò, avrò, andrò, farò, darò, starò, potrò, dovrò, saprò, vedrò, vivrò* · double r: *verrò, vorrò, berrò, rimarrò, terrò*",
+    "items": [
+     {
+      "id": "g21-0",
+      "q": "Domani ___ a casa.",
+      "cue": "essere · io",
+      "a": [
+       "sarò"
+      ],
+      "es": "Mañana estaré en casa.",
+      "note": "*essere → sarò*"
+     },
+     {
+      "id": "g21-1",
+      "q": "Quando ___ grande, farò il medico.",
+      "cue": "essere · io",
+      "a": [
+       "sarò"
+      ],
+      "es": "Cuando sea mayor, seré médico.",
+      "note": "Italian uses the future after *quando* (ES subjunctive)"
+     },
+     {
+      "id": "g21-2",
+      "q": "Dopo il viaggio ___ stanchi.",
+      "cue": "essere · loro",
+      "a": [
+       "saranno"
+      ],
+      "es": "Después del viaje estarán cansados.",
+      "note": ""
+     },
+     {
+      "id": "g21-3",
+      "q": "___ tempo stasera?",
+      "cue": "avere · tu",
+      "a": [
+       "Avrai"
+      ],
+      "es": "¿Tendrás tiempo esta noche?",
+      "note": "*avere → avrò*"
+     },
+     {
+      "id": "g21-4",
+      "q": "Quanti anni ___ tuo figlio a maggio?",
+      "cue": "avere",
+      "a": [
+       "avrà"
+      ],
+      "es": "¿Cuántos años tendrá tu hijo en mayo?",
+      "note": ""
+     },
+     {
+      "id": "g21-5",
+      "q": "L'anno prossimo ___ in Giappone.",
+      "cue": "andare · noi",
+      "a": [
+       "andremo"
+      ],
+      "es": "El año que viene iremos a Japón.",
+      "note": "*andare → andrò*"
+     },
+     {
+      "id": "g21-6",
+      "q": "Cosa ___ a Capodanno?",
+      "cue": "fare · voi",
+      "a": [
+       "farete"
+      ],
+      "es": "¿Qué haréis en Nochevieja?",
+      "note": "*fare → farò*"
+     },
+     {
+      "id": "g21-7",
+      "q": "Domani ___ caldo.",
+      "cue": "fare",
+      "a": [
+       "farà"
+      ],
+      "es": "Mañana hará calor.",
+      "note": ""
+     },
+     {
+      "id": "g21-8",
+      "q": "Vi ___ la risposta domani.",
+      "cue": "dare · io",
+      "a": [
+       "darò"
+      ],
+      "es": "Os daré la respuesta mañana.",
+      "note": "*dare → darò*"
+     },
+     {
+      "id": "g21-9",
+      "q": "Come ___ tua madre?",
+      "cue": "stare",
+      "a": [
+       "starà"
+      ],
+      "es": "¿Cómo estará tu madre?",
+      "note": "the future also guesses: \"how might she be?\""
+     },
+     {
+      "id": "g21-10",
+      "q": "Mi dispiace, non ___ venire.",
+      "cue": "potere · io",
+      "a": [
+       "potrò"
+      ],
+      "es": "Lo siento, no podré venir.",
+      "note": "*potere → potrò*"
+     },
+     {
+      "id": "g21-11",
+      "q": "Loro ___ partire presto.",
+      "cue": "dovere",
+      "a": [
+       "dovranno"
+      ],
+      "es": "Tendrán que salir temprano.",
+      "note": "*dovere → dovrò*"
+     },
+     {
+      "id": "g21-12",
+      "q": "Domani ___ i risultati.",
+      "cue": "sapere · noi",
+      "a": [
+       "sapremo"
+      ],
+      "es": "Mañana sabremos los resultados.",
+      "note": "*sapere → saprò*"
+     },
+     {
+      "id": "g21-13",
+      "q": "Ci ___ alle otto!",
+      "cue": "vedere · noi",
+      "a": [
+       "vedremo"
+      ],
+      "es": "¡Nos veremos a las ocho!",
+      "note": "*vedere → vedrò*"
+     },
+     {
+      "id": "g21-14",
+      "q": "In futuro ___ in campagna.",
+      "cue": "vivere · io",
+      "a": [
+       "vivrò"
+      ],
+      "es": "En el futuro viviré en el campo.",
+      "note": "*vivere → vivrò*"
+     },
+     {
+      "id": "g21-15",
+      "q": "___ alla festa?",
+      "cue": "venire · tu",
+      "a": [
+       "Verrai"
+      ],
+      "es": "¿Vendrás a la fiesta?",
+      "note": "*venire → verrò*"
+     },
+     {
+      "id": "g21-16",
+      "q": "I bambini ___ il gelato.",
+      "cue": "volere",
+      "a": [
+       "vorranno"
+      ],
+      "es": "Los niños querrán helado.",
+      "note": "*volere → vorrò*"
+     },
+     {
+      "id": "g21-17",
+      "q": "Stasera ___ solo acqua.",
+      "cue": "bere · io",
+      "a": [
+       "berrò"
+      ],
+      "es": "Esta noche solo beberé agua.",
+      "note": "*bere → berrò*"
+     },
+     {
+      "id": "g21-18",
+      "q": "___ a Roma una settimana.",
+      "cue": "rimanere · noi",
+      "a": [
+       "Rimarremo"
+      ],
+      "es": "Nos quedaremos una semana en Roma.",
+      "note": "*rimanere → rimarrò*"
+     },
+     {
+      "id": "g21-19",
+      "q": "___ il cane per una settimana?",
+      "cue": "tenere · voi",
+      "a": [
+       "Terrete"
+      ],
+      "es": "¿Os quedaréis con el perro una semana?",
+      "note": "*tenere → terrò*"
+     }
+    ]
+   },
+   {
+    "id": "g22",
+    "level": "A2",
+    "title": "A2 · Reflexive verbs",
+    "file": "a2-22-reflexive-verbs.md",
+    "rule": "*mi, ti, si, ci, vi, si* + verb · the passato prossimo takes *essere* and agrees: *mi sono alzato/a*, *ci siamo divertiti*",
+    "items": [
+     {
+      "id": "g22-0",
+      "q": "Io ___ alle sette.",
+      "cue": "alzarsi",
+      "a": [
+       "mi alzo"
+      ],
+      "es": "Me levanto a las siete.",
+      "note": "*mi, ti, si, ci, vi, si* + verb"
+     },
+     {
+      "id": "g22-1",
+      "q": "A che ora ___?",
+      "cue": "svegliarsi · tu",
+      "a": [
+       "ti svegli"
+      ],
+      "es": "¿A qué hora te despiertas?",
+      "note": ""
+     },
+     {
+      "id": "g22-2",
+      "q": "Ciao, come ___?",
+      "cue": "chiamarsi · tu",
+      "a": [
+       "ti chiami"
+      ],
+      "es": "Hola, ¿cómo te llamas?",
+      "note": ""
+     },
+     {
+      "id": "g22-3",
+      "q": "Mi ___ Laura.",
+      "cue": "chiamarsi",
+      "a": [
+       "chiamo"
+      ],
+      "es": "Me llamo Laura.",
+      "note": ""
+     },
+     {
+      "id": "g22-4",
+      "q": "Perché ___?",
+      "cue": "arrabbiarsi · tu",
+      "a": [
+       "ti arrabbi"
+      ],
+      "es": "¿Por qué te enfadas?",
+      "note": ""
+     },
+     {
+      "id": "g22-5",
+      "q": "___ le mani prima di mangiare.",
+      "cue": "lavarsi · io",
+      "a": [
+       "Mi lavo"
+      ],
+      "es": "Me lavo las manos antes de comer.",
+      "note": ""
+     },
+     {
+      "id": "g22-6",
+      "q": "Marco ___ in fretta.",
+      "cue": "vestirsi",
+      "a": [
+       "si veste"
+      ],
+      "es": "Marco se viste deprisa.",
+      "note": ""
+     },
+     {
+      "id": "g22-7",
+      "q": "Non ___ mai di niente!",
+      "cue": "ricordarsi · lui",
+      "a": [
+       "si ricorda"
+      ],
+      "es": "¡Nunca se acuerda de nada!",
+      "note": ""
+     },
+     {
+      "id": "g22-8",
+      "q": "Noi ___ sempre alle feste.",
+      "cue": "divertirsi",
+      "a": [
+       "ci divertiamo"
+      ],
+      "es": "Siempre nos divertimos en las fiestas.",
+      "note": ""
+     },
+     {
+      "id": "g22-9",
+      "q": "Voi ___ la doccia ogni mattina?",
+      "cue": "farsi",
+      "a": [
+       "vi fate"
+      ],
+      "es": "¿Os ducháis cada mañana?",
+      "note": "*farsi la doccia* = ducharse"
+     },
+     {
+      "id": "g22-10",
+      "q": "Voi ___ bene qui?",
+      "cue": "trovarsi",
+      "a": [
+       "vi trovate"
+      ],
+      "es": "¿Estáis a gusto aquí?",
+      "note": "*trovarsi bene* = estar a gusto"
+     },
+     {
+      "id": "g22-11",
+      "q": "I bambini ___ subito.",
+      "cue": "addormentarsi",
+      "a": [
+       "si addormentano"
+      ],
+      "es": "Los niños se duermen enseguida.",
+      "note": ""
+     },
+     {
+      "id": "g22-12",
+      "q": "Le ragazze ___ per la festa.",
+      "cue": "prepararsi",
+      "a": [
+       "si preparano"
+      ],
+      "es": "Las chicas se preparan para la fiesta.",
+      "note": ""
+     },
+     {
+      "id": "g22-13",
+      "q": "I miei genitori ___ dopo pranzo.",
+      "cue": "riposarsi",
+      "a": [
+       "si riposano"
+      ],
+      "es": "Mis padres descansan después de comer.",
+      "note": "ES *descansar* isn't reflexive"
+     },
+     {
+      "id": "g22-14",
+      "q": "Ieri Paolo ___ tardi.",
+      "cue": "svegliarsi · pass. prossimo",
+      "a": [
+       "si è svegliato"
+      ],
+      "es": "Ayer Paolo se despertó tarde.",
+      "note": "reflexives take *essere* in the passato prossimo"
+     },
+     {
+      "id": "g22-15",
+      "q": "Laura ___ alle sei.",
+      "cue": "alzarsi · pass. prossimo",
+      "a": [
+       "si è alzata"
+      ],
+      "es": "Laura se ha levantado a las seis.",
+      "note": "the participle agrees: *alzata*"
+     },
+     {
+      "id": "g22-16",
+      "q": "Paolo ___ a Milano.",
+      "cue": "trasferirsi · pass. prossimo",
+      "a": [
+       "si è trasferito"
+      ],
+      "es": "Paolo se ha mudado a Milán.",
+      "note": ""
+     },
+     {
+      "id": "g22-17",
+      "q": "Ragazzi, ___ alla festa?",
+      "cue": "divertirsi · voi · pass. prossimo",
+      "a": [
+       "vi siete divertiti"
+      ],
+      "es": "Chicos, ¿os habéis divertido en la fiesta?",
+      "note": ""
+     },
+     {
+      "id": "g22-18",
+      "q": "Io e mia moglie ___ nel 2015.",
+      "cue": "sposarsi · pass. prossimo",
+      "a": [
+       "ci siamo sposati"
+      ],
+      "es": "Mi mujer y yo nos casamos en 2015.",
+      "note": ""
+     },
+     {
+      "id": "g22-19",
+      "q": "Le signore ___ in prima fila.",
+      "cue": "sedersi · pass. prossimo",
+      "a": [
+       "si sono sedute"
+      ],
+      "es": "Las señoras se han sentado en primera fila.",
+      "note": "*sedersi → seduto*"
+     }
+    ]
+   },
+   {
+    "id": "g23",
+    "level": "A2",
+    "title": "A2 · Direct object pronouns",
+    "file": "a2-23-direct-pronouns.md",
+    "rule": "*mi, ti, lo, la* (polite *La*), *ci, vi, li, le* · before the verb · *lo / la* + *ho* → *l'ho* · with a pronoun the participle agrees: *l'ho vista, li ho visti, le ho lette*",
+    "items": [
+     {
+      "id": "g23-0",
+      "q": "Conosci Marco? Sì, ___ conosco.",
+      "cue": "",
+      "a": [
+       "lo"
+      ],
+      "es": "¿Conoces a Marco? Sí, lo conozco.",
+      "note": "*lo* = him / it (m.)"
+     },
+     {
+      "id": "g23-1",
+      "q": "Marco parla veloce, non ___ capisco.",
+      "cue": "",
+      "a": [
+       "lo"
+      ],
+      "es": "Marco habla rápido, no lo entiendo.",
+      "note": ""
+     },
+     {
+      "id": "g23-2",
+      "q": "Il caffè ___ prendo senza zucchero.",
+      "cue": "",
+      "a": [
+       "lo"
+      ],
+      "es": "El café lo tomo sin azúcar.",
+      "note": ""
+     },
+     {
+      "id": "g23-3",
+      "q": "Devo chiamare Luca: ___ chiamo stasera.",
+      "cue": "",
+      "a": [
+       "lo"
+      ],
+      "es": "Tengo que llamar a Luca: lo llamo esta noche.",
+      "note": ""
+     },
+     {
+      "id": "g23-4",
+      "q": "Vedi Giulia stasera? Sì, ___ vedo alle otto.",
+      "cue": "",
+      "a": [
+       "la"
+      ],
+      "es": "¿Ves a Giulia esta noche? Sí, la veo a las ocho.",
+      "note": "*la* = her / it (f.)"
+     },
+     {
+      "id": "g23-5",
+      "q": "La pizza? ___ mangio volentieri.",
+      "cue": "",
+      "a": [
+       "La"
+      ],
+      "es": "¿La pizza? La como con gusto.",
+      "note": ""
+     },
+     {
+      "id": "g23-6",
+      "q": "Dove sono i libri? Non ___ trovo.",
+      "cue": "",
+      "a": [
+       "li"
+      ],
+      "es": "¿Dónde están los libros? No los encuentro.",
+      "note": "*li* = them (m.) — ES *los*"
+     },
+     {
+      "id": "g23-7",
+      "q": "Questi pantaloni? ___ porto spesso.",
+      "cue": "",
+      "a": [
+       "Li"
+      ],
+      "es": "¿Estos pantalones? Los llevo a menudo.",
+      "note": ""
+     },
+     {
+      "id": "g23-8",
+      "q": "Compri le mele? Sì, ___ compro.",
+      "cue": "",
+      "a": [
+       "le"
+      ],
+      "es": "¿Compras las manzanas? Sí, las compro.",
+      "note": "*le* = them (f.) — ES *las*"
+     },
+     {
+      "id": "g23-9",
+      "q": "___ chiami domani?",
+      "cue": "me",
+      "a": [
+       "Mi"
+      ],
+      "es": "¿Me llamas mañana?",
+      "note": ""
+     },
+     {
+      "id": "g23-10",
+      "q": "___ aspetto alla stazione.",
+      "cue": "you (tu)",
+      "a": [
+       "Ti"
+      ],
+      "es": "Te espero en la estación.",
+      "note": ""
+     },
+     {
+      "id": "g23-11",
+      "q": "Il professore ___ conosce bene.",
+      "cue": "us",
+      "a": [
+       "ci"
+      ],
+      "es": "El profesor nos conoce bien.",
+      "note": ""
+     },
+     {
+      "id": "g23-12",
+      "q": "Quando ___ vieni a trovare?",
+      "cue": "us",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Cuándo vienes a vernos?",
+      "note": ""
+     },
+     {
+      "id": "g23-13",
+      "q": "Ragazzi, ___ invito a cena.",
+      "cue": "you (voi)",
+      "a": [
+       "vi"
+      ],
+      "es": "Chicos, os invito a cenar.",
+      "note": ""
+     },
+     {
+      "id": "g23-14",
+      "q": "Signora, ___ ringrazio.",
+      "cue": "you (Lei)",
+      "a": [
+       "La",
+       "la"
+      ],
+      "es": "Señora, le doy las gracias.",
+      "note": "polite *La* (ES *le*)"
+     },
+     {
+      "id": "g23-15",
+      "q": "Hai visto Anna? Sì, ___ho vista ieri.",
+      "cue": "",
+      "a": [
+       "l'"
+      ],
+      "es": "¿Has visto a Anna? Sí, la vi ayer.",
+      "note": "*la* + *ho* → *l'ho*; the participle agrees: *vista*"
+     },
+     {
+      "id": "g23-16",
+      "q": "Hai visto Marco? Sì, l'ho ___.",
+      "cue": "vedere",
+      "a": [
+       "visto"
+      ],
+      "es": "¿Has visto a Marco? Sí, lo he visto.",
+      "note": ""
+     },
+     {
+      "id": "g23-17",
+      "q": "Hai comprato i biglietti? Sì, ___ ho comprati.",
+      "cue": "",
+      "a": [
+       "li"
+      ],
+      "es": "¿Has comprado las entradas? Sí, las he comprado.",
+      "note": "*li* never takes an apostrophe"
+     },
+     {
+      "id": "g23-18",
+      "q": "Hai letto le lettere? Sì, le ho ___.",
+      "cue": "leggere",
+      "a": [
+       "lette"
+      ],
+      "es": "¿Has leído las cartas? Sí, las he leído.",
+      "note": "the participle agrees with *le*: *lette*"
+     },
+     {
+      "id": "g23-19",
+      "q": "Le chiavi? ___ ho dimenticate a casa.",
+      "cue": "",
+      "a": [
+       "Le"
+      ],
+      "es": "¿Las llaves? Las he olvidado en casa.",
+      "note": "*le* never takes an apostrophe; *dimenticate* agrees"
+     }
+    ]
+   },
+   {
+    "id": "g24",
+    "level": "A2",
+    "title": "A2 · Indirect object pronouns",
+    "file": "a2-24-indirect-pronouns.md",
+    "rule": "*mi, ti, gli* (to him), *le* (to her), *Le* (to you, polite), *ci, vi, gli* (to them) — Spanish *le* splits into *gli / le*",
+    "items": [
+     {
+      "id": "g24-0",
+      "q": "Cosa regali a Marco? ___ regalo un libro.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "¿Qué le regalas a Marco? Le regalo un libro.",
+      "note": "*gli* = to him (ES *le*)"
+     },
+     {
+      "id": "g24-1",
+      "q": "Luca ha fame: ___ preparo un panino.",
+      "cue": "",
+      "a": [
+       "gli"
+      ],
+      "es": "Luca tiene hambre: le preparo un bocadillo.",
+      "note": ""
+     },
+     {
+      "id": "g24-2",
+      "q": "___ ho mandato un messaggio, ma Marco non risponde.",
+      "cue": "",
+      "a": [
+       "Gli"
+      ],
+      "es": "Le he mandado un mensaje, pero Marco no contesta.",
+      "note": ""
+     },
+     {
+      "id": "g24-3",
+      "q": "Cosa regali a Giulia? ___ regalo dei fiori.",
+      "cue": "",
+      "a": [
+       "Le"
+      ],
+      "es": "¿Qué le regalas a Giulia? Le regalo flores.",
+      "note": "*le* = to her"
+     },
+     {
+      "id": "g24-4",
+      "q": "Ho telefonato a mia madre e ___ ho detto tutto.",
+      "cue": "",
+      "a": [
+       "le"
+      ],
+      "es": "He llamado a mi madre y le he dicho todo.",
+      "note": ""
+     },
+     {
+      "id": "g24-5",
+      "q": "Anna è triste: ___ telefono subito.",
+      "cue": "",
+      "a": [
+       "le"
+      ],
+      "es": "Anna está triste: la llamo enseguida.",
+      "note": "*telefonare a* → indirect: *le telefono* (ES *la llamo*)"
+     },
+     {
+      "id": "g24-6",
+      "q": "Giulia ha freddo: ___ presto la mia giacca.",
+      "cue": "",
+      "a": [
+       "le"
+      ],
+      "es": "Giulia tiene frío: le presto mi chaqueta.",
+      "note": ""
+     },
+     {
+      "id": "g24-7",
+      "q": "Marta compie gli anni: ___ compro una torta.",
+      "cue": "",
+      "a": [
+       "le"
+      ],
+      "es": "Marta cumple años: le compro una tarta.",
+      "note": ""
+     },
+     {
+      "id": "g24-8",
+      "q": "Signor Rossi, ___ presento mia moglie.",
+      "cue": "to you (Lei)",
+      "a": [
+       "Le"
+      ],
+      "es": "Señor Rossi, le presento a mi mujer.",
+      "note": "polite *Le*"
+     },
+     {
+      "id": "g24-9",
+      "q": "Vedo i nonni e ___ porto i dolci.",
+      "cue": "",
+      "a": [
+       "gli"
+      ],
+      "es": "Veo a los abuelos y les llevo los dulces.",
+      "note": "*gli* also = to them"
+     },
+     {
+      "id": "g24-10",
+      "q": "I bambini hanno sete: ___ do un po' d'acqua.",
+      "cue": "",
+      "a": [
+       "gli"
+      ],
+      "es": "Los niños tienen sed: les doy un poco de agua.",
+      "note": ""
+     },
+     {
+      "id": "g24-11",
+      "q": "___ dai il tuo numero?",
+      "cue": "to me",
+      "a": [
+       "Mi"
+      ],
+      "es": "¿Me das tu número?",
+      "note": ""
+     },
+     {
+      "id": "g24-12",
+      "q": "Il medico ___ ha dato una ricetta.",
+      "cue": "to me",
+      "a": [
+       "mi"
+      ],
+      "es": "El médico me ha dado una receta.",
+      "note": ""
+     },
+     {
+      "id": "g24-13",
+      "q": "___ scrivo domani.",
+      "cue": "to you (tu)",
+      "a": [
+       "Ti"
+      ],
+      "es": "Te escribo mañana.",
+      "note": ""
+     },
+     {
+      "id": "g24-14",
+      "q": "___ piace la musica?",
+      "cue": "to you (tu)",
+      "a": [
+       "Ti"
+      ],
+      "es": "¿Te gusta la música?",
+      "note": ""
+     },
+     {
+      "id": "g24-15",
+      "q": "Chi ___ ha detto questa cosa?",
+      "cue": "to you (tu)",
+      "a": [
+       "ti"
+      ],
+      "es": "¿Quién te ha dicho esto?",
+      "note": ""
+     },
+     {
+      "id": "g24-16",
+      "q": "Paola, ___ chiedo un favore.",
+      "cue": "to you (tu)",
+      "a": [
+       "ti"
+      ],
+      "es": "Paola, te pido un favor.",
+      "note": ""
+     },
+     {
+      "id": "g24-17",
+      "q": "Il professore ___ spiega la lezione.",
+      "cue": "to us",
+      "a": [
+       "ci"
+      ],
+      "es": "El profesor nos explica la lección.",
+      "note": ""
+     },
+     {
+      "id": "g24-18",
+      "q": "La nonna ___ racconta sempre storie.",
+      "cue": "to us",
+      "a": [
+       "ci"
+      ],
+      "es": "La abuela siempre nos cuenta historias.",
+      "note": ""
+     },
+     {
+      "id": "g24-19",
+      "q": "Ragazzi, ___ porto un regalo.",
+      "cue": "to you (voi)",
+      "a": [
+       "vi"
+      ],
+      "es": "Chicos, os traigo un regalo.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g25",
+    "level": "A2",
+    "title": "A2 · Ne & ci",
+    "file": "a2-25-ne-ci.md",
+    "rule": "*ne* = of it / of them, with quantities (*ne voglio due*) · *ci* = there, or *a* + thing (*ci penso*) · *ci vuole / ci vogliono* = it takes · *metterci* = to take (someone takes time)",
+    "items": [
+     {
+      "id": "g25-0",
+      "q": "Quante mele vuoi? ___ voglio tre.",
+      "cue": "",
+      "a": [
+       "Ne"
+      ],
+      "es": "¿Cuántas manzanas quieres? Quiero tres.",
+      "note": "*ne* = of them — Spanish leaves it out"
+     },
+     {
+      "id": "g25-1",
+      "q": "Hai dei fratelli? Sì, ___ ho due.",
+      "cue": "",
+      "a": [
+       "ne"
+      ],
+      "es": "¿Tienes hermanos? Sí, tengo dos.",
+      "note": ""
+     },
+     {
+      "id": "g25-2",
+      "q": "Quanti caffè bevi? ___ bevo tre al giorno.",
+      "cue": "",
+      "a": [
+       "Ne"
+      ],
+      "es": "¿Cuántos cafés tomas? Tomo tres al día.",
+      "note": ""
+     },
+     {
+      "id": "g25-3",
+      "q": "Vuoi del pane? No grazie, non ___ voglio.",
+      "cue": "",
+      "a": [
+       "ne"
+      ],
+      "es": "¿Quieres pan? No, gracias, no quiero.",
+      "note": ""
+     },
+     {
+      "id": "g25-4",
+      "q": "Quanti anni hai? ___ ho trenta.",
+      "cue": "",
+      "a": [
+       "Ne"
+      ],
+      "es": "¿Cuántos años tienes? Tengo treinta.",
+      "note": "age: *ne ho trenta*"
+     },
+     {
+      "id": "g25-5",
+      "q": "Hai comprato le uova? Sì, ___ ho comprate sei.",
+      "cue": "",
+      "a": [
+       "ne"
+      ],
+      "es": "¿Has comprado huevos? Sí, he comprado seis.",
+      "note": ""
+     },
+     {
+      "id": "g25-6",
+      "q": "Quante pagine hai letto? ___ ho lette cinquanta.",
+      "cue": "",
+      "a": [
+       "Ne"
+      ],
+      "es": "¿Cuántas páginas has leído? He leído cincuenta.",
+      "note": "the participle agrees with *ne*: *lette*"
+     },
+     {
+      "id": "g25-7",
+      "q": "Parlate spesso del lavoro? Sì, ___ parliamo sempre.",
+      "cue": "",
+      "a": [
+       "ne"
+      ],
+      "es": "¿Habláis a menudo del trabajo? Sí, hablamos siempre de ello.",
+      "note": "*ne* = *di* + it"
+     },
+     {
+      "id": "g25-8",
+      "q": "Vai a Roma? Sì, ___ vado domani.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Vas a Roma? Sí, voy mañana.",
+      "note": "*ci* = there"
+     },
+     {
+      "id": "g25-9",
+      "q": "Andiamo al cinema? Sì, ___ andiamo stasera.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Vamos al cine? Sí, vamos esta noche.",
+      "note": ""
+     },
+     {
+      "id": "g25-10",
+      "q": "Torni in Spagna? Sì, ___ torno a luglio.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Vuelves a España? Sí, vuelvo en julio.",
+      "note": ""
+     },
+     {
+      "id": "g25-11",
+      "q": "Sei mai stato a Parigi? No, non ___ sono mai stato.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Has estado alguna vez en París? No, nunca he estado.",
+      "note": ""
+     },
+     {
+      "id": "g25-12",
+      "q": "Da quanto tempo abiti a Milano? ___ abito da tre anni.",
+      "cue": "",
+      "a": [
+       "Ci"
+      ],
+      "es": "¿Desde cuándo vives en Milán? Vivo aquí desde hace tres años.",
+      "note": ""
+     },
+     {
+      "id": "g25-13",
+      "q": "Pensi mai al futuro? Sì, ___ penso spesso.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Piensas alguna vez en el futuro? Sí, pienso en ello a menudo.",
+      "note": "*pensare a* → *ci*"
+     },
+     {
+      "id": "g25-14",
+      "q": "Credi ai fantasmi? No, non ___ credo.",
+      "cue": "",
+      "a": [
+       "ci"
+      ],
+      "es": "¿Crees en los fantasmas? No, no creo en ellos.",
+      "note": "*credere a* → *ci*"
+     },
+     {
+      "id": "g25-15",
+      "q": "Quanto tempo ___ per arrivare a Firenze?",
+      "cue": "volerci",
+      "a": [
+       "ci vuole"
+      ],
+      "es": "¿Cuánto se tarda en llegar a Florencia?",
+      "note": "*ci vuole* + singular = it takes"
+     },
+     {
+      "id": "g25-16",
+      "q": "In treno ___ due ore.",
+      "cue": "volerci",
+      "a": [
+       "ci vogliono"
+      ],
+      "es": "En tren se tardan dos horas.",
+      "note": "*ci vogliono* + plural"
+     },
+     {
+      "id": "g25-17",
+      "q": "Per fare la pizza ___ la farina.",
+      "cue": "volerci",
+      "a": [
+       "ci vuole"
+      ],
+      "es": "Para hacer pizza hace falta harina.",
+      "note": "*volerci* = hacer falta"
+     },
+     {
+      "id": "g25-18",
+      "q": "Io ___ venti minuti per andare al lavoro.",
+      "cue": "metterci",
+      "a": [
+       "ci metto"
+      ],
+      "es": "Tardo veinte minutos en ir al trabajo.",
+      "note": "*metterci* = tardar (a person is the subject)"
+     },
+     {
+      "id": "g25-19",
+      "q": "Quanto ___ per prepararti?",
+      "cue": "metterci · tu",
+      "a": [
+       "ci metti"
+      ],
+      "es": "¿Cuánto tardas en arreglarte?",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g26",
+    "level": "A2",
+    "title": "A2 · Informal imperative",
+    "file": "a2-26-informal-imperative.md",
+    "rule": "*tu*: *parla! prendi! senti! finisci!* · *noi* and *voi* = the present · *va', fa', da', sta', di', sii, abbi* · negative *tu*: *non* + infinitive (*non parlare!*)",
+    "items": [
+     {
+      "id": "g26-0",
+      "q": "___ più piano, per favore!",
+      "cue": "parlare · tu",
+      "a": [
+       "Parla"
+      ],
+      "es": "¡Habla más despacio, por favor!",
+      "note": "*tu*: *-are → -a*"
+     },
+     {
+      "id": "g26-1",
+      "q": "___ un momento!",
+      "cue": "aspettare · tu",
+      "a": [
+       "Aspetta"
+      ],
+      "es": "¡Espera un momento!",
+      "note": ""
+     },
+     {
+      "id": "g26-2",
+      "q": "___ il treno delle otto!",
+      "cue": "prendere · tu",
+      "a": [
+       "Prendi"
+      ],
+      "es": "¡Coge el tren de las ocho!",
+      "note": "*tu*: *-ere / -ire → -i*"
+     },
+     {
+      "id": "g26-3",
+      "q": "___ la finestra!",
+      "cue": "aprire · tu",
+      "a": [
+       "Apri"
+      ],
+      "es": "¡Abre la ventana!",
+      "note": ""
+     },
+     {
+      "id": "g26-4",
+      "q": "___ i compiti!",
+      "cue": "finire · tu",
+      "a": [
+       "Finisci"
+      ],
+      "es": "¡Termina los deberes!",
+      "note": ""
+     },
+     {
+      "id": "g26-5",
+      "q": "___ qui, subito!",
+      "cue": "venire · tu",
+      "a": [
+       "Vieni"
+      ],
+      "es": "¡Ven aquí, ahora mismo!",
+      "note": ""
+     },
+     {
+      "id": "g26-6",
+      "q": "___ a casa!",
+      "cue": "andare · tu",
+      "a": [
+       "Va'",
+       "Vai"
+      ],
+      "es": "¡Vete a casa!",
+      "note": "*va'* or *vai*"
+     },
+     {
+      "id": "g26-7",
+      "q": "___ presto!",
+      "cue": "fare · tu",
+      "a": [
+       "Fa'",
+       "Fai"
+      ],
+      "es": "¡Date prisa!",
+      "note": "*fa' presto* = date prisa"
+     },
+     {
+      "id": "g26-8",
+      "q": "___ una mano a tuo fratello!",
+      "cue": "dare · tu",
+      "a": [
+       "Da'",
+       "Dai"
+      ],
+      "es": "¡Échale una mano a tu hermano!",
+      "note": "*da'* or *dai*"
+     },
+     {
+      "id": "g26-9",
+      "q": "___ tranquillo!",
+      "cue": "stare · tu",
+      "a": [
+       "Sta'",
+       "Stai"
+      ],
+      "es": "¡Estate tranquilo!",
+      "note": "*sta'* or *stai*"
+     },
+     {
+      "id": "g26-10",
+      "q": "___ la verità!",
+      "cue": "dire · tu",
+      "a": [
+       "Di'",
+       "Dì"
+      ],
+      "es": "¡Di la verdad!",
+      "note": "*dire → di'*"
+     },
+     {
+      "id": "g26-11",
+      "q": "___ buono!",
+      "cue": "essere · tu",
+      "a": [
+       "Sii"
+      ],
+      "es": "¡Sé bueno!",
+      "note": "*essere → sii*"
+     },
+     {
+      "id": "g26-12",
+      "q": "___ pazienza!",
+      "cue": "avere · tu",
+      "a": [
+       "Abbi"
+      ],
+      "es": "¡Ten paciencia!",
+      "note": "*avere → abbi*"
+     },
+     {
+      "id": "g26-13",
+      "q": "___ al cinema stasera!",
+      "cue": "andare · noi",
+      "a": [
+       "Andiamo"
+      ],
+      "es": "¡Vamos al cine esta noche!",
+      "note": "*noi* = the present"
+     },
+     {
+      "id": "g26-14",
+      "q": "Ragazzi, ___ attenzione!",
+      "cue": "fare · voi",
+      "a": [
+       "fate"
+      ],
+      "es": "¡Chicos, prestad atención!",
+      "note": "*voi* = the present"
+     },
+     {
+      "id": "g26-15",
+      "q": "___ la pasta, ragazzi!",
+      "cue": "mangiare · voi",
+      "a": [
+       "Mangiate"
+      ],
+      "es": "¡Comed la pasta, chicos!",
+      "note": ""
+     },
+     {
+      "id": "g26-16",
+      "q": "___ questa canzone!",
+      "cue": "sentire · voi",
+      "a": [
+       "Sentite",
+       "Ascoltate"
+      ],
+      "es": "¡Escuchad esta canción!",
+      "note": ""
+     },
+     {
+      "id": "g26-17",
+      "q": "Non ___!",
+      "cue": "parlare · tu",
+      "a": [
+       "parlare"
+      ],
+      "es": "¡No hables!",
+      "note": "negative *tu* = *non* + infinitive"
+     },
+     {
+      "id": "g26-18",
+      "q": "Non ___ tardi!",
+      "cue": "tornare · tu",
+      "a": [
+       "tornare"
+      ],
+      "es": "¡No vuelvas tarde!",
+      "note": ""
+     },
+     {
+      "id": "g26-19",
+      "q": "Non ___ quella porta!",
+      "cue": "aprire · voi",
+      "a": [
+       "aprite"
+      ],
+      "es": "¡No abráis esa puerta!",
+      "note": "negative *voi* = *non* + present"
+     }
+    ]
+   },
+   {
+    "id": "g27",
+    "level": "A2",
+    "title": "A2 · Comparatives & superlatives",
+    "file": "a2-27-comparatives-superlatives.md",
+    "rule": "*più / meno … di* (+ noun or pronoun) · *che* (+ verb, adjective, or two nouns) · *(tanto) … quanto* · *-issimo* = very · *migliore / meglio*, *peggiore / peggio*, *maggiore*, *minore*",
+    "items": [
+     {
+      "id": "g27-0",
+      "q": "Marco è ___ alto di Luca.",
+      "cue": "more",
+      "a": [
+       "più"
+      ],
+      "es": "Marco es más alto que Luca.",
+      "note": "*più / meno … di*"
+     },
+     {
+      "id": "g27-1",
+      "q": "Questo libro è ___ interessante di quello.",
+      "cue": "less",
+      "a": [
+       "meno"
+      ],
+      "es": "Este libro es menos interesante que ese.",
+      "note": ""
+     },
+     {
+      "id": "g27-2",
+      "q": "Roma è più grande ___ Firenze.",
+      "cue": "",
+      "a": [
+       "di"
+      ],
+      "es": "Roma es más grande que Florencia.",
+      "note": "*di* before a noun or a name (ES *que*)"
+     },
+     {
+      "id": "g27-3",
+      "q": "Leggere è più rilassante ___ guardare la TV.",
+      "cue": "",
+      "a": [
+       "che"
+      ],
+      "es": "Leer es más relajante que ver la tele.",
+      "note": "*che* before a verb"
+     },
+     {
+      "id": "g27-4",
+      "q": "Mi piace più il mare ___ la montagna.",
+      "cue": "",
+      "a": [
+       "che"
+      ],
+      "es": "Me gusta más el mar que la montaña.",
+      "note": "*che*: two things compared with one verb"
+     },
+     {
+      "id": "g27-5",
+      "q": "Sono più stanco ___ affamato.",
+      "cue": "",
+      "a": [
+       "che"
+      ],
+      "es": "Estoy más cansado que hambriento.",
+      "note": "*che* between two adjectives"
+     },
+     {
+      "id": "g27-6",
+      "q": "Ci sono più turisti ___ abitanti.",
+      "cue": "",
+      "a": [
+       "che"
+      ],
+      "es": "Hay más turistas que habitantes.",
+      "note": "*che* between two nouns"
+     },
+     {
+      "id": "g27-7",
+      "q": "Lui è alto ___ me.",
+      "cue": "as … as",
+      "a": [
+       "quanto",
+       "come"
+      ],
+      "es": "Él es tan alto como yo.",
+      "note": "*(tanto) … quanto* / *(così) … come*"
+     },
+     {
+      "id": "g27-8",
+      "q": "È il ristorante ___ caro della città.",
+      "cue": "the most",
+      "a": [
+       "più"
+      ],
+      "es": "Es el restaurante más caro de la ciudad.",
+      "note": ""
+     },
+     {
+      "id": "g27-9",
+      "q": "È la ragazza più simpatica ___ classe.",
+      "cue": "",
+      "a": [
+       "della"
+      ],
+      "es": "Es la chica más simpática de la clase.",
+      "note": "*il più … di* (+ article)"
+     },
+     {
+      "id": "g27-10",
+      "q": "Giulia è la ___ grande delle sorelle.",
+      "cue": "the most",
+      "a": [
+       "più"
+      ],
+      "es": "Giulia es la mayor de las hermanas.",
+      "note": ""
+     },
+     {
+      "id": "g27-11",
+      "q": "Questa pizza è ___!",
+      "cue": "very good",
+      "a": [
+       "buonissima"
+      ],
+      "es": "¡Esta pizza está buenísima!",
+      "note": "*-issimo* = very"
+     },
+     {
+      "id": "g27-12",
+      "q": "Il film era ___.",
+      "cue": "very long",
+      "a": [
+       "lunghissimo"
+      ],
+      "es": "La película era larguísima.",
+      "note": "*lungo → lunghissimo*"
+     },
+     {
+      "id": "g27-13",
+      "q": "Questo vino è ___ di quello.",
+      "cue": "better",
+      "a": [
+       "migliore",
+       "più buono"
+      ],
+      "es": "Este vino es mejor que ese.",
+      "note": "*buono → migliore* (*più buono* is fine too)"
+     },
+     {
+      "id": "g27-14",
+      "q": "Questa è la ___ idea di tutte!",
+      "cue": "the best",
+      "a": [
+       "migliore",
+       "miglior"
+      ],
+      "es": "¡Esta es la mejor idea de todas!",
+      "note": ""
+     },
+     {
+      "id": "g27-15",
+      "q": "Oggi sto ___ di ieri.",
+      "cue": "better (adverb)",
+      "a": [
+       "meglio"
+      ],
+      "es": "Hoy estoy mejor que ayer.",
+      "note": "adverb: *meglio* (adjective: *migliore*)"
+     },
+     {
+      "id": "g27-16",
+      "q": "Questo è il ___ film dell'anno.",
+      "cue": "the worst",
+      "a": [
+       "peggiore",
+       "peggior"
+      ],
+      "es": "Esta es la peor película del año.",
+      "note": "*cattivo → peggiore*"
+     },
+     {
+      "id": "g27-17",
+      "q": "Canta ___ di me.",
+      "cue": "worse (adverb)",
+      "a": [
+       "peggio"
+      ],
+      "es": "Canta peor que yo.",
+      "note": "adverb: *peggio*"
+     },
+     {
+      "id": "g27-18",
+      "q": "Mio fratello è ___ di me.",
+      "cue": "older",
+      "a": [
+       "maggiore",
+       "più grande"
+      ],
+      "es": "Mi hermano es mayor que yo.",
+      "note": "*maggiore* = older"
+     },
+     {
+      "id": "g27-19",
+      "q": "Mia sorella è ___ di me.",
+      "cue": "younger",
+      "a": [
+       "minore",
+       "più piccola"
+      ],
+      "es": "Mi hermana es menor que yo.",
+      "note": "*minore* = younger"
+     }
+    ]
+   },
+   {
+    "id": "g28",
+    "level": "A2",
+    "title": "A2 · Stare + gerund",
+    "file": "a2-28-stare-gerund.md",
+    "rule": "*stare* (sto, stai, sta, stiamo, state, stanno) + gerund: *-are → -ando*, *-ere / -ire → -endo* · *facendo, dicendo, bevendo* · *stare per* + infinitive = estar a punto de",
+    "items": [
+     {
+      "id": "g28-0",
+      "q": "Non disturbare, ___ studiando.",
+      "cue": "stare · io",
+      "a": [
+       "sto"
+      ],
+      "es": "No molestes, estoy estudiando.",
+      "note": "*stare*: sto, stai, sta, stiamo, state, stanno"
+     },
+     {
+      "id": "g28-1",
+      "q": "Lei ___ leggendo un romanzo.",
+      "cue": "stare",
+      "a": [
+       "sta"
+      ],
+      "es": "Ella está leyendo una novela.",
+      "note": ""
+     },
+     {
+      "id": "g28-2",
+      "q": "Ragazzi, cosa ___ facendo?",
+      "cue": "stare · voi",
+      "a": [
+       "state"
+      ],
+      "es": "Chicos, ¿qué estáis haciendo?",
+      "note": ""
+     },
+     {
+      "id": "g28-3",
+      "q": "Sto ___ la cena.",
+      "cue": "preparare",
+      "a": [
+       "preparando"
+      ],
+      "es": "Estoy preparando la cena.",
+      "note": "*-are → -ando*"
+     },
+     {
+      "id": "g28-4",
+      "q": "Stiamo ___ un film.",
+      "cue": "guardare",
+      "a": [
+       "guardando",
+       "vedendo"
+      ],
+      "es": "Estamos viendo una película.",
+      "note": ""
+     },
+     {
+      "id": "g28-5",
+      "q": "Mio padre sta ___ la macchina.",
+      "cue": "lavare",
+      "a": [
+       "lavando"
+      ],
+      "es": "Mi padre está lavando el coche.",
+      "note": ""
+     },
+     {
+      "id": "g28-6",
+      "q": "Le ragazze stanno ___ per l'esame.",
+      "cue": "studiare",
+      "a": [
+       "studiando"
+      ],
+      "es": "Las chicas están estudiando para el examen.",
+      "note": ""
+     },
+     {
+      "id": "g28-7",
+      "q": "I bambini stanno ___.",
+      "cue": "dormire",
+      "a": [
+       "dormendo"
+      ],
+      "es": "Los niños están durmiendo.",
+      "note": "*-ere / -ire → -endo*"
+     },
+     {
+      "id": "g28-8",
+      "q": "Sta ___.",
+      "cue": "piovere",
+      "a": [
+       "piovendo"
+      ],
+      "es": "Está lloviendo.",
+      "note": ""
+     },
+     {
+      "id": "g28-9",
+      "q": "Sto ___ una mail a Paolo.",
+      "cue": "scrivere",
+      "a": [
+       "scrivendo"
+      ],
+      "es": "Estoy escribiendo un correo a Paolo.",
+      "note": ""
+     },
+     {
+      "id": "g28-10",
+      "q": "Stiamo ___ la casa.",
+      "cue": "pulire",
+      "a": [
+       "pulendo"
+      ],
+      "es": "Estamos limpiando la casa.",
+      "note": ""
+     },
+     {
+      "id": "g28-11",
+      "q": "Mia sorella sta ___ in Italia.",
+      "cue": "vivere",
+      "a": [
+       "vivendo"
+      ],
+      "es": "Mi hermana está viviendo en Italia.",
+      "note": ""
+     },
+     {
+      "id": "g28-12",
+      "q": "Sto ___ ora dall'ufficio.",
+      "cue": "uscire",
+      "a": [
+       "uscendo"
+      ],
+      "es": "Estoy saliendo ahora de la oficina.",
+      "note": ""
+     },
+     {
+      "id": "g28-13",
+      "q": "Cosa stai ___?",
+      "cue": "fare",
+      "a": [
+       "facendo"
+      ],
+      "es": "¿Qué estás haciendo?",
+      "note": "*fare → facendo*"
+     },
+     {
+      "id": "g28-14",
+      "q": "Cosa sta ___ il professore?",
+      "cue": "dire",
+      "a": [
+       "dicendo"
+      ],
+      "es": "¿Qué está diciendo el profesor?",
+      "note": "*dire → dicendo*"
+     },
+     {
+      "id": "g28-15",
+      "q": "Stanno ___ un caffè al bar.",
+      "cue": "bere",
+      "a": [
+       "bevendo",
+       "prendendo"
+      ],
+      "es": "Están tomando un café en el bar.",
+      "note": "*bere → bevendo*"
+     },
+     {
+      "id": "g28-16",
+      "q": "Ieri alle otto ___ cenando.",
+      "cue": "stare · noi",
+      "a": [
+       "stavamo"
+      ],
+      "es": "Ayer a las ocho estábamos cenando.",
+      "note": "in the past: *stavo, stavi…* + gerund"
+     },
+     {
+      "id": "g28-17",
+      "q": "Mentre ___ lavorando, è andata via la luce.",
+      "cue": "stare · io",
+      "a": [
+       "stavo"
+      ],
+      "es": "Mientras estaba trabajando, se fue la luz.",
+      "note": ""
+     },
+     {
+      "id": "g28-18",
+      "q": "Il treno ___ per partire!",
+      "cue": "stare",
+      "a": [
+       "sta"
+      ],
+      "es": "¡El tren está a punto de salir!",
+      "note": "*stare per* + infinitive = estar a punto de"
+     },
+     {
+      "id": "g28-19",
+      "q": "Stavo ___ uscire quando hai chiamato.",
+      "cue": "",
+      "a": [
+       "per"
+      ],
+      "es": "Estaba a punto de salir cuando llamaste.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g29",
+    "level": "A2",
+    "title": "A2 · bello, buono, grande, santo",
+    "file": "a2-29-bello-buono-grande-santo.md",
+    "rule": "Before a noun, *bello* changes like the article (*bel, bello, bell', bella, bei, begli, belle*) · *buono* like *un* (*buon, buono, buona*) · *gran* + consonant · *San, Sant', Santo, Santa*",
+    "items": [
+     {
+      "id": "g29-0",
+      "q": "Abbiamo visto un ___ film.",
+      "cue": "bello",
+      "a": [
+       "bel"
+      ],
+      "es": "Hemos visto una película bonita.",
+      "note": "*bel* ~ *il*"
+     },
+     {
+      "id": "g29-1",
+      "q": "È un ___ specchio.",
+      "cue": "bello",
+      "a": [
+       "bello"
+      ],
+      "es": "Es un espejo bonito.",
+      "note": "*bello* ~ *lo*"
+     },
+     {
+      "id": "g29-2",
+      "q": "Che ___albero!",
+      "cue": "bello",
+      "a": [
+       "bell'"
+      ],
+      "es": "¡Qué árbol tan bonito!",
+      "note": "*bell'* ~ *l'*"
+     },
+     {
+      "id": "g29-3",
+      "q": "Che ___ giornata!",
+      "cue": "bello",
+      "a": [
+       "bella"
+      ],
+      "es": "¡Qué día tan bonito!",
+      "note": "*la giornata* is feminine"
+     },
+     {
+      "id": "g29-4",
+      "q": "In centro ci sono dei ___ negozi.",
+      "cue": "bello",
+      "a": [
+       "bei"
+      ],
+      "es": "En el centro hay tiendas bonitas.",
+      "note": "*bei* ~ *i*"
+     },
+     {
+      "id": "g29-5",
+      "q": "Hai dei ___ occhi.",
+      "cue": "bello",
+      "a": [
+       "begli"
+      ],
+      "es": "Tienes unos ojos bonitos.",
+      "note": "*begli* ~ *gli*"
+     },
+     {
+      "id": "g29-6",
+      "q": "Vendono dei ___ zaini.",
+      "cue": "bello",
+      "a": [
+       "begli"
+      ],
+      "es": "Venden unas mochilas bonitas.",
+      "note": "*begli* + z"
+     },
+     {
+      "id": "g29-7",
+      "q": "Che ___ scarpe!",
+      "cue": "bello",
+      "a": [
+       "belle"
+      ],
+      "es": "¡Qué zapatos tan bonitos!",
+      "note": ""
+     },
+     {
+      "id": "g29-8",
+      "q": "___ viaggio!",
+      "cue": "buono",
+      "a": [
+       "Buon"
+      ],
+      "es": "¡Buen viaje!",
+      "note": "*buono* changes like *un*: *buon*"
+     },
+     {
+      "id": "g29-9",
+      "q": "___ appetito!",
+      "cue": "buono",
+      "a": [
+       "Buon"
+      ],
+      "es": "¡Buen provecho!",
+      "note": "masculine *buon* + vowel: no apostrophe"
+     },
+     {
+      "id": "g29-10",
+      "q": "Mio nonno era un ___ uomo.",
+      "cue": "buono",
+      "a": [
+       "buon"
+      ],
+      "es": "Mi abuelo era un buen hombre.",
+      "note": ""
+     },
+     {
+      "id": "g29-11",
+      "q": "Abbiamo mangiato in un ___ ristorante.",
+      "cue": "buono",
+      "a": [
+       "buon"
+      ],
+      "es": "Hemos comido en un buen restaurante.",
+      "note": ""
+     },
+     {
+      "id": "g29-12",
+      "q": "Lui è un ___ studente.",
+      "cue": "buono",
+      "a": [
+       "buono"
+      ],
+      "es": "Él es un buen estudiante.",
+      "note": "*buono* + s + consonant"
+     },
+     {
+      "id": "g29-13",
+      "q": "È una ___ idea.",
+      "cue": "buono",
+      "a": [
+       "buona",
+       "buon'"
+      ],
+      "es": "Es una buena idea.",
+      "note": ""
+     },
+     {
+      "id": "g29-14",
+      "q": "È un ___ artista.",
+      "cue": "grande",
+      "a": [
+       "grande",
+       "grand'"
+      ],
+      "es": "Es un gran artista.",
+      "note": "before a vowel *grande* stays whole"
+     },
+     {
+      "id": "g29-15",
+      "q": "È stato un ___ piacere.",
+      "cue": "grande",
+      "a": [
+       "gran",
+       "grande"
+      ],
+      "es": "Ha sido un gran placer.",
+      "note": "*gran* + consonant (optional)"
+     },
+     {
+      "id": "g29-16",
+      "q": "La basilica di ___ Pietro è a Roma.",
+      "cue": "santo",
+      "a": [
+       "San"
+      ],
+      "es": "La basílica de San Pedro está en Roma.",
+      "note": "*San* + consonant"
+     },
+     {
+      "id": "g29-17",
+      "q": "Oggi è la festa di ___Antonio.",
+      "cue": "santo",
+      "a": [
+       "Sant'"
+      ],
+      "es": "Hoy es la fiesta de San Antonio.",
+      "note": "*Sant'* + vowel"
+     },
+     {
+      "id": "g29-18",
+      "q": "Il 26 dicembre è ___ Stefano.",
+      "cue": "santo",
+      "a": [
+       "Santo"
+      ],
+      "es": "El 26 de diciembre es San Esteban.",
+      "note": "*Santo* + s + consonant"
+     },
+     {
+      "id": "g29-19",
+      "q": "Il 13 dicembre è ___ Lucia.",
+      "cue": "santo",
+      "a": [
+       "Santa"
+      ],
+      "es": "El 13 de diciembre es Santa Lucía.",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "id": "g30",
+    "level": "A2",
+    "title": "A2 · Time markers & connectors",
+    "file": "a2-30-time-markers-connectors.md",
+    "rule": "*già, non… ancora, appena, mai, sempre, non… più* · *mentre, poi, quindi, però, invece, anche, anche se, allora* · *due giorni fa* = hace dos días",
+    "items": [
+     {
+      "id": "g30-0",
+      "q": "Hai ___ mangiato?",
+      "cue": "",
+      "a": [
+       "già"
+      ],
+      "es": "¿Ya has comido?",
+      "note": "*già* sits between *hai* and the participle"
+     },
+     {
+      "id": "g30-1",
+      "q": "No, non ho ___ mangiato.",
+      "cue": "",
+      "a": [
+       "ancora"
+      ],
+      "es": "No, todavía no he comido.",
+      "note": "*non… ancora* = todavía no"
+     },
+     {
+      "id": "g30-2",
+      "q": "Sono ___ arrivato a casa.",
+      "cue": "",
+      "a": [
+       "appena"
+      ],
+      "es": "Acabo de llegar a casa.",
+      "note": "*appena* + passato prossimo = acabar de"
+     },
+     {
+      "id": "g30-3",
+      "q": "___ arrivo, ti chiamo.",
+      "cue": "",
+      "a": [
+       "Appena",
+       "Quando"
+      ],
+      "es": "En cuanto llegue, te llamo.",
+      "note": "*appena* = en cuanto (Italian keeps the indicative)"
+     },
+     {
+      "id": "g30-4",
+      "q": "Non sono ___ stato in Cina.",
+      "cue": "",
+      "a": [
+       "mai"
+      ],
+      "es": "Nunca he estado en China.",
+      "note": ""
+     },
+     {
+      "id": "g30-5",
+      "q": "Vado ___ a letto tardi.",
+      "cue": "",
+      "a": [
+       "sempre"
+      ],
+      "es": "Siempre me acuesto tarde.",
+      "note": ""
+     },
+     {
+      "id": "g30-6",
+      "q": "Non fumo ___.",
+      "cue": "",
+      "a": [
+       "più"
+      ],
+      "es": "Ya no fumo.",
+      "note": "*non… più* = ya no"
+     },
+     {
+      "id": "g30-7",
+      "q": "È ___ tardi, andiamo a casa.",
+      "cue": "",
+      "a": [
+       "ormai",
+       "già"
+      ],
+      "es": "Ya es tarde, vámonos a casa.",
+      "note": "*ormai* = ya, by now"
+     },
+     {
+      "id": "g30-8",
+      "q": "Sono arrivato due giorni ___.",
+      "cue": "",
+      "a": [
+       "fa"
+      ],
+      "es": "Llegué hace dos días.",
+      "note": "*fa* goes after the time (ES *hace* before)"
+     },
+     {
+      "id": "g30-9",
+      "q": "___ faccio colazione al bar.",
+      "cue": "",
+      "a": [
+       "Di solito",
+       "Solitamente",
+       "Normalmente"
+      ],
+      "es": "Normalmente desayuno en el bar.",
+      "note": ""
+     },
+     {
+      "id": "g30-10",
+      "q": "___ cucino, ascolto la radio.",
+      "cue": "",
+      "a": [
+       "Mentre"
+      ],
+      "es": "Mientras cocino, escucho la radio.",
+      "note": ""
+     },
+     {
+      "id": "g30-11",
+      "q": "Prima mangio, ___ esco.",
+      "cue": "",
+      "a": [
+       "poi"
+      ],
+      "es": "Primero como, luego salgo.",
+      "note": ""
+     },
+     {
+      "id": "g30-12",
+      "q": "Ci vediamo ___!",
+      "cue": "",
+      "a": [
+       "dopo",
+       "più tardi"
+      ],
+      "es": "¡Nos vemos luego!",
+      "note": ""
+     },
+     {
+      "id": "g30-13",
+      "q": "Piove, ___ resto a casa.",
+      "cue": "",
+      "a": [
+       "quindi",
+       "perciò",
+       "allora",
+       "così"
+      ],
+      "es": "Llueve, así que me quedo en casa.",
+      "note": ""
+     },
+     {
+      "id": "g30-14",
+      "q": "Vorrei venire, ___ non posso.",
+      "cue": "",
+      "a": [
+       "ma",
+       "però"
+      ],
+      "es": "Me gustaría ir, pero no puedo.",
+      "note": ""
+     },
+     {
+      "id": "g30-15",
+      "q": "Io bevo il tè, Luca ___ preferisce il caffè.",
+      "cue": "",
+      "a": [
+       "invece"
+      ],
+      "es": "Yo bebo té; Luca, en cambio, prefiere café.",
+      "note": "*invece* = en cambio"
+     },
+     {
+      "id": "g30-16",
+      "q": "Parlo inglese e ___ un po' di tedesco.",
+      "cue": "",
+      "a": [
+       "anche"
+      ],
+      "es": "Hablo inglés y también un poco de alemán.",
+      "note": ""
+     },
+     {
+      "id": "g30-17",
+      "q": "Esco ___ piove.",
+      "cue": "",
+      "a": [
+       "anche se"
+      ],
+      "es": "Salgo aunque llueve.",
+      "note": "*anche se* = aunque"
+     },
+     {
+      "id": "g30-18",
+      "q": "Non mangio carne ___ sono vegetariano.",
+      "cue": "",
+      "a": [
+       "perché"
+      ],
+      "es": "No como carne porque soy vegetariano.",
+      "note": ""
+     },
+     {
+      "id": "g30-19",
+      "q": "Hai fame? ___ mangiamo!",
+      "cue": "",
+      "a": [
+       "Allora"
+      ],
+      "es": "¿Tienes hambre? ¡Pues comamos!",
+      "note": "*allora* = pues, entonces"
+     }
+    ]
+   }
+  ]
+ }
 }

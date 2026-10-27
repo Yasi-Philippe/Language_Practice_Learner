@@ -1,6 +1,8 @@
 # Italian — Learning Roadmap (grammar & concepts)
 
-The app drills **vocabulary**. This document is the other half: the **grammar and structures** to study on your own, level by level. Consult it to know *what concepts to look up* at each stage. Vocabulary is assumed (the app covers it) — this is structure only.
+This document is the **grammar and structures** to study, level by level. Consult it to know *what concepts to look up* at each stage. Vocabulary is assumed (the app covers it) — this is structure only.
+
+The app's **Grammar path** drills these concepts with gap-fill sentences — **A1 and A2 so far** (list: [grammar-categories.md](grammar-categories.md)). It doesn't explain them: learn each rule here or elsewhere, then let the app make it automatic.
 
 > Each level builds on the ones before it. Don't chase a later concept until its foundations are solid.
 
@@ -83,4 +85,4 @@ The app drills **vocabulary**. This document is the other half: the **grammar an
 
 ---
 
-*Grammar only — pair each level here with the matching vocabulary categories in the app.*
+*Grammar only — pair each level here with the matching vocabulary and grammar categories in the app.*
