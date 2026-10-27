@@ -2,7 +2,7 @@
 
 This document is the **grammar and structures** to study, level by level. Consult it to know *what concepts to look up* at each stage. Vocabulary is assumed (the app covers it) — this is structure only.
 
-The app's **Grammar path** drills these concepts with gap-fill sentences — **A1 and A2 so far** (list: [grammar-categories.md](grammar-categories.md)). It doesn't explain them: learn each rule here or elsewhere, then let the app make it automatic.
+The app's **Grammar path** drills these concepts with gap-fill sentences — **A1 to C1** (list: [grammar-categories.md](grammar-categories.md)) — and opens each one with a short theory lesson comparing Italian with Spanish ([docs/theory/](theory/)). For anything deeper, this list says what to look up.
 
 > Each level builds on the ones before it. Don't chase a later concept until its foundations are solid.
 
